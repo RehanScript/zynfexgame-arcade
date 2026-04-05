@@ -8,9 +8,10 @@ async function fetchThousandsOfGames() {
   const limit = 100;
 
   try {
-    for (let offset = 0; offset < maxGames; offset += limit) {
-      const endpoint = `https://catalog.api.gamedistribution.com/api/v2.0/rss/All/?collection=all&categories=All&limit=${limit}&offset=${offset}&type=html5&format=json`;
-      console.log(`Fetching games offset ${offset}...`);
+    const totalPages = Math.ceil(maxGames / limit);
+    for (let page = 1; page <= totalPages; page++) {
+      const endpoint = `https://catalog.api.gamedistribution.com/api/v2.0/rss/All/?collection=all&categories=All&limit=${limit}&page=${page}&type=html5&format=json`;
+      console.log(`Fetching games from Page ${page}...`);
       const res = await fetch(endpoint);
       const data = await res.json();
       if (!data || data.length === 0) break;
@@ -18,7 +19,7 @@ async function fetchThousandsOfGames() {
     }
     
     // Transform GameDistribution complex JSON into our simple ZynfexGame format
-    const zynfexDB = allGames.map((game, index) => {
+    let zynfexDB = allGames.map((game, index) => {
       // Create a clean URL slug from the title
       const slug = game.Title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)+/g, '');
       
@@ -31,6 +32,14 @@ async function fetchThousandsOfGames() {
         developer: game.Company || "GameDistribution",
         featured: index === 0 // Make the #1 most recent game the Hero banner
       };
+    });
+
+    // Deduplicate games by slug to guarantee no visual UI looping bugs
+    zynfexDB = Array.from(new Map(zynfexDB.map(item => [item.slug, item])).values());
+
+    // Make sure only the first one is featured
+    zynfexDB.forEach((game, index) => {
+       game.featured = index === 0;
     });
 
     const dbPath = path.resolve('./src/data/games.json');
