@@ -3,7 +3,7 @@ import path from 'path';
 
 async function fetchThousandsOfGames() {
   console.log("🚀 Starting ZynfexGame Auto-Sync...");
-  const endpoint = "https://catalog.api.gamedistribution.com/api/v2.0/rss/All/?collection=all&categories=All&limit=50&type=html5&format=json";
+  const endpoint = "https://catalog.api.gamedistribution.com/api/v2.0/rss/All/?collection=all&categories=All&limit=1500&type=html5&format=json";
   
   try {
     const res = await fetch(endpoint);
