@@ -3,14 +3,22 @@ import path from 'path';
 
 async function fetchThousandsOfGames() {
   console.log("🚀 Starting ZynfexGame Auto-Sync...");
-  const endpoint = "https://catalog.api.gamedistribution.com/api/v2.0/rss/All/?collection=all&categories=All&limit=1500&type=html5&format=json";
-  
+  let allGames = [];
+  const maxGames = 1500;
+  const limit = 100;
+
   try {
-    const res = await fetch(endpoint);
-    const data = await res.json();
+    for (let offset = 0; offset < maxGames; offset += limit) {
+      const endpoint = `https://catalog.api.gamedistribution.com/api/v2.0/rss/All/?collection=all&categories=All&limit=${limit}&offset=${offset}&type=html5&format=json`;
+      console.log(`Fetching games offset ${offset}...`);
+      const res = await fetch(endpoint);
+      const data = await res.json();
+      if (!data || data.length === 0) break;
+      allGames = allGames.concat(data);
+    }
     
     // Transform GameDistribution complex JSON into our simple ZynfexGame format
-    const zynfexDB = data.map((game, index) => {
+    const zynfexDB = allGames.map((game, index) => {
       // Create a clean URL slug from the title
       const slug = game.Title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)+/g, '');
       
