@@ -1,0 +1,121 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import gamesData from '../../data/games.json';
+
+export async function getStaticPaths() {
+  return gamesData.map((game) => ({
+    params: { slug: game.slug },
+    props: { game },
+  }));
+}
+
+const { game } = Astro.props;
+// Rebuild trigger
+---
+
+<Layout title={`${game.title} - Play Unblocked | ZynfexGame`} description={`Play ${game.title} directly in your browser. A free to play ${game.category} game.`} image={game.thumbnail}>
+	<div class="flex items-center gap-3 mb-4">
+		<a href="/" class="p-2 bg-gray-800 rounded-full hover:bg-gray-700 transition">
+			<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-300" viewBox="0 0 20 20" fill="currentColor">
+			  <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+			</svg>
+		</a>
+		<div>
+			<h1 class="text-xl md:text-2xl font-bold">{game.title}</h1>
+			<p class="text-xs text-indigo-400 font-medium uppercase tracking-wider">{game.category}</p>
+		</div>
+	</div>
+
+	<!-- AdSense Leaderboard (Top Banner) -->
+	<div class="w-full h-[90px] max-w-[728px] mx-auto bg-[#0d0b1a] rounded-lg border border-dashed border-[#2d2856] flex items-center justify-center text-gray-600 text-sm font-bold mb-6 shadow-md">
+		AdSense Game Banner Placeholder
+	</div>
+
+	<!-- Game Player Container -->
+	<div class="relative w-full bg-black rounded-lg sm:rounded-2xl overflow-hidden shadow-2xl mb-6 border border-gray-800">
+		<div class="aspect-video w-full h-[60vh] md:h-[75vh]" id="game-container">
+			<iframe 
+				id="game-iframe"
+				src={game.iframe}
+				class="w-full h-full border-0 bg-black"
+				title={game.title}
+				allow="autoplay; fullscreen; focus"
+				loading="lazy">
+			</iframe>
+		</div>
+		
+		<!-- Controls Bar -->
+		<div class="bg-gray-900 border-t border-gray-800 p-3 flex justify-between items-center">
+			<div class="flex gap-2">
+				<button class="bg-indigo-600 hover:bg-indigo-500 text-white rounded-full p-2.5 transition group" title="Like">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 group-active:scale-75 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" /></svg>
+				</button>
+			</div>
+			<button id="fullscreen-btn" class="bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-lg flex items-center gap-2 transition focus:ring-2 ring-indigo-500 outline-none">
+				<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" /></svg>
+				<span class="hidden sm:inline">Fullscreen</span>
+			</button>
+		</div>
+	</div>
+
+	<!-- SEO Optimized Text Section -->
+	<article class="prose prose-invert max-w-none bg-gray-900/50 p-6 rounded-2xl border border-gray-800">
+		<h2 class="text-xl font-bold mb-2">How to play {game.title}</h2>
+		<p class="text-gray-400 text-sm leading-relaxed">
+			Enjoy playing <strong>{game.title}</strong> directly in your browser without any downloads! This {game.category} game is optimized for both mobile phones, tablets, and desktop computers. Controls are designed to be intuitive—simply tap, swipe, or use your keyboard arrows. Developed by {game.developer}.
+		</p>
+	</article>
+
+	<!-- AdSense Square / Native Banner (Bottom) -->
+	<div class="w-full max-w-[300px] h-[250px] mx-auto mt-6 bg-[#0d0b1a] rounded-lg border border-dashed border-[#2d2856] flex items-center justify-center text-gray-600 text-sm font-bold shadow-md">
+		AdSense Sidebar/Bottom Square
+	</div>
+
+	<!-- AdBlock Warning Pop-Up Toast -->
+	<div id="adblock-toast" class="fixed bottom-24 sm:bottom-6 left-1/2 transform -translate-x-1/2 sm:left-6 sm:translate-x-0 w-[90%] sm:w-[350px] bg-[#16132b] border border-[#2d2856] border-l-4 border-l-yellow-500 rounded-xl shadow-2xl p-4 z-50 flex gap-3 transition-all duration-700 translate-y-[150%] opacity-0 pointer-events-none">
+		<div class="text-yellow-500 mt-0.5 shrink-0">
+			<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
+		</div>
+		<div class="flex-grow">
+			<h4 class="text-white font-bold text-sm mb-1">Game Not Loading?</h4>
+			<p class="text-gray-400 text-xs leading-relaxed">If the game is stuck on a black screen, an ad blocker may be preventing it from initializing. Consider pausing it to play.</p>
+		</div>
+		<button id="close-toast" class="text-gray-500 hover:text-white transition shrink-0 h-fit p-1 bg-[#0d0b1a] rounded-md">
+			<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+		</button>
+	</div>
+
+</Layout>
+
+<script>
+	document.addEventListener('DOMContentLoaded', () => {
+		const btn = document.getElementById('fullscreen-btn');
+		const container = document.getElementById('game-container');
+		
+		btn?.addEventListener('click', () => {
+			if (!document.fullscreenElement) {
+				container?.requestFullscreen().catch(err => {
+					console.error(`Error attempting to enable fullscreen: ${err.message}`);
+				});
+			} else {
+				document.exitFullscreen();
+			}
+		});
+
+		// AdBlock Toast Logic
+		const toast = document.getElementById('adblock-toast');
+		const closeBtn = document.getElementById('close-toast');
+		
+		if (toast && closeBtn) {
+			// Trigger popup after 10 seconds
+			setTimeout(() => {
+				toast.classList.remove('translate-y-[150%]', 'opacity-0', 'pointer-events-none');
+			}, 10000);
+
+			// Allow user to dismiss
+			closeBtn.addEventListener('click', () => {
+				toast.classList.add('translate-y-[150%]', 'opacity-0', 'pointer-events-none');
+			});
+		}
+	});
+</script>

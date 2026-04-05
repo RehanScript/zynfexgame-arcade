@@ -1,0 +1,115 @@
+---
+import Layout from '../layouts/Layout.astro';
+import GameCard from '../components/GameCard.astro';
+import games from '../data/games.json';
+
+// Simple deduplication for categories to build the top carousel
+const categorySet = new Set(games.map(g => g.category));
+const uniqueCategories = Array.from(categorySet).slice(0, 8); // Top 8 categories
+
+// Trending games = render all games but hide everything after the first 40 using client logic
+const trendingGames = games;
+const INITIAL_LOAD_COUNT = 40;
+---
+
+<Layout title="ZynfexGame | Play HTML5 Online Games Free">
+	<div class="flex flex-col gap-8">
+		
+		<!-- Ad Placeholder: Top Header AdSense Banner -->
+		<div class="w-full h-[90px] max-w-[728px] mx-auto bg-[#0d0b1a] rounded-lg border border-dashed border-[#2d2856] flex items-center justify-center text-gray-600 text-sm font-bold">
+			Advertisement Placeholder
+		</div>
+
+		<!-- Category Horizontal Scroller (Like GameZap "Cool Categories") -->
+		<section>
+			<h2 class="text-lg md:text-xl font-extrabold flex items-center gap-2 mb-4">
+				<span class="text-orange-400">🔥</span> Cool Categories
+			</h2>
+			<div class="flex overflow-x-auto pb-4 gap-3 md:gap-4 no-scrollbar">
+				{uniqueCategories.map(cat => (
+					<a href={`/categories/${cat.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`} class="flex-shrink-0 w-32 md:w-40 aspect-[2/1] rounded-xl bg-gradient-to-br from-[#2b2553] to-[#1c1938] border border-[#3b346e] flex flex-col items-center justify-center hover:scale-105 transition-transform group cursor-pointer shadow-lg">
+						<span class="text-white font-bold text-sm tracking-wide">{cat}</span>
+					</a>
+				))}
+			</div>
+		</section>
+
+		<!-- Dense Trending Games Grid -->
+		<section>
+			<h2 class="text-lg md:text-xl font-extrabold flex items-center gap-2 mb-4 text-[#aab3e6]">
+				Trending Games <span class="text-sm font-normal text-gray-500">- Play fresh online games picked for you!</span>
+			</h2>
+			
+			<div class="grid grid-cols-3 min-[400px]:grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-2 sm:gap-3 md:gap-4 pb-4">
+				{trendingGames.map((game, index) => {
+					// Add a client-hide class to any game beyond the initial load count
+					const classVisibility = index >= INITIAL_LOAD_COUNT ? 'hidden js-game-wrapper' : 'js-game-wrapper';
+					
+					return (
+						<>
+							{/* Randomly inject an in-feed ad placeholder every 14 games, applying the same visibility rules */}
+							{index > 0 && index % 14 === 0 && (
+								<div class={`col-span-3 sm:col-span-4 lg:col-span-7 xl:col-span-8 w-full h-[100px] bg-[#0d0b1a] rounded-lg border border-dashed border-[#2d2856] flex items-center justify-center text-gray-600 text-sm font-bold my-4 ${classVisibility}`}>
+									AdSense In-Feed Ad Placeholder
+								</div>
+							)}
+							<div class={classVisibility}>
+								<GameCard title={game.title} slug={game.slug} category={game.category} thumbnail={game.thumbnail} />
+							</div>
+						</>
+					)
+				})}
+			</div>
+		</section>
+		
+		<!-- Infinite Scroll / Load More Footer -->
+		<section class="opacity-80 pb-10 flex justify-center">
+			<button id="load-more-btn" class="bg-[#2d2856] hover:bg-[#3b346e] text-white font-bold py-3 px-10 rounded-full transition-colors text-sm uppercase tracking-widest shadow-xl">
+				Load More Games
+			</button>
+		</section>
+	</div>
+
+	<!-- Client Side Pagination Script -->
+	<script is:inline>
+		document.addEventListener("DOMContentLoaded", () => {
+			const loadMoreBtn = document.getElementById('load-more-btn');
+			
+			// Initial check: if there are no hidden items, hide the button immediately
+			let hiddenItems = document.querySelectorAll('.js-game-wrapper.hidden');
+			if (hiddenItems.length === 0 && loadMoreBtn) {
+				loadMoreBtn.style.display = 'none';
+			}
+
+			if (loadMoreBtn) {
+				loadMoreBtn.addEventListener('click', () => {
+					// Grab all currently hidden wrappers
+					hiddenItems = document.querySelectorAll('.js-game-wrapper.hidden');
+					
+					// Reveal the next 40
+					const itemsToReveal = Array.from(hiddenItems).slice(0, 40);
+					itemsToReveal.forEach(item => {
+						item.classList.remove('hidden');
+					});
+
+					// If we just revealed the last batch, hide the button
+					if (hiddenItems.length <= 40) {
+						loadMoreBtn.style.display = 'none';
+					}
+				});
+			}
+		});
+	</script>
+</Layout>
+
+<style>
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+</style>

@@ -1,0 +1,58 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Contact Us | ZynfexGame" description="Submit feedback, report a bug, or contact the ZynfexGame team.">
+	<div class="max-w-3xl mx-auto py-12 px-6 lg:px-8">
+		
+        <header class="mb-10 text-center">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-4">Get in Touch</h1>
+            <p class="text-gray-400 text-lg">Have feedback, want to report a bug, or submit a game? Drop us a line.</p>
+        </header>
+
+        <div class="bg-[#16132b] border border-[#2d2856] rounded-2xl p-8 mb-8 shadow-2xl">
+            <div class="flex items-center gap-4 mb-8 p-4 bg-[#0d0b1a] rounded-xl border border-[#2d2856]">
+                <div class="bg-indigo-600/20 p-3 rounded-full text-indigo-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-400 font-medium tracking-wide uppercase">Direct Email</p>
+                    <a href="mailto:rhn3459@gmail.com" class="text-lg font-bold text-white hover:text-indigo-400 transition-colors">rhn3459@gmail.com</a>
+                </div>
+            </div>
+
+            <!-- Feedback Web3Forms Email Component -->
+            <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+                <!-- IMPORTANT: Paste your Web3Forms Access Key on the line below! -->
+                <input type="hidden" name="access_key" value="07a755b6-259d-44a9-a922-6cdb8356ba99">
+                
+                <input type="hidden" name="subject" value="New Feedback from ZynfexGame Portal">
+                <input type="hidden" name="redirect" value="https://zynfexgame.me">
+                
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-300 mb-2">Your Name</label>
+                    <input type="text" name="name" id="name" required class="w-full bg-[#0d0b1a] border border-[#2d2856] rounded-xl py-3 px-4 text-white placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all font-medium" placeholder="John Doe">
+                </div>
+                
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-300 mb-2">Your Email</label>
+                    <input type="email" name="email" id="email" required class="w-full bg-[#0d0b1a] border border-[#2d2856] rounded-xl py-3 px-4 text-white placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all font-medium" placeholder="john@example.com">
+                </div>
+                
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-300 mb-2">Feedback / Bug Report</label>
+                    <textarea name="message" id="message" rows="5" required class="w-full bg-[#0d0b1a] border border-[#2d2856] rounded-xl py-3 px-4 text-white placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all font-medium resize-none" placeholder="Hey, I absolutely love the site! I noticed a bug in..."></textarea>
+                </div>
+                
+                <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-4 px-8 rounded-xl shadow-lg transition-all hover:scale-[1.02] hover:shadow-indigo-500/20 active:scale-95 text-lg flex items-center justify-center gap-2">
+                    Send Message
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                </button>
+            </form>
+        </div>
+	</div>
+</Layout>

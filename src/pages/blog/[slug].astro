@@ -1,0 +1,40 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const blogEntries = await getCollection('blog');
+  return blogEntries.map(entry => ({
+    params: { slug: entry.id }, props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<Layout title={`${entry.data.title} | ZynfexGame Blog`} description={entry.data.description}>
+	<article class="max-w-3xl mx-auto py-4 md:py-8">
+		<a href="/blog" class="inline-flex items-center gap-2 text-indigo-400 hover:text-indigo-300 text-sm font-bold mb-6 transition-colors">
+			&larr; Back to all articles
+		</a>
+		
+		<header class="mb-8">
+			<div class="flex items-center gap-3 mb-4">
+				<span class="text-sm text-gray-400">{entry.data.publishDate.toLocaleDateString()}</span>
+				<span class="text-gray-600">•</span>
+				<span class="text-sm font-medium text-gray-300">By {entry.data.author}</span>
+			</div>
+			<h1 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-6 flex flex-col gap-2">
+				{entry.data.title}
+			</h1>
+			{entry.data.image && (
+				<img src={entry.data.image} alt={entry.data.title} class="w-full rounded-2xl aspect-video object-cover shadow-2xl border border-gray-800" />
+			)}
+		</header>
+
+		<div class="prose prose-invert prose-indigo prose-lg md:prose-xl max-w-none prose-img:rounded-xl prose-a:text-indigo-400 hover:prose-a:text-indigo-300">
+			<Content />
+		</div>
+	</article>
+</Layout>
