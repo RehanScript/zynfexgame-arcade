@@ -4,7 +4,7 @@ import path from 'path';
 async function fetchThousandsOfGames() {
   console.log("🚀 Starting ZynfexGame Auto-Sync...");
   let allGames = [];
-  const maxGames = 1500;
+  const maxGames = 100;
   const limit = 100;
 
   try {
