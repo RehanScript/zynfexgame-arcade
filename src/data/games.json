@@ -1,902 +1,110 @@
 [
   {
-    "slug": "scp-173-escape",
-    "title": "SCP 173 Escape",
-    "category": "Casual",
-    "thumbnail": "https://img.gamedistribution.com/ba86bfe2d97845a8bb2b4acca7d643ef-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/ba86bfe2d97845a8bb2b4acca7d643ef/",
-    "developer": "GameDistribution",
+    "slug": "2048-classic",
+    "title": "2048 Classic",
+    "category": "Puzzle",
+    "thumbnail": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=600&auto=format&fit=crop",
+    "iframe": "https://play2048.co/",
+    "developer": "Gabriele Cirulli (GitHub)",
     "featured": true
   },
   {
-    "slug": "pyramidz2",
-    "title": "Pyramidz2",
-    "category": "Match-3",
-    "thumbnail": "https://img.gamedistribution.com/651ca0101b5e4c2da461a51abd8d5772-512x512.jpg",
-    "iframe": "https://html5.gamedistribution.com/651ca0101b5e4c2da461a51abd8d5772/",
-    "developer": "GameDistribution",
+    "slug": "flappy-bird-original",
+    "title": "Flappy Bird Original",
+    "category": "Arcade",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=600&auto=format&fit=crop",
+    "iframe": "https://flappybird.io/",
+    "developer": "Dong Nguyen (Web Port)",
     "featured": false
   },
   {
-    "slug": "farm-animal-sort-puzzle",
-    "title": "Farm Animal Sort Puzzle",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/47a0a5a7b1d8499ab5ab0cef4499f72e-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/47a0a5a7b1d8499ab5ab0cef4499f72e/",
-    "developer": "GameDistribution",
+    "slug": "hextris-arcade",
+    "title": "Hextris Arcade",
+    "category": "Action",
+    "thumbnail": "https://images.unsplash.com/photo-1518544801976-3e159e50e5bb?q=80&w=600&auto=format&fit=crop",
+    "iframe": "https://hextris.io/",
+    "developer": "Hextris Team (GitHub)",
     "featured": false
   },
   {
-    "slug": "animal-swipe",
-    "title": "Animal Swipe",
-    "category": "Match-3",
-    "thumbnail": "https://img.gamedistribution.com/96936ee47199450096ce978ca8d287e3-512x384.jpeg",
-    "iframe": "https://html5.gamedistribution.com/96936ee47199450096ce978ca8d287e3/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "ink-shop-dress-tattoo",
-    "title": "Ink Shop: Dress & Tattoo",
-    "category": "Casual",
-    "thumbnail": "https://img.gamedistribution.com/1a54e3218d574573a05e778df682913a-512x512.jpg",
-    "iframe": "https://html5.gamedistribution.com/1a54e3218d574573a05e778df682913a/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "yoga-master",
-    "title": "Yoga Master",
-    "category": "Casual",
-    "thumbnail": "https://img.gamedistribution.com/a2b786db40474e8ba3961e76b9ca3b45-512x512.jpg",
-    "iframe": "https://html5.gamedistribution.com/a2b786db40474e8ba3961e76b9ca3b45/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "sort-balls-cones",
-    "title": "Sort Balls - Cones",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/8c028d59fd2946289d5582a4eee6f850-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/8c028d59fd2946289d5582a4eee6f850/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "i8-city-driver",
-    "title": "i8 City Driver",
-    "category": "Racing & Driving",
-    "thumbnail": "https://img.gamedistribution.com/f6acd919192c441c9aca2d20a18e04c6-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/f6acd919192c441c9aca2d20a18e04c6/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "world-cup-2026-soccer-game",
-    "title": "World Cup 2026 Soccer Game",
-    "category": "Sports",
-    "thumbnail": "https://img.gamedistribution.com/ad37a85f16e246fabdc818f375a5eb45-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/ad37a85f16e246fabdc818f375a5eb45/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "home-block-story",
-    "title": "Home Block Story",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/f32dfc95b9054cccbd6b187f9596e220-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/f32dfc95b9054cccbd6b187f9596e220/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "geometry-missile",
-    "title": "Geometry Missile",
-    "category": "Agility",
-    "thumbnail": "https://img.gamedistribution.com/4b8d5707d54e4c74b0cf631e7fff92db-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/4b8d5707d54e4c74b0cf631e7fff92db/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "slinger-block",
-    "title": "Slinger Block",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/9258db94e74a4c979dcfa1d4e5bc57e5-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/9258db94e74a4c979dcfa1d4e5bc57e5/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "sworded-io-spin-and-rub",
-    "title": "Sworded.io - Spin and Rub.",
-    "category": ".IO",
-    "thumbnail": "https://img.gamedistribution.com/34a9212b14774ebea6aa7d5eb2fdc6e3-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/34a9212b14774ebea6aa7d5eb2fdc6e3/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "my-arcade-center-2",
-    "title": "My Arcade Center 2",
-    "category": "Casual",
-    "thumbnail": "https://img.gamedistribution.com/54aca2f7503041c0bd97e74d7e316a67-512x512.jpg",
-    "iframe": "https://html5.gamedistribution.com/54aca2f7503041c0bd97e74d7e316a67/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "geometry-tower-defense",
-    "title": "Geometry Tower Defense",
-    "category": "Simulation",
-    "thumbnail": "https://img.gamedistribution.com/0f62130e4f044c5087aa4a5f1713de94-200x120.jpg",
-    "iframe": "https://html5.gamedistribution.com/0f62130e4f044c5087aa4a5f1713de94/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "dead-paradise",
-    "title": "Dead Paradise",
-    "category": "Racing & Driving",
-    "thumbnail": "https://img.gamedistribution.com/5612231ac5184ecda617c334cbb46878-512x384.jpeg",
-    "iframe": "https://html5.gamedistribution.com/5612231ac5184ecda617c334cbb46878/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "jumper-s-quest",
-    "title": "Jumper's Quest",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/f0f4d71949e347249950f163cfb40d4b-512x512.jpg",
-    "iframe": "https://html5.gamedistribution.com/f0f4d71949e347249950f163cfb40d4b/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "hospital-inc",
-    "title": "Hospital Inc",
-    "category": "Simulation",
-    "thumbnail": "https://img.gamedistribution.com/d0148861138c4ebd94045cf139a5d5eb-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/d0148861138c4ebd94045cf139a5d5eb/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "bimka-drive-smash-cars-into-splinters",
-    "title": "Bimka Drive - Smash cars into splinters!",
-    "category": "Racing & Driving",
-    "thumbnail": "https://img.gamedistribution.com/b210ded71717487780f38cc96f5d20b4-512x512.jpg",
-    "iframe": "https://html5.gamedistribution.com/b210ded71717487780f38cc96f5d20b4/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "pim-path",
-    "title": "Pim Path",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/a24eb8d75d164ee7bbf7b4ed909ee58c-512x512.jpg",
-    "iframe": "https://html5.gamedistribution.com/a24eb8d75d164ee7bbf7b4ed909ee58c/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "liquid-sort-deluxe",
-    "title": "Liquid Sort Deluxe",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/58e6757fa9544adaa4a7ea037c4ae444-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/58e6757fa9544adaa4a7ea037c4ae444/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "gun-shooting-games-sniper-3d",
-    "title": "Gun Shooting Games Sniper 3D",
-    "category": "Shooter",
-    "thumbnail": "https://img.gamedistribution.com/c8a93a1e1e964e11b3d9803cad9e9c2c-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/c8a93a1e1e964e11b3d9803cad9e9c2c/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "obby-tsunami-escape-1-by-car",
-    "title": "Obby: Tsunami Escape +1 by Car",
-    "category": "Racing & Driving",
-    "thumbnail": "https://img.gamedistribution.com/b0dceb9ce1b248f797cebcc0faa95005-512x512.jpg",
-    "iframe": "https://html5.gamedistribution.com/b0dceb9ce1b248f797cebcc0faa95005/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "romantic-k-pop-transformation",
-    "title": "Romantic K-Pop Transformation",
-    "category": "Dress-up",
-    "thumbnail": "https://img.gamedistribution.com/d12c496117f64174bc2b9800a285f92f-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/d12c496117f64174bc2b9800a285f92f/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "europe-at-war",
-    "title": "Europe at War",
+    "slug": "playpager-chess",
+    "title": "Playpager Chess",
     "category": "Strategy",
-    "thumbnail": "https://img.gamedistribution.com/2400f163fdf24f86bcdbb9e5c5b75cd2-1280x720.jpg",
-    "iframe": "https://html5.gamedistribution.com/2400f163fdf24f86bcdbb9e5c5b75cd2/",
-    "developer": "GameDistribution",
+    "thumbnail": "https://images.unsplash.com/photo-1580541832626-2a7131ee809f?q=80&w=600&auto=format&fit=crop",
+    "iframe": "https://playpager.com/embed/chess/index.html",
+    "developer": "Playpager",
     "featured": false
   },
   {
-    "slug": "cow-jam-farm-puzzle",
-    "title": "Cow Jam Farm puzzle",
+    "slug": "playpager-sudoku",
+    "title": "Playpager Sudoku",
     "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/284894477327459b95bf8e2a54c9d681-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/284894477327459b95bf8e2a54c9d681/",
-    "developer": "GameDistribution",
+    "thumbnail": "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?q=80&w=600&auto=format&fit=crop",
+    "iframe": "https://playpager.com/embed/sudoku/index.html",
+    "developer": "Playpager",
     "featured": false
   },
   {
-    "slug": "word-search-universe-easter",
-    "title": "Word Search Universe Easter",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/1639172f16614f62af1d30e270a6b9a0-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/1639172f16614f62af1d30e270a6b9a0/",
-    "developer": "GameDistribution",
+    "slug": "html5-pacman",
+    "title": "HTML5 Pacman",
+    "category": "Arcade",
+    "thumbnail": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?q=80&w=600&auto=format&fit=crop",
+    "iframe": "https://freepacman.org/",
+    "developer": "Web Port",
     "featured": false
   },
   {
-    "slug": "stick-kill-3d",
-    "title": "Stick Kill 3D",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/724f9f245a0e47308239bf37795141e6-512x512.jpg",
-    "iframe": "https://html5.gamedistribution.com/724f9f245a0e47308239bf37795141e6/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "diamondz",
-    "title": "Diamondz",
-    "category": "Match-3",
-    "thumbnail": "https://img.gamedistribution.com/4f0be8dddab5440b9011a238ac03db35-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/4f0be8dddab5440b9011a238ac03db35/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "brawl-stars-battle",
-    "title": "Brawl Stars Battle",
-    "category": "Adventure",
-    "thumbnail": "https://img.gamedistribution.com/fab6523bfe89443d89f7425f946c691d-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/fab6523bfe89443d89f7425f946c691d/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "bat-zo-runner",
-    "title": "BAT!zo Runner",
-    "category": "Agility",
-    "thumbnail": "https://img.gamedistribution.com/186d879c6e2a42068c8cb94e2d7651fb-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/186d879c6e2a42068c8cb94e2d7651fb/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "two-rx7-drifters",
-    "title": "Two RX7 Drifters",
-    "category": "Racing & Driving",
-    "thumbnail": "https://img.gamedistribution.com/f85eee6b515c4aecb0ef6c6563d05e39-200x120.jpg",
-    "iframe": "https://html5.gamedistribution.com/f85eee6b515c4aecb0ef6c6563d05e39/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "slicer-duo",
-    "title": "Slicer Duo",
-    "category": "Agility",
-    "thumbnail": "https://img.gamedistribution.com/4aefd2cd9aba4cae8c1e839dedfccadd-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/4aefd2cd9aba4cae8c1e839dedfccadd/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "number-bubble-shooter-wild-west",
-    "title": "Number Bubble Shooter Wild West",
-    "category": "Bubble Shooter",
-    "thumbnail": "https://img.gamedistribution.com/e676d4440f084d9e9d241781cbb494b1-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/e676d4440f084d9e9d241781cbb494b1/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "x-to-y-almost-impossible",
-    "title": "X to Y: Almost Impossible!",
-    "category": "Agility",
-    "thumbnail": "https://img.gamedistribution.com/0e26b95603a14b378612f60bfe7069df-512x512.jpg",
-    "iframe": "https://html5.gamedistribution.com/0e26b95603a14b378612f60bfe7069df/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "mojicon-spring-connect",
-    "title": "Mojicon Spring Connect",
-    "category": "Mahjong & Connect",
-    "thumbnail": "https://img.gamedistribution.com/c26352a18e1b463c9c2b74a5bde7a629-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/c26352a18e1b463c9c2b74a5bde7a629/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "tic-tac-toe-merge",
-    "title": "Tic Tac Toe Merge",
-    "category": "Boardgames",
-    "thumbnail": "https://img.gamedistribution.com/838b62dc8b334050b6c169a294673f72-512x512.jpg",
-    "iframe": "https://html5.gamedistribution.com/838b62dc8b334050b6c169a294673f72/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "cute-craft-lab",
-    "title": "Cute Craft Lab",
-    "category": "Dress-up",
-    "thumbnail": "https://img.gamedistribution.com/89129ae061a342cdb454d6ae599a2b6b-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/89129ae061a342cdb454d6ae599a2b6b/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "bunnyhop-and-surf-maps",
-    "title": "Bunnyhop and Surf Maps",
-    "category": "Agility",
-    "thumbnail": "https://img.gamedistribution.com/4ac9f70eac99427d9fa87c1e7e1908ef-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/4ac9f70eac99427d9fa87c1e7e1908ef/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "goods-sorting-shopping-master",
-    "title": "Goods Sorting Shopping Master",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/f238798742a540e187939910790bd729-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/f238798742a540e187939910790bd729/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "gummy-merge",
-    "title": "Gummy merge",
-    "category": "Merge",
-    "thumbnail": "https://img.gamedistribution.com/3eabd77ca00140f5ad0713bb421e7008-1280x550.jpg",
-    "iframe": "https://html5.gamedistribution.com/3eabd77ca00140f5ad0713bb421e7008/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "hunter-underwater-spearfishing",
-    "title": "Hunter Underwater Spearfishing",
-    "category": "Adventure",
-    "thumbnail": "https://img.gamedistribution.com/37080f0a91924d12b91ef072e965497f-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/37080f0a91924d12b91ef072e965497f/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "little-dentist-dash",
-    "title": "Little Dentist Dash",
+    "slug": "playpager-bubble-shooter",
+    "title": "Playpager Bubble Shooter",
     "category": "Casual",
-    "thumbnail": "https://img.gamedistribution.com/626512b37b3748f99fb719dcb2cf56d0-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/626512b37b3748f99fb719dcb2cf56d0/",
-    "developer": "GameDistribution",
+    "thumbnail": "https://images.unsplash.com/photo-1601058268499-e52658b8ebf8?q=80&w=600&auto=format&fit=crop",
+    "iframe": "https://playpager.com/embed/bubbleshooter/index.html",
+    "developer": "Playpager",
     "featured": false
   },
   {
-    "slug": "arrow-escape",
-    "title": "Arrow Escape",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/abda34d396174f6487968885157388e2-512x512.jpg",
-    "iframe": "https://html5.gamedistribution.com/abda34d396174f6487968885157388e2/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "12-in-1-solitaire",
-    "title": "12-in-1 Solitaire",
-    "category": "Cards",
-    "thumbnail": "https://img.gamedistribution.com/25cde193826a43b3b8bd5efe3b753748-512x512.jpg",
-    "iframe": "https://html5.gamedistribution.com/25cde193826a43b3b8bd5efe3b753748/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "arrow-puzzle",
-    "title": "Arrow Puzzle",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/51867640b99c41adb872a4a1b3e4eb4e-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/51867640b99c41adb872a4a1b3e4eb4e/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "fish-story-4",
-    "title": "Fish Story 4",
-    "category": "Match-3",
-    "thumbnail": "https://img.gamedistribution.com/8a1f5145552e416d95c71169f4f6adf4-1280x550.jpg",
-    "iframe": "https://html5.gamedistribution.com/8a1f5145552e416d95c71169f4f6adf4/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "find-hidden-cats",
-    "title": "Find Hidden Cats",
+    "slug": "playpager-tic-tac-toe",
+    "title": "Playpager Tic Tac Toe",
     "category": "Casual",
-    "thumbnail": "https://img.gamedistribution.com/892fa29a7d4145958b37ea309752bf1b-512x512.jpg",
-    "iframe": "https://html5.gamedistribution.com/892fa29a7d4145958b37ea309752bf1b/",
-    "developer": "GameDistribution",
+    "thumbnail": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?q=80&w=600&auto=format&fit=crop",
+    "iframe": "https://playpager.com/embed/tictactoe/index.html",
+    "developer": "Playpager",
     "featured": false
   },
   {
-    "slug": "fury-tanks",
-    "title": "Fury Tanks",
-    "category": "Shooter",
-    "thumbnail": "https://img.gamedistribution.com/cf3034430df748ca99a461f1667a3c6c-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/cf3034430df748ca99a461f1667a3c6c/",
-    "developer": "GameDistribution",
+    "slug": "playpager-breakout",
+    "title": "Playpager Breakout",
+    "category": "Action",
+    "thumbnail": "https://images.unsplash.com/photo-1560419015-7c427e8ae5ba?q=80&w=600&auto=format&fit=crop",
+    "iframe": "https://playpager.com/embed/breakout/index.html",
+    "developer": "Playpager",
     "featured": false
   },
   {
-    "slug": "dark-myth-monkey-merge",
-    "title": "Dark Myth: Monkey Merge",
-    "category": "Adventure",
-    "thumbnail": "https://img.gamedistribution.com/5b5ee9d5712c4d88b68ebeb3d1c25ebd-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/5b5ee9d5712c4d88b68ebeb3d1c25ebd/",
-    "developer": "GameDistribution",
+    "slug": "playpager-solitaire",
+    "title": "Playpager Solitaire",
+    "category": "Card",
+    "thumbnail": "https://images.unsplash.com/photo-1511116557814-2ac2693b77ab?q=80&w=600&auto=format&fit=crop",
+    "iframe": "https://playpager.com/embed/solitaire/index.html",
+    "developer": "Playpager",
     "featured": false
   },
   {
-    "slug": "space-craft-ship-war",
-    "title": "Space Craft: Ship War",
-    "category": "Casual",
-    "thumbnail": "https://img.gamedistribution.com/bc4dce5d14fe4259a8d4bdbb235eb43b-512x384.jpeg",
-    "iframe": "https://html5.gamedistribution.com/bc4dce5d14fe4259a8d4bdbb235eb43b/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "soccer-duel",
-    "title": "Soccer Duel",
-    "category": "Football",
-    "thumbnail": "https://img.gamedistribution.com/3c96c6a76dc94cedbe3d4bc519e0a7ce-512x512.jpg",
-    "iframe": "https://html5.gamedistribution.com/3c96c6a76dc94cedbe3d4bc519e0a7ce/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "dessert-diy",
-    "title": "Dessert DIY",
-    "category": "Casual",
-    "thumbnail": "https://img.gamedistribution.com/fbfeecb1e2344c839c7a47096f974fe5-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/fbfeecb1e2344c839c7a47096f974fe5/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "sky-assault",
-    "title": "Sky Assault",
-    "category": "Adventure",
-    "thumbnail": "https://img.gamedistribution.com/5af66c57218d4217812bb98762554c0d-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/5af66c57218d4217812bb98762554c0d/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "archery-master-bow-and-arrow",
-    "title": "Archery Master - Bow and Arrow",
-    "category": "Shooter",
-    "thumbnail": "https://img.gamedistribution.com/7d11673fe1224713984cee86d2ba3bca-512x384.jpeg",
-    "iframe": "https://html5.gamedistribution.com/7d11673fe1224713984cee86d2ba3bca/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "mafia-sniper-crime-shooting",
-    "title": "Mafia Sniper Crime Shooting",
-    "category": "Shooter",
-    "thumbnail": "https://img.gamedistribution.com/5083a63adc7248d8b04dd72cde2eb78c-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/5083a63adc7248d8b04dd72cde2eb78c/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "tap-hold",
-    "title": "Tap-Hold",
-    "category": "Shooter",
-    "thumbnail": "https://img.gamedistribution.com/2e7eeb0222bb457babb4dcf829a41dbd-200x120.jpg",
-    "iframe": "https://html5.gamedistribution.com/2e7eeb0222bb457babb4dcf829a41dbd/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "color-conquest-territory-war",
-    "title": "Color Conquest: Territory War",
-    "category": "Battle",
-    "thumbnail": "https://img.gamedistribution.com/9561378e3b254fef972c44dabce4d36f-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/9561378e3b254fef972c44dabce4d36f/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "earth-defender",
-    "title": "Earth Defender",
-    "category": "Casual",
-    "thumbnail": "https://img.gamedistribution.com/5916a7fd3b4843018f2f96c7780017f2-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/5916a7fd3b4843018f2f96c7780017f2/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "arcade-gp",
-    "title": "Arcade GP",
-    "category": "Racing & Driving",
-    "thumbnail": "https://img.gamedistribution.com/3fc01c17076c44149e3e4b6d79b3134f-512x512.jpeg",
-    "iframe": "https://html5.gamedistribution.com/3fc01c17076c44149e3e4b6d79b3134f/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "ayla-world-princess-life",
-    "title": "Ayla World Princess life",
-    "category": "Dress-up",
-    "thumbnail": "https://img.gamedistribution.com/b669b89f311c4cecab7f740a744484da-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/b669b89f311c4cecab7f740a744484da/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "cars-with-guns-wasteland-showdown",
-    "title": "Cars with Guns: Wasteland Showdown",
-    "category": "Racing & Driving",
-    "thumbnail": "https://img.gamedistribution.com/0bd1e5d745554a4c9d1defd57dd91aa5-512x512.jpg",
-    "iframe": "https://html5.gamedistribution.com/0bd1e5d745554a4c9d1defd57dd91aa5/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "travel-mahjong-deluxe",
-    "title": "Travel Mahjong Deluxe",
-    "category": "Agility",
-    "thumbnail": "https://img.gamedistribution.com/ee9c83bea86b4fdfa35a2aa1694fb5a6-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/ee9c83bea86b4fdfa35a2aa1694fb5a6/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "tic-tac-toe-match-three",
-    "title": "Tic Tac Toe - Match Three",
-    "category": "Boardgames",
-    "thumbnail": "https://img.gamedistribution.com/6a46d904b4aa467385888a51f690e095-1280x720.jpeg",
-    "iframe": "https://html5.gamedistribution.com/6a46d904b4aa467385888a51f690e095/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "lost-things-hidden-objects",
-    "title": "Lost Things - Hidden Objects",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/e2bc621dcad54cfa91e86c241167a0d2-512x512.jpg",
-    "iframe": "https://html5.gamedistribution.com/e2bc621dcad54cfa91e86c241167a0d2/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "clash-crowd-game",
-    "title": "Clash Crowd Game",
-    "category": "Casual",
-    "thumbnail": "https://img.gamedistribution.com/a204ab90b6f641569b6d5f4b0f62072e-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/a204ab90b6f641569b6d5f4b0f62072e/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "dream-kitchen",
-    "title": "Dream Kitchen",
-    "category": "Cooking",
-    "thumbnail": "https://img.gamedistribution.com/d2ce23ee185643db8f3831aba3971c1c-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/d2ce23ee185643db8f3831aba3971c1c/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "hero-match",
-    "title": "Hero Match",
-    "category": "Match-3",
-    "thumbnail": "https://img.gamedistribution.com/acb3296fec5a495c896cad6b2afea552-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/acb3296fec5a495c896cad6b2afea552/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "seat-puzzle-cut-the-rope",
-    "title": "Seat Puzzle Cut The Rope",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/24becac37a04406c8f6c44c28513c09c-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/24becac37a04406c8f6c44c28513c09c/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "gang-war-strike-shooter",
-    "title": "Gang War: Strike Shooter",
-    "category": "Shooter",
-    "thumbnail": "https://img.gamedistribution.com/d2a97a5322cf425b916e30ebed28020d-1280x550.jpg",
-    "iframe": "https://html5.gamedistribution.com/d2a97a5322cf425b916e30ebed28020d/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "safe-merge",
-    "title": "Safe Merge",
-    "category": "Merge",
-    "thumbnail": "https://img.gamedistribution.com/f9db447a76b24fa9acd1740dfc5b29f0-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/f9db447a76b24fa9acd1740dfc5b29f0/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "colorwars-io",
-    "title": "ColorWars.io",
-    "category": "Shooter",
-    "thumbnail": "https://img.gamedistribution.com/eabf2a389dea46ed9b36fcb03482d443-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/eabf2a389dea46ed9b36fcb03482d443/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "shape-shift",
-    "title": "Shape Shift",
-    "category": "Casual",
-    "thumbnail": "https://img.gamedistribution.com/40c397128b9c4286ba2f8a94b0b4e48f-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/40c397128b9c4286ba2f8a94b0b4e48f/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "bunny-blox",
-    "title": "Bunny Blox",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/1ac9302aebc64320af6a0e089c9c724f-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/1ac9302aebc64320af6a0e089c9c724f/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "molang-match-n-munch",
-    "title": "Molang Match'n Munch",
-    "category": "Match-3",
-    "thumbnail": "https://img.gamedistribution.com/a5fe35ceaea34474b9a114792a53b338-512x384.jpeg",
-    "iframe": "https://html5.gamedistribution.com/a5fe35ceaea34474b9a114792a53b338/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "night-club-security",
-    "title": "Night Club Security",
-    "category": "Simulation",
-    "thumbnail": "https://img.gamedistribution.com/09d017664cad49e9a36d455b3aa046e5-512x512.jpg",
-    "iframe": "https://html5.gamedistribution.com/09d017664cad49e9a36d455b3aa046e5/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "gt-traffic-racer",
-    "title": "GT Traffic Racer",
-    "category": "Racing & Driving",
-    "thumbnail": "https://img.gamedistribution.com/cecfade6d8ef4fb7a4b1924452da4204-1280x720.jpg",
-    "iframe": "https://html5.gamedistribution.com/cecfade6d8ef4fb7a4b1924452da4204/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "pool-duel",
-    "title": "Pool Duel",
+    "slug": "playpager-8-ball-pool",
+    "title": "Playpager 8 Ball Pool",
     "category": "Sports",
-    "thumbnail": "https://img.gamedistribution.com/db26a7860d1540089be6bb8f6bca230a-200x120.jpg",
-    "iframe": "https://html5.gamedistribution.com/db26a7860d1540089be6bb8f6bca230a/",
-    "developer": "GameDistribution",
+    "thumbnail": "https://images.unsplash.com/photo-1629165187760-b8c2d1b72e5a?q=80&w=600&auto=format&fit=crop",
+    "iframe": "https://playpager.com/embed/pool/index.html",
+    "developer": "Playpager",
     "featured": false
   },
   {
-    "slug": "vortex-ball",
-    "title": "Vortex Ball",
-    "category": "Agility",
-    "thumbnail": "https://img.gamedistribution.com/22c23c982349439294e9a3d0d55b7a76-512x512.jpg",
-    "iframe": "https://html5.gamedistribution.com/22c23c982349439294e9a3d0d55b7a76/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "mahjong-triple-3d-tile-match",
-    "title": "Mahjong Triple 3D Tile Match",
-    "category": "Mahjong & Connect",
-    "thumbnail": "https://img.gamedistribution.com/a93152c0e931494987338969f804c732-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/a93152c0e931494987338969f804c732/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "monster-squad-rush",
-    "title": "Monster Squad Rush",
-    "category": "Casual",
-    "thumbnail": "https://img.gamedistribution.com/9dd0094f9a864db89ca7edaf6d2d96b9-512x512.jpg",
-    "iframe": "https://html5.gamedistribution.com/9dd0094f9a864db89ca7edaf6d2d96b9/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "gas-station-stick-simulator",
-    "title": "Gas Station - Stick Simulator",
-    "category": "Casual",
-    "thumbnail": "https://img.gamedistribution.com/d0d82cafb2ac4d848507a3144f9e8900-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/d0d82cafb2ac4d848507a3144f9e8900/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "traffic-tap-survival",
-    "title": "Traffic Tap Survival",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/dee2113b932e40c69a09dc03e9cea275-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/dee2113b932e40c69a09dc03e9cea275/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "obby-highest-jump-ever",
-    "title": "Obby Highest Jump Ever",
-    "category": "Agility",
-    "thumbnail": "https://img.gamedistribution.com/eece738ce7be411cba9b6e333f1ec96f-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/eece738ce7be411cba9b6e333f1ec96f/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "jigsaw-cards-daily-puzzles",
-    "title": "Jigsaw Cards: Daily Puzzles",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/5eac6df2561f49d1ac2992d130900bca-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/5eac6df2561f49d1ac2992d130900bca/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "bubble-shooter-wonders-of-egypt",
-    "title": "Bubble Shooter Wonders of Egypt",
-    "category": "Bubble Shooter",
-    "thumbnail": "https://img.gamedistribution.com/3cbec85615d54cee93363a3b9e0227e4-1280x720.jpg",
-    "iframe": "https://html5.gamedistribution.com/3cbec85615d54cee93363a3b9e0227e4/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "fun-mini-games-for-kids",
-    "title": "Fun Mini Games For Kids",
-    "category": "Casual",
-    "thumbnail": "https://img.gamedistribution.com/96ad8f92eb1d4e7c9e88a606b6823b36-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/96ad8f92eb1d4e7c9e88a606b6823b36/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "puzzle-blocks",
-    "title": "Puzzle Blocks",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/8b2128d383444348804bd88f50e32283-512x512.jpg",
-    "iframe": "https://html5.gamedistribution.com/8b2128d383444348804bd88f50e32283/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "candy-crunch-sugar-escape",
-    "title": "Candy Crunch: Sugar Escape",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/46cbe3c470ff43d0b85015194e9e96a7-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/46cbe3c470ff43d0b85015194e9e96a7/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "flick-shot-soccer",
-    "title": "Flick Shot Soccer",
-    "category": "Sports",
-    "thumbnail": "https://img.gamedistribution.com/fc1c68fa04af4e0785a0fd3a12a08783-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/fc1c68fa04af4e0785a0fd3a12a08783/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "bottle-logic",
-    "title": "Bottle Logic",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/05b170aa3a7c44078e543d5c04c80f62-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/05b170aa3a7c44078e543d5c04c80f62/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "sliding-puzzle",
-    "title": "Sliding Puzzle",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/99c87a52b50b41e2aade63b067e1a843-512x512.jpg",
-    "iframe": "https://html5.gamedistribution.com/99c87a52b50b41e2aade63b067e1a843/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "bingo-halloween",
-    "title": "Bingo Halloween",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/1689e447cc5c4c809edee18b20fd1225-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/1689e447cc5c4c809edee18b20fd1225/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "clay-craft-tycoon",
-    "title": "Clay Craft Tycoon",
-    "category": "Casual",
-    "thumbnail": "https://img.gamedistribution.com/da8764b33f8247e5be3798e1a2ec57fa-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/da8764b33f8247e5be3798e1a2ec57fa/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "build-an-aquapark",
-    "title": "Build an Aquapark",
-    "category": "Casual",
-    "thumbnail": "https://img.gamedistribution.com/4a4c652924f044e6a9c190c6910da0fc-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/4a4c652924f044e6a9c190c6910da0fc/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "stick-hero-battle",
-    "title": "Stick Hero Battle",
-    "category": "Battle",
-    "thumbnail": "https://img.gamedistribution.com/99ab97268bab44708cd9c5c204ccc8e9-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/99ab97268bab44708cd9c5c204ccc8e9/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "mahjong-connect-tiles",
-    "title": "Mahjong connect tiles",
-    "category": "Mahjong & Connect",
-    "thumbnail": "https://img.gamedistribution.com/2964219d4210425db1980531bf0b3010-1280x720.jpg",
-    "iframe": "https://html5.gamedistribution.com/2964219d4210425db1980531bf0b3010/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "slide-block-puzzle",
-    "title": "Slide Block Puzzle",
-    "category": "Puzzle",
-    "thumbnail": "https://img.gamedistribution.com/93254fe1937947c5819b86ed300ffa4a-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/93254fe1937947c5819b86ed300ffa4a/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "ole-bunny",
-    "title": "Ole Bunny",
-    "category": "Casual",
-    "thumbnail": "https://img.gamedistribution.com/c58ca121c2cc474ab9202c649d070d3c-512x384.jpg",
-    "iframe": "https://html5.gamedistribution.com/c58ca121c2cc474ab9202c649d070d3c/",
-    "developer": "GameDistribution",
-    "featured": false
-  },
-  {
-    "slug": "dog-merge-mania",
-    "title": "Dog Merge Mania",
-    "category": "Merge",
-    "thumbnail": "https://img.gamedistribution.com/9d9694084c2e4985bb9c46e73fe02f52-1280x720.jpg",
-    "iframe": "https://html5.gamedistribution.com/9d9694084c2e4985bb9c46e73fe02f52/",
-    "developer": "GameDistribution",
+    "slug": "classic-checkers",
+    "title": "Classic Checkers",
+    "category": "Strategy",
+    "thumbnail": "https://images.unsplash.com/photo-1582294468658-0056cb7636e7?q=80&w=600&auto=format&fit=crop",
+    "iframe": "https://playpager.com/embed/checkers/index.html",
+    "developer": "Playpager",
     "featured": false
   }
 ]
