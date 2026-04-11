@@ -3,8 +3,8 @@
     "slug": "space-invaders",
     "title": "Space Invaders 3D",
     "category": "Action",
-    "thumbnail": "/games/space-invaders/assets/images/gameplay.png",
-    "iframe": "/games/space-invaders/index.html",
+    "thumbnail": "/hosted-games/space-invaders/assets/images/gameplay.png",
+    "iframe": "/hosted-games/space-invaders/index.html",
     "developer": "ZynfexGame Arcade (Self-Hosted)",
     "featured": true
   },
