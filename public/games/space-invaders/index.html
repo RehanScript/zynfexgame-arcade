@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Space Invaders 3D</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="space.css">
+    
+    <!-- Game Core -->
+    <script type="module" src="space.js" defer></script>
+</head>
+
+<body>
+    <!-- The 3D Canvas will be injected here by engine3d.js -->
+
+    <!-- Overlay UI -->
+    <div class="game-ui">
+        <header>
+            <div class="header-content">
+                <a href="/" class="home-link" target="_parent" title="Home">
+                    <i class="fas fa-rocket"></i>
+                </a>
+                <h1>SPACE INVADERS 3D</h1>
+                <div class="header-buttons">
+                    <button id="pause-btn" class="icon-btn" title="Pause (ESC)">
+                        <i class="fas fa-pause"></i>
+                    </button>
+                    <button id="mute-btn" class="icon-btn" title="Toggle Sound">
+                        <i class="fas fa-volume-up"></i>
+                    </button>
+                    <button id="fullscreen-btn" class="icon-btn" title="Toggle Fullscreen">
+                        <i class="fas fa-expand"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+        
+        <div class="stats-bar-container">
+            <div class="stats-bar">
+                <div class="stat-item"><span class="label">SCORE:</span> <span id="score-val">0</span></div>
+                <div class="stat-item"><span class="label">LEVEL:</span> <span id="level-val">1</span></div>
+                <div class="stat-item"><span id="lives-val">❤️❤️❤️</span></div>
+            </div>
+        </div>
+
+        <!-- Powerup Indicators -->
+        <div class="powerup-indicators">
+            <div id="rapid-indicator" class="powerup-icon" title="Rapid Fire">
+                <i class="fas fa-bolt"></i>
+            </div>
+            <div id="multi-indicator" class="powerup-icon" title="Multi Shot">
+                <i class="fas fa-crosshairs"></i>
+            </div>
+            <div id="speed-indicator" class="powerup-icon" title="Speed Boost">
+                <i class="fas fa-tachometer-alt"></i>
+            </div>
+        </div>
+
+        <!-- Boss Health Bar -->
+        <div id="boss-health-container" class="boss-health hidden">
+            <div class="boss-label">BOSS HEALTH</div>
+            <div class="boss-health-bar-container">
+                <div id="boss-health-bar" class="boss-health-bar"></div>
+            </div>
+        </div>
+
+        <!-- Wave Message -->
+        <div id="wave-message" class="wave-message hidden">WAVE 1</div>
+
+        <!-- Powerup Message -->
+        <div id="powerup-message" class="powerup-message hidden">POWER UP!</div>
+
+        <main>
+            <!-- Start Menu -->
+            <div id="overlay" class="game-overlay">
+                <div class="glass-panel">
+                    <i class="fas fa-user-astronaut mega-icon pulse"></i>
+                    <h2>3D MISSION INITIATED</h2>
+                    <p>Deep space invaders are warping in. Engage with precision.</p>
+                    
+                    <div class="player-name-input">
+                        <label for="player-name">PILOT NAME:</label>
+                        <input type="text" id="player-name" maxlength="10" placeholder="Enter your name" value="Pilot">
+                    </div>
+                    
+                    <div class="difficulty-toggle">
+                        <label class="toggle-label">
+                            <input type="checkbox" id="easy-mode-toggle">
+                            <span class="toggle-text">EASY MODE (No Lives Lost)</span>
+                        </label>
+                        <div class="setting-item">
+                            <span class="label">WAVE DURATION</span>
+                            <input type="range" id="wave-duration" min="30" max="300" step="30" value="60">
+                            <span id="duration-val" class="value">60s</span>
+                        </div>
+                    </div>
+                    
+                    <div class="ship-selection">
+                        <h3>SELECT SHIP</h3>
+                        <div class="ship-options">
+                            <div class="ship-option" data-ship="scout" onclick="selectShip('scout')">
+                                <div class="ship-preview scout"></div>
+                                <span class="ship-name">SCOUT</span>
+                                <span class="ship-stats">Fast / Weak</span>
+                            </div>
+                            <div class="ship-option selected" data-ship="fighter" onclick="selectShip('fighter')">
+                                <div class="ship-preview fighter"></div>
+                                <span class="ship-name">FIGHTER</span>
+                                <span class="ship-stats">Balanced</span>
+                            </div>
+                            <div class="ship-option" data-ship="tank" onclick="selectShip('tank')">
+                                <div class="ship-preview tank"></div>
+                                <span class="ship-name">TANK</span>
+                                <span class="ship-stats">Slow / Strong</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button id="start-btn" class="premium-btn">LAUNCH MISSION</button>
+                    
+                    <div class="controls-card">
+                        <h3>CONTROLS</h3>
+                        <p><kbd>↑</kbd> <kbd>↓</kbd> <kbd>←</kbd> <kbd>→</kbd> Navigate</p>
+                        <p><kbd>Space</kbd> Fire | <kbd>ESC</kbd> Pause</p>
+                    </div>
+                    
+                    <div class="powerups-legend">
+                        <h3>POWER-UPS</h3>
+                        <div class="powerup-list">
+                            <span class="powerup-item"><span class="icon rapid"></span> Rapid Fire</span>
+                            <span class="powerup-item"><span class="icon shield"></span> Shield</span>
+                            <span class="powerup-item"><span class="icon multishot"></span> Multi Shot</span>
+                            <span class="powerup-item"><span class="icon speed"></span> Speed</span>
+                            <span class="powerup-item"><span class="icon life"></span> Extra Life</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pause Overlay -->
+            <div id="pause-overlay" class="game-overlay hidden">
+                <div class="glass-panel">
+                    <h2>MISSION PAUSED</h2>
+                    <p>Press ESC or click Resume to continue</p>
+                    <button id="resume-btn" class="premium-btn" onclick="togglePause()">RESUME MISSION</button>
+                </div>
+            </div>
+
+            <!-- Game Over Menu -->
+            <div id="game-over-overlay" class="game-overlay hidden">
+                <div class="glass-panel">
+                    <h2 class="critical">PILOT DOWN</h2>
+                    <p class="mission-result">Mission Result: <span id="final-score" class="score-highlight">0</span></p>
+                    <p class="level-result">Level Reached: <span id="final-level" class="level-highlight">1</span></p>
+                    <div class="high-scores">
+                        <h3>PANTHEON OF HEROES</h3>
+                        <ul id="high-score-list"></ul>
+                    </div>
+                    <button id="restart-btn" class="premium-btn">RE-ENGAGE SYSTEM</button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Mobile Controls -->
+        <div id="mobile-dpad" class="mobile-dpad hidden">
+            <div class="dpad-grid">
+                <button id="btn-up" class="dpad-btn"><i class="fas fa-chevron-up"></i></button>
+                <button id="btn-left" class="dpad-btn"><i class="fas fa-chevron-left"></i></button>
+                <button id="btn-right" class="dpad-btn"><i class="fas fa-chevron-right"></i></button>
+                <button id="btn-down" class="dpad-btn"><i class="fas fa-chevron-down"></i></button>
+            </div>
+            <button id="btn-fire" class="fire-btn"><i class="fas fa-crosshairs"></i> FIRE</button>
+        </div>
+
+        
+    </div>
+</body>
+</html>

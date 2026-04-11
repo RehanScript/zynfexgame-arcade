@@ -1,12 +1,21 @@
 [
   {
+    "slug": "space-invaders",
+    "title": "Space Invaders 3D",
+    "category": "Action",
+    "thumbnail": "/games/space-invaders/assets/images/gameplay.png",
+    "iframe": "/games/space-invaders/index.html",
+    "developer": "ZynfexGame Arcade (Self-Hosted)",
+    "featured": true
+  },
+  {
     "slug": "2048-classic",
     "title": "2048 Classic",
     "category": "Puzzle",
     "thumbnail": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=600&auto=format&fit=crop",
     "iframe": "https://play2048.co/",
     "developer": "Gabriele Cirulli (GitHub)",
-    "featured": true
+    "featured": false
   },
   {
     "slug": "flappy-bird-original",
