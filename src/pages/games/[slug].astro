@@ -61,9 +61,17 @@ const { game } = Astro.props;
 	<!-- SEO Optimized Text Section -->
 	<article class="prose prose-invert max-w-none bg-gray-900/50 p-6 rounded-2xl border border-gray-800">
 		<h2 class="text-xl font-bold mb-2">How to play {game.title}</h2>
-		<p class="text-gray-400 text-sm leading-relaxed">
-			Enjoy playing <strong>{game.title}</strong> directly in your browser without any downloads! This {game.category} game is optimized for both mobile phones, tablets, and desktop computers. Controls are designed to be intuitive—simply tap, swipe, or use your keyboard arrows. Developed by {game.developer}.
-		</p>
+		<div class="text-gray-400 text-sm leading-relaxed space-y-4">
+			<p>
+				Enjoy playing <strong>{game.title}</strong> directly in your browser without any downloads! This {game.category} game is optimized for both mobile phones, tablets, and desktop computers. Controls are designed to be intuitive—simply tap, swipe, or use your keyboard arrows. Developed by {game.developer}.
+			</p>
+			{game.instructions && (
+				<div class="mt-4 p-4 bg-gray-800/80 rounded-xl border border-gray-700">
+					<h3 class="text-white font-semibold mb-2">Game Controls & Tips</h3>
+					<p set:html={game.instructions}></p>
+				</div>
+			)}
+		</div>
 	</article>
 
 	<!-- AdSense Square / Native Banner (Bottom) -->
