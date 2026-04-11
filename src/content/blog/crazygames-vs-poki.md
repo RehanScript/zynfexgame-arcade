@@ -3,7 +3,7 @@ title: "CrazyGames vs Poki (Which is Better in 2026?) – Honest Comparison Guid
 description: "CrazyGames vs Poki – which is better for playing HTML5 games? Compare features, performance, game variety, and user experience in this detailed guide."
 publishDate: 2026-04-11
 author: "ZynfexGame Team"
-image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1170&auto=format&fit=crop"
+image: "https://i.ibb.co/8vYxP86/Black-Purple-Photo-Collage-Modern-Game-Youtube-Thumbnail.png"
 ---
 
 ## 🚀 Introduction
