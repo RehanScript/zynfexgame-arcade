@@ -24,7 +24,7 @@ const searchDB = games.map(g => ({ title: g.title, slug: g.slug, thumbnail: g.th
 <html lang="en" class="bg-[#242144] text-gray-100 antialiased font-sans">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="canonical" href={canonicalURL} />
 		<meta name="generator" content={Astro.generator} />
@@ -109,7 +109,7 @@ const searchDB = games.map(g => ({ title: g.title, slug: g.slug, thumbnail: g.th
 		<header class="w-full h-16 bg-[#16132b] shadow-xl flex items-center justify-between px-4 lg:px-8 border-b border-[#2d2856] fixed top-0 left-0 z-50">
 			<div class="flex items-center gap-6">
 				<!-- Menu Icon -->
-				<button id="menu-btn" class="text-gray-400 hover:text-white transition focus:outline-none">
+				<button id="menu-btn" aria-label="Open navigation menu" class="text-gray-400 hover:text-white transition focus:outline-none">
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
 				</button>
 				<!-- Brand -->
@@ -149,7 +149,7 @@ const searchDB = games.map(g => ({ title: g.title, slug: g.slug, thumbnail: g.th
 		<!-- Global Footer -->
 		<footer class="w-full bg-[#0d0b1a] border-t border-[#2d2856] py-10 mt-auto hidden md:block">
 			<div class="max-w-[1400px] mx-auto px-4 md:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
-				<div class="text-gray-500 font-medium text-sm flex items-center gap-2">
+				<div class="text-gray-400 font-medium text-sm flex items-center gap-2">
 					<span>⚡ ZynfexGame &copy; {new Date().getFullYear()}</span>
 				</div>
 				<div class="flex flex-wrap items-center gap-4 md:gap-6 justify-center">
@@ -166,19 +166,19 @@ const searchDB = games.map(g => ({ title: g.title, slug: g.slug, thumbnail: g.th
 		<!-- Mobile Bottom Navigation -->
 		<nav class="fixed bottom-0 left-0 w-full h-16 bg-[#16132b] border-t border-[#2d2856] z-50 flex items-center justify-around md:hidden px-2 pb-safe shadow-2xl">
 			<a href="/" class="flex flex-col items-center gap-1 text-indigo-400">
-				<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+				<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" aria-hidden="true" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 				  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
 				</svg>
 				<span class="text-xs font-bold">Home</span>
 			</a>
-			<a href="/categories" class="flex flex-col items-center gap-1 text-gray-500 hover:text-gray-300">
-				<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+			<a href="/categories" class="flex flex-col items-center gap-1 text-gray-400 hover:text-gray-300">
+				<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" aria-hidden="true" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 				  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
 				</svg>
 				<span class="text-xs font-bold">Categories</span>
 			</a>
-			<a href="/blog" class="flex flex-col items-center gap-1 text-gray-500 hover:text-gray-300">
-				<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+			<a href="/blog" class="flex flex-col items-center gap-1 text-gray-400 hover:text-gray-300">
+				<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" aria-hidden="true" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 				  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9.5z" />
 				</svg>
 				<span class="text-xs font-bold">News</span>
