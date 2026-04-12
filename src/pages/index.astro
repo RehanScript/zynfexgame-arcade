@@ -16,7 +16,7 @@ const INITIAL_LOAD_COUNT = 40;
 	<div class="flex flex-col gap-8">
 		
 		<!-- Ad Placeholder: Top Header AdSense Banner -->
-		<div class="w-full h-[90px] max-w-[728px] mx-auto bg-[#0d0b1a] rounded-lg border border-dashed border-[#2d2856] flex items-center justify-center text-gray-600 text-sm font-bold">
+		<div class="w-full h-[90px] max-w-[728px] mx-auto bg-[#0d0b1a] rounded-lg border border-dashed border-[#2d2856] flex items-center justify-center text-gray-400 text-sm font-bold">
 			Advertisement Placeholder
 		</div>
 
@@ -49,7 +49,7 @@ const INITIAL_LOAD_COUNT = 40;
 						<>
 							{/* Randomly inject an in-feed ad placeholder every 14 games, applying the same visibility rules */}
 							{index > 0 && index % 14 === 0 && (
-								<div class={`col-span-3 sm:col-span-4 lg:col-span-7 xl:col-span-8 w-full h-[100px] bg-[#0d0b1a] rounded-lg border border-dashed border-[#2d2856] flex items-center justify-center text-gray-600 text-sm font-bold my-4 ${classVisibility}`}>
+								<div class={`col-span-3 sm:col-span-4 lg:col-span-7 xl:col-span-8 w-full h-[100px] bg-[#0d0b1a] rounded-lg border border-dashed border-[#2d2856] flex items-center justify-center text-gray-400 text-sm font-bold my-4 ${classVisibility}`}>
 									AdSense In-Feed Ad Placeholder
 								</div>
 							)}
