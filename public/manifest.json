@@ -1,0 +1,29 @@
+{
+  "name": "ZynfexGame Arcade",
+  "short_name": "ZynfexGame",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1c1938",
+  "theme_color": "#16132b",
+  "description": "Play thousands of free HTML5 arcade games directly in your browser without any installation.",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/maskable-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

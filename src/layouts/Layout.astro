@@ -26,6 +26,18 @@ const searchDB = games.map(g => ({ title: g.title, slug: g.slug, thumbnail: g.th
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		
+		<!-- PWA Configuration -->
+		<link rel="manifest" href="/manifest.json" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<meta name="theme-color" content="#16132b" />
+		<script is:inline>
+			if ('serviceWorker' in navigator) {
+				window.addEventListener('load', () => {
+					navigator.serviceWorker.register('/sw.js').catch((err) => console.error('PWA SW error:', err));
+				});
+			}
+		</script>
 		<link rel="canonical" href={canonicalURL} />
 		<meta name="generator" content={Astro.generator} />
 		
