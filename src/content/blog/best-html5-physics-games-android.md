@@ -3,7 +3,7 @@ title: "Best HTML5 Physics Games for Low-End Android (2026) – Smooth, Addictiv
 description: "Discover the best HTML5 physics games for low-end Android devices in 2026. Play smooth, lightweight browser games without downloads."
 publishDate: 2026-04-12
 author: "ZynfexGame Team"
-image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop"
+image: "https://i.ibb.co/20wZBxfk/Gemini-Generated-Image-erh16xerh16xerh1.png"
 ---
 
 If you’re using a budget Android phone, you already know the struggle—most games lag, crash, or just refuse to run. But here’s the good news: you don’t need a high-end device to enjoy fun, engaging games.
@@ -290,7 +290,7 @@ No installs. No stress. Just fun.
     "@type": "WebPage",
     "@id": "https://zynfexgame.me/blog/best-html5-physics-games-android"
   },
-  "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop"
+  "image": "https://i.ibb.co/20wZBxfk/Gemini-Generated-Image-erh16xerh16xerh1.png"
 }
 </script>
 
