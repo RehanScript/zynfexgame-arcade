@@ -54,7 +54,7 @@ const INITIAL_LOAD_COUNT = 40;
 								</div>
 							)}
 							<div class={classVisibility}>
-								<GameCard title={game.title} slug={game.slug} category={game.category} thumbnail={game.thumbnail} />
+								<GameCard title={game.title} slug={game.slug} category={game.category} thumbnail={game.thumbnail} lazy={index >= 10} />
 							</div>
 						</>
 					)

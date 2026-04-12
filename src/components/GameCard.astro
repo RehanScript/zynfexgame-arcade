@@ -4,13 +4,19 @@ export interface Props {
 	slug: string;
 	thumbnail: string;
 	category: string;
+	lazy?: boolean;
 }
 
-const { title, slug, thumbnail, category } = Astro.props;
+const { title, slug, thumbnail, category, lazy = true } = Astro.props;
+
+let optThumbnail = thumbnail;
+if(optThumbnail.includes("unsplash.com")) {
+	optThumbnail = optThumbnail.replace('w=600', 'w=250').replace('q=80', 'q=60');
+}
 ---
 
 <a href={`/games/${slug}`} class="group relative block w-full aspect-square bg-[#1b1736] rounded-xl overflow-hidden shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all focus:ring-4 focus:ring-indigo-500 border border-[#2d2856]">
-	<img loading="lazy" src={thumbnail} class="absolute inset-0 w-full h-full object-cover" alt={`${title}`} />
+	<img loading={lazy ? "lazy" : "eager"} fetchpriority={lazy ? "auto" : "high"} src={optThumbnail} class="absolute inset-0 w-full h-full object-cover" alt={`${title}`} width="250" height="250" />
 	<!-- Gradient overly ONLY on hover for cleaner look like Poki -->
 	<div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
 	

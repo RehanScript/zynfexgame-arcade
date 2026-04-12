@@ -45,17 +45,40 @@ const searchDB = games.map(g => ({ title: g.title, slug: g.slug, thumbnail: g.th
 		<meta property="twitter:description" content={description} />
 		<meta property="twitter:image" content={new URL(image, canonicalURL)} />
 
-		<!-- Google AdSense -->
-		<script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5819074111802633" crossorigin="anonymous"></script>
-
-		<!-- Google Analytics 4 (gtag.js) -->
-		<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-YE82JXSRWN"></script>
+		<!-- Deferred execution for unoptimized heavy 3rd party scripts -->
 		<script is:inline>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
+			let thirdPartyLoaded = false;
+			const loadThirdPartyScripts = () => {
+				if (thirdPartyLoaded) return;
+				thirdPartyLoaded = true;
 
-		  gtag('config', 'G-YE82JXSRWN');
+				// Google Analytics 4
+				const gaScript = document.createElement('script');
+				gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-YE82JXSRWN";
+				gaScript.async = true;
+				document.head.appendChild(gaScript);
+
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('config', 'G-YE82JXSRWN');
+
+				// Google AdSense
+				const adScript = document.createElement('script');
+				adScript.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5819074111802633";
+				adScript.crossOrigin = 'anonymous';
+				adScript.async = true;
+				document.head.appendChild(adScript);
+			};
+
+			// Load instantly when user begins interacting with the page
+			const interactEvents = ['scroll', 'mousemove', 'touchstart', 'click', 'keydown'];
+			interactEvents.forEach(evt => {
+				window.addEventListener(evt, loadThirdPartyScripts, { once: true, passive: true });
+			});
+
+			// Fallback: If no interaction, load anyway after a short grace period (4 seconds)
+			setTimeout(loadThirdPartyScripts, 4000);
 		</script>
 	</head>
 	<body class="flex flex-col min-h-screen bg-[#1c1938] text-gray-200 overflow-x-hidden relative">
