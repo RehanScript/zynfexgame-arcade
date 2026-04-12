@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doodle Jump</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <style>
+        /* Force iframe reset */
+        body { background: transparent !important; min-height: unset !important; }
+        .game-main, .related-games { display: none !important; }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-canvas-wrapper">
+            <canvas id="board" role="img" aria-label="Doodle Jump Game Canvas"></canvas>
+        </div>
+        <div class="game-controls">
+            <button id="playButton" class="play-btn">Play Now</button>
+            <button id="pauseButton" class="pause-btn">Pause</button>
+            <button id="soundToggle" class="sound-btn">Sound</button>
+        </div>
+    </div>
+</body>
+</html>

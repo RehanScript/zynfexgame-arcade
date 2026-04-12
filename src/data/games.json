@@ -1,12 +1,32 @@
 [
     {
+        "slug": "witchcat",
+        "title": "Witchcat",
+        "category": "Puzzle",
+        "thumbnail": "/hosted-games/witchcat/thumbnail.webp",
+        "iframe": "/hosted-games/witchcat/src/index.html",
+        "developer": "JS13kGames (Self-Hosted)",
+        "featured": true,
+        "instructions": "Navigate the witchcat through the puzzles!"
+    },
+    {
+        "slug": "doodle-jump",
+        "title": "Doodle Jump",
+        "category": "Action",
+        "thumbnail": "/hosted-games/doodle-jump/thumbnail.webp",
+        "iframe": "/hosted-games/doodle-jump/index.html",
+        "developer": "RSK World (Self-Hosted)",
+        "featured": true,
+        "instructions": "Jump up the platforms! Use the left and right arrow keys to move. Avoid falling."
+    },
+    {
         "slug": "space-invaders",
         "title": "Space Invaders 3D",
         "category": "Action",
         "thumbnail": "/hosted-games/space-invaders/assets/images/gameplay-opt.webp",
         "iframe": "/hosted-games/space-invaders/index.html",
         "developer": "ZynfexGame Arcade (Self-Hosted)",
-        "featured": true,
+        "featured": false,
         "instructions": "Navigate your spaceship using the <strong>Arrow Keys</strong> or <strong>WASD</strong>. Press <strong>Spacebar</strong> to shoot aliens! Defeat boss waves to progress and grab glowing power-ups to upgrade your multi-shot lasers."
     },
     {
