@@ -4,7 +4,7 @@
         "title": "Witchcat",
         "category": "Puzzle",
         "thumbnail": "/hosted-games/witchcat/thumbnail.webp",
-        "iframe": "/hosted-games/witchcat/src/index.html",
+        "iframe": "/hosted-games/witchcat/dist/index.html",
         "developer": "JS13kGames (Self-Hosted)",
         "featured": true,
         "instructions": "Navigate the witchcat through the puzzles!"
