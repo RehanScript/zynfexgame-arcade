@@ -1,5 +1,15 @@
 [
     {
+        "slug": "build-royale",
+        "title": "BuildRoyale.io",
+        "category": "Action",
+        "thumbnail": "/hosted-games/build-royale-thumb.webp",
+        "iframe": "https://buildroyale.io/",
+        "developer": "BuildRoyale Team",
+        "featured": true,
+        "instructions": "Jump into the battle! <strong>WASD</strong> to move, 1-6 keys to switch weapons. <strong>Mouse</strong> to aim/shoot. <strong>E</strong> to interact/pick up items. <strong>Q</strong> to enter build mode. Survival of the fittest!"
+    },
+    {
         "slug": "shell-shockers",
         "title": "Shell Shockers",
         "category": "Action",
