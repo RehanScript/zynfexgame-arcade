@@ -235,7 +235,7 @@ Might just be the one you haven’t discovered yet.
 
 ---
 
-🎮 Stay updated, play smart, and don’t miss out on free gaming opportunities.
+🎮 Stay updated, play smart, and don’t miss out on free gaming opportunities. Looking for more big PlayStation news? Check out our deep dive into the [Uncharted 5 Release Date & Leaks](/blog/uncharted-5).
 
 <script type="application/ld+json">
 {
