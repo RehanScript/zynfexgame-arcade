@@ -39,7 +39,8 @@ const { game } = Astro.props;
 				src={game.iframe}
 				class="w-full h-full border-0 bg-black"
 				title={game.title}
-				allow="autoplay; fullscreen; focus"
+				allow="autoplay; fullscreen; focus; pointer-lock"
+				referrerpolicy="no-referrer"
 				loading="lazy">
 			</iframe>
 		</div>
@@ -125,5 +126,22 @@ const { game } = Astro.props;
 				toast.classList.add('translate-y-[150%]', 'opacity-0', 'pointer-events-none');
 			});
 		}
+
+		// Prevent spacebar & arrow keys from scrolling the page while gaming
+		const gameKeys = ['Space', 'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'];
+		const gameContainer = document.getElementById('game-container');
+
+		window.addEventListener('keydown', (e) => {
+			if (gameKeys.includes(e.code)) {
+				// Only block if the game container is visible in the viewport
+				if (gameContainer) {
+					const rect = gameContainer.getBoundingClientRect();
+					const inView = rect.top < window.innerHeight && rect.bottom > 0;
+					if (inView) {
+						e.preventDefault();
+					}
+				}
+			}
+		}, { passive: false });
 	});
 </script>
