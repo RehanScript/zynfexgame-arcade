@@ -14,7 +14,7 @@
         "title": "Space Waves (Official)",
         "category": "Arcade",
         "thumbnail": "/hosted-games/space-waves-io-thumb.webp",
-        "iframe": "https://spacewaves.io/",
+        "iframe": "https://spacewavesgame.io/",
         "developer": "Space Waves Team",
         "featured": true,
         "instructions": "Navigate through dangerous tunnels! <strong>Click or Space</strong> to move up, release to move down. Avoid obstacles and spikes at all costs. Precision is key!"
@@ -28,16 +28,6 @@
         "developer": "Freeplay Inc",
         "featured": true,
         "instructions": "Lead your crowd to victory! <strong>Slide Mouse/Finger</strong> to move. Pass through gates to multiply your followers. Crash into rivals and take down the final boss!"
-    },
-    {
-        "slug": "space-waves-arcade",
-        "title": "Space Waves Arcade",
-        "category": "Arcade",
-        "thumbnail": "/hosted-games/space-waves-arcade-thumb.webp",
-        "iframe": "https://www.crazygames.com/embed/space-waves",
-        "developer": "CrazyGames Arcade",
-        "featured": false,
-        "instructions": "Test your reflexes in this rhythm-based geometry challenge! <strong>Tap or Click</strong> to jump/change height. Stay in the zone and don't touch anything sharp."
     },
     {
         "slug": "doodle-road",
@@ -57,7 +47,7 @@
         "iframe": "https://buildroyale.io/",
         "developer": "BuildRoyale Team",
         "featured": true,
-        "instructions": "Jump into the battle! <strong>WASD</strong> to move, 1-6 keys to switch weapons. <strong>Mouse</strong> to aim/shoot. <strong>E</strong> to interact/pick up items. <strong>Q</strong> to enter build mode. Survival of the fittest!"
+        "instructions": "Jump into the battle! <strong>WASD to move</strong>, 1-6 keys to switch weapons. <strong>Mouse</strong> to aim/shoot. <strong>E</strong> to interact/pick up items. <strong>Q</strong> to enter build mode. Survival of the fittest!"
     },
     {
         "slug": "shell-shockers",
