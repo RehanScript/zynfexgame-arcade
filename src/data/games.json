@@ -4,7 +4,7 @@
         "title": "Shell Shockers",
         "category": "Action",
         "thumbnail": "/hosted-games/shell-shockers-thumb.webp",
-        "iframe": "https://shellshock.io",
+        "iframe": "https://shellshock.io/",
         "developer": "Blue Wizard Digital",
         "featured": true,
         "instructions": "Use <strong>WASD</strong> to move and <strong>Mouse</strong> to aim and shoot. Press <strong>E</strong> to switch weapons, <strong>R</strong> to reload, and <strong>Space</strong> to jump. Crack your enemies before they crack you!"

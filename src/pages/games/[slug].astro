@@ -39,9 +39,8 @@ const { game } = Astro.props;
 				src={game.iframe}
 				class="w-full h-full border-0 bg-black"
 				title={game.title}
-				allow="autoplay; fullscreen; focus; pointer-lock"
-				referrerpolicy="no-referrer"
-				loading="lazy">
+				allow="autoplay; fullscreen; focus; pointer-lock; microphone; clipboard-write"
+				loading="eager">
 			</iframe>
 		</div>
 		
