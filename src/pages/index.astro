@@ -5,24 +5,54 @@ import games from '../data/games.json';
 
 // Simple deduplication for categories to build the top carousel
 const categorySet = new Set(games.map(g => g.category));
-const uniqueCategories = Array.from(categorySet).slice(0, 8); // Top 8 categories
+const uniqueCategories = Array.from(categorySet).slice(0, 8); 
 
-// Trending games = render all games but hide everything after the first 40 using client logic
+// Filter mobile-friendly games for the new section
+const mobileGames = games.filter(g => g.mobileFriendly).slice(0, 12);
+
+// Editor's Picks (Curated sections)
+const strategistGames = games.filter(g => g.category === 'Strategy' || g.category === 'Puzzle').slice(0, 4);
+const actionGames = games.filter(g => g.category === 'Action' || g.category === 'Arcade').slice(0, 4);
+
+// Trending games pagination logic
 const trendingGames = games;
 const INITIAL_LOAD_COUNT = 40;
 ---
 
-<Layout title="ZynfexGame | Play HTML5 Online Games Free">
-	<div class="flex flex-col gap-8">
+<Layout title="ZynfexGame | Play HTML5 Online Games Free - No Downloads">
+	<div class="flex flex-col gap-10 md:gap-16">
 		
 		<!-- Ad Placeholder: Top Header AdSense Banner -->
-		<div class="w-full h-[90px] max-w-[728px] mx-auto bg-[#0d0b1a] rounded-lg border border-dashed border-[#2d2856] flex items-center justify-center text-gray-400 text-sm font-bold">
+		<div class="w-full h-[90px] max-w-[728px] mx-auto bg-[#0d0b1a] rounded-lg border border-dashed border-[#2d2856] flex items-center justify-center text-gray-500 text-sm font-bold shadow-inner">
 			Advertisement Placeholder
 		</div>
 
-		<!-- Category Horizontal Scroller (Like GameZap "Cool Categories") -->
+		<!-- Mobile Friendly Section (High Visibility) -->
+		<section class="relative">
+			<div class="flex justify-between items-center mb-6">
+				<h2 class="text-xl md:text-2xl font-black flex items-center gap-2 text-white">
+					<span class="bg-indigo-600 p-1.5 rounded-lg">📱</span> Mobile Friendly Games
+				</h2>
+				<a href="/categories/mobile-friendly" class="text-xs font-bold text-indigo-400 hover:text-indigo-300 transition-colors uppercase tracking-widest">See All</a>
+			</div>
+			<div class="flex overflow-x-auto pb-4 gap-4 no-scrollbar -mx-1 px-1">
+				{mobileGames.map(game => (
+					<div class="flex-shrink-0 w-32 sm:w-40 md:w-48">
+						<GameCard 
+							title={game.title} 
+							slug={game.slug} 
+							category={game.category} 
+							thumbnail={game.thumbnail} 
+							mobileFriendly={game.mobileFriendly}
+						/>
+					</div>
+				))}
+			</div>
+		</section>
+
+		<!-- Category Horizontal Scroller -->
 		<section>
-			<h2 class="text-lg md:text-xl font-extrabold flex items-center gap-2 mb-4">
+			<h2 class="text-lg md:text-xl font-extrabold flex items-center gap-2 mb-6 text-gray-300">
 				<span class="text-orange-400">🔥</span> Cool Categories
 			</h2>
 			<div class="flex overflow-x-auto pb-4 gap-3 md:gap-4 no-scrollbar">
@@ -34,68 +64,147 @@ const INITIAL_LOAD_COUNT = 40;
 			</div>
 		</section>
 
-		<!-- Dense Trending Games Grid -->
+		<!-- Main Trending Games Grid -->
 		<section>
-			<h2 class="text-lg md:text-xl font-extrabold flex items-center gap-2 mb-4 text-[#aab3e6]">
-				Trending Games <span class="text-sm font-normal text-gray-400">- Play fresh online games picked for you!</span>
+			<h2 class="text-xl md:text-2xl font-black flex items-center gap-3 mb-8 text-white border-l-4 border-indigo-500 pl-4">
+				Trending Games
+				<span class="text-xs md:text-sm font-medium text-gray-500 bg-gray-800/50 px-3 py-1 rounded-full whitespace-nowrap">Play fresh online games picked for you!</span>
 			</h2>
 			
-			<div class="grid grid-cols-3 min-[400px]:grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-2 sm:gap-3 md:gap-4 pb-4">
+			<div class="grid grid-cols-3 min-[400px]:grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-3 sm:gap-4 pb-4">
 				{trendingGames.map((game, index) => {
-					// Add a client-hide class to any game beyond the initial load count
 					const classVisibility = index >= INITIAL_LOAD_COUNT ? 'hidden js-game-wrapper' : 'js-game-wrapper';
 					
 					return (
 						<>
-							{/* Randomly inject an in-feed ad placeholder every 14 games, applying the same visibility rules */}
-							{index > 0 && index % 14 === 0 && (
-								<div class={`col-span-3 sm:col-span-4 lg:col-span-7 xl:col-span-8 w-full h-[100px] bg-[#0d0b1a] rounded-lg border border-dashed border-[#2d2856] flex items-center justify-center text-gray-400 text-sm font-bold my-4 ${classVisibility}`}>
-									AdSense In-Feed Ad Placeholder
+							{index > 0 && index % 21 === 0 && (
+								<div class={`col-span-full w-full h-[120px] bg-[#0d0b1a] rounded-2xl border border-dashed border-[#2d2856] flex items-center justify-center text-gray-600 text-sm font-bold my-6 shadow-sm ${classVisibility}`}>
+									Mid-Feed Advertisement
 								</div>
 							)}
 							<div class={classVisibility}>
-								<GameCard title={game.title} slug={game.slug} category={game.category} thumbnail={game.thumbnail} lazy={index >= 10} />
+								<GameCard 
+									title={game.title} 
+									slug={game.slug} 
+									category={game.category} 
+									thumbnail={game.thumbnail} 
+									mobileFriendly={game.mobileFriendly} 
+									lazy={index >= 12} 
+								/>
 							</div>
 						</>
 					)
 				})}
 			</div>
+
+			<!-- Load More Footer -->
+			<div class="mt-12 flex justify-center">
+				<button id="load-more-btn" class="bg-indigo-600 hover:bg-indigo-500 text-white font-black py-4 px-12 rounded-2xl transition-all shadow-2xl hover:shadow-indigo-500/20 active:scale-95 text-sm uppercase tracking-widest flex items-center gap-3">
+					<span>Load More Games</span>
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7" /></svg>
+				</button>
+			</div>
 		</section>
-		
-		<!-- Infinite Scroll / Load More Footer -->
-		<section class="opacity-80 pb-10 flex justify-center">
-			<button id="load-more-btn" class="bg-[#2d2856] hover:bg-[#3b346e] text-white font-bold py-3 px-10 rounded-full transition-colors text-sm uppercase tracking-widest shadow-xl">
-				Load More Games
-			</button>
+
+		<!-- Why Players Choose Section (Gamezop inspired) -->
+		<section class="bg-[#0f0c24] rounded-3xl p-8 md:p-12 border border-[#231f47] shadow-2xl">
+			<div class="max-w-4xl mx-auto">
+				<h2 class="text-2xl md:text-3xl font-black text-white mb-4 text-center">Play Free Online Games Instantly on ZynfexGame</h2>
+				<p class="text-gray-400 text-center mb-12 leading-relaxed">Enjoy hundreds of free online games on ZynfexGame that load instantly in your browser. Skip app store downloads and endless installs—just tap and start playing anytime, anywhere.</p>
+				
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+					<div>
+						<h3 class="text-xl font-bold text-indigo-400 mb-6 flex items-center gap-2">
+							<span class="w-2 h-6 bg-indigo-500 rounded-full"></span>
+							Why Players Choose ZynfexGame?
+						</h3>
+						<ul class="space-y-4">
+							{[
+								{t: "Curated Library", d: "Every game is hand-picked for fun and replay value."},
+								{t: "Instant Access", d: "No downloads, patches, or updates required."},
+								{t: "Zero Storage Usage", d: "All games run directly in your browser."},
+								{t: "Secure & Family-Friendly", d: "Privacy-focused and safe for all ages."},
+								{t: "Cross-Device Tested", d: "Seamless play on phones, tablets, and desktops."}
+							].map(item => (
+								<li class="flex gap-3">
+									<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" /></svg>
+									<div>
+										<span class="text-white font-bold block leading-none mb-1">{item.t}</span>
+										<span class="text-gray-500 text-sm leading-tight">{item.d}</span>
+									</div>
+								</li>
+							))}
+						</ul>
+					</div>
+
+					<!-- Editor's Picks -->
+					<div>
+						<h3 class="text-xl font-bold text-indigo-400 mb-6 flex items-center gap-2">
+							<span class="w-2 h-6 bg-indigo-500 rounded-full"></span>
+							Editor’s Picks
+						</h3>
+						<div class="space-y-6">
+							<div>
+								<h4 class="text-sm font-black text-gray-500 uppercase tracking-widest mb-3">Strategists & Thinkers</h4>
+								<div class="flex flex-wrap gap-2">
+									{strategistGames.map(game => (
+										<a href={`/games/${game.slug}`} class="bg-[#1b1736] hover:bg-[#25204d] text-gray-300 hover:text-white px-3 py-1.5 rounded-lg text-xs font-bold transition-colors border border-gray-800">{game.title}</a>
+									))}
+								</div>
+							</div>
+							<div>
+								<h4 class="text-sm font-black text-gray-500 uppercase tracking-widest mb-3">Action & Thrill Seekers</h4>
+								<div class="flex flex-wrap gap-2">
+									{actionGames.map(game => (
+										<a href={`/games/${game.slug}`} class="bg-[#1b1736] hover:bg-[#25204d] text-gray-300 hover:text-white px-3 py-1.5 rounded-lg text-xs font-bold transition-colors border border-gray-800">{game.title}</a>
+									))}
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
+
+		<!-- SEO FAQ Section -->
+		<section class="max-w-3xl mx-auto w-full pb-20">
+			<h2 class="text-2xl font-black text-white mb-8 border-b border-gray-800 pb-4">Frequently Asked Questions</h2>
+			<div class="space-y-4">
+				{[
+					{q: "What are the best free games on ZynfexGame?", a: "Some of our featured and community-favorite titles include Smash Karts, Shell Shockers, and Count Masters. We curate our library to ensure only high-quality games are provided."},
+					{q: "Which games can I play online on my phone?", a: "Most of our games are mobile-optimized! Look for the 📱 badge on game cards. Titles like Splix.io, Karate Bros, and Doodle Jump work perfectly on mobile browsers."},
+					{q: "Can I play free games without installing anything?", a: "Yes. All ZynfexGame titles run directly inside your browser (Chrome, Safari, Edge, or Brave), so there are no downloads or installations required."},
+					{q: "Do I need to register to play?", a: "No registration or sign-up is needed. Just open any game and start playing instantly with zero friction."},
+					{q: "Is ZynfexGame safe to use?", a: "Yes. Browser-based gameplay eliminates download-related risks. We follow strict security best practices to protect your privacy and device safety."}
+				].map((faq, i) => (
+					<details class="group bg-[#0f0c24] rounded-2xl border border-[#231f47] overflow-hidden" open={i===0}>
+						<summary class="font-bold text-white p-5 cursor-pointer list-none flex justify-between items-center group-open:bg-indigo-600/10 transition-colors">
+							<span>{faq.q}</span>
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-indigo-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+						</summary>
+						<div class="p-5 text-gray-400 text-sm leading-relaxed border-t border-[#231f47]">
+							{faq.a}
+						</div>
+					</details>
+				))}
+			</div>
+		</section>
+
 	</div>
 
 	<!-- Client Side Pagination Script -->
 	<script is:inline>
 		document.addEventListener("DOMContentLoaded", () => {
 			const loadMoreBtn = document.getElementById('load-more-btn');
-			
-			// Initial check: if there are no hidden items, hide the button immediately
 			let hiddenItems = document.querySelectorAll('.js-game-wrapper.hidden');
-			if (hiddenItems.length === 0 && loadMoreBtn) {
-				loadMoreBtn.style.display = 'none';
-			}
+			if (hiddenItems.length === 0 && loadMoreBtn) loadMoreBtn.style.display = 'none';
 
 			if (loadMoreBtn) {
 				loadMoreBtn.addEventListener('click', () => {
-					// Grab all currently hidden wrappers
 					hiddenItems = document.querySelectorAll('.js-game-wrapper.hidden');
-					
-					// Reveal the next 40
 					const itemsToReveal = Array.from(hiddenItems).slice(0, 40);
-					itemsToReveal.forEach(item => {
-						item.classList.remove('hidden');
-					});
-
-					// If we just revealed the last batch, hide the button
-					if (hiddenItems.length <= 40) {
-						loadMoreBtn.style.display = 'none';
-					}
+					itemsToReveal.forEach(item => item.classList.remove('hidden'));
+					if (hiddenItems.length <= 40) loadMoreBtn.style.display = 'none';
 				});
 			}
 		});
@@ -103,13 +212,6 @@ const INITIAL_LOAD_COUNT = 40;
 </Layout>
 
 <style>
-/* Hide scrollbar for Chrome, Safari and Opera */
-.no-scrollbar::-webkit-scrollbar {
-    display: none;
-}
-/* Hide scrollbar for IE, Edge and Firefox */
-.no-scrollbar {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-}
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 </style>

@@ -1,5 +1,60 @@
 [
     {
+        "slug": "deadshot-io",
+        "title": "Deadshot.io",
+        "category": "Action",
+        "thumbnail": "/hosted-games/deadshot-io-thumb.webp",
+        "iframe": "https://deadshot.io/",
+        "developer": "Deadshot Team",
+        "featured": true,
+        "mobileFriendly": false,
+        "instructions": "High-octane browser FPS! <strong>WASD</strong> to move, <strong>Mouse</strong> to aim and shoot. <strong>Space</strong> to jump, <strong>Shift</strong> to sprint. <strong>R</strong> to reload. Aim for the head!"
+    },
+    {
+        "slug": "splix-io",
+        "title": "Splix.io",
+        "category": "Arcade",
+        "thumbnail": "/hosted-games/splix-io-thumb.webp",
+        "iframe": "https://splix.io/",
+        "developer": "Jesper the End",
+        "featured": true,
+        "mobileFriendly": true,
+        "instructions": "Expand your territory! <strong>Arrow Keys or Swipe</strong> to move. Surround a block of area to capture it and add it to your zone. Don't let others hit your trail!"
+    },
+    {
+        "slug": "lordz-io",
+        "title": "Lordz.io",
+        "category": "Strategy",
+        "thumbnail": "/hosted-games/lordz-io-thumb.webp",
+        "iframe": "https://lordz.io/",
+        "developer": "Spinbot Studio",
+        "featured": true,
+        "mobileFriendly": true,
+        "instructions": "Assemble the biggest army! <strong>Mouse or Touch</strong> to move. Collect gold to buy soldiers. Build houses for population and towers for defense. Split with <strong>Space</strong>."
+    },
+    {
+        "slug": "karatebros-io",
+        "title": "Karate Bros",
+        "category": "Action",
+        "thumbnail": "/hosted-games/karatebros-io-thumb.webp",
+        "iframe": "https://karatebros.io/",
+        "developer": "KarateBros Team",
+        "featured": true,
+        "mobileFriendly": true,
+        "instructions": "Fast-paced martial arts duels! <strong>WASD or Touch</strong> to move. Click or Tap to attack. Time your strikes and dodges to defeat opponents in the arena."
+    },
+    {
+        "slug": "starblast-io",
+        "title": "Starblast.io",
+        "category": "Action",
+        "thumbnail": "/hosted-games/starblast-io-thumb.webp",
+        "iframe": "https://starblast.io/",
+        "developer": "Neuronality",
+        "featured": true,
+        "mobileFriendly": true,
+        "instructions": "Intense space combat! <strong>Mouse or Touch</strong> to pilot your ship. Left-click or Tap to fire. Mine asteroids to upgrade your ship and survive against other players."
+    },
+    {
         "slug": "smash-karts",
         "title": "Smash Karts",
         "category": "Action",
@@ -7,6 +62,7 @@
         "iframe": "https://smashkarts.io/",
         "developer": "Tall Team",
         "featured": true,
+        "mobileFriendly": true,
         "instructions": "Battle it out in high-speed go-karts! <strong>WASD or Arrow Keys</strong> to drive. <strong>Spacebar</strong> to use weapons. Pick up boxes for power-ups and smash your rivals!"
     },
     {
@@ -17,6 +73,7 @@
         "iframe": "https://spacewavesgame.io/",
         "developer": "Space Waves Team",
         "featured": true,
+        "mobileFriendly": true,
         "instructions": "Navigate through dangerous tunnels! <strong>Click or Space</strong> to move up, release to move down. Avoid obstacles and spikes at all costs. Precision is key!"
     },
     {
@@ -27,6 +84,7 @@
         "iframe": "https://www.crazygames.com/embed/count-masters-stickman-games",
         "developer": "Freeplay Inc",
         "featured": true,
+        "mobileFriendly": true,
         "instructions": "Lead your crowd to victory! <strong>Slide Mouse/Finger</strong> to move. Pass through gates to multiply your followers. Crash into rivals and take down the final boss!"
     },
     {
@@ -37,6 +95,7 @@
         "iframe": "https://www.crazygames.com/embed/doodle-road",
         "developer": "Doodle Studio",
         "featured": true,
+        "mobileFriendly": true,
         "instructions": "Draw your way to the finish line! <strong>Click and Drag</strong> to draw roads, ramps, and bridges. Guide the car safely to the flag using your creativity and physics logic."
     },
     {
@@ -47,6 +106,7 @@
         "iframe": "https://buildroyale.io/",
         "developer": "BuildRoyale Team",
         "featured": true,
+        "mobileFriendly": true,
         "instructions": "Jump into the battle! <strong>WASD to move</strong>, 1-6 keys to switch weapons. <strong>Mouse</strong> to aim/shoot. <strong>E</strong> to interact/pick up items. <strong>Q</strong> to enter build mode. Survival of the fittest!"
     },
     {
@@ -57,6 +117,7 @@
         "iframe": "https://shellshock.io/",
         "developer": "Blue Wizard Digital",
         "featured": true,
+        "mobileFriendly": true,
         "instructions": "Use <strong>WASD</strong> to move and <strong>Mouse</strong> to aim and shoot. Press <strong>E</strong> to switch weapons, <strong>R</strong> to reload, and <strong>Space</strong> to jump. Crack your enemies before they crack you!"
     },
     {
@@ -67,6 +128,7 @@
         "iframe": "/hosted-games/witchcat/index.html",
         "developer": "JS13kGames (Self-Hosted)",
         "featured": true,
+        "mobileFriendly": true,
         "instructions": "Navigate the witchcat through the puzzles!"
     },
     {
@@ -77,6 +139,7 @@
         "iframe": "/hosted-games/doodle-jump/index.html",
         "developer": "RSK World (Self-Hosted)",
         "featured": true,
+        "mobileFriendly": true,
         "instructions": "Jump up the platforms! Use the left and right arrow keys to move. Avoid falling."
     },
     {
@@ -87,6 +150,7 @@
         "iframe": "/hosted-games/space-invaders/index.html",
         "developer": "ZynfexGame Arcade (Self-Hosted)",
         "featured": false,
+        "mobileFriendly": false,
         "instructions": "Navigate your spaceship using the <strong>Arrow Keys</strong> or <strong>WASD</strong>. Press <strong>Spacebar</strong> to shoot aliens! Defeat boss waves to progress and grab glowing power-ups to upgrade your multi-shot lasers."
     }
 ]

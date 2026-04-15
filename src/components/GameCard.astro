@@ -4,10 +4,11 @@ export interface Props {
 	slug: string;
 	thumbnail: string;
 	category: string;
+	mobileFriendly?: boolean;
 	lazy?: boolean;
 }
 
-const { title, slug, thumbnail, category, lazy = true } = Astro.props;
+const { title, slug, thumbnail, category, mobileFriendly = false, lazy = true } = Astro.props;
 
 let optThumbnail = thumbnail;
 if(optThumbnail.includes("unsplash.com")) {
@@ -17,6 +18,16 @@ if(optThumbnail.includes("unsplash.com")) {
 
 <a href={`/games/${slug}`} class="group relative block w-full aspect-square bg-[#1b1736] rounded-xl overflow-hidden shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all focus:ring-4 focus:ring-indigo-500 border border-[#2d2856]">
 	<img loading={lazy ? "lazy" : "eager"} fetchpriority={lazy ? "auto" : "high"} src={optThumbnail} class="absolute inset-0 w-full h-full object-cover" alt={`${title}`} width="250" height="250" />
+	
+	<!-- Mobile Badge -->
+	{mobileFriendly && (
+		<div class="absolute top-2 right-2 bg-black/60 backdrop-blur-md text-white p-1.5 rounded-lg z-20 shadow-lg border border-white/20" title="Mobile Friendly">
+			<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+			</svg>
+		</div>
+	)}
+
 	<!-- Gradient overly ONLY on hover for cleaner look like Poki -->
 	<div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
 	
