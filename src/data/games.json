@@ -3,154 +3,503 @@
         "slug": "deadshot-io",
         "title": "Deadshot.io",
         "category": "Action",
+        "tags": ["FPS", "Multiplayer", "Shooter", "Competitive"],
+        "rating": 4.6,
+        "votes": "5,120",
+        "views": "2.4M",
+        "released": "2024",
+        "technology": "WebGL / HTML5",
         "thumbnail": "/hosted-games/deadshot-io-thumb.webp",
         "iframe": "https://deadshot.io/",
         "developer": "Deadshot Team",
         "featured": true,
         "mobileFriendly": false,
-        "instructions": "High-octane browser FPS! <strong>WASD</strong> to move, <strong>Mouse</strong> to aim and shoot. <strong>Space</strong> to jump, <strong>Shift</strong> to sprint. <strong>R</strong> to reload. Aim for the head!"
-    },
-    {
-        "slug": "splix-io",
-        "title": "Splix.io",
-        "category": "Arcade",
-        "thumbnail": "/hosted-games/splix-io-thumb.webp",
-        "iframe": "https://splix.io/",
-        "developer": "Jesper the End",
-        "featured": true,
-        "mobileFriendly": true,
-        "instructions": "Expand your territory! <strong>Arrow Keys or Swipe</strong> to move. Surround a block of area to capture it and add it to your zone. Don't let others hit your trail!"
-    },
-    {
-        "slug": "lordz-io",
-        "title": "Lordz.io",
-        "category": "Strategy",
-        "thumbnail": "/hosted-games/lordz-io-thumb.webp",
-        "iframe": "https://lordz.io/",
-        "developer": "Spinbot Studio",
-        "featured": true,
-        "mobileFriendly": true,
-        "instructions": "Assemble the biggest army! <strong>Mouse or Touch</strong> to move. Collect gold to buy soldiers. Build houses for population and towers for defense. Split with <strong>Space</strong>."
-    },
-    {
-        "slug": "karatebros-io",
-        "title": "Karate Bros",
-        "category": "Action",
-        "thumbnail": "/hosted-games/karatebros-io-thumb.webp",
-        "iframe": "https://karatebros.io/",
-        "developer": "KarateBros Team",
-        "featured": true,
-        "mobileFriendly": true,
-        "instructions": "Fast-paced martial arts duels! <strong>WASD or Touch</strong> to move. Click or Tap to attack. Time your strikes and dodges to defeat opponents in the arena."
-    },
-    {
-        "slug": "starblast-io",
-        "title": "Starblast.io",
-        "category": "Action",
-        "thumbnail": "/hosted-games/starblast-io-thumb.webp",
-        "iframe": "https://starblast.io/",
-        "developer": "Neuronality",
-        "featured": true,
-        "mobileFriendly": true,
-        "instructions": "Intense space combat! <strong>Mouse or Touch</strong> to pilot your ship. Left-click or Tap to fire. Mine asteroids to upgrade your ship and survive against other players."
+        "description": "Deadshot.io is a fast-paced, competitive browser-based first-person shooter that brings high-quality tactical combat directly to your web browser with no download required.",
+        "mission": "Dominate the arena by eliminating opponents and securing the highest score in intense multiplayer matches.",
+        "strategies": [
+            "Keep moving to avoid being an easy target for snipers.",
+            "Use your credits to unlock faster and more accurate weapons.",
+            "Learn the map layouts to find strategic chokepoints and hiding spots.",
+            "Aim for headshots to maximize damage and conserve ammo."
+        ],
+        "controls": {
+            "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim & Shoot | <strong>Space</strong>: Jump | <strong>Shift</strong>: Sprint | <strong>R</strong>: Reload",
+            "mobile": "Standard mobile controls are currently limited. Recommended for Desktop."
+        },
+        "proTips": [
+            "Master the 'Slide-Jump' to clear open areas quickly.",
+            "Listen for enemy footsteps to anticipate their movement around corners."
+        ],
+        "faq": [
+            { "q": "Is Deadshot.io free to play?", "a": "Yes, it is completely free to play directly in your browser." },
+            { "q": "Can I play Deadshot.io on a school Chromebook?", "a": "Yes, it is an unblocked browser game that runs smoothly on most web-enabled devices." }
+        ]
     },
     {
         "slug": "smash-karts",
         "title": "Smash Karts",
         "category": "Action",
+        "tags": ["Racing", "Battle", "Multiplayer", "Kart"],
+        "rating": 4.8,
+        "votes": "12,450",
+        "views": "8.1M",
+        "released": "2023",
+        "technology": "HTML5",
         "thumbnail": "/hosted-games/smash-karts-thumb.webp",
         "iframe": "https://smashkarts.io/",
         "developer": "Tall Team",
         "featured": true,
         "mobileFriendly": true,
-        "instructions": "Battle it out in high-speed go-karts! <strong>WASD or Arrow Keys</strong> to drive. <strong>Spacebar</strong> to use weapons. Pick up boxes for power-ups and smash your rivals!"
-    },
-    {
-        "slug": "space-waves-io",
-        "title": "Space Waves (Official)",
-        "category": "Arcade",
-        "thumbnail": "/hosted-games/space-waves-io-thumb.webp",
-        "iframe": "https://spacewavesgame.io/",
-        "developer": "Space Waves Team",
-        "featured": true,
-        "mobileFriendly": true,
-        "instructions": "Navigate through dangerous tunnels! <strong>Click or Space</strong> to move up, release to move down. Avoid obstacles and spikes at all costs. Precision is key!"
-    },
-    {
-        "slug": "count-masters",
-        "title": "Count Masters",
-        "category": "Casual",
-        "thumbnail": "/hosted-games/count-masters-thumb.webp",
-        "iframe": "https://www.crazygames.com/embed/count-masters-stickman-games",
-        "developer": "Freeplay Inc",
-        "featured": true,
-        "mobileFriendly": true,
-        "instructions": "Lead your crowd to victory! <strong>Slide Mouse/Finger</strong> to move. Pass through gates to multiply your followers. Crash into rivals and take down the final boss!"
-    },
-    {
-        "slug": "doodle-road",
-        "title": "Doodle Road",
-        "category": "Puzzle",
-        "thumbnail": "/hosted-games/doodle-road-thumb.webp",
-        "iframe": "https://www.crazygames.com/embed/doodle-road",
-        "developer": "Doodle Studio",
-        "featured": true,
-        "mobileFriendly": true,
-        "instructions": "Draw your way to the finish line! <strong>Click and Drag</strong> to draw roads, ramps, and bridges. Guide the car safely to the flag using your creativity and physics logic."
-    },
-    {
-        "slug": "build-royale",
-        "title": "BuildRoyale.io",
-        "category": "Action",
-        "thumbnail": "/hosted-games/build-royale-thumb.webp",
-        "iframe": "https://buildroyale.io/",
-        "developer": "BuildRoyale Team",
-        "featured": true,
-        "mobileFriendly": true,
-        "instructions": "Jump into the battle! <strong>WASD to move</strong>, 1-6 keys to switch weapons. <strong>Mouse</strong> to aim/shoot. <strong>E</strong> to interact/pick up items. <strong>Q</strong> to enter build mode. Survival of the fittest!"
+        "description": "Smash Karts is a 3D multiplayer kart battle game. Drive your kart, pick up weapons, and blow up other karts to win the round!",
+        "mission": "Survive the chaos and eliminate as many rivals as possible in a 3-minute deathmatch arena.",
+        "strategies": [
+            "Always stay near weapon boxes to ensure you're never unarmed.",
+            "Use the drift mechanic to make sharp turns and dodge incoming missiles.",
+            "The Machine Gun is effective at close range, while Rockets are best for distant targets.",
+            "Keep an eye on the mini-map to see where enemies are grouping up."
+        ],
+        "controls": {
+            "pc": "<strong>WASD / Arrow Keys</strong>: Drive | <strong>Spacebar</strong>: Fire Weapon",
+            "mobile": "<strong>Joystick</strong>: Drive | <strong>Action Button</strong>: Fire Weapon"
+        },
+        "proTips": [
+            "Drop mines behind power-up boxes to catch greedy opponents.",
+            "Use the invincibility shield right before an impact for maximum efficiency."
+        ],
+        "faq": [
+            { "q": "Does Smash Karts have levels?", "a": "Yes, you earn XP and level up your character to unlock new karts and hats." },
+            { "q": "Is there a team mode in Smash Karts?", "a": "Yes, you can join or create private rooms to play with friends or in team-based matches." }
+        ]
     },
     {
         "slug": "shell-shockers",
         "title": "Shell Shockers",
         "category": "Action",
+        "tags": ["FPS", "Multiplayer", "Competitive", "Egg"],
+        "rating": 4.7,
+        "votes": "45,000",
+        "views": "25M",
+        "released": "2024",
+        "technology": "WebGL",
         "thumbnail": "/hosted-games/shell-shockers-thumb.webp",
         "iframe": "https://shellshock.io/",
         "developer": "Blue Wizard Digital",
         "featured": true,
         "mobileFriendly": true,
-        "instructions": "Use <strong>WASD</strong> to move and <strong>Mouse</strong> to aim and shoot. Press <strong>E</strong> to switch weapons, <strong>R</strong> to reload, and <strong>Space</strong> to jump. Crack your enemies before they crack you!"
+        "description": "Shell Shockers is the world's most popular egg-based multiplayer shooter. Pick your class and crack some shells in this intense FPS experience.",
+        "mission": "Eliminate enemy eggs using a variety of high-powered egg-themed weaponry in several different game modes.",
+        "strategies": [
+            "Each weapon class (Sniper, Shotgun, RPG) has a specific playstyle; find the one that fits you.",
+            "Stay mobile—a stationary egg is a fried egg.",
+            "Collect egg-scraps from fallen enemies to heal and reload.",
+            "Use verticality! Jumping and climbing crates gives you a tactical advantage."
+        ],
+        "controls": {
+            "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim | <strong>Left Click</strong>: Shoot | <strong>Space</strong>: Jump | <strong>Shift</strong>: Zoom",
+            "mobile": "<strong>On-screen Joypad</strong>: Move & Aim | <strong>Tap</strong>: Shoot"
+        },
+        "proTips": [
+            "Master the 'Egg-Jump' by jumping and shooting an RPG at your feet for a massive boost.",
+            "The Free Ranger sniper rifle has 100% accuracy while scoped, even in mid-air."
+        ],
+        "faq": [
+            { "q": "How do I change my egg's skin?", "a": "You can use the 'Inventory' menu to customize your egg with hats, skins, and weapon patterns." },
+            { "q": "Is Shell Shockers unblocked at school?", "a": "Yes, ZynfexGame provides the official unblocked version for school and office networks." }
+        ]
+    },
+    {
+        "slug": "splix-io",
+        "title": "Splix.io",
+        "category": "Arcade",
+        "tags": ["IO Game", "Strategy", "Conquest", "Territory"],
+        "rating": 4.3,
+        "votes": "8,900",
+        "views": "4.2M",
+        "released": "2024",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/splix-io-thumb.webp",
+        "iframe": "https://splix.io/",
+        "developer": "Jesper the End",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "Splix.io is a minimalist strategy game where you compete to conquer the largest territory by drawing lines and returning to your base.",
+        "mission": "Enclose empty space and return to your own color to capture it. Don't let anyone hit your trail!",
+        "strategies": [
+            "Don't get too greedy; capture small chunks of area frequently to minimize risk.",
+            "Watch out for players cutting off your trail while you are outside your zone.",
+            "If you see an enemy trail, hit it to eliminate them instantly.",
+            "The corners and edges are often safer for building a large base slowly."
+        ],
+        "controls": {
+            "pc": "<strong>Arrow Keys / WASD</strong>: Change Direction",
+            "mobile": "<strong>Swipe</strong>: Change Direction"
+        },
+        "proTips": [
+            "Bait other players into exiting their zones and then quickly strike their trail.",
+            "Surround existing blocks of territory to capture them instantly without drawing a long line."
+        ],
+        "faq": [
+            { "q": "Can I play Splix.io with friends?", "a": "Yes, you can share the room URL to play on the same map with your group." },
+            { "q": "Is Splix.io available for mobile?", "a": "Yes, it is fully optimized for touch controls on ZynfexGame." }
+        ]
+    },
+    {
+        "slug": "lordz-io",
+        "title": "Lordz.io",
+        "category": "Strategy",
+        "tags": ["Army", "Medieval", "IO Game", "Strategy"],
+        "rating": 4.5,
+        "votes": "6,700",
+        "views": "3.8M",
+        "released": "2024",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/lordz-io-thumb.webp",
+        "iframe": "https://lordz.io/",
+        "developer": "Spinbot Studio",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "Lordz.io is a massive multiplayer medieval strategy game. Build the biggest army, protect your lord, and conquer the map!",
+        "mission": "Collect gold to hire soldiers, build bases, and lead your army to total victory.",
+        "strategies": [
+            "Build houses to increase your population limit and castles to protect them.",
+            "Diversity your army with archers for range and knights for frontline defense.",
+            "Dragons are expensive but can devastate entire armies single-handedly.",
+            "Don't forget to protect your Lord; if he dies, your entire army is lost."
+        ],
+        "controls": {
+            "pc": "<strong>Mouse</strong>: Move Lord | <strong>Space</strong>: Split Army | <strong>E/R</strong>: Build Structure",
+            "mobile": "<strong>Touch Screen</strong>: Move & Interact"
+        },
+        "proTips": [
+            "Use the 'Split' mechanic to surround other lords or escape dangerous situations quickly.",
+            "Always keep a stash of gold to quickly rebuild your army after a major battle."
+        ],
+        "faq": [
+            { "q": "How do I get more gold in Lordz.io?", "a": "Collect gold coins scattered on the map or build gold mines to generate passive income." },
+            { "q": "What is the best type of soldier?", "a": "A balanced mix of Soldiers and Archers is best for early game, while Dragons dominate late game." }
+        ]
+    },
+    {
+        "slug": "karatebros-io",
+        "title": "Karate Bros",
+        "category": "Action",
+        "tags": ["Fighting", "Martial Arts", "2D", "Multiplayer"],
+        "rating": 4.4,
+        "votes": "3,200",
+        "views": "1.5M",
+        "released": "2025",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/karatebros-io-thumb.webp",
+        "iframe": "https://karatebros.io/",
+        "developer": "KarateBros Team",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "Karate Bros is a high-energy multiplayer fighting game. Master the art of karate and defeat opponents in intense arena duels.",
+        "mission": "Become the ultimate sensei by defeating rival fighters and climbing the global leaderboard.",
+        "strategies": [
+            "Timing is everything; wait for your opponent to strike then counter-attack.",
+            "Use your special moves sparingly; they require energy to recharge.",
+            "Keep moving to make it harder for enemies to link together long combos.",
+            "Study the patterns of advanced players to learn high-level tactics."
+        ],
+        "controls": {
+            "pc": "<strong>WASD</strong>: Move | <strong>Click</strong>: Attack | <strong>Space</strong>: Special Move",
+            "mobile": "<strong>Virtual Joypad</strong>: Move & Fight"
+        },
+        "proTips": [
+            "Use the 'Dash' to quickly close the gap against ranged attackers.",
+            "Combine light attacks with a heavy finisher for maximum damage output."
+        ],
+        "faq": [
+            { "q": "Are there different characters in Karate Bros?", "a": "Yes, you can unlock various skins and styles as you win more matches." },
+            { "q": "Is there a single-player mode?", "a": "Karate Bros is primarily a multiplayer game, but you can practice against bots in the training arena." }
+        ]
+    },
+    {
+        "slug": "starblast-io",
+        "title": "Starblast.io",
+        "category": "Action",
+        "tags": ["Space", "Shooter", "Upgrade", "Sci-Fi"],
+        "rating": 4.6,
+        "votes": "7,800",
+        "views": "5.5M",
+        "released": "2024",
+        "technology": "WebGL",
+        "thumbnail": "/hosted-games/starblast-io-thumb.webp",
+        "iframe": "https://starblast.io/",
+        "developer": "Neuronality",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "Starblast.io is an incredibly deep space combat game where you mine asteroids, upgrade your ship, and fight for solar system dominance.",
+        "mission": "Mine crystals to upgrade your ship through various tiers and eliminate enemy fleets.",
+        "strategies": [
+            "Early on, focus on mining asteroids to upgrade your attack speed and energy capacity.",
+            "Stick with a team in Team Mode; a lone ship is an easy target for hunters.",
+            "Choose your upgrade path carefully; some ships are faster while others are heavy hitters.",
+            "Keep an eye on your radar to spot incoming players before they get within firing range."
+        ],
+        "controls": {
+            "pc": "<strong>Mouse</strong>: Steer & Shoot | <strong>Space</strong>: Fire | <strong>Arrow Keys</strong>: Alt Controls",
+            "mobile": "<strong>Floating Joypad</strong>: Fly & Target | <strong>Auto-fire</strong>: Enabled"
+        },
+        "proTips": [
+            "Don't upgrade too early; sometimes it's better to max out your current ship's stats before moving to the next tier.",
+            "Use asteroids as cover during high-speed dogfights."
+        ],
+        "faq": [
+            { "q": "What are the different game modes in Starblast?", "a": "The game features Survival, Team, Invasion, and Pro Deathmatch modes." },
+            { "q": "Can I save my progress in Starblast.io?", "a": "Progress is saved per session, but you can create an account to track long-term stats and achievements." }
+        ]
+    },
+    {
+        "slug": "space-waves-io",
+        "title": "Space Waves (Official)",
+        "category": "Arcade",
+        "tags": ["Geometry Dash", "Rhythm", "Impossible", "Hard"],
+        "rating": 4.7,
+        "votes": "15,000",
+        "views": "9.2M",
+        "released": "2025",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/space-waves-io-thumb.webp",
+        "iframe": "https://spacewavesgame.io/",
+        "developer": "Space Waves Team",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "Space Waves is a challenging rhythm-based platformer inspired by Geometry Dash. Navigate through dangerous tunnels at high speed!",
+        "mission": "Survive the gauntlet of spikes and obstacles to reach the end of the tunnel.",
+        "strategies": [
+            "Tap or click with rhythmic precision; the obstacles are designed around the beat.",
+            "Stay relaxed—tensing up leads to mistake-prone over-clicking.",
+            "Focus on the space in front of your wave, not the wave itself.",
+            "Practice each section slowly until you develop muscle memory."
+        ],
+        "controls": {
+            "pc": "<strong>Click / Spacebar</strong>: Fly Up | <strong>Release</strong>: Fall Down",
+            "mobile": "<strong>Tap</strong>: Fly Up | <strong>Release</strong>: Fall Down"
+        },
+        "proTips": [
+            "For tight gaps, use quick, short taps rather than long holds.",
+            "Memorizing the level layout is more reliable than pure reaction speed."
+        ],
+        "faq": [
+            { "q": "How many levels are in Space Waves?", "a": "There are dozens of increasingly difficult levels, ranging from Beginner to Extreme." },
+            { "q": "Is Space Waves harder than Geometry Dash?", "a": "It features a unique wave mechanic that some players find even more challenging!" }
+        ]
+    },
+    {
+        "slug": "count-masters",
+        "title": "Count Masters",
+        "category": "Casual",
+        "tags": ["Run", "Crowd", "Hypercasual", "Multiplayer"],
+        "rating": 4.2,
+        "votes": "21,000",
+        "views": "14M",
+        "released": "2024",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/count-masters-thumb.webp",
+        "iframe": "https://www.crazygames.com/embed/count-masters-stickman-games",
+        "developer": "Freeplay Inc",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "Count Masters is a fun crowd-counting runner. Gather your people and smash through gates to win the final castle battle!",
+        "mission": "Collect followers, choose the best multiplier gates, and lead a massive army to the finish line.",
+        "strategies": [
+            "Always pick the multiplier x2 or x3 gates over the simple addition +10 gates.",
+            "Try to avoid obstacles as they deplete your crowd numbers quickly.",
+            "Move your leader quickly to gather stray followers on the sides of the track.",
+            "Timing your entry into the crowd-fights is key to maintaining your numbers."
+        ],
+        "controls": {
+            "pc": "<strong>Mouse Drag</strong>: Move Side to Side",
+            "mobile": "<strong>Swipe</strong>: Move Side to Side"
+        },
+        "proTips": [
+            "Stay in the center for the first half to avoid falling off, then move to the edges for bonus gates.",
+            "Focus on the largest number, even if it's harder to reach."
+        ],
+        "faq": [
+            { "q": "How do I get the boss for the final battle?", "a": "The strength of your final attack is based purely on the number of followers you have left at the end." },
+            { "q": "Is the game endless?", "a": "It features hundreds of levels with increasing complexity and newer obstacles." }
+        ]
+    },
+    {
+        "slug": "doodle-road",
+        "title": "Doodle Road",
+        "category": "Puzzle",
+        "tags": ["Drawing", "Physics", "Creative", "Puzzle"],
+        "rating": 4.1,
+        "votes": "4,500",
+        "views": "2.1M",
+        "released": "2024",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/doodle-road-thumb.webp",
+        "iframe": "https://www.crazygames.com/embed/doodle-road",
+        "developer": "Doodle Studio",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "Doodle Road is a creative physics puzzle where you draw the path for a car to reach its destination.",
+        "mission": "Draw ingenious bridges and ramps to guide the vehicle safely across gaps and over obstacles.",
+        "strategies": [
+            "Think about structural stability; thin lines might collapse under the car's weight.",
+            "Use the environment to your advantage by bracing your drawings against existing walls.",
+            "Momentum is key—sometimes a steep ramp is better than a flat bridge.",
+            "You have limited ink, so draw only what is absolutely necessary."
+        ],
+        "controls": {
+            "pc": "<strong>Click & Drag</strong>: Draw Path",
+            "mobile": "<strong>Touch & Drag</strong>: Draw Path"
+        },
+        "proTips": [
+            "Double-line your bridges for extra strength on heavy-car levels.",
+            "Draw a 'hook' at the end of your ramp to ensure the car lands safely."
+        ],
+        "faq": [
+            { "q": "Can I redo a section of my drawing?", "a": "Yes, you can use the 'Eraser' tool or restart the level to try a new path." },
+            { "q": "Are there different vehicles?", "a": "As you progress, you unlock heavier and faster cars that require more complex paths." }
+        ]
+    },
+    {
+        "slug": "build-royale",
+        "title": "BuildRoyale.io",
+        "category": "Action",
+        "tags": ["Battle Royale", "Building", "Survival", "Shooter"],
+        "rating": 4.5,
+        "votes": "9,200",
+        "views": "6.2M",
+        "released": "2024",
+        "technology": "WebGL",
+        "thumbnail": "/hosted-games/build-royale-thumb.webp",
+        "iframe": "https://buildroyale.io/",
+        "developer": "BuildRoyale Team",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "BuildRoyale.io is a 2D battle royale game where you must build defenses while fighting to be the last player standing.",
+        "mission": "Loot weapons, gather materials, and build structures to survive against 50 other players.",
+        "strategies": [
+            "Quick-building is more important than perfect aim; build cover as soon as you are shot at.",
+            "Mine wood, brick, and metal early in the game to ensure you have building materials for the final circles.",
+            "Shield potions should be your top priority in the early game.",
+            "High ground is a massive advantage—build upwards to see enemies before they see you."
+        ],
+        "controls": {
+            "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim & Shoot | <strong>E</strong>: Loot | <strong>Q</strong>: Build Mode | <strong>Space</strong>: Jump",
+            "mobile": "<strong>Virtual Joysticks</strong>: Move & Aim | <strong>Tap</strong>: Shoot & Build"
+        },
+        "proTips": [
+            "Use 'Edit Mode' to create windows in your walls for safe sniping.",
+            "Double-wall your base to protect against heavy explosive attacks."
+        ],
+        "faq": [
+            { "q": "Is BuildRoyale.io like Fortnite?", "a": "It shares the building and battle royale mechanics but in a fast-paced 2D browser environment." },
+            { "q": "Can I play BuildRoyale.io unblocked?", "a": "Yes, ZynfexGame offers the official unblocked version for school networks." }
+        ]
     },
     {
         "slug": "witchcat",
         "title": "Witchcat",
         "category": "Puzzle",
+        "tags": ["Indie", "Retro", "Cat", "Logic"],
+        "rating": 4.3,
+        "votes": "1,100",
+        "views": "450K",
+        "released": "2023",
+        "technology": "HTML5",
         "thumbnail": "/hosted-games/witchcat/thumbnail.webp",
         "iframe": "/hosted-games/witchcat/index.html",
         "developer": "JS13kGames (Self-Hosted)",
         "featured": true,
         "mobileFriendly": true,
-        "instructions": "Navigate the witchcat through the puzzles!"
+        "description": "Witchcat is a charming retro-style puzzle game where you guide a magical feline through mysterious levels.",
+        "mission": "Use logic and your magical abilities to navigate through the witch's tower and solve ancient puzzles.",
+        "strategies": [
+            "Look for hidden paths that can only be revealed by moving certain objects.",
+            "The environment is interactable—experiment with everything you see.",
+            "Think a few steps ahead to avoid getting stuck in a corner.",
+            "Don't rush; these puzzles are meant to be solved with patience and strategy."
+        ],
+        "controls": {
+            "pc": "<strong>WASD / Arrows</strong>: Move Cat | <strong>Space</strong>: Interact",
+            "mobile": "<strong>Swipe</strong>: Move Cat | <strong>Tap</strong>: Interact"
+        },
+        "proTips": [
+            "The shadows often hide clues for the more difficult floor puzzles.",
+            "Interact with the magical lanterns to gain temporary vision of hidden platforms."
+        ],
+        "faq": [
+            { "q": "Is Witchcat available for download?", "a": "No, it is a micro-game designed to run directly in your browser." },
+            { "q": "How many levels are in the tower?", "a": "The game features over 20 increasingly difficult puzzle floors." }
+        ]
     },
     {
         "slug": "doodle-jump",
         "title": "Doodle Jump",
         "category": "Action",
+        "tags": ["Arcade", "Retro", "Jump", "Classic"],
+        "rating": 4.6,
+        "votes": "5,400",
+        "views": "2.9M",
+        "released": "2024",
+        "technology": "HTML5",
         "thumbnail": "/hosted-games/doodle-jump/thumbnail.webp",
         "iframe": "/hosted-games/doodle-jump/index.html",
         "developer": "RSK World (Self-Hosted)",
         "featured": true,
         "mobileFriendly": true,
-        "instructions": "Jump up the platforms! Use the left and right arrow keys to move. Avoid falling."
+        "description": "Doodle Jump is the legendary jumping game. Guide the Doodler on a journey up a sheet of graph paper, picking up jet packs and avoiding black holes.",
+        "mission": "Jump ever higher, clearing platforms and avoiding monsters to reach the highest possible score.",
+        "strategies": [
+            "Focus on the platforms slightly above the Doodler to plan your landing.",
+            "Propeller hats and jetpacks provide a massive boost but be careful not to overshoot into a monster.",
+            "Moving off one side of the screen will wrap the Doodler around to the other side.",
+            "The blue platforms move, while the brown ones break—act fast!"
+        ],
+        "controls": {
+            "pc": "<strong>Arrow Keys</strong>: Move Left/Right | <strong>Space</strong>: Shoot",
+            "mobile": "<strong>Tilt Phone</strong>: Move Left/Right | <strong>Tap Screen</strong>: Shoot"
+        },
+        "proTips": [
+            "Use the 'screen wrap' to dodge monsters that are blocking the middle of the screen.",
+            "Listen for the sound cues of upcoming black holes and UFOs."
+        ],
+        "faq": [
+            { "q": "How do I kill the monsters?", "a": "Tap your screen or press Space to shoot bubbles at the monsters and clear them from your path." },
+            { "q": "What is the world record score?", "a": "Doodle Jump records are in the millions—keep practicing to climb the global leaderboard!" }
+        ]
     },
     {
         "slug": "space-invaders",
         "title": "Space Invaders 3D",
         "category": "Action",
+        "tags": ["Shooter", "Retro", "3D", "Arcade"],
+        "rating": 4.5,
+        "votes": "2,300",
+        "views": "1.1M",
+        "released": "2024",
+        "technology": "HTML5 / Three.js",
         "thumbnail": "/hosted-games/space-invaders/assets/images/gameplay-opt.webp",
         "iframe": "/hosted-games/space-invaders/index.html",
         "developer": "ZynfexGame Arcade (Self-Hosted)",
         "featured": false,
         "mobileFriendly": false,
-        "instructions": "Navigate your spaceship using the <strong>Arrow Keys</strong> or <strong>WASD</strong>. Press <strong>Spacebar</strong> to shoot aliens! Defeat boss waves to progress and grab glowing power-ups to upgrade your multi-shot lasers."
+        "description": "Space Invaders 3D brings the classic arcade shooter into the third dimension with stunning effects and challenging boss battles.",
+        "mission": "Defend the planet from waves of descending alien invaders and take down their massive Motherships.",
+        "strategies": [
+            "Don't just shoot blindly; wait for the aliens to move into your line of fire.",
+            "Destroy the shields wisely; they provide temporary cover but will eventually crumble.",
+            "Prioritize the UFOs that fly across the top for massive bonus points.",
+            "Boss waves require dodging more than shooting—wait for their cooldown to strike."
+        ],
+        "controls": {
+            "pc": "<strong>Arrow Keys / WASD</strong>: Move | <strong>Space</strong>: Shoot",
+            "mobile": "Standard controls not fully optimized. Best played on Desktop."
+        },
+        "proTips": [
+            "Upgrade your laser by collecting the glowing blue power-ups during Mothership phases.",
+            "The bottom-most aliens move slower—clear them first to gain breathing room."
+        ],
+        "faq": [
+            { "q": "Are there different kinds of aliens?", "a": "Yes, later waves introduce shielded aliens and fast-moving scouts.", "a": "Yes, every 5 waves you'll face a unique boss that requires different tactics." }
+        ]
     }
 ]
