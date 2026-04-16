@@ -78,6 +78,15 @@ const { game } = Astro.props;
 							</a>
 						</div>
 					)}
+					
+					{game.slug === 'smash-karts' && (
+						<div class="mt-4 pt-4 border-t border-gray-700">
+							<a href="/blog/how-to-play-smash-karts" class="flex items-center gap-2 text-indigo-400 hover:text-indigo-300 font-medium transition group">
+								<span>🏎️ Read our full Smash Karts Beginner Guide (2026)</span>
+								<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+							</a>
+						</div>
+					)}
 				</div>
 			)}
 		</div>
