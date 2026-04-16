@@ -36,6 +36,42 @@
         ]
     },
     {
+        "slug": "zombs-royale",
+        "title": "ZombsRoyale.io",
+        "category": "Action",
+        "tags": ["Battle Royale", "Multiplayer", "Shooter", "Survival"],
+        "rating": 4.7,
+        "votes": "22,400",
+        "views": "15.4M",
+        "released": "2024",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/zombs-royale-thumb.webp",
+        "iframe": "https://zombsroyale.io/",
+        "developer": "EndGame Studios",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "ZombsRoyale.io is a massive 2D battle royale game where you parachute into a large map, loot chests, and fight to be the last survivor.",
+        "mission": "Loot the best weapons, stay inside the safe zone, and eliminate all other players to claim the victory royale.",
+        "strategies": [
+            "Drop in less crowded areas early on to loot up safely.",
+            "Always keep at least one long-range weapon and one close-range weapon.",
+            "Use bushes and houses for cover when healing or reloading.",
+            "Watch the gas timer—getting caught outside the safe zone is instant death."
+        ],
+        "controls": {
+            "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim & Shoot | <strong>E</strong>: Loot | <strong>1/2/3/4</strong>: Switch Weapons",
+            "mobile": "<strong>Left Stick</strong>: Move | <strong>Right Stick</strong>: Aim & Fire | <strong>Auto-loot</strong>: Enabled"
+        },
+        "proTips": [
+            "Swap your common weapons for Legendary (Golden) ones at any opportunity.",
+            "Open doors while sprinting to gain a split-second surprise advantage on camping enemies."
+        ],
+        "faq": [
+            { "q": "Can I play ZombsRoyale with friends?", "a": "Yes, you can join Duo or Squad modes to play with your friends." },
+            { "q": "Is there a strategy for dropping?", "a": "Try to land near buildings or chests to get your first weapon as quickly as possible." }
+        ]
+    },
+    {
         "slug": "smash-karts",
         "title": "Smash Karts",
         "category": "Action",
@@ -144,6 +180,42 @@
         ]
     },
     {
+        "slug": "little-big-snake",
+        "title": "Little Big Snake",
+        "category": "Arcade",
+        "tags": ["IO Game", "Snake", "Multiplayer", "Evolution"],
+        "rating": 4.6,
+        "votes": "14,300",
+        "views": "9.5M",
+        "released": "2024",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/little-big-snake-thumb.webp",
+        "iframe": "https://littlebigsnake.com/",
+        "developer": "Addicting Games",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "Little Big Snake is a massive multiplayer evolution game. Eat nectar, eliminate other snakes, and grow into the ultimate serpent!",
+        "mission": "Grow your snake into a massive beast while avoiding larger predators and eliminating smaller ones.",
+        "strategies": [
+            "Eat nectar and bugs to grow your level and unlock new abilities.",
+            "Encircle smaller snakes to trap them and claim their energy once they crash.",
+            "Use your speed boost sparingly; it consumes some of your size.",
+            "Upgrade your evolution tree to gain permanent buffs to speed and growth rate."
+        ],
+        "controls": {
+            "pc": "<strong>Mouse</strong>: Steer | <strong>Left Click</strong>: Speed Boost",
+            "mobile": "<strong>Virtual Joypad</strong>: Steer | <strong>Action Button</strong>: Speed Boost"
+        },
+        "proTips": [
+            "Stay near large fights to scavenge energy leftovers from defeated giants.",
+            "Use the 'Juja' mechanic to fly and scout for nectar-rich zones safely."
+        ],
+        "faq": [
+            { "q": "Is Little Big Snake free?", "a": "Yes, it is completely free to play in your browser on ZynfexGame." },
+            { "q": "Can I save my snake's progress?", "a": "By creating an account, you can save your coins, skins, and evolution tree progress." }
+        ]
+    },
+    {
         "slug": "lordz-io",
         "title": "Lordz.io",
         "category": "Strategy",
@@ -216,6 +288,42 @@
         ]
     },
     {
+        "slug": "world-guessr",
+        "title": "WorldGuessr",
+        "category": "Puzzle",
+        "tags": ["Geography", "Trivia", "Educational", "Discovery"],
+        "rating": 4.5,
+        "votes": "5,800",
+        "views": "3.2M",
+        "released": "2025",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/world-guessr-thumb.webp",
+        "iframe": "https://worldguessr.com/",
+        "developer": "WorldGuessr Team",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "WorldGuessr is an addictive geography trivia game where you are dropped into a random Street View location and must guess where you are in the world.",
+        "mission": "Analyze your surroundings (climate, architecture, signs) and pinpoint your location on the map with the highest accuracy.",
+        "strategies": [
+            "Look for license plates and signs; they often contain country-specific codes or languages.",
+            "Check the sun's position to determine if you are in the Northern or Southern hemisphere.",
+            "Observe the architecture and road lines for regional hints (e.g., yellow center lines in the Americas).",
+            "Don't spend too much time in one spot; sometimes moving a few blocks revealed a major landmark."
+        ],
+        "controls": {
+            "pc": "<strong>Click & Drag</strong>: Look Around | <strong>Click Arrows</strong>: Move | <strong>Click Map</strong>: Place Guess",
+            "mobile": "<strong>Swipe</strong>: Look Around | <strong>Tap Arrows</strong>: Move | <strong>Tap Map</strong>: Place Guess"
+        },
+        "proTips": [
+            "Learn country-specific bollards (road markers) to instantly identify European countries.",
+            "Distinguish between left-side and right-side driving to narrow down your search half-way."
+        ],
+        "faq": [
+            { "q": "Is WorldGuessr free like GeoGuessr used to be?", "a": "Yes, it is a completely free-to-play alternative with no daily limit on ZynfexGame." },
+            { "q": "Can I challenge my friends in WorldGuessr?", "a": "Yes, you can create private rooms and compete for the highest score on the same locations." }
+        ]
+    },
+    {
         "slug": "starblast-io",
         "title": "Starblast.io",
         "category": "Action",
@@ -252,6 +360,42 @@
         ]
     },
     {
+        "slug": "hexanaut-io",
+        "title": "Hexanaut.io",
+        "category": "Strategy",
+        "tags": ["Territory", "Conquest", "IO Game", "Multiplayer"],
+        "rating": 4.4,
+        "votes": "7,100",
+        "views": "3.5M",
+        "released": "2024",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/hexanaut-io-thumb.webp",
+        "iframe": "https://hexanaut.io/",
+        "developer": "CoolGames",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "Hexanaut.io is a fast-paced territory conquest game. Conquer hexagonal tiles, expand your base, and become the Hexanaut King!",
+        "mission": "Capture 20% of the map tiles and hold them for a countdown period to win the match.",
+        "strategies": [
+            "Capture neutral tiles early to build a strong foundation for your hex kingdom.",
+            "Defend your borders! If an enemy cuts your trail while outside your zone, you are eliminated.",
+            "Expand toward 'Totems' to gain special abilities like increased speed or teleportation.",
+            "Don't be afraid to aggressive strike other players' tiles to stop their progress."
+        ],
+        "controls": {
+            "pc": "<strong>Mouse</strong>: Steer your Character",
+            "mobile": "<strong>Virtual Joypad</strong>: Steer your Character"
+        },
+        "proTips": [
+            "Use the 'Speed Totem' to quickly capture large swaths of neutral land before others arrive.",
+            "Lure enemies into your territory where you have a defensive speed advantage."
+        ],
+        "faq": [
+            { "q": "How do I become an Hexanaut?", "a": "You must capture and hold a significant portion of the map to trigger the Hexanaut countdown." },
+            { "q": "What happens if I crash into myself?", "a": "Unlike Snake, in Hexanaut you can cross your own trail without dying—just don't let others hit it!" }
+        ]
+    },
+    {
         "slug": "space-waves-io",
         "title": "Space Waves (Official)",
         "category": "Arcade",
@@ -285,6 +429,78 @@
         "faq": [
             { "q": "How many levels are in Space Waves?", "a": "There are dozens of increasingly difficult levels, ranging from Beginner to Extreme." },
             { "q": "Is Space Waves harder than Geometry Dash?", "a": "It features a unique wave mechanic that some players find even more challenging!" }
+        ]
+    },
+    {
+        "slug": "basket-bros",
+        "title": "BasketBros.io",
+        "category": "Action",
+        "tags": ["Sports", "Basketball", "Multiplayer", "2D"],
+        "rating": 4.5,
+        "votes": "10,200",
+        "views": "6.8M",
+        "released": "2024",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/basket-bros-thumb.webp",
+        "iframe": "https://basketbros.io/",
+        "developer": "Blue Wizard Digital",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "BasketBros.io is a fast-paced, high-flying 2D basketball game. Pick your pro, perform insane dunks, and show your skills on the court!",
+        "mission": "Outscore your opponent in a 1-on-1 street basketball battle using gravity-defying moves.",
+        "strategies": [
+            "Wait for the defender to jump before executing your shot or dunk.",
+            "Use the 'Dash' ability to steal the ball or bypass tight defenses.",
+            "Collect power-ups that appear on the court for speed boosts and massive jump height.",
+            "Timing your dunks correctly from distance will award you more style points."
+        ],
+        "controls": {
+            "pc": "<strong>WASD / Arrow Keys</strong>: Move & Jump | <strong>Space / G</strong>: Shoot & Steal",
+            "mobile": "<strong>Virtual Joypad</strong>: Move & Jump | <strong>Action Button</strong>: Shoot & Steal"
+        },
+        "proTips": [
+            "You can block shots by jumping directly in front of the attacker at the top of their arc.",
+            "Perform a 'Perfect Shot' to guarantee the ball goes in every time."
+        ],
+        "faq": [
+            { "q": "Can I play BasketBros on the same computer?", "a": "Yes, it supports local 2-player mode so you can play with a friend on one keyboard." },
+            { "q": "How do I unlock more characters?", "a": "Win tournaments and complete daily challenges to unlock dozens of new ballers." }
+        ]
+    },
+    {
+        "slug": "moomoo-io",
+        "title": "MooMoo.io",
+        "category": "Strategy",
+        "tags": ["Survival", "Crafting", "IO Game", "Multiplayer"],
+        "rating": 4.4,
+        "votes": "18,600",
+        "views": "11.2M",
+        "released": "2024",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/moomoo-io-thumb.webp",
+        "iframe": "https://moomoo.io/",
+        "developer": "Sidney de Vries",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "MooMoo.io is a massive multiplayer survival game where you gather resources, build a base, and defend your gold mines from raiders.",
+        "mission": "Gather resources to build a secure base and generate the most gold to reach the top of the leaderboard.",
+        "strategies": [
+            "Start by gathering wood and stone to build walls and spikes for protection.",
+            "Place windmills near your base to generate gold passively.",
+            "Join or create a 'Tribe' to collaborate with other players for massive base defense.",
+            "Always keep food items in your inventory to heal quickly during raids."
+        ],
+        "controls": {
+            "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim | <strong>Click</strong>: Gather/Attack | <strong>1-9</strong>: Select Item",
+            "mobile": "<strong>Virtual Joypad</strong>: Move & Aim | <strong>Tap</strong>: Gather/Attack"
+        },
+        "proTips": [
+            "Place spikes around your windmills to prevent stealthy raiders from destroying your income.",
+            "Equip hats like the 'Miner Hat' or 'Bull Helmet' to gain powerful stat boosts during combat."
+        ],
+        "faq": [
+            { "q": "What happens if my base is destroyed?", "a": "You lose your structures but keep your level and gold wealth, allowing you to rebuild quickly." },
+            { "q": "Is there a limit to tribe size?", "a": "Tribe sizes vary by server, but working with even one partner significantly increases survival chances." }
         ]
     },
     {
@@ -499,7 +715,8 @@
             "The bottom-most aliens move slower—clear them first to gain breathing room."
         ],
         "faq": [
-            { "q": "Are there different kinds of aliens?", "a": "Yes, later waves introduce shielded aliens and fast-moving scouts.", "a": "Yes, every 5 waves you'll face a unique boss that requires different tactics." }
+            { "q": "Are there different kinds of aliens?", "a": "Yes, later waves introduce shielded aliens and fast-moving scouts." },
+            { "q": "What happens after Wave 10?", "a": "The difficulty resets with faster movement, but your score continues to climb!" }
         ]
     }
 ]
