@@ -13,7 +13,11 @@ const { entry } = Astro.props;
 const { Content } = await render(entry);
 ---
 
-<Layout title={`${entry.data.title} | ZynfexGame Blog`} description={entry.data.description}>
+<Layout 
+	title={`${entry.data.title} | ZynfexGame Blog`} 
+	description={entry.data.description}
+	schemas={entry.data.schemas}
+>
 	<article class="max-w-3xl mx-auto py-4 md:py-8">
 		<a href="/blog" class="inline-flex items-center gap-2 text-indigo-400 hover:text-indigo-300 text-sm font-bold mb-6 transition-colors">
 			&larr; Back to all articles

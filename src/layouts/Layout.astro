@@ -6,12 +6,14 @@ export interface Props {
 	title: string;
 	description?: string;
 	image?: string;
+	schemas?: string[];
 }
 
 const { 
 	title, 
 	description = "Play the absolute best HTML5 mobile and browser games for free on ZynfexGame without downloading anything.",
-	image = "/og-image.jpg"
+	image = "/og-image.jpg",
+	schemas = []
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://zynfexgame.tech');
@@ -92,6 +94,10 @@ const searchDB = games.map(g => ({ title: g.title, slug: g.slug, thumbnail: g.th
 			// Fallback: If no interaction, load anyway after a short grace period (4 seconds)
 			setTimeout(loadThirdPartyScripts, 4000);
 		</script>
+
+		{schemas.map(schema => (
+			<Fragment set:html={schema} />
+		))}
 	</head>
 	<body class="flex flex-col min-h-screen bg-[#1c1938] text-gray-200 overflow-x-hidden relative">
 		
