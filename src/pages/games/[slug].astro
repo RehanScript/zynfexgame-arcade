@@ -126,6 +126,19 @@ const otherGames = gamesData
 				<p class="text-gray-300 leading-relaxed text-lg italic border-l-4 border-indigo-500 pl-4 bg-indigo-500/5 py-4 rounded-r-xl">
 					{game.description || `Experience the thrill of ${game.title} unblocked on ZynfexGame. No downloads, no installs—just pure, instant fun.`}
 				</p>
+
+				<!-- Editor Review Section (High Value Content) -->
+				{game.editorReview && (
+					<div class="bg-indigo-600/5 border-l-4 border-indigo-500 p-8 rounded-r-3xl my-10 shadow-inner">
+						<h3 class="text-xl font-black text-white mb-4 flex items-center gap-3">
+							<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-400 font-bold" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" /></svg>
+							Collector's Choice: Editor's Review
+						</h3>
+						<p class="text-gray-300 leading-relaxed text-base italic">
+							"{game.editorReview}"
+						</p>
+					</div>
+				)}
 				
 				<div class="mt-8">
 					<h3 class="text-xl font-black text-white mb-6 flex items-center gap-3">
@@ -171,7 +184,7 @@ const otherGames = gamesData
 					</div>
 
 					<!-- Beginner Guide Promo (Conditional) -->
-					{(game.slug === 'shell-shockers' || game.slug === 'smash-karts' || game.slug === 'geometry-dash-lite') && (
+					{(game.slug === 'shell-shockers' || game.slug === 'smash-karts' || game.slug === 'geometry-dash-lite' || game.slug === 'paper-io' || game.slug === 'starblast-io' || game.slug === 'sea-dragons' || game.slug === 'wormszone-io' || game.slug === 'stabfish-io') && (
 						<div class="bg-gradient-to-r from-indigo-900/40 to-[#1b1736] p-8 rounded-3xl border border-indigo-500/30 mb-8 flex flex-col sm:flex-row items-center gap-6 shadow-2xl overflow-hidden relative group">
 							<div class="absolute -right-10 -top-10 w-40 h-40 bg-indigo-500/10 blur-[50px] rounded-full group-hover:bg-indigo-500/20 transition-all duration-700"></div>
 							<div>

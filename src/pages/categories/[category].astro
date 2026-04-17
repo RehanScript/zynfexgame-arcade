@@ -15,17 +15,37 @@ export function getStaticPaths() {
 }
 
 const { categoryName, filteredGames } = Astro.props;
+
+const categoryDescriptions = {
+	"action": "Action games on ZynfexGame are designed for players who crave high-intensity excitement and lightning-fast reflexes. Our curated collection features everything from competitive multiplayer first-person shooters like Deadshot.io and Shell Shockers to chaotic kart racers like Smash Karts. These games are optimized for zero-lag performance, ensuring that every shot you fire and every dodge you make is perfectly synchronized with the server. Whether you're mastering the art of the 'egg-jump' in Shell Shockers or navigating a high-speed battle royale in ZombsRoyale, our action titles provide the ultimate browser-based combat experience. We meticulously test every title for frame-rate stability and input responsiveness, making ZynfexGame the premier destination for serious action gamers. Dive into our arena modes, participate in global leaderboards, and prove your skills in the most demanding multiplayer environments available today—all without needing to download a single file.",
+	"arcade": "The Arcade category at ZynfexGame celebrates the timeless appeal of 'easy to learn, impossible to master' gameplay. Inspired by the golden age of coin-op machines, these titles focus on immediate fun, high-score chasing, and addictive loops. From the territory-capture tension of Paper.io and Splix.io to the evolutionary growth of Little Big Snake and WormsZone.io, our arcade selection is built for pure entertainment. We've optimized these games to run perfectly on school Chromebooks and low-end mobile devices, ensuring that 'just one more game' doesn't turn into a laggy nightmare. Whether you're jumping ever-higher in Doodle Jump or dodging spikes in Space Waves, our arcade portal delivers the most responsive and vibrant casual gaming experience on the web. Experience the thrill of climbing global leaderboards and mastering the mechanics that made the arcade era legendary.",
+	"strategy": "Strategy gaming is about outthinking your opponents rather than just outreacting them. At ZynfexGame, our strategy category is home to complex multiplayer gems like Lordz.io, Hexanaut.io, and MooMoo.io. These games demand careful planning, resource management, and social coordination. Whether you are building a medieval fortress to protect your Lord, capturing hexagonal tiles to expand your empire, or gathering gold through windmill farming, every decision has a consequence. Our strategy titles often feature deep 'evolution trees' and crafting systems that allow for diverse playstyles—from defensive turtle builds to aggressive raider tactics. We prioritize games with active player communities and balanced mechanics, ensuring that new players can find their footing while veterans can master the meta. If you enjoy games that reward long-term planning and tactical execution, our strategy library offers the perfect intellectual challenge directly in your web browser.",
+	"puzzle": "Our Puzzle category is dedicated to the curious, the logical, and the clever. At ZynfexGame, we believe that browser games can be both fun and intellectually stimulating. WorldGuessr takes you on a global detective hunt, challenging you to identify locations through Street View clues, while Doodle Road tests your understanding of physics and engineering. These titles are perfect for players who enjoy a quieter, more focused gaming experience that rewards observation and deduction. We also feature atmospheric indie puzzles like Witchcat, which prove that even micro-games can tell compelling stories through logic and exploration. Whether you're learning geography, mastering physics, or solving ancient magical riddles, our puzzle collection offers a rich variety of brain-teasers that are as rewarding as they are challenging. It is the ultimate destination for players looking to sharpen their minds while they play.",
+	"casual": "ZynfexGame's Casual category is all about accessible, high-satisfaction gaming for those busy moments. These titles focus on simple mechanics, vibrant visuals, and instant dopamine hits. Count Masters is the perfect example of the 'hyper-casual' genre, turning simple math into a fun crowd-running spectacle. Our casual games are specifically chosen for their low barrier to entry—you don't need to be a 'gamer' to enjoy them. They are the ideal companions for a five-minute break, offering clean, secure, and family-friendly entertainment without any complex controls or heavy storylines. We test all our casual titles for mobile responsiveness, so whether you're on a phone in line or on a laptop during a break, you'll get a smooth, reliable experience every time. Sometimes, the most fun games are the ones that keep it simple, and our casual library delivers that simplicity with premium polish."
+};
+
+const slug = categoryName.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+const description = categoryDescriptions[slug] || `Explore our collection of ${categoryName} games. Play unblocked and free on ZynfexGame.`;
 ---
 
-<Layout title={`${categoryName} Games | ZynfexGame`}>
+<Layout title={`${categoryName} Games | ZynfexGame`} description={description}>
 	<div class="flex flex-col gap-6">
-		<header class="flex items-center gap-4 mb-6">
-			<a href="/categories" class="p-2 bg-[#2d2856] rounded-full hover:bg-[#3b346e] transition text-white">
-				<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
-			</a>
-			<div>
-				<h1 class="text-2xl md:text-4xl font-black text-white">{categoryName} Games</h1>
-				<p class="text-indigo-400 font-medium text-sm">{filteredGames.length} titles available</p>
+		<header class="flex flex-col gap-6 mb-8">
+			<div class="flex items-center gap-4">
+				<a href="/categories" class="p-2 bg-[#2d2856] rounded-full hover:bg-[#3b346e] transition text-white">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
+				</a>
+				<div>
+					<h1 class="text-2xl md:text-4xl font-black text-white">{categoryName} Games</h1>
+					<p class="text-indigo-400 font-medium text-sm">{filteredGames.length} titles available</p>
+				</div>
+			</div>
+
+			<!-- Rich SEO Category Description -->
+			<div class="bg-[#0f0c24] border-l-4 border-indigo-500 p-6 md:p-8 rounded-r-3xl shadow-xl">
+				<p class="text-gray-300 leading-relaxed text-base md:text-lg">
+					{description}
+				</p>
 			</div>
 		</header>
 

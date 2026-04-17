@@ -3,24 +3,82 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="About Us | ZynfexGame" description="About the ZynfexGame team and our mission.">
-	<div class="max-w-3xl mx-auto py-8 text-gray-300 text-center">
-		<div class="w-16 h-16 mx-auto rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center font-black text-4xl mb-6">⚡</div>
-		<h1 class="text-4xl lg:text-5xl text-white font-black mb-6">About ZynfexGame</h1>
+	<div class="max-w-4xl mx-auto py-12 md:py-20 text-gray-300">
+		<div class="text-center mb-16">
+			<div class="w-20 h-20 mx-auto rounded-3xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center font-black text-5xl mb-8 shadow-2xl shadow-indigo-500/20">⚡</div>
+			<h1 class="text-4xl md:text-6xl text-white font-black mb-6 tracking-tight">The ZynfexGame Story</h1>
+			<p class="text-xl md:text-2xl text-indigo-400 font-medium">Redefining Browser Gaming for 2026</p>
+		</div>
 		
-		<p class="text-lg leading-relaxed mb-6">
-			Welcome to **ZynfexGame**, your number one source for free unblocked HTML5 arcade games. We're dedicated to giving you the absolute best gaming experience, with a focus on speed, mobile optimization, and a seamless ad-light environment.
-		</p>
-		
-		<p class="text-lg leading-relaxed mb-6">
-			Founded in 2026, ZynfexGame has come a long way in delivering thousands of high-quality games instantly to your browser. We understand that finding high quality, unblocked games that work perfectly on your mobile phone or chromebook without lagging can be difficult. That's why we engineered ZynfexGame on a blazing-fast edge network.
-		</p>
-		
-		<p class="text-lg leading-relaxed mb-12">
-			We hope you enjoy our platform as much as we enjoy building it for you.
-		</p>
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
+			<div class="space-y-6">
+				<h2 class="text-2xl font-black text-white flex items-center gap-3">
+					<span class="w-1.5 h-6 bg-indigo-500 rounded-full"></span>
+					Our Mission
+				</h2>
+				<p class="leading-relaxed">
+					Founded in early 2026, **ZynfexGame** was born out of a simple frustration: the state of modern web gaming. Most portals are cluttered with intrusive ads, broken links, and poorly optimized games that lag on school or office networks.
+				</p>
+				<p class="leading-relaxed">
+					We set out to build a platform that prioritizes **Speed, Security, and Quality**. Every game on our portal is hand-picked, performance-tested, and optimized to run flawlessly on everything from a high-end gaming PC to a standard school Chromebook.
+				</p>
+			</div>
+			<div class="bg-[#0f0c24] border border-[#231f47] p-8 rounded-3xl shadow-xl">
+				<h2 class="text-2xl font-black text-white flex items-center gap-3 mb-6">
+					<span class="text-indigo-500">💎</span>
+					Our Core Values
+				</h2>
+				<ul class="space-y-4">
+					<li class="flex gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
+						<span><strong>Zero Latency:</strong> Hosted on a global edge network for instant play.</span>
+					</li>
+					<li class="flex gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
+						<span><strong>Safe & Secure:</strong> No downloads, no track-heavy trackers, pure fun.</span>
+					</li>
+					<li class="flex gap-3">
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
+						<span><strong>Universal Access:</strong> Fully unblocked and cross-device compatible.</span>
+					</li>
+				</ul>
+			</div>
+		</div>
 
-		<a href="mailto:contact@zynfexgame.me" class="inline-block bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-3 px-8 rounded-full transition-transform transform hover:-translate-y-1 shadow-xl">
-			Contact Us
-		</a>
+		<div class="bg-indigo-600/5 rounded-3xl p-8 md:p-12 mb-20 border border-indigo-500/10">
+			<h2 class="text-3xl font-black text-white mb-8 text-center">How We Curate Our Library</h2>
+			<div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+				<div class="text-center">
+					<div class="text-3xl mb-4">🔍</div>
+					<h3 class="font-bold text-white mb-2">1. Discovery</h3>
+					<p class="text-sm text-gray-400">We scan the global indie and IO scenes for high-potential, innovative titles.</p>
+				</div>
+				<div class="text-center">
+					<div class="text-3xl mb-4">🧪</div>
+					<h3 class="font-bold text-white mb-2">2. Testing</h3>
+					<p class="text-sm text-gray-400">Every game undergoes a 48-hour 'Lag-Stress-Test' on various network conditions.</p>
+				</div>
+				<div class="text-center">
+					<div class="text-3xl mb-4">🚀</div>
+					<h3 class="font-bold text-white mb-2">3. Deployment</h3>
+					<p class="text-sm text-gray-300">We host and optimize assets locally to ensure lightning-fast load times.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="text-center max-w-2xl mx-auto mb-20">
+			<h2 class="text-3xl font-black text-white mb-6">A Message to Our Community</h2>
+			<p class="leading-relaxed mb-8">
+				ZynfexGame is more than just a place to play games—it's a community built by gamers for gamers. We believe that entertainment should be free, fast, and accessible to everyone, regardless of where they are or what device they are using.
+			</p>
+			<div class="flex flex-col sm:flex-row gap-4 justify-center">
+				<a href="mailto:contact@zynfexgame.me" class="bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-4 px-10 rounded-2xl transition-all shadow-xl hover:-translate-y-1 active:scale-95">
+					Contact Support
+				</a>
+				<a href="/" class="bg-[#1b1736] hover:bg-[#25204d] text-white font-bold py-4 px-10 rounded-2xl transition-all border border-gray-800 active:scale-95">
+					Back to Games
+				</a>
+			</div>
+		</div>
 	</div>
 </Layout>
