@@ -180,6 +180,42 @@
         ]
     },
     {
+        "slug": "paper-io",
+        "title": "Paper.io",
+        "category": "Arcade",
+        "tags": ["IO Game", "Territory", "Conquest", "Multiplayer"],
+        "rating": 4.4,
+        "votes": "12,100",
+        "views": "7.8M",
+        "released": "2024",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/paper-io-thumb.webp",
+        "iframe": "https://paper-io.com/",
+        "developer": "Voodoo",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "Paper.io is a fast-paced territory capture game. Enclose land to add it to your territory, but be careful of your tail!",
+        "mission": "Conquer as much map percentage as possible by creating loops while defending your trail from other players.",
+        "strategies": [
+            "Keep your loops small and controlled to stay safe.",
+            "Avoid going too deep into enemy territory unless you have a clear return path.",
+            "Watch the edges of the map; they are often the safest place to grow.",
+            "Strike other players' trails while they are exploring to eliminate them."
+        ],
+        "controls": {
+            "pc": "<strong>Arrow Keys / WASD</strong>: Change Direction | <strong>Mouse</strong>: Steer",
+            "mobile": "<strong>Swipe</strong>: Change Direction"
+        },
+        "proTips": [
+            "Wait for an opponent to commit to a large loop before striking their tail.",
+            "You can't hit your own tail, so use tight turns to navigate safely."
+        ],
+        "faq": [
+            { "q": "What happens if I hit a wall?", "a": "You simply bounce off or stop; the real danger is other players hitting your trail." },
+            { "q": "How do I win?", "a": "The goal is to reach 100% map coverage, though this is extremely rare in a live multiplayer environment." }
+        ]
+    },
+    {
         "slug": "little-big-snake",
         "title": "Little Big Snake",
         "category": "Arcade",
@@ -213,6 +249,42 @@
         "faq": [
             { "q": "Is Little Big Snake free?", "a": "Yes, it is completely free to play in your browser on ZynfexGame." },
             { "q": "Can I save my snake's progress?", "a": "By creating an account, you can save your coins, skins, and evolution tree progress." }
+        ]
+    },
+    {
+        "slug": "wormszone-io",
+        "title": "WormsZone.io",
+        "category": "Arcade",
+        "tags": ["IO Game", "Snake", "Multiplayer", "Skins"],
+        "rating": 4.5,
+        "votes": "18,900",
+        "views": "11.2M",
+        "released": "2024",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/wormszone-io-thumb.webp",
+        "iframe": "https://worms.zone/",
+        "developer": "Wild Spike",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "WormsZone.io is a popular dynamic snake game where you eat treats, grow massive, and compete against players from around the world.",
+        "mission": "Become the king of the arena by consuming sweets, boosters, and defeating rival worms.",
+        "strategies": [
+            "Pick up power-ups like the Magnet to attract food from a distance.",
+            "Use the speed boost to cut off other worms and force them to crash into you.",
+            "Don't forget to keep an eye on your own tail to avoid being encircled.",
+            "Eat the remains of large fallen worms to grow exponentially fast."
+        ],
+        "controls": {
+            "pc": "<strong>Mouse</strong>: Steer | <strong>Left Click</strong>: Speed Boost",
+            "mobile": "<strong>Joystick</strong>: Steer | <strong>Action Button</strong>: Speed Boost"
+        },
+        "proTips": [
+            "The 'Double Score' power-up is best used right before a large worm is about to be eliminated nearby.",
+            "Wiggle your head slightly to make your movement less predictable to nearby predators."
+        ],
+        "faq": [
+            { "q": "Are there different skins for my worm?", "a": "Yes, you can unlock hundreds of skins and hats using the gold you collect during play." },
+            { "q": "Is WormsZone available for schools?", "a": "Yes, our unblocked version works on all network types." }
         ]
     },
     {
@@ -360,6 +432,42 @@
         ]
     },
     {
+        "slug": "sea-dragons",
+        "title": "Sea Dragons",
+        "category": "Action",
+        "tags": ["Ocean", "Survival", "Evolution", "Multiplayer"],
+        "rating": 4.3,
+        "votes": "4,200",
+        "views": "2.1M",
+        "released": "2024",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/sea-dragons-thumb.webp",
+        "iframe": "https://seadragons.io/",
+        "developer": "Sea Dragons Team",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "Sea Dragons is a beautiful underwater survival game where you control a growing dragon in a dangerous oceanic arena.",
+        "mission": "Consume aquatic life and scattered mana to grow your dragon while avoiding larger predators and eliminating rival dragons.",
+        "strategies": [
+            "Eat smaller fish and mana orbs to increase your length and strength.",
+            "Use your boost to lunge at the heads of other dragons to eliminate them.",
+            "Diving deeper can sometimes help you escape from larger predators.",
+            "Manage your oxygen—coming to the surface is occasionally required."
+        ],
+        "controls": {
+            "pc": "<strong>Mouse</strong>: Steer | <strong>Left Click</strong>: Boost",
+            "mobile": "<strong>Virtual Joypad</strong>: Steer | <strong>Action Button</strong>: Boost"
+        },
+        "proTips": [
+            "Encircle rival dragons like a snake to trap them in a shrinking circle of death.",
+            "The mana orbs near the center of the map are the most plentiful but the most dangerous to collect."
+        ],
+        "faq": [
+            { "q": "Can I breathe underwater indefinitely?", "a": "Yes, as a sea dragon you are built for the deep, but watch your energy levels." },
+            { "q": "How do I unlock new dragon species?", "a": "Collect gold during matches to purchase faster and more powerful dragon types in the shop." }
+        ]
+    },
+    {
         "slug": "hexanaut-io",
         "title": "Hexanaut.io",
         "category": "Strategy",
@@ -429,6 +537,42 @@
         "faq": [
             { "q": "How many levels are in Space Waves?", "a": "There are dozens of increasingly difficult levels, ranging from Beginner to Extreme." },
             { "q": "Is Space Waves harder than Geometry Dash?", "a": "It features a unique wave mechanic that some players find even more challenging!" }
+        ]
+    },
+    {
+        "slug": "stabfish-io",
+        "title": "Stabfish.io",
+        "category": "Action",
+        "tags": ["Ocean", "Battle", "Arena", "Multiplayer"],
+        "rating": 4.5,
+        "votes": "9,800",
+        "views": "5.9M",
+        "released": "2024",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/stabfish-io-thumb.webp",
+        "iframe": "https://stabfish.io/",
+        "developer": "Zytech",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "Stabfish.io is a brutal underwater combat arena where you wield a sharp tusk to impale other players and decorative sea life.",
+        "mission": "Dominate the ocean by stabbing rivals and collecting food to increase your level and tusk length.",
+        "strategies": [
+            "Aim for the body of other fish while protecting your own from their tusks.",
+            "Consume as much plankton and gems as possible to upgrade your fish quickly.",
+            "Use the 'Rebirth' mechanic to unlock more powerful predators like Sharks and Whales.",
+            "Speed up to land a lethal strike, but watch your stamina bar."
+        ],
+        "controls": {
+            "pc": "<strong>Mouse</strong>: Steer | <strong>Left Click</strong>: Speed Boost",
+            "mobile": "<strong>Virtual Joypad</strong>: Steer | <strong>Action Button</strong>: Speed Boost"
+        },
+        "proTips": [
+            "Wait for two other fish to engage in a fight, then strike the winner while they are vulnerable.",
+            "Collect the 'Treasure Chests' for massive XP boosts and temporary defensive buffs."
+        ],
+        "faq": [
+            { "q": "Can I customize my fish?", "a": "Yes, you can upgrade your tusk and body skins as you level up and earn gems." },
+            { "q": "What is the best type of fish?", "a": "Later unlocks like the Great White Shark have significantly higher speed and health stats." }
         ]
     },
     {
