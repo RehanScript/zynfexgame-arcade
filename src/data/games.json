@@ -517,43 +517,7 @@
         ],
         "editorReview": "Hexanaut.io is a brilliant evolution of the territory capture sub-genre. The use of hexagonal tiles makes expansion feel more tactical and grid-based than its peers. The 'Totem' system is a stroke of genius, forcing players to venture into dangerous contested areas for temporary buffs. Our team found the Hexanaut countdown to be incredibly tense—being 'on the clock' while every other player on the map is hunting you down is one of the most exciting meta-mini-games in all of IO gaming."
     },
-    {
-        "slug": "space-waves-io",
-        "title": "Space Waves (Official)",
-        "category": "Arcade",
-        "tags": ["Geometry Dash", "Rhythm", "Impossible", "Hard"],
-        "rating": 4.7,
-        "votes": "15,000",
-        "views": "9.2M",
-        "released": "2025",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/space-waves-io-thumb.webp",
-        "iframe": "https://spacewavesgame.io/",
-        "developer": "Space Waves Team",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "Space Waves is a challenging rhythm-based platformer inspired by Geometry Dash. Navigate through dangerous tunnels at high speed!",
-        "mission": "Survive the gauntlet of spikes and obstacles to reach the end of the tunnel.",
-        "strategies": [
-            "Tap or click with rhythmic precision; the obstacles are designed around the beat.",
-            "Stay relaxed—tensing up leads to mistake-prone over-clicking.",
-            "Focus on the space in front of your wave, not the wave itself.",
-            "Practice each section slowly until you develop muscle memory."
-        ],
-        "controls": {
-            "pc": "<strong>Click / Spacebar</strong>: Fly Up | <strong>Release</strong>: Fall Down",
-            "mobile": "<strong>Tap</strong>: Fly Up | <strong>Release</strong>: Fall Down"
-        },
-        "proTips": [
-            "For tight gaps, use quick, short taps rather than long holds.",
-            "Memorizing the level layout is more reliable than pure reaction speed."
-        ],
-        "faq": [
-            { "q": "How many levels are in Space Waves?", "a": "There are dozens of increasingly difficult levels, ranging from Beginner to Extreme." },
-            { "q": "Is Space Waves harder than Geometry Dash?", "a": "It features a unique wave mechanic that some players find even more challenging!" }
-        ],
-        "editorReview": "Space Waves is an 'impossible' game that manages to be addictive rather than frustrating. The rhythm-based gameplay is tight, and the electronic soundtrack perfectly complements the neon visual style. We love the variety in level design—some focus on wide, rhythmic pulses while others demand razor-thin precision. It’s a true test of focus and motor skills. If you enjoy the 'Flow' state that comes from mastering a difficult rhythm game, Space Waves is a must-play."
-    },
+
     {
         "slug": "stabfish-io",
         "title": "Stabfish.io",
@@ -665,80 +629,7 @@
         ],
         "editorReview": "MooMoo.io is one of the pioneers of the 'survival-IO' genre, and it remains the best. The base-building is simple enough to pick up instantly but deep enough to allow for incredibly creative layouts. The hat system provides a great way to customize your stats on the fly—switching from a mining hat to a combat helmet before a raid is a classic high-level play. It’s a game of constant multitasking: growing your wealth while always keeping one eye on the horizon for rival clans. It’s social, strategic, and very rewarding."
     },
-    {
-        "slug": "count-masters",
-        "title": "Count Masters",
-        "category": "Casual",
-        "tags": ["Run", "Crowd", "Hypercasual", "Multiplayer"],
-        "rating": 4.2,
-        "votes": "21,000",
-        "views": "14M",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/count-masters-thumb.webp",
-        "iframe": "https://www.crazygames.com/embed/count-masters-stickman-games",
-        "developer": "Freeplay Inc",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "Count Masters is a fun crowd-counting runner. Gather your people and smash through gates to win the final castle battle!",
-        "mission": "Collect followers, choose the best multiplier gates, and lead a massive army to the finish line.",
-        "strategies": [
-            "Always pick the multiplier x2 or x3 gates over the simple addition +10 gates.",
-            "Try to avoid obstacles as they deplete your crowd numbers quickly.",
-            "Move your leader quickly to gather stray followers on the sides of the track.",
-            "Timing your entry into the crowd-fights is key to maintaining your numbers."
-        ],
-        "controls": {
-            "pc": "<strong>Mouse Drag</strong>: Move Side to Side",
-            "mobile": "<strong>Swipe</strong>: Move Side to Side"
-        },
-        "proTips": [
-            "Stay in the center for the first half to avoid falling off, then move to the edges for bonus gates.",
-            "Focus on the largest number, even if it's harder to reach."
-        ],
-        "faq": [
-            { "q": "How do I get the boss for the final battle?", "a": "The strength of your final attack is based purely on the number of followers you have left at the end." },
-            { "q": "Is the game endless?", "a": "It features hundreds of levels with increasing complexity and newer obstacles." }
-        ],
-        "editorReview": "Count Masters is the pinnacle of the 'hyper-casual' genre. It takes a simple math-based decision—which gate gives me a bigger crowd?—and turns it into a high-satisfaction arcade experience. There’s something deeply gratifying about seeing your swarm of blue stickmen grow from five to fifty and then crash through an enemy gate. The level design keeps things fresh with moving gates and increasingly difficult terrain. It’s the perfect 'zen' game for when you want simple, satisfying feedback and a quick dopamine hit."
-    },
-    {
-        "slug": "doodle-road",
-        "title": "Doodle Road",
-        "category": "Puzzle",
-        "tags": ["Drawing", "Physics", "Creative", "Puzzle"],
-        "rating": 4.1,
-        "votes": "4,500",
-        "views": "2.1M",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/doodle-road-thumb.webp",
-        "iframe": "https://www.crazygames.com/embed/doodle-road",
-        "developer": "Doodle Studio",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "Doodle Road is a creative physics puzzle where you draw the path for a car to reach its destination.",
-        "mission": "Draw ingenious bridges and ramps to guide the vehicle safely across gaps and over obstacles.",
-        "strategies": [
-            "Think about structural stability; thin lines might collapse under the car's weight.",
-            "Use the environment to your advantage by bracing your drawings against existing walls.",
-            "Momentum is key—sometimes a steep ramp is better than a flat bridge.",
-            "You have limited ink, so draw only what is absolutely necessary."
-        ],
-        "controls": {
-            "pc": "<strong>Click & Drag</strong>: Draw Path",
-            "mobile": "<strong>Touch & Drag</strong>: Draw Path"
-        },
-        "proTips": [
-            "Double-line your bridges for extra strength on heavy-car levels.",
-            "Draw a 'hook' at the end of your ramp to ensure the car lands safely."
-        ],
-        "faq": [
-            { "q": "Can I redo a section of my drawing?", "a": "Yes, you can use the 'Eraser' tool or restart the level to try a new path." },
-            { "q": "Are there different vehicles?", "a": "As you progress, you unlock heavier and faster cars that require more complex paths." }
-        ],
-        "editorReview": "Doodle Road is a delightful test of creativity and physics. Unlike many puzzle games that have one strict 'right' answer, it encourages experimentation. We spent hours trying to build the most efficient (or most ridiculous) bridges to get our car over the finish line. The hand-drawn aesthetic feels warm and friendly, and the immediate physics-based feedback makes learning from failure part of the fun. It’s a great example of 'emergent' gameplay where your own drawing style dictates the strategy."
-    },
+
     {
         "slug": "build-royale",
         "title": "BuildRoyale.io",
@@ -776,43 +667,7 @@
         ],
         "editorReview": "BuildRoyale.io is the definitive 2D answer to the building-shooter phenomenon. The top-down perspective doesn't diminish the intensity of high-speed build battles—if anything, it makes them more strategic as you have 360-degree awareness. The looting phase is satisfyingly fast, and the weapons feel distinct. Our team was particularly impressed by how smoothly the building transitions from movement to combat; it’s a high-skill game that rewards players who can multitask under pressure."
     },
-    {
-        "slug": "witchcat",
-        "title": "Witchcat",
-        "category": "Puzzle",
-        "tags": ["Indie", "Retro", "Cat", "Logic"],
-        "rating": 4.3,
-        "votes": "1,100",
-        "views": "450K",
-        "released": "2023",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/witchcat/thumbnail.webp",
-        "iframe": "/hosted-games/witchcat/index.html",
-        "developer": "JS13kGames (Self-Hosted)",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "Witchcat is a charming retro-style puzzle game where you guide a magical feline through mysterious levels.",
-        "mission": "Use logic and your magical abilities to navigate through the witch's tower and solve ancient puzzles.",
-        "strategies": [
-            "Look for hidden paths that can only be revealed by moving certain objects.",
-            "The environment is interactable—experiment with everything you see.",
-            "Think a few steps ahead to avoid getting stuck in a corner.",
-            "Don't rush; these puzzles are meant to be solved with patience and strategy."
-        ],
-        "controls": {
-            "pc": "<strong>WASD / Arrows</strong>: Move Cat | <strong>Space</strong>: Interact",
-            "mobile": "<strong>Swipe</strong>: Move Cat | <strong>Tap</strong>: Interact"
-        },
-        "proTips": [
-            "The shadows often hide clues for the more difficult floor puzzles.",
-            "Interact with the magical lanterns to gain temporary vision of hidden platforms."
-        ],
-        "faq": [
-            { "q": "Is Witchcat available for download?", "a": "No, it is a micro-game designed to run directly in your browser." },
-            { "q": "How many levels are in the tower?", "a": "The game features over 20 increasingly difficult puzzle floors." }
-        ],
-        "editorReview": "Witchcat is a delightful example of micro-game design. Developed for the JS13K competition, it packs an incredible amount of charm and clever level design into a tiny footprint. The retro 'Gameboy-esque' aesthetic is perfectly calibrated, and the puzzle logic is consistently fair but challenging. We especially love the fluid animations of our feline protagonist. It’s a quiet, atmospheric indie gem that proves you don’t need a massive budget to create a deeply engaging world."
-    },
+
     {
         "slug": "doodle-jump",
         "title": "Doodle Jump",
@@ -886,5 +741,185 @@
             { "q": "What happens after Wave 10?", "a": "The difficulty resets with faster movement, but your score continues to climb!" }
         ],
         "editorReview": "Space Invaders 3D is a loving homage to the forefather of the shoot-em-up genre. By moving into the third dimension, the game adds a level of visual spectacle that the original simply couldn't achieve. The boss fights are massive and require genuine tactical dodging. Our team particularly enjoyed the 'shield destruction' system—using your cover as a resource that gradually fades adds a modern survival-horror twist to a legendary arcade formula."
+    },
+    {
+        "slug": "tileman",
+        "title": "Tileman.io",
+        "category": "Arcade",
+        "tags": ["Territory", "Multiplayer", "Neon", "Snake"],
+        "rating": 4.4,
+        "votes": "4,200",
+        "views": "1.8M",
+        "released": "2024",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/tileman-thumb.png",
+        "iframe": "https://tileman.io",
+        "developer": "Unknown",
+        "featured": false,
+        "mobileFriendly": true,
+        "description": "TileMan.io is a neon-themed territory conquest game where you expand your area by creating loops.",
+        "mission": "Acquire territory by expanding out and circling back to build a mighty empire of glowing neon grids.",
+        "strategies": [
+            "Use loops to capture large areas quickly.",
+            "Cut off opponents' trails to eliminate them.",
+            "Stay within your territory for safety while expanding."
+        ],
+        "controls": {
+            "pc": "<strong>WASD / Arrows</strong>: Move | <strong>E/P</strong>: Pause",
+            "mobile": "<strong>Swipe</strong>: Move"
+        },
+        "proTips": [
+            "Lure enemies into your territory where you have the maneuverability advantage.",
+            "Bait opponents into overextending their trails before cutting them off."
+        ],
+        "faq": [
+            { "q": "How do I grow my area?", "a": "Move out of your base to draw a line, then loop back to your base to capture the enclosed tiles." },
+            { "q": "What happens if someone hits my trail?", "a": "If an opponent crosses your trail while you are outside your territory, you are eliminated." }
+        ],
+        "editorReview": "Tileman.io is a sleek, neon-drenched take on the growing-territory genre. It takes the core mechanics of games like Splix and adds a layer of visual polish and speed that makes every round feel intense. The grid-based precision movement is satisfyingly responsive, and the risk-reward calculation of how far to venture from safety is constantly engaging. It's a perfect 'quick play' game that rewards deep tactical thinking and steady nerves."
+    },
+    {
+        "slug": "cocky",
+        "title": "Cocky.io",
+        "category": "Action",
+        "tags": ["Survival", "Arena", "Multiplayer", "Humorous"],
+        "rating": 4.3,
+        "votes": "3,100",
+        "views": "1.2M",
+        "released": "2024",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/cocky-thumb.png",
+        "iframe": "https://cocky.io",
+        "developer": "Unknown",
+        "featured": false,
+        "mobileFriendly": true,
+        "description": "Cocky.io is a humorous multiplayer arena game where players battle using sausage-like weapons.",
+        "mission": "Reach the top of the leaderboard by poking enemies with your sausage weapon.",
+        "strategies": [
+            "Keep your weapon pointed towards the enemy.",
+            "Use your dash to surprise opponents or escape tight situations.",
+            "Collect food on the map to grow your weapon and your score."
+        ],
+        "controls": {
+            "pc": "<strong>Mouse</strong>: Move | <strong>Click</strong>: Dash/Poke",
+            "mobile": "<strong>Virtual Joypad</strong>: Move | <strong>Tap</strong>: Dash"
+        },
+        "proTips": [
+            "Attacking from the side or behind is often more effective than a head-on collision.",
+            "Don't stay in high-traffic zones too long; move to the outskirts to grow safely."
+        ],
+        "faq": [
+            { "q": "How do I get a longer weapon?", "a": "Defeat other players and consume energy scattered around the arena." },
+            { "q": "Can I customize my character?", "a": "Yes, you can change your skin and hair style in the main menu." }
+        ],
+        "editorReview": "Cocky.io is a refreshingly weird and funny addition to the arena IO sub-genre. The 'sausage physics' combat is surprisingly deep, requiring careful positioning and timing to land hits without leaving yourself exposed. The character customization adds a fun layer of personality to every match. It's a game that doesn't take itself too seriously but provides genuine competitive thrills and plenty of laugh-out-loud moments."
+    },
+    {
+        "slug": "snakeblock",
+        "title": "Snakeblock.io",
+        "category": "Action",
+        "tags": ["Snake", "Energy", "Multiplayer", "Laser"],
+        "rating": 4.1,
+        "votes": "2,500",
+        "views": "850K",
+        "released": "2024",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/snakeblock-thumb.jpg",
+        "iframe": "https://snakeblock.io",
+        "developer": "Unknown",
+        "featured": false,
+        "mobileFriendly": true,
+        "description": "Snakeblock.io is a laser-themed snake game where players compete in a grey grid to grow the longest serpent.",
+        "mission": "Grow as large as possible by consuming energy and destroy other snakes.",
+        "strategies": [
+            "Collect energy orbs to increase your snake's length.",
+            "Trap other snakes by circling around them or cutting them off.",
+            "Use the boost sparingly as it consumes your energy."
+        ],
+        "controls": {
+            "pc": "<strong>Mouse</strong>: Move | <strong>Click/Space</strong>: Boost",
+            "mobile": "<strong>Virtual Joypad</strong>: Move | <strong>Tap</strong>: Boost"
+        },
+        "proTips": [
+            "The energy clouds are high-value targets but attract many dangerous rivals.",
+            "When being chased, try to make a sharp 180-degree turn to catch the attacker off guard."
+        ],
+        "faq": [
+            { "q": "How do I boost?", "a": "Hold the left mouse button or Spacebar to increase your speed at the cost of some length." },
+            { "q": "What happens if I hit another snake?", "a": "If your head touches another snake's body, you will explode and turn into energy orbs." }
+        ],
+        "editorReview": "Snakeblock.io takes the classic Snake formula and infuses it with a high-energy laser aesthetic. The grey-scale grid makes the vibrant neon snakes pop, creating a visually striking arena. The boost mechanic is perfectly balanced, making every chase a tense encounter of resource management. It's a solid, competitive experience that fans of Slither.io will appreciate for its speed and style."
+    },
+    {
+        "slug": "astro-race",
+        "title": "Astro Race",
+        "category": "Racing",
+        "tags": ["Space", "Supersonic", "MMO", "Competitive"],
+        "rating": 4.6,
+        "votes": "5,600",
+        "views": "2.1M",
+        "released": "2024",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/astro-race-thumb.png",
+        "iframe": "https://astrorace.io",
+        "developer": "Unknown",
+        "featured": false,
+        "mobileFriendly": true,
+        "description": "Astro Race is a high-speed space racing game where players pilot supersonic ships in a futuristic MMO setting.",
+        "mission": "Compete against other players to reach the highest league by winning races.",
+        "strategies": [
+            "Drift along the track borders to charge your boost meter.",
+            "Use your boost on straightaways to maximize speed.",
+            "Avoid collisions with other ships to maintain your momentum."
+        ],
+        "controls": {
+            "pc": "<strong>Left/Right Arrows</strong>: Turn | <strong>Up Arrow</strong>: Boost",
+            "mobile": "<strong>Tap Sides</strong>: Turn | <strong>Swipe Up</strong>: Boost"
+        },
+        "proTips": [
+            "Mastering the 'Wall Drift' is the key to winning at higher leagues.",
+            "Watch out for the shifting track obstacles; they can end your race in an instant."
+        ],
+        "faq": [
+            { "q": "How do I unlock new leagues?", "a": "Earn points by finishing in the top positions of every race." },
+            { "q": "Can I customize my ship?", "a": "Yes, you can unlock and equip various ship skins as you progress through the leagues." }
+        ],
+        "editorReview": "Astro Race is a masterclass in 'easy to learn, hard to master' racing. The drift mechanic is incredibly unique—instead of slowing you down, it's the primary way to gain boost speed. This creates a high-risk, high-reward gameplay loop where you're constantly hugging the walls at supersonic speeds. The MMO integration means there's always someone to race against, making the climb through the leagues feel like a genuine achievement."
+    },
+    {
+        "slug": "paper-racer",
+        "title": "Paper Racer",
+        "category": "Racing",
+        "tags": ["Drawing", "Physics", "Creative", "Sports"],
+        "rating": 4.5,
+        "votes": "4,900",
+        "views": "3.4M",
+        "released": "2024",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/paper-racer-thumb.png",
+        "iframe": "https://paperracer.com",
+        "developer": "Unknown",
+        "featured": false,
+        "mobileFriendly": true,
+        "description": "Paper Racer is a unique racing game featuring hand-drawn paper graphics and customizable vehicles.",
+        "mission": "Compete on user-generated tracks, customize your vehicle, and challenge others.",
+        "strategies": [
+            "Balance your speed and direction to avoid flipping over on steep hills.",
+            "Use items strategically to slow down your opponents.",
+            "Memorize the layout of complex user-generated tracks."
+        ],
+        "controls": {
+            "pc": "<strong>WASD / Arrow Keys</strong>: Control | <strong>Space</strong>: Jump/Item | <strong>Z</strong>: Turn Around",
+            "mobile": "<strong>Virtual Buttons</strong>: Control & Use Items"
+        },
+        "proTips": [
+            "Lower your center of gravity when designing custom vehicles for better stability.",
+            "Experiment with the thousands of user-created tracks for a never-ending racing experience."
+        ],
+        "faq": [
+            { "q": "How do I build my own track?", "a": "Use the built-in track editor in the main menu to draw and share your creations." },
+            { "q": "Can I play with friends?", "a": "Yes, you can challenge others in various multiplayer room modes." }
+        ],
+        "editorReview": "Paper Racer is a charming and endlessly creative racing sandbox. The sketch-style art direction gives it a unique personality that sets it apart from more realistic racers. The real draw, however, is the community content—with thousands of tracks and custom vehicles, you'll never see the same race twice. It’s a perfect blend of physics-based challenge and creative expression that keeps you coming back to see what the community has built next."
     }
 ]

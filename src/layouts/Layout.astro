@@ -59,14 +59,13 @@ const searchDB = games.map(g => ({ title: g.title, slug: g.slug, thumbnail: g.th
 		<meta property="twitter:description" content={description} />
 		<meta property="twitter:image" content={new URL(image, canonicalURL)} />
 
-		<!-- Deferred execution for unoptimized heavy 3rd party scripts -->
+		<!-- Google Analytics 4 -->
 		<script is:inline>
 			let thirdPartyLoaded = false;
 			const loadThirdPartyScripts = () => {
 				if (thirdPartyLoaded) return;
 				thirdPartyLoaded = true;
 
-				// Google Analytics 4
 				const gaScript = document.createElement('script');
 				gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-YE82JXSRWN";
 				gaScript.async = true;
@@ -76,13 +75,6 @@ const searchDB = games.map(g => ({ title: g.title, slug: g.slug, thumbnail: g.th
 				function gtag(){dataLayer.push(arguments);}
 				gtag('js', new Date());
 				gtag('config', 'G-YE82JXSRWN');
-
-				// Google AdSense
-				const adScript = document.createElement('script');
-				adScript.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5819074111802633";
-				adScript.crossOrigin = 'anonymous';
-				adScript.async = true;
-				document.head.appendChild(adScript);
 			};
 
 			// Load instantly when user begins interacting with the page

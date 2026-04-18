@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import GameCard from '../components/GameCard.astro';
 import games from '../data/games.json';
+import { getCollection } from 'astro:content';
 
 // Simple deduplication for categories to build the top carousel
 const categorySet = new Set(games.map(g => g.category));
@@ -16,16 +17,18 @@ const actionGames = games.filter(g => g.category === 'Action' || g.category === 
 
 // Trending games pagination logic
 const trendingGames = games;
-const INITIAL_LOAD_COUNT = 40;
+const INITIAL_LOAD_COUNT = 63;
+
+// Fetch Blog Posts for the new section
+const blogPosts = (await getCollection('blog')).sort(
+	(a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+);
 ---
 
 <Layout title="ZynfexGame | Play HTML5 Online Games Free - No Downloads">
 	<div class="flex flex-col gap-10 md:gap-16">
 		
-		<!-- Ad Placeholder: Top Header AdSense Banner -->
-		<div class="w-full h-[90px] max-w-[728px] mx-auto bg-[#0d0b1a] rounded-lg border border-dashed border-[#2d2856] flex items-center justify-center text-gray-500 text-sm font-bold shadow-inner">
-			Advertisement Placeholder
-		</div>
+
 
 		<!-- Mobile Friendly Section (High Visibility) -->
 		<section class="relative">
@@ -76,23 +79,16 @@ const INITIAL_LOAD_COUNT = 40;
 					const classVisibility = index >= INITIAL_LOAD_COUNT ? 'hidden js-game-wrapper' : 'js-game-wrapper';
 					
 					return (
-						<>
-							{index > 0 && index % 21 === 0 && (
-								<div class={`col-span-full w-full h-[120px] bg-[#0d0b1a] rounded-2xl border border-dashed border-[#2d2856] flex items-center justify-center text-gray-600 text-sm font-bold my-6 shadow-sm ${classVisibility}`}>
-									Mid-Feed Advertisement
-								</div>
-							)}
-							<div class={classVisibility}>
-								<GameCard 
-									title={game.title} 
-									slug={game.slug} 
-									category={game.category} 
-									thumbnail={game.thumbnail} 
-									mobileFriendly={game.mobileFriendly} 
-									lazy={index >= 12} 
-								/>
-							</div>
-						</>
+						<div class={classVisibility}>
+							<GameCard 
+								title={game.title} 
+								slug={game.slug} 
+								category={game.category} 
+								thumbnail={game.thumbnail} 
+								mobileFriendly={game.mobileFriendly} 
+								lazy={index >= 12} 
+							/>
+						</div>
 					)
 				})}
 			</div>
@@ -100,9 +96,38 @@ const INITIAL_LOAD_COUNT = 40;
 			<!-- Load More Footer -->
 			<div class="mt-12 flex justify-center">
 				<button id="load-more-btn" class="bg-indigo-600 hover:bg-indigo-500 text-white font-black py-4 px-12 rounded-2xl transition-all shadow-2xl hover:shadow-indigo-500/20 active:scale-95 text-sm uppercase tracking-widest flex items-center gap-3">
-					<span>Load More Games</span>
+					<span>More Games</span>
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7" /></svg>
 				</button>
+			</div>
+		</section>
+
+		<!-- Blog Section: Strategy Guides & Tips -->
+		<section class="mt-10">
+			<div class="flex justify-between items-center mb-8 border-l-4 border-indigo-500 pl-4">
+				<h2 class="text-xl md:text-2xl font-black text-white">Latest Strategy Guides & Tips</h2>
+				<a href="/blog" class="text-xs font-bold text-indigo-400 hover:text-indigo-300 transition-colors uppercase tracking-widest flex items-center gap-1">
+					View All 
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+				</a>
+			</div>
+			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+				{blogPosts.map(post => (
+					<a href={`/blog/${post.id}`} class="bg-[#0f0c24] rounded-2xl border border-[#231f47] overflow-hidden hover:border-indigo-500/50 transition-all group shadow-lg flex flex-col">
+						{post.data.image && (
+							<div class="aspect-video overflow-hidden">
+								<img src={post.data.image} alt={post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+							</div>
+						)}
+						<div class="p-5 flex flex-col flex-grow">
+							<div class="flex items-center gap-2 mb-3">
+								<span class="text-[10px] font-black uppercase tracking-widest text-indigo-400 bg-indigo-500/10 px-2 py-0.5 rounded-md">Guide</span>
+								<span class="text-[10px] font-bold text-gray-500 uppercase tracking-widest">{post.data.publishDate.toLocaleDateString()}</span>
+							</div>
+							<h3 class="text-white font-bold text-base line-clamp-2 leading-snug group-hover:text-indigo-400 transition-colors">{post.data.title}</h3>
+						</div>
+					</a>
+				))}
 			</div>
 		</section>
 
@@ -202,9 +227,9 @@ const INITIAL_LOAD_COUNT = 40;
 			if (loadMoreBtn) {
 				loadMoreBtn.addEventListener('click', () => {
 					hiddenItems = document.querySelectorAll('.js-game-wrapper.hidden');
-					const itemsToReveal = Array.from(hiddenItems).slice(0, 40);
+					const itemsToReveal = Array.from(hiddenItems).slice(0, 21);
 					itemsToReveal.forEach(item => item.classList.remove('hidden'));
-					if (hiddenItems.length <= 40) loadMoreBtn.style.display = 'none';
+					if (hiddenItems.length <= 21) loadMoreBtn.style.display = 'none';
 				});
 			}
 		});
