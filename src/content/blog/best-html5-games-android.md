@@ -53,7 +53,7 @@ All you need is your browser—and you’re good to go.
 
 ### 🕸️ 2. Stickman Hook
 
-![Stickman Hook](https://stickhook.io/data/image/game/stick-hook-game1.png)
+![Stickman Hook](https://stickhook.io/data/image/game/stick-hook-game1.webp)
 
 **Why It Stands Out:**
 - Addictive swinging mechanics  
@@ -92,7 +92,7 @@ All you need is your browser—and you’re good to go.
 
 ### 🔢 5. 2048
 
-![2048 Game](https://imgs.crazygames.com/games/2048/cover_16x9-1707828856995.png?metadata=none&quality=60&height=6992)
+![2048 Game](https://imgs.crazygames.com/games/2048/cover_16x9-1707828856995.webp?metadata=none&quality=60&height=6992)
 
 **Why You Should Try It:**
 - Simple yet addictive  
@@ -118,7 +118,7 @@ All you need is your browser—and you’re good to go.
 
 ### 🏀 7. Basketball Stars
 
-![Basketball Stars](https://www.basketballstarsfun.com/game-logo.png)
+![Basketball Stars](https://www.basketballstarsfun.com/game-logo.webp)
 
 **Why It’s Fun:**
 - Competitive gameplay  

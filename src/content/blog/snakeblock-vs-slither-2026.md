@@ -28,7 +28,7 @@ schemas:
         "name": "ZynfexGame Arcade",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://zynfexgame.me/logo.png"
+          "url": "https://zynfexgame.me/logo.webp"
         }
       },
       "datePublished": "2026-04-18",

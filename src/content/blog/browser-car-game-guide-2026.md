@@ -3,7 +3,7 @@ title: "Browser Game Where You Drive a Car: Beginner Guide, Mistakes to Avoid, a
 description: "Discover how to play a browser game where you drive a car with smarter beginner habits, common mistakes to avoid, practical driving tips, and SEO-friendly advice that helps you improve faster."
 publishDate: 2026-04-18
 author: "ZynfexGame Team"
-image: "/hosted-games/browser-car-game-thumb.png"
+image: "/hosted-games/browser-car-game-thumb.webp"
 category: "Guide"
 tags: ["Driving Games", "Car Games", "Beginner Guide", "Browser Games"]
 schemas:
@@ -18,7 +18,7 @@ schemas:
       },
       "headline": "Browser Game Where You Drive a Car: Beginner Guide, Mistakes to Avoid, and How to Get Better Fast",
       "description": "Discover how to play a browser game where you drive a car with smarter beginner habits, common mistakes to avoid, practical driving tips, and SEO-friendly advice that helps you improve faster.",
-      "image": "https://zynfexgame.me/hosted-games/browser-car-game-thumb.png",
+      "image": "https://zynfexgame.me/hosted-games/browser-car-game-thumb.webp",
       "author": {
         "@type": "Person",
         "name": "ZynfexGame Team"
@@ -28,7 +28,7 @@ schemas:
         "name": "ZynfexGame Arcade",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://zynfexgame.me/logo.png"
+          "url": "https://zynfexgame.me/logo.webp"
         }
       },
       "datePublished": "2026-04-18",

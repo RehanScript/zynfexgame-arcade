@@ -3,7 +3,7 @@ title: "AstroRace.io Beginner Mistakes to Avoid in 2026"
 description: "Learn the most common AstroRace.io beginner mistakes to avoid with practical tips, smarter movement habits, better route planning, and SEO-friendly gameplay advice that helps you improve faster."
 publishDate: 2026-04-18
 author: "ZynfexGame Team"
-image: "/hosted-games/astro-race-thumb.png"
+image: "/hosted-games/astro-race-thumb.webp"
 category: "Strategy"
 tags: ["AstroRace.io", "Strategy", "Beginner Guide", "Racing"]
 schemas:
@@ -18,7 +18,7 @@ schemas:
       },
       "headline": "AstroRace.io Beginner Mistakes to Avoid in 2026",
       "description": "Learn the most common AstroRace.io beginner mistakes to avoid with practical tips, smarter movement habits, better route planning, and SEO-friendly gameplay advice that helps you improve faster.",
-      "image": "https://zynfexgame.me/hosted-games/astro-race-thumb.png",
+      "image": "https://zynfexgame.me/hosted-games/astro-race-thumb.webp",
       "author": {
         "@type": "Person",
         "name": "ZynfexGame Team"
@@ -28,7 +28,7 @@ schemas:
         "name": "ZynfexGame Arcade",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://zynfexgame.me/logo.png"
+          "url": "https://zynfexgame.me/logo.webp"
         }
       },
       "datePublished": "2026-04-18",

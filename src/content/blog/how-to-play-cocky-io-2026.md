@@ -3,7 +3,7 @@ title: "How to Play Cocky.io for Beginners (Easy Wins Guide) in 2026"
 description: "Learn how to play Cocky.io as a beginner with easy-win strategies, safer movement habits, practical map control tips, and a clear plan for improving faster in browser-game matches."
 publishDate: 2026-04-18
 author: "ZynfexGame Team"
-image: "/hosted-games/cocky-thumb.png"
+image: "/hosted-games/cocky-thumb.webp"
 category: "Guide"
 tags: ["Cocky.io", "Guide", "Beginner", "IO Games"]
 schemas:
@@ -18,7 +18,7 @@ schemas:
       },
       "headline": "How to Play Cocky.io for Beginners (Easy Wins Guide) in 2026",
       "description": "Learn how to play Cocky.io as a beginner with easy-win strategies, safer movement habits, practical map control tips, and a clear plan for improving faster in browser-game matches.",
-      "image": "https://zynfexgame.me/hosted-games/cocky-thumb.png",
+      "image": "https://zynfexgame.me/hosted-games/cocky-thumb.webp",
       "author": {
         "@type": "Person",
         "name": "ZynfexGame Team"
@@ -28,7 +28,7 @@ schemas:
         "name": "ZynfexGame Arcade",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://zynfexgame.me/logo.png"
+          "url": "https://zynfexgame.me/logo.webp"
         }
       },
       "datePublished": "2026-04-18",

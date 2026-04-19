@@ -3,7 +3,7 @@ title: "PaperRacer.io Unblocked Guide for School (2026): Safe Access, Better Dri
 description: "Learn how to enjoy PaperRacer.io at school in 2026 with safe, approved access habits, practical driving tips, low-lag fixes, and beginner-friendly strategies for winning more races."
 publishDate: 2026-04-18
 author: "ZynfexGame Team"
-image: "/hosted-games/paper-racer-thumb.png"
+image: "/hosted-games/paper-racer-thumb.webp"
 category: "Guide"
 tags: ["PaperRacer.io", "School Guide", "Racing", "Unblocked"]
 schemas:
@@ -18,7 +18,7 @@ schemas:
       },
       "headline": "PaperRacer.io Unblocked Guide for School (2026): Safe Access, Better Driving, and the Smartest Ways to Improve Fast",
       "description": "Learn how to enjoy PaperRacer.io at school in 2026 with safe, approved access habits, practical driving tips, low-lag fixes, and beginner-friendly strategies for winning more races.",
-      "image": "https://zynfexgame.me/hosted-games/paper-racer-thumb.png",
+      "image": "https://zynfexgame.me/hosted-games/paper-racer-thumb.webp",
       "author": {
         "@type": "Person",
         "name": "ZynfexGame Team"
@@ -28,7 +28,7 @@ schemas:
         "name": "ZynfexGame Arcade",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://zynfexgame.me/logo.png"
+          "url": "https://zynfexgame.me/logo.webp"
         }
       },
       "datePublished": "2026-04-18",

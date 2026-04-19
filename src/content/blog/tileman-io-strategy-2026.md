@@ -3,7 +3,7 @@ title: "TileMan.io Best Strategy to Capture More Tiles Fast in 2026"
 description: "Learn the best TileMan.io strategy to capture more tiles fast with practical movement tips, safe expansion habits, advanced route control, and smart tactics that help you win more often."
 publishDate: 2026-04-18
 author: "ZynfexGame Team"
-image: "/hosted-games/tileman-thumb.png"
+image: "/hosted-games/tileman-thumb.webp"
 category: "Strategy"
 tags: ["TileMan.io", "Strategy", "IO Games"]
 schemas:
@@ -18,7 +18,7 @@ schemas:
       },
       "headline": "TileMan.io Best Strategy to Capture More Tiles Fast in 2026",
       "description": "Learn the best TileMan.io strategy to capture more tiles fast with practical movement tips, safe expansion habits, advanced route control, and smart tactics that help you win more often.",
-      "image": "https://zynfexgame.me/hosted-games/tileman-thumb.png",
+      "image": "https://zynfexgame.me/hosted-games/tileman-thumb.webp",
       "author": {
         "@type": "Person",
         "name": "ZynfexGame Team"
@@ -28,7 +28,7 @@ schemas:
         "name": "ZynfexGame Arcade",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://zynfexgame.me/logo.png"
+          "url": "https://zynfexgame.me/logo.webp"
         }
       },
       "datePublished": "2026-04-18",
