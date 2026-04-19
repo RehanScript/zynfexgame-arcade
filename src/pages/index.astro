@@ -15,9 +15,16 @@ const mobileGames = games.filter(g => g.mobileFriendly).slice(0, 12);
 const strategistGames = games.filter(g => g.category === 'Strategy' || g.category === 'Puzzle').slice(0, 4);
 const actionGames = games.filter(g => g.category === 'Action' || g.category === 'Arcade').slice(0, 4);
 
-// Trending games pagination logic
+// Trending games pagination logic: Group games into sets of 21
 const trendingGames = games;
-const INITIAL_LOAD_COUNT = 63;
+const CHUNK_SIZE = 21;
+const gameChunks = [];
+for (let i = 0; i < trendingGames.length; i += CHUNK_SIZE) {
+	gameChunks.push(trendingGames.slice(i, i + CHUNK_SIZE));
+}
+
+// Initial visibility threshold: 3 sections (63 games)
+const INITIAL_SECTION_LIMIT = 3;
 
 // Fetch Blog Posts for the new section
 const blogPosts = (await getCollection('blog')).sort(
@@ -28,8 +35,6 @@ const blogPosts = (await getCollection('blog')).sort(
 <Layout title="ZynfexGame | Play HTML5 Online Games Free - No Downloads">
 	<div class="flex flex-col gap-10 md:gap-16">
 		
-
-
 		<!-- Mobile Friendly Section (High Visibility) -->
 		<section class="relative">
 			<div class="flex justify-between items-center mb-6">
@@ -67,39 +72,46 @@ const blogPosts = (await getCollection('blog')).sort(
 			</div>
 		</section>
 
-		<!-- Main Trending Games Grid -->
-		<section>
+		<!-- Main Trending Games Sections -->
+		<section id="trending-container">
 			<h2 class="text-xl md:text-2xl font-black flex items-center gap-3 mb-8 text-white border-l-4 border-indigo-500 pl-4">
 				Trending Games
 				<span class="text-xs md:text-sm font-medium text-gray-500 bg-gray-800/50 px-3 py-1 rounded-full whitespace-nowrap">Play fresh online games picked for you!</span>
 			</h2>
 			
-			<div class="grid grid-cols-3 min-[400px]:grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-3 sm:gap-4 pb-4">
-				{trendingGames.map((game, index) => {
-					const classVisibility = index >= INITIAL_LOAD_COUNT ? 'hidden js-game-wrapper' : 'js-game-wrapper';
-					
+			<div id="game-sections-wrapper" class="space-y-12">
+				{gameChunks.map((chunk, chunkIndex) => {
+					const isHidden = chunkIndex >= INITIAL_SECTION_LIMIT;
 					return (
-						<div class={classVisibility}>
-							<GameCard 
-								title={game.title} 
-								slug={game.slug} 
-								category={game.category} 
-								thumbnail={game.thumbnail} 
-								mobileFriendly={game.mobileFriendly} 
-								lazy={index >= 12} 
-							/>
+						<div class={`js-game-section ${isHidden ? 'hidden' : ''}`}>
+							<div class="grid grid-cols-3 min-[400px]:grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-3 sm:gap-4">
+								{chunk.map((game, gameIndex) => (
+									<div key={game.slug}>
+										<GameCard 
+											title={game.title} 
+											slug={game.slug} 
+											category={game.category} 
+											thumbnail={game.thumbnail} 
+											mobileFriendly={game.mobileFriendly} 
+											lazy={(chunkIndex * CHUNK_SIZE + gameIndex) >= 12} 
+										/>
+									</div>
+								))}
+							</div>
 						</div>
 					)
 				})}
 			</div>
 
 			<!-- Load More Footer -->
-			<div class="mt-12 flex justify-center">
-				<button id="load-more-btn" class="bg-indigo-600 hover:bg-indigo-500 text-white font-black py-4 px-12 rounded-2xl transition-all shadow-2xl hover:shadow-indigo-500/20 active:scale-95 text-sm uppercase tracking-widest flex items-center gap-3">
-					<span>More Games</span>
-					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7" /></svg>
-				</button>
-			</div>
+			{gameChunks.length > INITIAL_SECTION_LIMIT && (
+				<div class="mt-12 flex justify-center">
+					<button id="load-more-btn" class="bg-indigo-600 hover:bg-indigo-500 text-white font-black py-4 px-12 rounded-2xl transition-all shadow-2xl hover:shadow-indigo-500/20 active:scale-95 text-sm uppercase tracking-widest flex items-center gap-3">
+						<span>More Games</span>
+						<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7" /></svg>
+					</button>
+				</div>
+			)}
 		</section>
 
 		<!-- Blog Section: Strategy Guides & Tips -->
@@ -221,15 +233,19 @@ const blogPosts = (await getCollection('blog')).sort(
 	<script is:inline>
 		document.addEventListener("DOMContentLoaded", () => {
 			const loadMoreBtn = document.getElementById('load-more-btn');
-			let hiddenItems = document.querySelectorAll('.js-game-wrapper.hidden');
-			if (hiddenItems.length === 0 && loadMoreBtn) loadMoreBtn.style.display = 'none';
-
+			
 			if (loadMoreBtn) {
 				loadMoreBtn.addEventListener('click', () => {
-					hiddenItems = document.querySelectorAll('.js-game-wrapper.hidden');
-					const itemsToReveal = Array.from(hiddenItems).slice(0, 21);
-					itemsToReveal.forEach(item => item.classList.remove('hidden'));
-					if (hiddenItems.length <= 21) loadMoreBtn.style.display = 'none';
+					const nextHiddenSection = document.querySelector('.js-game-section.hidden');
+					if (nextHiddenSection) {
+						nextHiddenSection.classList.remove('hidden');
+					}
+					
+					// Check if any hidden sections remain
+					const remainingHidden = document.querySelectorAll('.js-game-section.hidden');
+					if (remainingHidden.length === 0) {
+						loadMoreBtn.style.display = 'none';
+					}
 				});
 			}
 		});

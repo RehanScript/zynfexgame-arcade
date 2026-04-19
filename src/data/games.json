@@ -921,5 +921,221 @@
             { "q": "Can I play with friends?", "a": "Yes, you can challenge others in various multiplayer room modes." }
         ],
         "editorReview": "Paper Racer is a charming and endlessly creative racing sandbox. The sketch-style art direction gives it a unique personality that sets it apart from more realistic racers. The real draw, however, is the community content—with thousands of tracks and custom vehicles, you'll never see the same race twice. It’s a perfect blend of physics-based challenge and creative expression that keeps you coming back to see what the community has built next."
+    },
+    {
+        "slug": "war-brokers",
+        "title": "War Brokers",
+        "category": "Action",
+        "tags": ["Shooting", "FPS", "Vehicles", "Multiplayer"],
+        "rating": 4.7,
+        "votes": "8,200",
+        "views": "4.1M",
+        "released": "2024",
+        "technology": "WebGL / HTML5",
+        "thumbnail": "/hosted-games/war-brokers-thumb.png",
+        "iframe": "https://warbrokers.io/",
+        "developer": "Trebuchet Entertainment",
+        "featured": true,
+        "mobileFriendly": false,
+        "description": "War Brokers is a massive multiplayer first-person shooter featuring a wide variety of weapons and vehicles like tanks and helicopters.",
+        "mission": "Work with your team to secure objectives and eliminate rival squads in intense tactical warfare.",
+        "strategies": [
+            "Use vehicles to cover open ground safely.",
+            "Coordinate with your team for captures.",
+            "Experiment with different loadouts for different maps."
+        ],
+        "controls": {
+            "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim & Shoot | <strong>Space</strong>: Jump | <strong>F</strong>: Enter Vehicle",
+            "mobile": "Best played on Desktop."
+        },
+        "proTips": [
+            "Helicopters provide a massive air advantage for spotting enemies.",
+            "Stay near cover when on foot to avoid sniper fire."
+        ],
+        "faq": [
+            { "q": "Can I fly planes in War Brokers?", "a": "Yes, you can pilot jets, helicopters, and drive tanks." },
+            { "q": "Is War Brokers free?", "a": "Yes, it is completely free to play in your browser." }
+        ],
+        "editorReview": "War Brokers is an impressive feat of browser engineering. Combining large-scale vehicle combat with tight infantry FPS mechanics results in a game that feels like a full-price title. The variety of maps and constant updates keep the meta fresh. It is one of the most content-rich shooters available on the web today."
+    },
+    {
+        "slug": "kirka",
+        "title": "Kirka",
+        "category": "Action",
+        "tags": ["Shooting", "FPS", "Multiplayer", "Minecraft-style"],
+        "rating": 4.6,
+        "votes": "6,500",
+        "views": "3.5M",
+        "released": "2024",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/kirka-thumb.png",
+        "iframe": "https://kirka.io/",
+        "developer": "Kirka Team",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "Kirka is a Minecraft-style competitive first-person shooter where speed and accuracy are the keys to victory.",
+        "mission": "Defeat enemies in various game modes and climb the global leaderboards.",
+        "strategies": [
+            "Master the movement to become a harder target.",
+            "Learn the map layouts to find the best vantage points.",
+            "Use your credits to upgrade your weapon skins."
+        ],
+        "controls": {
+            "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim & Shoot | <strong>Space</strong>: Jump | <strong>Shift</strong>: Crouch",
+            "mobile": "<strong>Touch</strong>: Move & Shoot"
+        },
+        "proTips": [
+            "Jump and slide to move faster and stay unpredictable.",
+            "Communication with your team is vital in objective modes."
+        ],
+        "faq": [
+            { "q": "Are there different game modes?", "a": "Yes, Kirka features Team Deathmatch, Free-For-All, and more." },
+            { "q": "Is Kirka unblocked?", "a": "Yes, you can play it on ZynfexGame at school or work." }
+        ],
+        "editorReview": "Kirka combines the approachable look of block-based games with the intense depth of a modern shooter. The gameplay is fast and rewarding, and the built-in clan and leaderboard systems foster a great community feel. It's perfectly optimized for a smooth experience on all devices."
+    },
+    {
+        "slug": "sandstrike",
+        "title": "Sandstrike",
+        "category": "Action",
+        "tags": ["Shooting", "Multiplayer", "Vehicles", "Action"],
+        "rating": 4.5,
+        "votes": "4,100",
+        "views": "1.9M",
+        "released": "2024",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/sandstrike-thumb.png",
+        "iframe": "https://sandstrike.io/",
+        "developer": "Sandstrike Team",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "Sandstrike is an action-packed multiplayer shooter set in a desert environment with vehicles and multiple game modes.",
+        "mission": "Survive the desert and lead your team to victory by eliminating opponents and capturing objectives.",
+        "strategies": [
+            "Utilize the desert terrain for cover.",
+            "Control the powerful vehicles to dominate the map.",
+            "Customize your loadout to suit your strategy."
+        ],
+        "controls": {
+            "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim & Shoot | <strong>Space</strong>: Jump | <strong>F</strong>: Use Vehicle",
+            "mobile": "<strong>Virtual Joysticks</strong>: Move & Shoot"
+        },
+        "proTips": [
+            "The armored trucks are perfect for moving your squad safely.",
+            "Watch out for snipers on the sand dunes."
+        ],
+        "faq": [
+            { "q": "Can I play Sandstrike on mobile?", "a": "Yes, it is fully optimized for mobile browsers." },
+            { "q": "Are there bots in the game?", "a": "While primarily multiplayer, bots fill empty slots to keep matches active." }
+        ],
+        "editorReview": "Sandstrike delivers high-octane desert warfare right in your browser. The inclusion of vehicles adds a layer of scale that makes the matches feel expansive and exciting. It's a solid choice for fans of action shooters who want a quick but deep experience."
+    },
+    {
+        "slug": "krunker",
+        "title": "Krunker",
+        "category": "Action",
+        "tags": ["Shooting", "FPS", "Competitive", "Stylized"],
+        "rating": 4.8,
+        "votes": "55,000",
+        "views": "40M",
+        "released": "2024",
+        "technology": "WebGL",
+        "thumbnail": "/hosted-games/krunker-thumb.png",
+        "iframe": "https://krunker.io/",
+        "developer": "Yendis Entertainment",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "Krunker is a fast-paced, highly competitive 3D multiplayer shooter with a vast array of classes and custom maps.",
+        "mission": "Master your chosen class and outplay your opponents in stylized, high-speed arenas.",
+        "strategies": [
+            "Master 'slide-hopping' to move significantly faster than walking.",
+            "Pick the class that best counters your current opponents.",
+            "Learn the map spawns to anticipate enemy movement."
+        ],
+        "controls": {
+            "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim & Shoot | <strong>Space</strong>: Jump | <strong>Shift</strong>: Crouch/Slide",
+            "mobile": "<strong>Virtual Controls</strong>: Move & Aim"
+        },
+        "proTips": [
+            "Kru (Krunker's currency) can be used to unlock rare weapon skins.",
+            "The community-made maps offer endless variety beyond the official rotation."
+        ],
+        "faq": [
+            { "q": "Can I play Krunker unblocked?", "a": "Yes, ZynfexGame provides a school-safe unblocked version." },
+            { "q": "What is the best Krunker class?", "a": "Classes like the Hunter and Triggerman are fan favorites, but each has its strengths." }
+        ],
+        "editorReview": "Krunker is nothing short of a legend in the world of browser gaming. Its blend of high-speed movement and precise gunplay is addictive and deep. The sheer volume of community content means there's always a new way to play. It's as much a platform as it is a game."
+    },
+    {
+        "slug": "braains",
+        "title": "Braains",
+        "category": "Arcade",
+        "tags": ["Survival", "Zombie", "Multiplayer", "Social"],
+        "rating": 4.4,
+        "votes": "9,800",
+        "views": "5.2M",
+        "released": "2024",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/braains-thumb.png",
+        "iframe": "https://braains.io/",
+        "developer": "Braains Team",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "Braains is a zombie survival game where players must barricade themselves in and survive the night.",
+        "mission": "Human: Survive the night by hiding or barricading. Zombie: Infect all humans before time runs out.",
+        "strategies": [
+            "Move objects to block doorways and windows.",
+            "Stay in groups for better protection as humans.",
+            "As a zombie, look for weak points in player-made forts."
+        ],
+        "controls": {
+            "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Look | <strong>Click</strong>: Grab/Interact",
+            "mobile": "<strong>Virtual Joypad</strong>: Move & Interact"
+        },
+        "proTips": [
+            "Heavy objects make better barricades than small ones.",
+            "Sometimes the best defense is a well-hidden spot in a massive room."
+        ],
+        "faq": [
+            { "q": "How do I become a zombie?", "a": "If a zombie touches you, you'll turn into one and join their team." },
+            { "q": "What is the goal for humans?", "a": "Stay alive until the timer reaches zero to win the match." }
+        ],
+        "editorReview": "Braains is a wonderful social experience that captures the tension of a zombie apocalypse in a fast, accessible way. The physics-based barricading leads to some very creative player-made forts. It's a perfect game for playing with friends and seeing who can survive the longest."
+    },
+    {
+        "slug": "defly",
+        "title": "Defly",
+        "category": "Arcade",
+        "tags": ["Territory", "Shooter", "Action", "Multiplayer"],
+        "rating": 4.5,
+        "votes": "12,100",
+        "views": "7.4M",
+        "released": "2024",
+        "technology": "HTML5",
+        "thumbnail": "/hosted-games/defly-thumb.png",
+        "iframe": "https://defly.io/",
+        "developer": "Defly Team",
+        "featured": true,
+        "mobileFriendly": true,
+        "description": "Defly is a unique hybrid of territory-conquering and shooter gameplay involving helicopters.",
+        "mission": "Expand your territory by building walls while flying your helicopter and shooting enemies.",
+        "strategies": [
+            "Build walls to protect yourself and claim map area.",
+            "Upgrade your helicopter's speed and firepower as you grow.",
+            "Target the wall anchors of your enemies to collapse their territory."
+        ],
+        "controls": {
+            "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim | <strong>Right Click</strong>: Build Wall | <strong>Left Click</strong>: Shoot",
+            "mobile": "<strong>On-screen joysticks</strong>: Move, Shoot & Build"
+        },
+        "proTips": [
+            "Protect your own wall nodes; if they're hit, you lose that portion of your area.",
+            "Use the 'Super Power' wisely to turn the tide of a battle."
+        ],
+        "faq": [
+            { "q": "What happens if I crash into a wall?", "a": "Friendly walls are safe, but enemy walls will damage or destroy you." },
+            { "q": "How do I win?", "a": "The player with the most territory when the match ends is crowned the winner." }
+        ],
+        "editorReview": "Defly is an incredibly creative mix of two genres that work perfectly together. The strategy of building a base while juggling high-speed dogfights is consistently engaging. Every level-up allows for distinct stat-builds, making every run feel unique. It's one of the most mechanically balanced IO games available."
     }
 ]
