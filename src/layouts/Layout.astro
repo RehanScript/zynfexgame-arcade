@@ -16,7 +16,7 @@ const {
 	schemas = []
 } = Astro.props;
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://zynfexgame.tech');
+const canonicalURL = new URL(Astro.url.pathname, 'https://zynfexgame.me');
 
 // Prepare tiny search database for client
 const searchDB = games.map(g => ({ title: g.title, slug: g.slug, thumbnail: g.thumbnail }));
@@ -40,7 +40,7 @@ const searchDB = games.map(g => ({ title: g.title, slug: g.slug, thumbnail: g.th
 				});
 			}
 		</script>
-		<link rel="canonical" href={canonicalURL} />
+		<link rel="canonical" href={`https://zynfexgame.me${Astro.url.pathname}`} />
 		<meta name="generator" content={Astro.generator} />
 		
 		<title>{title}</title>
