@@ -1,1635 +1,1635 @@
 [
-    {
-        "slug": "florr-io",
-        "title": "Florr.io",
-        "category": "Action",
-        "tags": [
-            "ioGames",
-            "Multiplayer"
-        ],
-        "rating": "4.5",
-        "votes": "3825",
-        "views": "1.2M",
-        "released": "2025",
-        "technology": "WebGL / HTML5",
-        "thumbnail": "/hosted-games/florr-io-thumb.webp",
-        "iframe": "https://florr.io/",
-        "developer": "Web Developer",
-        "featured": false,
-        "mobileFriendly": true,
-        "description": "A simple yet engaging io game where you control a flower, gather petals, and fight opponents to become the strongest in the arena.",
-        "mission": "Collect powerful petals and defeat enemies to grow.",
-        "strategies": [
-            "Stay moving",
-            "Upgrade petals strategically"
-        ],
-        "controls": "Mouse to move, Left Click to attack"
+  {
+    "slug": "florr-io",
+    "title": "Florr.io",
+    "category": "Action",
+    "tags": [
+      "ioGames",
+      "Multiplayer"
+    ],
+    "rating": "4.5",
+    "votes": "3825",
+    "views": "1.2M",
+    "released": "2025",
+    "technology": "WebGL / HTML5",
+    "thumbnail": "/hosted-games/florr-io-thumb.webp",
+    "iframe": "https://florr.io/",
+    "developer": "Web Developer",
+    "featured": false,
+    "mobileFriendly": true,
+    "description": "A simple yet engaging io game where you control a flower, gather petals, and fight opponents to become the strongest in the arena.",
+    "mission": "Collect powerful petals and defeat enemies to grow.",
+    "strategies": [
+      "Stay moving",
+      "Upgrade petals strategically"
+    ],
+    "controls": "Mouse to move, Left Click to attack"
+  },
+  {
+    "slug": "stabfish-2",
+    "title": "Stabfish 2",
+    "category": "Action",
+    "tags": [
+      "ioGames",
+      "Multiplayer",
+      "Fish"
+    ],
+    "rating": "4.8",
+    "votes": "2558",
+    "views": "1.6M",
+    "released": "2025",
+    "technology": "WebGL / HTML5",
+    "thumbnail": "/hosted-games/stabfish-2-thumb.webp",
+    "iframe": "https://stabfish2.io/",
+    "developer": "Web Developer",
+    "featured": false,
+    "mobileFriendly": true,
+    "description": "The sequel to the popular Stabfish.io. Swim around, impale your enemies, and dominate the oceanic arena with new mechanics and powers.",
+    "mission": "Impale others with your tusk to grow larger.",
+    "strategies": [
+      "Use boost carefully",
+      "Avoid larger fish"
+    ],
+    "controls": "Mouse to direct, Click to boost"
+  },
+  {
+    "slug": "sugarshock-io",
+    "title": "Sugarshock.io",
+    "category": "Action",
+    "tags": [
+      "ioGames",
+      "Shooter"
+    ],
+    "rating": "4.3",
+    "votes": "4769",
+    "views": "0.9M",
+    "released": "2025",
+    "technology": "WebGL / HTML5",
+    "thumbnail": "/hosted-games/sugarshock-io-thumb.webp",
+    "iframe": "https://sugarshock.io/",
+    "developer": "Web Developer",
+    "featured": false,
+    "mobileFriendly": true,
+    "description": "An intense, fast-paced multiplayer shooter set in a colorful candy-themed world where you battle it out for sweetness and supremacy.",
+    "mission": "Eliminate opponents in the candy arena.",
+    "strategies": [
+      "Keep moving",
+      "Aim for headshots"
+    ],
+    "controls": "WASD to move, Mouse to aim and shoot"
+  },
+  {
+    "slug": "gamepop",
+    "title": "Gamepop",
+    "category": "Arcade",
+    "tags": [
+      "Casual",
+      "Action"
+    ],
+    "rating": "4.7",
+    "votes": "3266",
+    "views": "1.9M",
+    "released": "2025",
+    "technology": "WebGL / HTML5",
+    "thumbnail": "/hosted-games/gamepop-thumb.webp",
+    "iframe": "https://gpop.io/",
+    "developer": "Web Developer",
+    "featured": false,
+    "mobileFriendly": true,
+    "description": "A fun and addictive arcade experience featuring endless gameplay loops to challenge your reflexes.",
+    "mission": "Survive as long as possible and beat your high score.",
+    "strategies": [
+      "Focus on the incoming obstacles"
+    ],
+    "controls": "Click to interact"
+  },
+  {
+    "slug": "kart-bros",
+    "title": "Kart Bros",
+    "category": "Racing",
+    "tags": [
+      "Racing",
+      "Multiplayer"
+    ],
+    "rating": "4.7",
+    "votes": "2880",
+    "views": "1.6M",
+    "released": "2025",
+    "technology": "WebGL / HTML5",
+    "thumbnail": "/hosted-games/kart-bros-thumb.webp",
+    "iframe": "https://kart-bros.io/",
+    "developer": "Web Developer",
+    "featured": false,
+    "mobileFriendly": true,
+    "description": "Race against friends and foes in this chaotic multiplayer kart racer. Master drifting and item usage to claim the top spot.",
+    "mission": "Cross the finish line first while avoiding obstacles.",
+    "strategies": [
+      "Save items for crucial moments",
+      "Drift to gain boosts"
+    ],
+    "controls": "Arrow keys to drive, Space to use items"
+  },
+  {
+    "slug": "icy-dash",
+    "title": "Icy Dash",
+    "category": "Platformer",
+    "tags": [
+      "Dash",
+      "Reaction"
+    ],
+    "rating": "4.3",
+    "votes": "753",
+    "views": "1.4M",
+    "released": "2025",
+    "technology": "WebGL / HTML5",
+    "thumbnail": "/hosted-games/icy-dash-thumb.webp",
+    "iframe": "https://dashmetry.com/cache/data/game/icy-dash/index.html",
+    "developer": "Web Developer",
+    "featured": false,
+    "mobileFriendly": true,
+    "description": "A geometry dash style rhythm platformer set in a freezing environment. React fast and jump over spikes to conquer the icy terrain.",
+    "mission": "Reach the end of the level without hitting any obstacles.",
+    "strategies": [
+      "Memorize the rhythm",
+      "Do not panic jump"
+    ],
+    "controls": "Click or Space to jump"
+  },
+  {
+    "slug": "deadshot-io",
+    "title": "Deadshot.io",
+    "category": "Action",
+    "tags": [
+      "FPS",
+      "Multiplayer",
+      "Shooter",
+      "Competitive"
+    ],
+    "rating": 4.6,
+    "votes": "5,120",
+    "views": "2.4M",
+    "released": "2024",
+    "technology": "WebGL / HTML5",
+    "thumbnail": "/hosted-games/deadshot-io-thumb.webp",
+    "iframe": "https://deadshot.io/",
+    "developer": "Deadshot Team",
+    "featured": true,
+    "mobileFriendly": false,
+    "description": "Deadshot.io is a fast-paced, competitive browser-based first-person shooter that brings high-quality tactical combat directly to your web browser with no download required.",
+    "mission": "Dominate the arena by eliminating opponents and securing the highest score in intense multiplayer matches.",
+    "strategies": [
+      "Keep moving to avoid being an easy target for snipers.",
+      "Use your credits to unlock faster and more accurate weapons.",
+      "Learn the map layouts to find strategic chokepoints and hiding spots.",
+      "Aim for headshots to maximize damage and conserve ammo."
+    ],
+    "controls": {
+      "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim & Shoot | <strong>Space</strong>: Jump | <strong>Shift</strong>: Sprint | <strong>R</strong>: Reload",
+      "mobile": "Standard mobile controls are currently limited. Recommended for Desktop."
     },
-    {
-        "slug": "stabfish-2",
-        "title": "Stabfish 2",
-        "category": "Action",
-        "tags": [
-            "ioGames",
-            "Multiplayer",
-            "Fish"
-        ],
-        "rating": "4.8",
-        "votes": "2558",
-        "views": "1.6M",
-        "released": "2025",
-        "technology": "WebGL / HTML5",
-        "thumbnail": "/hosted-games/stabfish-2-thumb.webp",
-        "iframe": "https://stabfish2.io/",
-        "developer": "Web Developer",
-        "featured": false,
-        "mobileFriendly": true,
-        "description": "The sequel to the popular Stabfish.io. Swim around, impale your enemies, and dominate the oceanic arena with new mechanics and powers.",
-        "mission": "Impale others with your tusk to grow larger.",
-        "strategies": [
-            "Use boost carefully",
-            "Avoid larger fish"
-        ],
-        "controls": "Mouse to direct, Click to boost"
+    "proTips": [
+      "Master the 'Slide-Jump' to clear open areas quickly.",
+      "Listen for enemy footsteps to anticipate their movement around corners."
+    ],
+    "faq": [
+      {
+        "q": "Is Deadshot.io free to play?",
+        "a": "Yes, it is completely free to play directly in your browser."
+      },
+      {
+        "q": "Can I play Deadshot.io on a school Chromebook?",
+        "a": "Yes, it is an unblocked browser game that runs smoothly on most web-enabled devices."
+      }
+    ],
+    "editorReview": "Deadshot.io is a masterclass in browser-based FPS design. What impressed our team most is the fluidity of movement—often a weak point in web shooters. The gunplay feels heavy yet precise, and the credit system adds a layer of progression that keeps every match feeling rewarding. While the graphics are stylized and 'low-poly', the lighting and particle effects create a surprisingly immersive tactical environment. If you're looking for a quick competitive fix without a 50GB install, this is the gold standard for browser shooters in 2026."
+  },
+  {
+    "slug": "zombs-royale",
+    "title": "ZombsRoyale.io",
+    "category": "Action",
+    "tags": [
+      "Battle Royale",
+      "Multiplayer",
+      "Shooter",
+      "Survival"
+    ],
+    "rating": 4.7,
+    "votes": "22,400",
+    "views": "15.4M",
+    "released": "2024",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/zombs-royale-thumb.webp",
+    "iframe": "https://zombsroyale.io/",
+    "developer": "EndGame Studios",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "ZombsRoyale.io is a massive 2D battle royale game where you parachute into a large map, loot chests, and fight to be the last survivor.",
+    "mission": "Loot the best weapons, stay inside the safe zone, and eliminate all other players to claim the victory royale.",
+    "strategies": [
+      "Drop in less crowded areas early on to loot up safely.",
+      "Always keep at least one long-range weapon and one close-range weapon.",
+      "Use bushes and houses for cover when healing or reloading.",
+      "Watch the gas timer—getting caught outside the safe zone is instant death."
+    ],
+    "controls": {
+      "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim & Shoot | <strong>E</strong>: Loot | <strong>1/2/3/4</strong>: Switch Weapons",
+      "mobile": "<strong>Left Stick</strong>: Move | <strong>Right Stick</strong>: Aim & Fire | <strong>Auto-loot</strong>: Enabled"
     },
-    {
-        "slug": "sugarshock-io",
-        "title": "Sugarshock.io",
-        "category": "Action",
-        "tags": [
-            "ioGames",
-            "Shooter"
-        ],
-        "rating": "4.3",
-        "votes": "4769",
-        "views": "0.9M",
-        "released": "2025",
-        "technology": "WebGL / HTML5",
-        "thumbnail": "/hosted-games/sugarshock-io-thumb.webp",
-        "iframe": "https://sugarshock.io/",
-        "developer": "Web Developer",
-        "featured": false,
-        "mobileFriendly": true,
-        "description": "An intense, fast-paced multiplayer shooter set in a colorful candy-themed world where you battle it out for sweetness and supremacy.",
-        "mission": "Eliminate opponents in the candy arena.",
-        "strategies": [
-            "Keep moving",
-            "Aim for headshots"
-        ],
-        "controls": "WASD to move, Mouse to aim and shoot"
+    "proTips": [
+      "Swap your common weapons for Legendary (Golden) ones at any opportunity.",
+      "Open doors while sprinting to gain a split-second surprise advantage on camping enemies."
+    ],
+    "faq": [
+      {
+        "q": "Can I play ZombsRoyale with friends?",
+        "a": "Yes, you can join Duo or Squad modes to play with your friends."
+      },
+      {
+        "q": "Is there a strategy for dropping?",
+        "a": "Try to land near buildings or chests to get your first weapon as quickly as possible."
+      }
+    ],
+    "editorReview": "ZombsRoyale.io successfully translates the high-stakes tension of the Battle Royale genre into a clean, 2D top-down perspective. The variety of loot is staggering, from high-tier snipers to deceptive gadgets. We found the gameplay loop to be exceptionally addictive because matches are fast; you can be in-and-out of a 100-player lobby in under 5 minutes. The movement is snappy, and the skill ceiling is surprisingly high when it comes to predicting enemy movement through 'fog of war' zones like houses and bushes."
+  },
+  {
+    "slug": "smash-karts",
+    "title": "Smash Karts",
+    "category": "Action",
+    "tags": [
+      "Racing",
+      "Battle",
+      "Multiplayer",
+      "Kart"
+    ],
+    "rating": 4.8,
+    "votes": "12,450",
+    "views": "8.1M",
+    "released": "2023",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/smash-karts-thumb.webp",
+    "iframe": "https://smashkarts.io/",
+    "developer": "Tall Team",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "Smash Karts is a 3D multiplayer kart battle game. Drive your kart, pick up weapons, and blow up other karts to win the round!",
+    "mission": "Survive the chaos and eliminate as many rivals as possible in a 3-minute deathmatch arena.",
+    "strategies": [
+      "Always stay near weapon boxes to ensure you're never unarmed.",
+      "Use the drift mechanic to make sharp turns and dodge incoming missiles.",
+      "The Machine Gun is effective at close range, while Rockets are best for distant targets.",
+      "Keep an eye on the mini-map to see where enemies are grouping up."
+    ],
+    "controls": {
+      "pc": "<strong>WASD / Arrow Keys</strong>: Drive | <strong>Spacebar</strong>: Fire Weapon",
+      "mobile": "<strong>Joystick</strong>: Drive | <strong>Action Button</strong>: Fire Weapon"
     },
-    {
-        "slug": "gamepop",
-        "title": "Gamepop",
-        "category": "Arcade",
-        "tags": [
-            "Casual",
-            "Action"
-        ],
-        "rating": "4.7",
-        "votes": "3266",
-        "views": "1.9M",
-        "released": "2025",
-        "technology": "WebGL / HTML5",
-        "thumbnail": "/hosted-games/gamepop-thumb.webp",
-        "iframe": "https://iogames.space/gamepop",
-        "developer": "Web Developer",
-        "featured": false,
-        "mobileFriendly": true,
-        "description": "A fun and addictive arcade experience featuring endless gameplay loops to challenge your reflexes.",
-        "mission": "Survive as long as possible and beat your high score.",
-        "strategies": [
-            "Focus on the incoming obstacles"
-        ],
-        "controls": "Click to interact"
+    "proTips": [
+      "Drop mines behind power-up boxes to catch greedy opponents.",
+      "Use the invincibility shield right before an impact for maximum efficiency."
+    ],
+    "faq": [
+      {
+        "q": "Does Smash Karts have levels?",
+        "a": "Yes, you earn XP and level up your character to unlock new karts and hats."
+      },
+      {
+        "q": "Is there a team mode in Smash Karts?",
+        "a": "Yes, you can join or create private rooms to play with friends or in team-based matches."
+      }
+    ],
+    "editorReview": "Smash Karts is pure, unadulterated chaotic fun. Think Mario Kart battle mode, but amplified for the web. The 3D graphics are vibrant and the frame rate remains remarkably stable even when ten players are firing rockets simultaneously. We love the character customization and the sheer variety of weapons—nothing beats the satisfaction of landing a long-range bowling ball strike on a rival kart. It is the perfect 'pick-up-and-play' title for a quick break."
+  },
+  {
+    "slug": "shell-shockers",
+    "title": "Shell Shockers",
+    "category": "Action",
+    "tags": [
+      "FPS",
+      "Multiplayer",
+      "Competitive",
+      "Egg"
+    ],
+    "rating": 4.7,
+    "votes": "45,000",
+    "views": "25M",
+    "released": "2024",
+    "technology": "WebGL",
+    "thumbnail": "/hosted-games/shell-shockers-thumb.webp",
+    "iframe": "https://shellshock.io/",
+    "developer": "Blue Wizard Digital",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "Shell Shockers is the world's most popular egg-based multiplayer shooter. Pick your class and crack some shells in this intense FPS experience.",
+    "mission": "Eliminate enemy eggs using a variety of high-powered egg-themed weaponry in several different game modes.",
+    "strategies": [
+      "Each weapon class (Sniper, Shotgun, RPG) has a specific playstyle; find the one that fits you.",
+      "Stay mobile—a stationary egg is a fried egg.",
+      "Collect egg-scraps from fallen enemies to heal and reload.",
+      "Use verticality! Jumping and climbing crates gives you a tactical advantage."
+    ],
+    "controls": {
+      "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim | <strong>Left Click</strong>: Shoot | <strong>Space</strong>: Jump | <strong>Shift</strong>: Zoom",
+      "mobile": "<strong>On-screen Joypad</strong>: Move & Aim | <strong>Tap</strong>: Shoot"
     },
-    {
-        "slug": "kart-bros",
-        "title": "Kart Bros",
-        "category": "Racing",
-        "tags": [
-            "Racing",
-            "Multiplayer"
-        ],
-        "rating": "4.7",
-        "votes": "2880",
-        "views": "1.6M",
-        "released": "2025",
-        "technology": "WebGL / HTML5",
-        "thumbnail": "/hosted-games/kart-bros-thumb.webp",
-        "iframe": "https://iogames.space/kart-bros",
-        "developer": "Web Developer",
-        "featured": false,
-        "mobileFriendly": true,
-        "description": "Race against friends and foes in this chaotic multiplayer kart racer. Master drifting and item usage to claim the top spot.",
-        "mission": "Cross the finish line first while avoiding obstacles.",
-        "strategies": [
-            "Save items for crucial moments",
-            "Drift to gain boosts"
-        ],
-        "controls": "Arrow keys to drive, Space to use items"
+    "proTips": [
+      "Master the 'Egg-Jump' by jumping and shooting an RPG at your feet for a massive boost.",
+      "The Free Ranger sniper rifle has 100% accuracy while scoped, even in mid-air."
+    ],
+    "faq": [
+      {
+        "q": "How do I change my egg's skin?",
+        "a": "You can use the 'Inventory' menu to customize your egg with hats, skins, and weapon patterns."
+      },
+      {
+        "q": "Is Shell Shockers unblocked at school?",
+        "a": "Yes, ZynfexGame provides the official unblocked version for school and office networks."
+      }
+    ],
+    "editorReview": "It’s hard not to smile while playing Shell Shockers. The absurdity of eggs with guns is matched by surprisingly deep FPS mechanics. The different classes are well-balanced; whether you prefer the one-shot precision of the Free Ranger or the 'spray and pray' chaos of the EggK-47, there’s a place for you on the leaderboard. The maps are cleverly designed with plenty of verticality, encouraging a very dynamic and fast-paced style of combat that feels fresh every round."
+  },
+  {
+    "slug": "splix-io",
+    "title": "Splix.io",
+    "category": "Arcade",
+    "tags": [
+      "IO Game",
+      "Strategy",
+      "Conquest",
+      "Territory"
+    ],
+    "rating": 4.3,
+    "votes": "8,900",
+    "views": "4.2M",
+    "released": "2024",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/splix-io-thumb.webp",
+    "iframe": "https://splix.io/",
+    "developer": "Jesper the End",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "Splix.io is a minimalist strategy game where you compete to conquer the largest territory by drawing lines and returning to your base.",
+    "mission": "Enclose empty space and return to your own color to capture it. Don't let anyone hit your trail!",
+    "strategies": [
+      "Don't get too greedy; capture small chunks of area frequently to minimize risk.",
+      "Watch out for players cutting off your trail while you are outside your zone.",
+      "If you see an enemy trail, hit it to eliminate them instantly.",
+      "The corners and edges are often safer for building a large base slowly."
+    ],
+    "controls": {
+      "pc": "<strong>Arrow Keys / WASD</strong>: Change Direction",
+      "mobile": "<strong>Swipe</strong>: Change Direction"
     },
-    {
-        "slug": "icy-dash",
-        "title": "Icy Dash",
-        "category": "Platformer",
-        "tags": [
-            "Dash",
-            "Reaction"
-        ],
-        "rating": "4.3",
-        "votes": "753",
-        "views": "1.4M",
-        "released": "2025",
-        "technology": "WebGL / HTML5",
-        "thumbnail": "/hosted-games/icy-dash-thumb.webp",
-        "iframe": "https://dashmetry.com/icy-dash",
-        "developer": "Web Developer",
-        "featured": false,
-        "mobileFriendly": true,
-        "description": "A geometry dash style rhythm platformer set in a freezing environment. React fast and jump over spikes to conquer the icy terrain.",
-        "mission": "Reach the end of the level without hitting any obstacles.",
-        "strategies": [
-            "Memorize the rhythm",
-            "Do not panic jump"
-        ],
-        "controls": "Click or Space to jump"
+    "proTips": [
+      "Bait other players into exiting their zones and then quickly strike their trail.",
+      "Surround existing blocks of territory to capture them instantly without drawing a long line."
+    ],
+    "faq": [
+      {
+        "q": "Can I play Splix.io with friends?",
+        "a": "Yes, you can share the room URL to play on the same map with your group."
+      },
+      {
+        "q": "Is Splix.io available for mobile?",
+        "a": "Yes, it is fully optimized for touch controls on ZynfexGame."
+      }
+    ],
+    "editorReview": "Splix.io is the ultimate 'risk vs. reward' game. The minimalist aesthetic hides a brutal and intense strategy experience. Every time you leave your colored zone, your heart rate spikes as you become a target. We found the defensive gameplay to be just as engaging as the offense—baiting rivals into overextending and then sniping their trail is a high-level tactic that never gets old. It’s a perfect example of how simple mechanics can create deep, competitive gameplay."
+  },
+  {
+    "slug": "paper-io",
+    "title": "Paper.io",
+    "category": "Arcade",
+    "tags": [
+      "IO Game",
+      "Territory",
+      "Conquest",
+      "Multiplayer"
+    ],
+    "rating": 4.4,
+    "votes": "12,100",
+    "views": "7.8M",
+    "released": "2024",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/paper-io-thumb.webp",
+    "iframe": "https://paper-io.com/",
+    "developer": "Voodoo",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "Paper.io is a fast-paced territory capture game. Enclose land to add it to your territory, but be careful of your tail!",
+    "mission": "Conquer as much map percentage as possible by creating loops while defending your trail from other players.",
+    "strategies": [
+      "Keep your loops small and controlled to stay safe.",
+      "Avoid going too deep into enemy territory unless you have a clear return path.",
+      "Watch the edges of the map; they are often the safest place to grow.",
+      "Strike other players' trails while they are exploring to eliminate them."
+    ],
+    "controls": {
+      "pc": "<strong>Arrow Keys / WASD</strong>: Change Direction | <strong>Mouse</strong>: Steer",
+      "mobile": "<strong>Swipe</strong>: Change Direction"
     },
-    {
-        "slug": "deadshot-io",
-        "title": "Deadshot.io",
-        "category": "Action",
-        "tags": [
-            "FPS",
-            "Multiplayer",
-            "Shooter",
-            "Competitive"
-        ],
-        "rating": 4.6,
-        "votes": "5,120",
-        "views": "2.4M",
-        "released": "2024",
-        "technology": "WebGL / HTML5",
-        "thumbnail": "/hosted-games/deadshot-io-thumb.webp",
-        "iframe": "https://deadshot.io/",
-        "developer": "Deadshot Team",
-        "featured": true,
-        "mobileFriendly": false,
-        "description": "Deadshot.io is a fast-paced, competitive browser-based first-person shooter that brings high-quality tactical combat directly to your web browser with no download required.",
-        "mission": "Dominate the arena by eliminating opponents and securing the highest score in intense multiplayer matches.",
-        "strategies": [
-            "Keep moving to avoid being an easy target for snipers.",
-            "Use your credits to unlock faster and more accurate weapons.",
-            "Learn the map layouts to find strategic chokepoints and hiding spots.",
-            "Aim for headshots to maximize damage and conserve ammo."
-        ],
-        "controls": {
-            "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim & Shoot | <strong>Space</strong>: Jump | <strong>Shift</strong>: Sprint | <strong>R</strong>: Reload",
-            "mobile": "Standard mobile controls are currently limited. Recommended for Desktop."
-        },
-        "proTips": [
-            "Master the 'Slide-Jump' to clear open areas quickly.",
-            "Listen for enemy footsteps to anticipate their movement around corners."
-        ],
-        "faq": [
-            {
-                "q": "Is Deadshot.io free to play?",
-                "a": "Yes, it is completely free to play directly in your browser."
-            },
-            {
-                "q": "Can I play Deadshot.io on a school Chromebook?",
-                "a": "Yes, it is an unblocked browser game that runs smoothly on most web-enabled devices."
-            }
-        ],
-        "editorReview": "Deadshot.io is a masterclass in browser-based FPS design. What impressed our team most is the fluidity of movement—often a weak point in web shooters. The gunplay feels heavy yet precise, and the credit system adds a layer of progression that keeps every match feeling rewarding. While the graphics are stylized and 'low-poly', the lighting and particle effects create a surprisingly immersive tactical environment. If you're looking for a quick competitive fix without a 50GB install, this is the gold standard for browser shooters in 2026."
+    "proTips": [
+      "Wait for an opponent to commit to a large loop before striking their tail.",
+      "You can't hit your own tail, so use tight turns to navigate safely."
+    ],
+    "faq": [
+      {
+        "q": "What happens if I hit a wall?",
+        "a": "You simply bounce off or stop; the real danger is other players hitting your trail."
+      },
+      {
+        "q": "How do I win?",
+        "a": "The goal is to reach 100% map coverage, though this is extremely rare in a live multiplayer environment."
+      }
+    ],
+    "editorReview": "Paper.io is a classic for a reason. Its brilliance lies in the constant tension of expansion. While it looks like a simple coloring game, it’s actually a high-stakes arena of positioning and timing. Our editorial team noticed that the best players aren't the most aggressive, but the most disciplined. The feeling of finally capturing a massive block of a rival's land is incredibly satisfying, making this one of the most replayable IO games in our entire library."
+  },
+  {
+    "slug": "little-big-snake",
+    "title": "Little Big Snake",
+    "category": "Arcade",
+    "tags": [
+      "IO Game",
+      "Snake",
+      "Multiplayer",
+      "Evolution"
+    ],
+    "rating": 4.6,
+    "votes": "14,300",
+    "views": "9.5M",
+    "released": "2024",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/little-big-snake-thumb.webp",
+    "iframe": "https://littlebigsnake.com/",
+    "developer": "Addicting Games",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "Little Big Snake is a massive multiplayer evolution game. Eat nectar, eliminate other snakes, and grow into the ultimate serpent!",
+    "mission": "Grow your snake into a massive beast while avoiding larger predators and eliminating smaller ones.",
+    "strategies": [
+      "Eat nectar and bugs to grow your level and unlock new abilities.",
+      "Encircle smaller snakes to trap them and claim their energy once they crash.",
+      "Use your speed boost sparingly; it consumes some of your size.",
+      "Upgrade your evolution tree to gain permanent buffs to speed and growth rate."
+    ],
+    "controls": {
+      "pc": "<strong>Mouse</strong>: Steer | <strong>Left Click</strong>: Speed Boost",
+      "mobile": "<strong>Virtual Joypad</strong>: Steer | <strong>Action Button</strong>: Speed Boost"
     },
-    {
-        "slug": "zombs-royale",
-        "title": "ZombsRoyale.io",
-        "category": "Action",
-        "tags": [
-            "Battle Royale",
-            "Multiplayer",
-            "Shooter",
-            "Survival"
-        ],
-        "rating": 4.7,
-        "votes": "22,400",
-        "views": "15.4M",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/zombs-royale-thumb.webp",
-        "iframe": "https://zombsroyale.io/",
-        "developer": "EndGame Studios",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "ZombsRoyale.io is a massive 2D battle royale game where you parachute into a large map, loot chests, and fight to be the last survivor.",
-        "mission": "Loot the best weapons, stay inside the safe zone, and eliminate all other players to claim the victory royale.",
-        "strategies": [
-            "Drop in less crowded areas early on to loot up safely.",
-            "Always keep at least one long-range weapon and one close-range weapon.",
-            "Use bushes and houses for cover when healing or reloading.",
-            "Watch the gas timer—getting caught outside the safe zone is instant death."
-        ],
-        "controls": {
-            "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim & Shoot | <strong>E</strong>: Loot | <strong>1/2/3/4</strong>: Switch Weapons",
-            "mobile": "<strong>Left Stick</strong>: Move | <strong>Right Stick</strong>: Aim & Fire | <strong>Auto-loot</strong>: Enabled"
-        },
-        "proTips": [
-            "Swap your common weapons for Legendary (Golden) ones at any opportunity.",
-            "Open doors while sprinting to gain a split-second surprise advantage on camping enemies."
-        ],
-        "faq": [
-            {
-                "q": "Can I play ZombsRoyale with friends?",
-                "a": "Yes, you can join Duo or Squad modes to play with your friends."
-            },
-            {
-                "q": "Is there a strategy for dropping?",
-                "a": "Try to land near buildings or chests to get your first weapon as quickly as possible."
-            }
-        ],
-        "editorReview": "ZombsRoyale.io successfully translates the high-stakes tension of the Battle Royale genre into a clean, 2D top-down perspective. The variety of loot is staggering, from high-tier snipers to deceptive gadgets. We found the gameplay loop to be exceptionally addictive because matches are fast; you can be in-and-out of a 100-player lobby in under 5 minutes. The movement is snappy, and the skill ceiling is surprisingly high when it comes to predicting enemy movement through 'fog of war' zones like houses and bushes."
+    "proTips": [
+      "Stay near large fights to scavenge energy leftovers from defeated giants.",
+      "Use the 'Juja' mechanic to fly and scout for nectar-rich zones safely."
+    ],
+    "faq": [
+      {
+        "q": "Is Little Big Snake free?",
+        "a": "Yes, it is completely free to play in your browser on ZynfexGame."
+      },
+      {
+        "q": "Can I save my snake's progress?",
+        "a": "By creating an account, you can save your coins, skins, and evolution tree progress."
+      }
+    ],
+    "editorReview": "Little Big Snake is arguably the most polished 'Snake' experience available today. The evolution system adds a layer of depth that most IO games lack, giving players long-term goals beyond just getting a high score. The graphics are lush and detailed, and the inclusion of 'Jujas' (flying scout bugs) adds a unique tactical element. It’s a game that rewards both patience and quick reflexes, creating a highly satisfying progression from a tiny worm to a world-dominating serpent."
+  },
+  {
+    "slug": "wormszone-io",
+    "title": "WormsZone.io",
+    "category": "Arcade",
+    "tags": [
+      "IO Game",
+      "Snake",
+      "Multiplayer",
+      "Skins"
+    ],
+    "rating": 4.5,
+    "votes": "18,900",
+    "views": "11.2M",
+    "released": "2024",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/wormszone-io-thumb.webp",
+    "iframe": "https://worms.zone/",
+    "developer": "Wild Spike",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "WormsZone.io is a popular dynamic snake game where you eat treats, grow massive, and compete against players from around the world.",
+    "mission": "Become the king of the arena by consuming sweets, boosters, and defeating rival worms.",
+    "strategies": [
+      "Pick up power-ups like the Magnet to attract food from a distance.",
+      "Use the speed boost to cut off other worms and force them to crash into you.",
+      "Don't forget to keep an eye on your own tail to avoid being encircled.",
+      "Eat the remains of large fallen worms to grow exponentially fast."
+    ],
+    "controls": {
+      "pc": "<strong>Mouse</strong>: Steer | <strong>Left Click</strong>: Speed Boost",
+      "mobile": "<strong>Joystick</strong>: Steer | <strong>Action Button</strong>: Speed Boost"
     },
-    {
-        "slug": "smash-karts",
-        "title": "Smash Karts",
-        "category": "Action",
-        "tags": [
-            "Racing",
-            "Battle",
-            "Multiplayer",
-            "Kart"
-        ],
-        "rating": 4.8,
-        "votes": "12,450",
-        "views": "8.1M",
-        "released": "2023",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/smash-karts-thumb.webp",
-        "iframe": "https://smashkarts.io/",
-        "developer": "Tall Team",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "Smash Karts is a 3D multiplayer kart battle game. Drive your kart, pick up weapons, and blow up other karts to win the round!",
-        "mission": "Survive the chaos and eliminate as many rivals as possible in a 3-minute deathmatch arena.",
-        "strategies": [
-            "Always stay near weapon boxes to ensure you're never unarmed.",
-            "Use the drift mechanic to make sharp turns and dodge incoming missiles.",
-            "The Machine Gun is effective at close range, while Rockets are best for distant targets.",
-            "Keep an eye on the mini-map to see where enemies are grouping up."
-        ],
-        "controls": {
-            "pc": "<strong>WASD / Arrow Keys</strong>: Drive | <strong>Spacebar</strong>: Fire Weapon",
-            "mobile": "<strong>Joystick</strong>: Drive | <strong>Action Button</strong>: Fire Weapon"
-        },
-        "proTips": [
-            "Drop mines behind power-up boxes to catch greedy opponents.",
-            "Use the invincibility shield right before an impact for maximum efficiency."
-        ],
-        "faq": [
-            {
-                "q": "Does Smash Karts have levels?",
-                "a": "Yes, you earn XP and level up your character to unlock new karts and hats."
-            },
-            {
-                "q": "Is there a team mode in Smash Karts?",
-                "a": "Yes, you can join or create private rooms to play with friends or in team-based matches."
-            }
-        ],
-        "editorReview": "Smash Karts is pure, unadulterated chaotic fun. Think Mario Kart battle mode, but amplified for the web. The 3D graphics are vibrant and the frame rate remains remarkably stable even when ten players are firing rockets simultaneously. We love the character customization and the sheer variety of weapons—nothing beats the satisfaction of landing a long-range bowling ball strike on a rival kart. It is the perfect 'pick-up-and-play' title for a quick break."
+    "proTips": [
+      "The 'Double Score' power-up is best used right before a large worm is about to be eliminated nearby.",
+      "Wiggle your head slightly to make your movement less predictable to nearby predators."
+    ],
+    "faq": [
+      {
+        "q": "Are there different skins for my worm?",
+        "a": "Yes, you can unlock hundreds of skins and hats using the gold you collect during play."
+      },
+      {
+        "q": "Is WormsZone available for schools?",
+        "a": "Yes, our unblocked version works on all network types."
+      }
+    ],
+    "editorReview": "WormsZone.io takes the classic formula and injects it with pure energy. The arena is constantly filled with colorful treats, and the speed at which you can grow makes every session feel high-impact. We particularly enjoyed the 'booster' mechanics—finding a magnet or a score-multiplier can completely change your standing in seconds. It’s a very beginner-friendly game that still offers enough competitive depth for seasoned IO veterans to climb the ranks."
+  },
+  {
+    "slug": "lordz-io",
+    "title": "Lordz.io",
+    "category": "Strategy",
+    "tags": [
+      "Army",
+      "Medieval",
+      "IO Game",
+      "Strategy"
+    ],
+    "rating": 4.5,
+    "votes": "6,700",
+    "views": "3.8M",
+    "released": "2024",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/lordz-io-thumb.webp",
+    "iframe": "https://lordz.io/",
+    "developer": "Spinbot Studio",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "Lordz.io is a massive multiplayer medieval strategy game. Build the biggest army, protect your lord, and conquer the map!",
+    "mission": "Collect gold to hire soldiers, build bases, and lead your army to total victory.",
+    "strategies": [
+      "Build houses to increase your population limit and castles to protect them.",
+      "Diversity your army with archers for range and knights for frontline defense.",
+      "Dragons are expensive but can devastate entire armies single-handedly.",
+      "Don't forget to protect your Lord; if he dies, your entire army is lost."
+    ],
+    "controls": {
+      "pc": "<strong>Mouse</strong>: Move Lord | <strong>Space</strong>: Split Army | <strong>E/R</strong>: Build Structure",
+      "mobile": "<strong>Touch Screen</strong>: Move & Interact"
     },
-    {
-        "slug": "shell-shockers",
-        "title": "Shell Shockers",
-        "category": "Action",
-        "tags": [
-            "FPS",
-            "Multiplayer",
-            "Competitive",
-            "Egg"
-        ],
-        "rating": 4.7,
-        "votes": "45,000",
-        "views": "25M",
-        "released": "2024",
-        "technology": "WebGL",
-        "thumbnail": "/hosted-games/shell-shockers-thumb.webp",
-        "iframe": "https://shellshock.io/",
-        "developer": "Blue Wizard Digital",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "Shell Shockers is the world's most popular egg-based multiplayer shooter. Pick your class and crack some shells in this intense FPS experience.",
-        "mission": "Eliminate enemy eggs using a variety of high-powered egg-themed weaponry in several different game modes.",
-        "strategies": [
-            "Each weapon class (Sniper, Shotgun, RPG) has a specific playstyle; find the one that fits you.",
-            "Stay mobile—a stationary egg is a fried egg.",
-            "Collect egg-scraps from fallen enemies to heal and reload.",
-            "Use verticality! Jumping and climbing crates gives you a tactical advantage."
-        ],
-        "controls": {
-            "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim | <strong>Left Click</strong>: Shoot | <strong>Space</strong>: Jump | <strong>Shift</strong>: Zoom",
-            "mobile": "<strong>On-screen Joypad</strong>: Move & Aim | <strong>Tap</strong>: Shoot"
-        },
-        "proTips": [
-            "Master the 'Egg-Jump' by jumping and shooting an RPG at your feet for a massive boost.",
-            "The Free Ranger sniper rifle has 100% accuracy while scoped, even in mid-air."
-        ],
-        "faq": [
-            {
-                "q": "How do I change my egg's skin?",
-                "a": "You can use the 'Inventory' menu to customize your egg with hats, skins, and weapon patterns."
-            },
-            {
-                "q": "Is Shell Shockers unblocked at school?",
-                "a": "Yes, ZynfexGame provides the official unblocked version for school and office networks."
-            }
-        ],
-        "editorReview": "It’s hard not to smile while playing Shell Shockers. The absurdity of eggs with guns is matched by surprisingly deep FPS mechanics. The different classes are well-balanced; whether you prefer the one-shot precision of the Free Ranger or the 'spray and pray' chaos of the EggK-47, there’s a place for you on the leaderboard. The maps are cleverly designed with plenty of verticality, encouraging a very dynamic and fast-paced style of combat that feels fresh every round."
+    "proTips": [
+      "Use the 'Split' mechanic to surround other lords or escape dangerous situations quickly.",
+      "Always keep a stash of gold to quickly rebuild your army after a major battle."
+    ],
+    "faq": [
+      {
+        "q": "How do I get more gold in Lordz.io?",
+        "a": "Collect gold coins scattered on the map or build gold mines to generate passive income."
+      },
+      {
+        "q": "What is the best type of soldier?",
+        "a": "A balanced mix of Soldiers and Archers is best for early game, while Dragons dominate late game."
+      }
+    ],
+    "editorReview": "Lordz.io is an ambitious blend of RTS and IO mechanics. Managing a growing army while physically moving your Lord around the battlefield creates a unique brand of tension. The building system is simple but effective, allowing players to establish strongholds that feel truly defensible. Large-scale battles with hundreds of troops clashing are a spectacle to behold, especially when Dragons join the fray. It’s one of the few browser games that manages to feel truly 'epic' in scale."
+  },
+  {
+    "slug": "karatebros-io",
+    "title": "Karate Bros",
+    "category": "Action",
+    "tags": [
+      "Fighting",
+      "Martial Arts",
+      "2D",
+      "Multiplayer"
+    ],
+    "rating": 4.4,
+    "votes": "3,200",
+    "views": "1.5M",
+    "released": "2025",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/karatebros-io-thumb.webp",
+    "iframe": "https://karatebros.io/",
+    "developer": "KarateBros Team",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "Karate Bros is a high-energy multiplayer fighting game. Master the art of karate and defeat opponents in intense arena duels.",
+    "mission": "Become the ultimate sensei by defeating rival fighters and climbing the global leaderboard.",
+    "strategies": [
+      "Timing is everything; wait for your opponent to strike then counter-attack.",
+      "Use your special moves sparingly; they require energy to recharge.",
+      "Keep moving to make it harder for enemies to link together long combos.",
+      "Study the patterns of advanced players to learn high-level tactics."
+    ],
+    "controls": {
+      "pc": "<strong>WASD</strong>: Move | <strong>Click</strong>: Attack | <strong>Space</strong>: Special Move",
+      "mobile": "<strong>Virtual Joypad</strong>: Move & Fight"
     },
-    {
-        "slug": "splix-io",
-        "title": "Splix.io",
-        "category": "Arcade",
-        "tags": [
-            "IO Game",
-            "Strategy",
-            "Conquest",
-            "Territory"
-        ],
-        "rating": 4.3,
-        "votes": "8,900",
-        "views": "4.2M",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/splix-io-thumb.webp",
-        "iframe": "https://splix.io/",
-        "developer": "Jesper the End",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "Splix.io is a minimalist strategy game where you compete to conquer the largest territory by drawing lines and returning to your base.",
-        "mission": "Enclose empty space and return to your own color to capture it. Don't let anyone hit your trail!",
-        "strategies": [
-            "Don't get too greedy; capture small chunks of area frequently to minimize risk.",
-            "Watch out for players cutting off your trail while you are outside your zone.",
-            "If you see an enemy trail, hit it to eliminate them instantly.",
-            "The corners and edges are often safer for building a large base slowly."
-        ],
-        "controls": {
-            "pc": "<strong>Arrow Keys / WASD</strong>: Change Direction",
-            "mobile": "<strong>Swipe</strong>: Change Direction"
-        },
-        "proTips": [
-            "Bait other players into exiting their zones and then quickly strike their trail.",
-            "Surround existing blocks of territory to capture them instantly without drawing a long line."
-        ],
-        "faq": [
-            {
-                "q": "Can I play Splix.io with friends?",
-                "a": "Yes, you can share the room URL to play on the same map with your group."
-            },
-            {
-                "q": "Is Splix.io available for mobile?",
-                "a": "Yes, it is fully optimized for touch controls on ZynfexGame."
-            }
-        ],
-        "editorReview": "Splix.io is the ultimate 'risk vs. reward' game. The minimalist aesthetic hides a brutal and intense strategy experience. Every time you leave your colored zone, your heart rate spikes as you become a target. We found the defensive gameplay to be just as engaging as the offense—baiting rivals into overextending and then sniping their trail is a high-level tactic that never gets old. It’s a perfect example of how simple mechanics can create deep, competitive gameplay."
+    "proTips": [
+      "Use the 'Dash' to quickly close the gap against ranged attackers.",
+      "Combine light attacks with a heavy finisher for maximum damage output."
+    ],
+    "faq": [
+      {
+        "q": "Are there different characters in Karate Bros?",
+        "a": "Yes, you can unlock various skins and styles as you win more matches."
+      },
+      {
+        "q": "Is there a single-player mode?",
+        "a": "Karate Bros is primarily a multiplayer game, but you can practice against bots in the training arena."
+      }
+    ],
+    "editorReview": "Karate Bros is a refreshing break from the usual shooters and snake games. It’s a pure, skill-based brawler where positioning and timing are everything. The 2D art style is charming and clean, making the combat animations easy to read—a necessity for a high-speed fighter. We found the local multiplayer 'feel' of the online matches to be excellent, with very little input lag. It’s a fantastic choice for players who want to test their reflexes and master complex combo chains."
+  },
+  {
+    "slug": "world-guessr",
+    "title": "WorldGuessr",
+    "category": "Puzzle",
+    "tags": [
+      "Geography",
+      "Trivia",
+      "Educational",
+      "Discovery"
+    ],
+    "rating": 4.5,
+    "votes": "5,800",
+    "views": "3.2M",
+    "released": "2025",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/world-guessr-thumb.webp",
+    "iframe": "https://worldguessr.com/",
+    "developer": "WorldGuessr Team",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "WorldGuessr is an addictive geography trivia game where you are dropped into a random Street View location and must guess where you are in the world.",
+    "mission": "Analyze your surroundings (climate, architecture, signs) and pinpoint your location on the map with the highest accuracy.",
+    "strategies": [
+      "Look for license plates and signs; they often contain country-specific codes or languages.",
+      "Check the sun's position to determine if you are in the Northern or Southern hemisphere.",
+      "Observe the architecture and road lines for regional hints (e.g., yellow center lines in the Americas).",
+      "Don't spend too much time in one spot; sometimes moving a few blocks revealed a major landmark."
+    ],
+    "controls": {
+      "pc": "<strong>Click & Drag</strong>: Look Around | <strong>Click Arrows</strong>: Move | <strong>Click Map</strong>: Place Guess",
+      "mobile": "<strong>Swipe</strong>: Look Around | <strong>Tap Arrows</strong>: Move | <strong>Tap Map</strong>: Place Guess"
     },
-    {
-        "slug": "paper-io",
-        "title": "Paper.io",
-        "category": "Arcade",
-        "tags": [
-            "IO Game",
-            "Territory",
-            "Conquest",
-            "Multiplayer"
-        ],
-        "rating": 4.4,
-        "votes": "12,100",
-        "views": "7.8M",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/paper-io-thumb.webp",
-        "iframe": "https://paper-io.com/",
-        "developer": "Voodoo",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "Paper.io is a fast-paced territory capture game. Enclose land to add it to your territory, but be careful of your tail!",
-        "mission": "Conquer as much map percentage as possible by creating loops while defending your trail from other players.",
-        "strategies": [
-            "Keep your loops small and controlled to stay safe.",
-            "Avoid going too deep into enemy territory unless you have a clear return path.",
-            "Watch the edges of the map; they are often the safest place to grow.",
-            "Strike other players' trails while they are exploring to eliminate them."
-        ],
-        "controls": {
-            "pc": "<strong>Arrow Keys / WASD</strong>: Change Direction | <strong>Mouse</strong>: Steer",
-            "mobile": "<strong>Swipe</strong>: Change Direction"
-        },
-        "proTips": [
-            "Wait for an opponent to commit to a large loop before striking their tail.",
-            "You can't hit your own tail, so use tight turns to navigate safely."
-        ],
-        "faq": [
-            {
-                "q": "What happens if I hit a wall?",
-                "a": "You simply bounce off or stop; the real danger is other players hitting your trail."
-            },
-            {
-                "q": "How do I win?",
-                "a": "The goal is to reach 100% map coverage, though this is extremely rare in a live multiplayer environment."
-            }
-        ],
-        "editorReview": "Paper.io is a classic for a reason. Its brilliance lies in the constant tension of expansion. While it looks like a simple coloring game, it’s actually a high-stakes arena of positioning and timing. Our editorial team noticed that the best players aren't the most aggressive, but the most disciplined. The feeling of finally capturing a massive block of a rival's land is incredibly satisfying, making this one of the most replayable IO games in our entire library."
+    "proTips": [
+      "Learn country-specific bollards (road markers) to instantly identify European countries.",
+      "Distinguish between left-side and right-side driving to narrow down your search half-way."
+    ],
+    "faq": [
+      {
+        "q": "Is WorldGuessr free like GeoGuessr used to be?",
+        "a": "Yes, it is a completely free-to-play alternative with no daily limit on ZynfexGame."
+      },
+      {
+        "q": "Can I challenge my friends in WorldGuessr?",
+        "a": "Yes, you can create private rooms and compete for the highest score on the same locations."
+      }
+    ],
+    "editorReview": "WorldGuessr is the thinking person's favorite browser game. It’s essentially a global detective hunt. The educational value is immense, but it never feels like a chore because the 'just one more guess' loop is so strong. We were impressed by the community-driven aspect of the game—learning specific road signs or vegetation patterns from fellow players makes you feel like an elite scout. It’s a quiet, intensely satisfying experience that rewards observation and deduction."
+  },
+  {
+    "slug": "starblast-io",
+    "title": "Starblast.io",
+    "category": "Action",
+    "tags": [
+      "Space",
+      "Shooter",
+      "Upgrade",
+      "Sci-Fi"
+    ],
+    "rating": 4.6,
+    "votes": "7,800",
+    "views": "5.5M",
+    "released": "2024",
+    "technology": "WebGL",
+    "thumbnail": "/hosted-games/starblast-io-thumb.webp",
+    "iframe": "https://starblast.io/",
+    "developer": "Neuronality",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "Starblast.io is an incredibly deep space combat game where you mine asteroids, upgrade your ship, and fight for solar system dominance.",
+    "mission": "Mine crystals to upgrade your ship through various tiers and eliminate enemy fleets.",
+    "strategies": [
+      "Early on, focus on mining asteroids to upgrade your attack speed and energy capacity.",
+      "Stick with a team in Team Mode; a lone ship is an easy target for hunters.",
+      "Choose your upgrade path carefully; some ships are faster while others are heavy hitters.",
+      "Keep an eye on your radar to spot incoming players before they get within firing range."
+    ],
+    "controls": {
+      "pc": "<strong>Mouse</strong>: Steer & Shoot | <strong>Space</strong>: Fire | <strong>Arrow Keys</strong>: Alt Controls",
+      "mobile": "<strong>Floating Joypad</strong>: Fly & Target | <strong>Auto-fire</strong>: Enabled"
     },
-    {
-        "slug": "little-big-snake",
-        "title": "Little Big Snake",
-        "category": "Arcade",
-        "tags": [
-            "IO Game",
-            "Snake",
-            "Multiplayer",
-            "Evolution"
-        ],
-        "rating": 4.6,
-        "votes": "14,300",
-        "views": "9.5M",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/little-big-snake-thumb.webp",
-        "iframe": "https://littlebigsnake.com/",
-        "developer": "Addicting Games",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "Little Big Snake is a massive multiplayer evolution game. Eat nectar, eliminate other snakes, and grow into the ultimate serpent!",
-        "mission": "Grow your snake into a massive beast while avoiding larger predators and eliminating smaller ones.",
-        "strategies": [
-            "Eat nectar and bugs to grow your level and unlock new abilities.",
-            "Encircle smaller snakes to trap them and claim their energy once they crash.",
-            "Use your speed boost sparingly; it consumes some of your size.",
-            "Upgrade your evolution tree to gain permanent buffs to speed and growth rate."
-        ],
-        "controls": {
-            "pc": "<strong>Mouse</strong>: Steer | <strong>Left Click</strong>: Speed Boost",
-            "mobile": "<strong>Virtual Joypad</strong>: Steer | <strong>Action Button</strong>: Speed Boost"
-        },
-        "proTips": [
-            "Stay near large fights to scavenge energy leftovers from defeated giants.",
-            "Use the 'Juja' mechanic to fly and scout for nectar-rich zones safely."
-        ],
-        "faq": [
-            {
-                "q": "Is Little Big Snake free?",
-                "a": "Yes, it is completely free to play in your browser on ZynfexGame."
-            },
-            {
-                "q": "Can I save my snake's progress?",
-                "a": "By creating an account, you can save your coins, skins, and evolution tree progress."
-            }
-        ],
-        "editorReview": "Little Big Snake is arguably the most polished 'Snake' experience available today. The evolution system adds a layer of depth that most IO games lack, giving players long-term goals beyond just getting a high score. The graphics are lush and detailed, and the inclusion of 'Jujas' (flying scout bugs) adds a unique tactical element. It’s a game that rewards both patience and quick reflexes, creating a highly satisfying progression from a tiny worm to a world-dominating serpent."
+    "proTips": [
+      "Don't upgrade too early; sometimes it's better to max out your current ship's stats before moving to the next tier.",
+      "Use asteroids as cover during high-speed dogfights."
+    ],
+    "faq": [
+      {
+        "q": "What are the different game modes in Starblast?",
+        "a": "The game features Survival, Team, Invasion, and Pro Deathmatch modes."
+      },
+      {
+        "q": "Can I save my progress in Starblast.io?",
+        "a": "Progress is saved per session, but you can create an account to track long-term stats and achievements."
+      }
+    ],
+    "editorReview": "Starblast.io is one of the most mechanically complex games in our library. The ship-upgrade tree is massive, allowing for distinct playstyles—from fast, fragile interceptors to lumbering dreadnoughts. The physics-based combat, where momentum and energy management are key, sets it apart from simpler shooters. It’s a beautiful, dark space arena that demands mastery. Our team especially recommends the Team Mode for a truly tactical and cooperative space-warfare experience."
+  },
+  {
+    "slug": "sea-dragons",
+    "title": "Sea Dragons",
+    "category": "Action",
+    "tags": [
+      "Ocean",
+      "Survival",
+      "Evolution",
+      "Multiplayer"
+    ],
+    "rating": 4.3,
+    "votes": "4,200",
+    "views": "2.1M",
+    "released": "2024",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/sea-dragons-thumb.webp",
+    "iframe": "https://seadragons.io/",
+    "developer": "Sea Dragons Team",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "Sea Dragons is a beautiful underwater survival game where you control a growing dragon in a dangerous oceanic arena.",
+    "mission": "Consume aquatic life and scattered mana to grow your dragon while avoiding larger predators and eliminating rival dragons.",
+    "strategies": [
+      "Eat smaller fish and mana orbs to increase your length and strength.",
+      "Use your boost to lunge at the heads of other dragons to eliminate them.",
+      "Diving deeper can sometimes help you escape from larger predators.",
+      "Manage your oxygen—coming to the surface is occasionally required."
+    ],
+    "controls": {
+      "pc": "<strong>Mouse</strong>: Steer | <strong>Left Click</strong>: Boost",
+      "mobile": "<strong>Virtual Joypad</strong>: Steer | <strong>Action Button</strong>: Boost"
     },
-    {
-        "slug": "wormszone-io",
-        "title": "WormsZone.io",
-        "category": "Arcade",
-        "tags": [
-            "IO Game",
-            "Snake",
-            "Multiplayer",
-            "Skins"
-        ],
-        "rating": 4.5,
-        "votes": "18,900",
-        "views": "11.2M",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/wormszone-io-thumb.webp",
-        "iframe": "https://worms.zone/",
-        "developer": "Wild Spike",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "WormsZone.io is a popular dynamic snake game where you eat treats, grow massive, and compete against players from around the world.",
-        "mission": "Become the king of the arena by consuming sweets, boosters, and defeating rival worms.",
-        "strategies": [
-            "Pick up power-ups like the Magnet to attract food from a distance.",
-            "Use the speed boost to cut off other worms and force them to crash into you.",
-            "Don't forget to keep an eye on your own tail to avoid being encircled.",
-            "Eat the remains of large fallen worms to grow exponentially fast."
-        ],
-        "controls": {
-            "pc": "<strong>Mouse</strong>: Steer | <strong>Left Click</strong>: Speed Boost",
-            "mobile": "<strong>Joystick</strong>: Steer | <strong>Action Button</strong>: Speed Boost"
-        },
-        "proTips": [
-            "The 'Double Score' power-up is best used right before a large worm is about to be eliminated nearby.",
-            "Wiggle your head slightly to make your movement less predictable to nearby predators."
-        ],
-        "faq": [
-            {
-                "q": "Are there different skins for my worm?",
-                "a": "Yes, you can unlock hundreds of skins and hats using the gold you collect during play."
-            },
-            {
-                "q": "Is WormsZone available for schools?",
-                "a": "Yes, our unblocked version works on all network types."
-            }
-        ],
-        "editorReview": "WormsZone.io takes the classic formula and injects it with pure energy. The arena is constantly filled with colorful treats, and the speed at which you can grow makes every session feel high-impact. We particularly enjoyed the 'booster' mechanics—finding a magnet or a score-multiplier can completely change your standing in seconds. It’s a very beginner-friendly game that still offers enough competitive depth for seasoned IO veterans to climb the ranks."
+    "proTips": [
+      "Encircle rival dragons like a snake to trap them in a shrinking circle of death.",
+      "The mana orbs near the center of the map are the most plentiful but the most dangerous to collect."
+    ],
+    "faq": [
+      {
+        "q": "Can I breathe underwater indefinitely?",
+        "a": "Yes, as a sea dragon you are built for the deep, but watch your energy levels."
+      },
+      {
+        "q": "How do I unlock new dragon species?",
+        "a": "Collect gold during matches to purchase faster and more powerful dragon types in the shop."
+      }
+    ],
+    "editorReview": "Sea Dragons brings a beautiful, fluid aesthetic to the IO survival genre. The underwater theme is exceptionally well-executed, with serene backgrounds contrasted against the lethal speed of dragon combat. We love the 'mana' system which adds a mystical layer to the growth mechanics. It’s a game of grace and sudden violence—floating peacefully one moment and then boosting into a tactical kill the next. It’s a perfect pick for those who enjoy 'Slither' style games but want a more atmospheric upgrade."
+  },
+  {
+    "slug": "hexanaut-io",
+    "title": "Hexanaut.io",
+    "category": "Strategy",
+    "tags": [
+      "Territory",
+      "Conquest",
+      "IO Game",
+      "Multiplayer"
+    ],
+    "rating": 4.4,
+    "votes": "7,100",
+    "views": "3.5M",
+    "released": "2024",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/hexanaut-io-thumb.webp",
+    "iframe": "https://hexanaut.io/",
+    "developer": "CoolGames",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "Hexanaut.io is a fast-paced territory conquest game. Conquer hexagonal tiles, expand your base, and become the Hexanaut King!",
+    "mission": "Capture 20% of the map tiles and hold them for a countdown period to win the match.",
+    "strategies": [
+      "Capture neutral tiles early to build a strong foundation for your hex kingdom.",
+      "Defend your borders! If an enemy cuts your trail while outside your zone, you are eliminated.",
+      "Expand toward 'Totems' to gain special abilities like increased speed or teleportation.",
+      "Don't be afraid to aggressive strike other players' tiles to stop their progress."
+    ],
+    "controls": {
+      "pc": "<strong>Mouse</strong>: Steer your Character",
+      "mobile": "<strong>Virtual Joypad</strong>: Steer your Character"
     },
-    {
-        "slug": "lordz-io",
-        "title": "Lordz.io",
-        "category": "Strategy",
-        "tags": [
-            "Army",
-            "Medieval",
-            "IO Game",
-            "Strategy"
-        ],
-        "rating": 4.5,
-        "votes": "6,700",
-        "views": "3.8M",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/lordz-io-thumb.webp",
-        "iframe": "https://lordz.io/",
-        "developer": "Spinbot Studio",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "Lordz.io is a massive multiplayer medieval strategy game. Build the biggest army, protect your lord, and conquer the map!",
-        "mission": "Collect gold to hire soldiers, build bases, and lead your army to total victory.",
-        "strategies": [
-            "Build houses to increase your population limit and castles to protect them.",
-            "Diversity your army with archers for range and knights for frontline defense.",
-            "Dragons are expensive but can devastate entire armies single-handedly.",
-            "Don't forget to protect your Lord; if he dies, your entire army is lost."
-        ],
-        "controls": {
-            "pc": "<strong>Mouse</strong>: Move Lord | <strong>Space</strong>: Split Army | <strong>E/R</strong>: Build Structure",
-            "mobile": "<strong>Touch Screen</strong>: Move & Interact"
-        },
-        "proTips": [
-            "Use the 'Split' mechanic to surround other lords or escape dangerous situations quickly.",
-            "Always keep a stash of gold to quickly rebuild your army after a major battle."
-        ],
-        "faq": [
-            {
-                "q": "How do I get more gold in Lordz.io?",
-                "a": "Collect gold coins scattered on the map or build gold mines to generate passive income."
-            },
-            {
-                "q": "What is the best type of soldier?",
-                "a": "A balanced mix of Soldiers and Archers is best for early game, while Dragons dominate late game."
-            }
-        ],
-        "editorReview": "Lordz.io is an ambitious blend of RTS and IO mechanics. Managing a growing army while physically moving your Lord around the battlefield creates a unique brand of tension. The building system is simple but effective, allowing players to establish strongholds that feel truly defensible. Large-scale battles with hundreds of troops clashing are a spectacle to behold, especially when Dragons join the fray. It’s one of the few browser games that manages to feel truly 'epic' in scale."
+    "proTips": [
+      "Use the 'Speed Totem' to quickly capture large swaths of neutral land before others arrive.",
+      "Lure enemies into your territory where you have a defensive speed advantage."
+    ],
+    "faq": [
+      {
+        "q": "How do I become an Hexanaut?",
+        "a": "You must capture and hold a significant portion of the map to trigger the Hexanaut countdown."
+      },
+      {
+        "q": "What happens if I crash into myself?",
+        "a": "Unlike Snake, in Hexanaut you can cross your own trail without dying—just don't let others hit it!"
+      }
+    ],
+    "editorReview": "Hexanaut.io is a brilliant evolution of the territory capture sub-genre. The use of hexagonal tiles makes expansion feel more tactical and grid-based than its peers. The 'Totem' system is a stroke of genius, forcing players to venture into dangerous contested areas for temporary buffs. Our team found the Hexanaut countdown to be incredibly tense—being 'on the clock' while every other player on the map is hunting you down is one of the most exciting meta-mini-games in all of IO gaming."
+  },
+  {
+    "slug": "stabfish-io",
+    "title": "Stabfish.io",
+    "category": "Action",
+    "tags": [
+      "Ocean",
+      "Battle",
+      "Arena",
+      "Multiplayer"
+    ],
+    "rating": 4.5,
+    "votes": "9,800",
+    "views": "5.9M",
+    "released": "2024",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/stabfish-io-thumb.webp",
+    "iframe": "https://stabfish.io/",
+    "developer": "Zytech",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "Stabfish.io is a brutal underwater combat arena where you wield a sharp tusk to impale other players and decorative sea life.",
+    "mission": "Dominate the ocean by stabbing rivals and collecting food to increase your level and tusk length.",
+    "strategies": [
+      "Aim for the body of other fish while protecting your own from their tusks.",
+      "Consume as much plankton and gems as possible to upgrade your fish quickly.",
+      "Use the 'Rebirth' mechanic to unlock more powerful predators like Sharks and Whales.",
+      "Speed up to land a lethal strike, but watch your stamina bar."
+    ],
+    "controls": {
+      "pc": "<strong>Mouse</strong>: Steer | <strong>Left Click</strong>: Speed Boost",
+      "mobile": "<strong>Virtual Joypad</strong>: Steer | <strong>Action Button</strong>: Speed Boost"
     },
-    {
-        "slug": "karatebros-io",
-        "title": "Karate Bros",
-        "category": "Action",
-        "tags": [
-            "Fighting",
-            "Martial Arts",
-            "2D",
-            "Multiplayer"
-        ],
-        "rating": 4.4,
-        "votes": "3,200",
-        "views": "1.5M",
-        "released": "2025",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/karatebros-io-thumb.webp",
-        "iframe": "https://karatebros.io/",
-        "developer": "KarateBros Team",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "Karate Bros is a high-energy multiplayer fighting game. Master the art of karate and defeat opponents in intense arena duels.",
-        "mission": "Become the ultimate sensei by defeating rival fighters and climbing the global leaderboard.",
-        "strategies": [
-            "Timing is everything; wait for your opponent to strike then counter-attack.",
-            "Use your special moves sparingly; they require energy to recharge.",
-            "Keep moving to make it harder for enemies to link together long combos.",
-            "Study the patterns of advanced players to learn high-level tactics."
-        ],
-        "controls": {
-            "pc": "<strong>WASD</strong>: Move | <strong>Click</strong>: Attack | <strong>Space</strong>: Special Move",
-            "mobile": "<strong>Virtual Joypad</strong>: Move & Fight"
-        },
-        "proTips": [
-            "Use the 'Dash' to quickly close the gap against ranged attackers.",
-            "Combine light attacks with a heavy finisher for maximum damage output."
-        ],
-        "faq": [
-            {
-                "q": "Are there different characters in Karate Bros?",
-                "a": "Yes, you can unlock various skins and styles as you win more matches."
-            },
-            {
-                "q": "Is there a single-player mode?",
-                "a": "Karate Bros is primarily a multiplayer game, but you can practice against bots in the training arena."
-            }
-        ],
-        "editorReview": "Karate Bros is a refreshing break from the usual shooters and snake games. It’s a pure, skill-based brawler where positioning and timing are everything. The 2D art style is charming and clean, making the combat animations easy to read—a necessity for a high-speed fighter. We found the local multiplayer 'feel' of the online matches to be excellent, with very little input lag. It’s a fantastic choice for players who want to test their reflexes and master complex combo chains."
+    "proTips": [
+      "Wait for two other fish to engage in a fight, then strike the winner while they are vulnerable.",
+      "Collect the 'Treasure Chests' for massive XP boosts and temporary defensive buffs."
+    ],
+    "faq": [
+      {
+        "q": "Can I customize my fish?",
+        "a": "Yes, you can upgrade your tusk and body skins as you level up and earn gems."
+      },
+      {
+        "q": "What is the best type of fish?",
+        "a": "Later unlocks like the Great White Shark have significantly higher speed and health stats."
+      }
+    ],
+    "editorReview": "Stabfish.io is the dark, aggressive cousin of most ocean-themed IO games. The combat is visceral—literally impaling rivals and seeing them pinned to your tusk as a trophy is a uniquely brutal mechanic for a browser game. The progression from a tiny marlin to a terrifying megalodon is incredibly rewarding. Our team particularly enjoyed the 'stamina' management; you can't just boost forever, making every charge a life-or-death tactical decision. It’s high-octane, competitive, and very satisfying."
+  },
+  {
+    "slug": "basket-bros",
+    "title": "BasketBros.io",
+    "category": "Action",
+    "tags": [
+      "Sports",
+      "Basketball",
+      "Multiplayer",
+      "2D"
+    ],
+    "rating": 4.5,
+    "votes": "10,200",
+    "views": "6.8M",
+    "released": "2024",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/basket-bros-thumb.webp",
+    "iframe": "https://basketbros.io/",
+    "developer": "Blue Wizard Digital",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "BasketBros.io is a fast-paced, high-flying 2D basketball game. Pick your pro, perform insane dunks, and show your skills on the court!",
+    "mission": "Outscore your opponent in a 1-on-1 street basketball battle using gravity-defying moves.",
+    "strategies": [
+      "Wait for the defender to jump before executing your shot or dunk.",
+      "Use the 'Dash' ability to steal the ball or bypass tight defenses.",
+      "Collect power-ups that appear on the court for speed boosts and massive jump height.",
+      "Timing your dunks correctly from distance will award you more style points."
+    ],
+    "controls": {
+      "pc": "<strong>WASD / Arrow Keys</strong>: Move & Jump | <strong>Space / G</strong>: Shoot & Steal",
+      "mobile": "<strong>Virtual Joypad</strong>: Move & Jump | <strong>Action Button</strong>: Shoot & Steal"
     },
-    {
-        "slug": "world-guessr",
-        "title": "WorldGuessr",
-        "category": "Puzzle",
-        "tags": [
-            "Geography",
-            "Trivia",
-            "Educational",
-            "Discovery"
-        ],
-        "rating": 4.5,
-        "votes": "5,800",
-        "views": "3.2M",
-        "released": "2025",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/world-guessr-thumb.webp",
-        "iframe": "https://worldguessr.com/",
-        "developer": "WorldGuessr Team",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "WorldGuessr is an addictive geography trivia game where you are dropped into a random Street View location and must guess where you are in the world.",
-        "mission": "Analyze your surroundings (climate, architecture, signs) and pinpoint your location on the map with the highest accuracy.",
-        "strategies": [
-            "Look for license plates and signs; they often contain country-specific codes or languages.",
-            "Check the sun's position to determine if you are in the Northern or Southern hemisphere.",
-            "Observe the architecture and road lines for regional hints (e.g., yellow center lines in the Americas).",
-            "Don't spend too much time in one spot; sometimes moving a few blocks revealed a major landmark."
-        ],
-        "controls": {
-            "pc": "<strong>Click & Drag</strong>: Look Around | <strong>Click Arrows</strong>: Move | <strong>Click Map</strong>: Place Guess",
-            "mobile": "<strong>Swipe</strong>: Look Around | <strong>Tap Arrows</strong>: Move | <strong>Tap Map</strong>: Place Guess"
-        },
-        "proTips": [
-            "Learn country-specific bollards (road markers) to instantly identify European countries.",
-            "Distinguish between left-side and right-side driving to narrow down your search half-way."
-        ],
-        "faq": [
-            {
-                "q": "Is WorldGuessr free like GeoGuessr used to be?",
-                "a": "Yes, it is a completely free-to-play alternative with no daily limit on ZynfexGame."
-            },
-            {
-                "q": "Can I challenge my friends in WorldGuessr?",
-                "a": "Yes, you can create private rooms and compete for the highest score on the same locations."
-            }
-        ],
-        "editorReview": "WorldGuessr is the thinking person's favorite browser game. It’s essentially a global detective hunt. The educational value is immense, but it never feels like a chore because the 'just one more guess' loop is so strong. We were impressed by the community-driven aspect of the game—learning specific road signs or vegetation patterns from fellow players makes you feel like an elite scout. It’s a quiet, intensely satisfying experience that rewards observation and deduction."
+    "proTips": [
+      "You can block shots by jumping directly in front of the attacker at the top of their arc.",
+      "Perform a 'Perfect Shot' to guarantee the ball goes in every time."
+    ],
+    "faq": [
+      {
+        "q": "Can I play BasketBros on the same computer?",
+        "a": "Yes, it supports local 2-player mode so you can play with a friend on one keyboard."
+      },
+      {
+        "q": "How do I unlock more characters?",
+        "a": "Win tournaments and complete daily challenges to unlock dozens of new ballers."
+      }
+    ],
+    "editorReview": "BasketBros.io captures the high-energy vibe of NBA Jam and distills it into a fast, funny 2D brawler. The physics are intentionally floaty, allowing for massive dunks and ridiculous blocks that keep matches feeling like a highlight reel. We love the local co-op option—it’s rare to find such a robust 2-player-one-keyboard experience in a modern web game. The 'Perfect Shot' mechanic adds a surprisingly high skill ceiling, rewarding players who take the time to learn the exact release point of every character."
+  },
+  {
+    "slug": "moomoo-io",
+    "title": "MooMoo.io",
+    "category": "Strategy",
+    "tags": [
+      "Survival",
+      "Crafting",
+      "IO Game",
+      "Multiplayer"
+    ],
+    "rating": 4.4,
+    "votes": "18,600",
+    "views": "11.2M",
+    "released": "2024",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/moomoo-io-thumb.webp",
+    "iframe": "https://moomoo.io/",
+    "developer": "Sidney de Vries",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "MooMoo.io is a massive multiplayer survival game where you gather resources, build a base, and defend your gold mines from raiders.",
+    "mission": "Gather resources to build a secure base and generate the most gold to reach the top of the leaderboard.",
+    "strategies": [
+      "Start by gathering wood and stone to build walls and spikes for protection.",
+      "Place windmills near your base to generate gold passively.",
+      "Join or create a 'Tribe' to collaborate with other players for massive base defense.",
+      "Always keep food items in your inventory to heal quickly during raids."
+    ],
+    "controls": {
+      "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim | <strong>Click</strong>: Gather/Attack | <strong>1-9</strong>: Select Item",
+      "mobile": "<strong>Virtual Joypad</strong>: Move & Aim | <strong>Tap</strong>: Gather/Attack"
     },
-    {
-        "slug": "starblast-io",
-        "title": "Starblast.io",
-        "category": "Action",
-        "tags": [
-            "Space",
-            "Shooter",
-            "Upgrade",
-            "Sci-Fi"
-        ],
-        "rating": 4.6,
-        "votes": "7,800",
-        "views": "5.5M",
-        "released": "2024",
-        "technology": "WebGL",
-        "thumbnail": "/hosted-games/starblast-io-thumb.webp",
-        "iframe": "https://starblast.io/",
-        "developer": "Neuronality",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "Starblast.io is an incredibly deep space combat game where you mine asteroids, upgrade your ship, and fight for solar system dominance.",
-        "mission": "Mine crystals to upgrade your ship through various tiers and eliminate enemy fleets.",
-        "strategies": [
-            "Early on, focus on mining asteroids to upgrade your attack speed and energy capacity.",
-            "Stick with a team in Team Mode; a lone ship is an easy target for hunters.",
-            "Choose your upgrade path carefully; some ships are faster while others are heavy hitters.",
-            "Keep an eye on your radar to spot incoming players before they get within firing range."
-        ],
-        "controls": {
-            "pc": "<strong>Mouse</strong>: Steer & Shoot | <strong>Space</strong>: Fire | <strong>Arrow Keys</strong>: Alt Controls",
-            "mobile": "<strong>Floating Joypad</strong>: Fly & Target | <strong>Auto-fire</strong>: Enabled"
-        },
-        "proTips": [
-            "Don't upgrade too early; sometimes it's better to max out your current ship's stats before moving to the next tier.",
-            "Use asteroids as cover during high-speed dogfights."
-        ],
-        "faq": [
-            {
-                "q": "What are the different game modes in Starblast?",
-                "a": "The game features Survival, Team, Invasion, and Pro Deathmatch modes."
-            },
-            {
-                "q": "Can I save my progress in Starblast.io?",
-                "a": "Progress is saved per session, but you can create an account to track long-term stats and achievements."
-            }
-        ],
-        "editorReview": "Starblast.io is one of the most mechanically complex games in our library. The ship-upgrade tree is massive, allowing for distinct playstyles—from fast, fragile interceptors to lumbering dreadnoughts. The physics-based combat, where momentum and energy management are key, sets it apart from simpler shooters. It’s a beautiful, dark space arena that demands mastery. Our team especially recommends the Team Mode for a truly tactical and cooperative space-warfare experience."
+    "proTips": [
+      "Place spikes around your windmills to prevent stealthy raiders from destroying your income.",
+      "Equip hats like the 'Miner Hat' or 'Bull Helmet' to gain powerful stat boosts during combat."
+    ],
+    "faq": [
+      {
+        "q": "What happens if my base is destroyed?",
+        "a": "You lose your structures but keep your level and gold wealth, allowing you to rebuild quickly."
+      },
+      {
+        "q": "Is there a limit to tribe size?",
+        "a": "Tribe sizes vary by server, but working with even one partner significantly increases survival chances."
+      }
+    ],
+    "editorReview": "MooMoo.io is one of the pioneers of the 'survival-IO' genre, and it remains the best. The base-building is simple enough to pick up instantly but deep enough to allow for incredibly creative layouts. The hat system provides a great way to customize your stats on the fly—switching from a mining hat to a combat helmet before a raid is a classic high-level play. It’s a game of constant multitasking: growing your wealth while always keeping one eye on the horizon for rival clans. It’s social, strategic, and very rewarding."
+  },
+  {
+    "slug": "build-royale",
+    "title": "BuildRoyale.io",
+    "category": "Action",
+    "tags": [
+      "Battle Royale",
+      "Building",
+      "Survival",
+      "Shooter"
+    ],
+    "rating": 4.5,
+    "votes": "9,200",
+    "views": "6.2M",
+    "released": "2024",
+    "technology": "WebGL",
+    "thumbnail": "/hosted-games/build-royale-thumb.webp",
+    "iframe": "https://buildroyale.io/",
+    "developer": "BuildRoyale Team",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "BuildRoyale.io is a 2D battle royale game where you must build defenses while fighting to be the last player standing.",
+    "mission": "Loot weapons, gather materials, and build structures to survive against 50 other players.",
+    "strategies": [
+      "Quick-building is more important than perfect aim; build cover as soon as you are shot at.",
+      "Mine wood, brick, and metal early in the game to ensure you have building materials for the final circles.",
+      "Shield potions should be your top priority in the early game.",
+      "High ground is a massive advantage—build upwards to see enemies before they see you."
+    ],
+    "controls": {
+      "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim & Shoot | <strong>E</strong>: Loot | <strong>Q</strong>: Build Mode | <strong>Space</strong>: Jump",
+      "mobile": "<strong>Virtual Joysticks</strong>: Move & Aim | <strong>Tap</strong>: Shoot & Build"
     },
-    {
-        "slug": "sea-dragons",
-        "title": "Sea Dragons",
-        "category": "Action",
-        "tags": [
-            "Ocean",
-            "Survival",
-            "Evolution",
-            "Multiplayer"
-        ],
-        "rating": 4.3,
-        "votes": "4,200",
-        "views": "2.1M",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/sea-dragons-thumb.webp",
-        "iframe": "https://seadragons.io/",
-        "developer": "Sea Dragons Team",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "Sea Dragons is a beautiful underwater survival game where you control a growing dragon in a dangerous oceanic arena.",
-        "mission": "Consume aquatic life and scattered mana to grow your dragon while avoiding larger predators and eliminating rival dragons.",
-        "strategies": [
-            "Eat smaller fish and mana orbs to increase your length and strength.",
-            "Use your boost to lunge at the heads of other dragons to eliminate them.",
-            "Diving deeper can sometimes help you escape from larger predators.",
-            "Manage your oxygen—coming to the surface is occasionally required."
-        ],
-        "controls": {
-            "pc": "<strong>Mouse</strong>: Steer | <strong>Left Click</strong>: Boost",
-            "mobile": "<strong>Virtual Joypad</strong>: Steer | <strong>Action Button</strong>: Boost"
-        },
-        "proTips": [
-            "Encircle rival dragons like a snake to trap them in a shrinking circle of death.",
-            "The mana orbs near the center of the map are the most plentiful but the most dangerous to collect."
-        ],
-        "faq": [
-            {
-                "q": "Can I breathe underwater indefinitely?",
-                "a": "Yes, as a sea dragon you are built for the deep, but watch your energy levels."
-            },
-            {
-                "q": "How do I unlock new dragon species?",
-                "a": "Collect gold during matches to purchase faster and more powerful dragon types in the shop."
-            }
-        ],
-        "editorReview": "Sea Dragons brings a beautiful, fluid aesthetic to the IO survival genre. The underwater theme is exceptionally well-executed, with serene backgrounds contrasted against the lethal speed of dragon combat. We love the 'mana' system which adds a mystical layer to the growth mechanics. It’s a game of grace and sudden violence—floating peacefully one moment and then boosting into a tactical kill the next. It’s a perfect pick for those who enjoy 'Slither' style games but want a more atmospheric upgrade."
+    "proTips": [
+      "Use 'Edit Mode' to create windows in your walls for safe sniping.",
+      "Double-wall your base to protect against heavy explosive attacks."
+    ],
+    "faq": [
+      {
+        "q": "Is BuildRoyale.io like Fortnite?",
+        "a": "It shares the building and battle royale mechanics but in a fast-paced 2D browser environment."
+      },
+      {
+        "q": "Can I play BuildRoyale.io unblocked?",
+        "a": "Yes, ZynfexGame offers the official unblocked version for school networks."
+      }
+    ],
+    "editorReview": "BuildRoyale.io is the definitive 2D answer to the building-shooter phenomenon. The top-down perspective doesn't diminish the intensity of high-speed build battles—if anything, it makes them more strategic as you have 360-degree awareness. The looting phase is satisfyingly fast, and the weapons feel distinct. Our team was particularly impressed by how smoothly the building transitions from movement to combat; it’s a high-skill game that rewards players who can multitask under pressure."
+  },
+  {
+    "slug": "doodle-jump",
+    "title": "Doodle Jump",
+    "category": "Action",
+    "tags": [
+      "Arcade",
+      "Retro",
+      "Jump",
+      "Classic"
+    ],
+    "rating": 4.6,
+    "votes": "5,400",
+    "views": "2.9M",
+    "released": "2024",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/doodle-jump/thumbnail.webp",
+    "iframe": "/hosted-games/doodle-jump/index.html",
+    "developer": "RSK World (Self-Hosted)",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "Doodle Jump is the legendary jumping game. Guide the Doodler on a journey up a sheet of graph paper, picking up jet packs and avoiding black holes.",
+    "mission": "Jump ever higher, clearing platforms and avoiding monsters to reach the highest possible score.",
+    "strategies": [
+      "Focus on the platforms slightly above the Doodler to plan your landing.",
+      "Propeller hats and jetpacks provide a massive boost but be careful not to overshoot into a monster.",
+      "Moving off one side of the screen will wrap the Doodler around to the other side.",
+      "The blue platforms move, while the brown ones break—act fast!"
+    ],
+    "controls": {
+      "pc": "<strong>Arrow Keys</strong>: Move Left/Right | <strong>Space</strong>: Shoot",
+      "mobile": "<strong>Tilt Phone</strong>: Move Left/Right | <strong>Tap Screen</strong>: Shoot"
     },
-    {
-        "slug": "hexanaut-io",
-        "title": "Hexanaut.io",
-        "category": "Strategy",
-        "tags": [
-            "Territory",
-            "Conquest",
-            "IO Game",
-            "Multiplayer"
-        ],
-        "rating": 4.4,
-        "votes": "7,100",
-        "views": "3.5M",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/hexanaut-io-thumb.webp",
-        "iframe": "https://hexanaut.io/",
-        "developer": "CoolGames",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "Hexanaut.io is a fast-paced territory conquest game. Conquer hexagonal tiles, expand your base, and become the Hexanaut King!",
-        "mission": "Capture 20% of the map tiles and hold them for a countdown period to win the match.",
-        "strategies": [
-            "Capture neutral tiles early to build a strong foundation for your hex kingdom.",
-            "Defend your borders! If an enemy cuts your trail while outside your zone, you are eliminated.",
-            "Expand toward 'Totems' to gain special abilities like increased speed or teleportation.",
-            "Don't be afraid to aggressive strike other players' tiles to stop their progress."
-        ],
-        "controls": {
-            "pc": "<strong>Mouse</strong>: Steer your Character",
-            "mobile": "<strong>Virtual Joypad</strong>: Steer your Character"
-        },
-        "proTips": [
-            "Use the 'Speed Totem' to quickly capture large swaths of neutral land before others arrive.",
-            "Lure enemies into your territory where you have a defensive speed advantage."
-        ],
-        "faq": [
-            {
-                "q": "How do I become an Hexanaut?",
-                "a": "You must capture and hold a significant portion of the map to trigger the Hexanaut countdown."
-            },
-            {
-                "q": "What happens if I crash into myself?",
-                "a": "Unlike Snake, in Hexanaut you can cross your own trail without dying—just don't let others hit it!"
-            }
-        ],
-        "editorReview": "Hexanaut.io is a brilliant evolution of the territory capture sub-genre. The use of hexagonal tiles makes expansion feel more tactical and grid-based than its peers. The 'Totem' system is a stroke of genius, forcing players to venture into dangerous contested areas for temporary buffs. Our team found the Hexanaut countdown to be incredibly tense—being 'on the clock' while every other player on the map is hunting you down is one of the most exciting meta-mini-games in all of IO gaming."
+    "proTips": [
+      "Use the 'screen wrap' to dodge monsters that are blocking the middle of the screen.",
+      "Listen for the sound cues of upcoming black holes and UFOs."
+    ],
+    "faq": [
+      {
+        "q": "How do I kill the monsters?",
+        "a": "Tap your screen or press Space to shoot bubbles at the monsters and clear them from your path."
+      },
+      {
+        "q": "What is the world record score?",
+        "a": "Doodle Jump records are in the millions—keep practicing to climb the global leaderboard!"
+      }
+    ],
+    "editorReview": "What else can be said about Doodle Jump? It is the quintessential mobile-era classic, and this browser version preserves the 'one more go' magic perfectly. The tilt-based physics (replicated via arrow keys or touch) feel reactive and fair. The art style, which looks like it was sketched on a student's notebook, remains as iconic as ever. It is the gold standard for 'endless verticality' games—simple to grasp, nearly impossible to master, and always fun."
+  },
+  {
+    "slug": "space-invaders",
+    "title": "Space Invaders 3D",
+    "category": "Action",
+    "tags": [
+      "Shooter",
+      "Retro",
+      "3D",
+      "Arcade"
+    ],
+    "rating": 4.5,
+    "votes": "2,300",
+    "views": "1.1M",
+    "released": "2024",
+    "technology": "HTML5 / Three.js",
+    "thumbnail": "/hosted-games/space-invaders/assets/images/gameplay-opt.webp",
+    "iframe": "/hosted-games/space-invaders/index.html",
+    "developer": "ZynfexGame Arcade (Self-Hosted)",
+    "featured": false,
+    "mobileFriendly": false,
+    "description": "Space Invaders 3D brings the classic arcade shooter into the third dimension with stunning effects and challenging boss battles.",
+    "mission": "Defend the planet from waves of descending alien invaders and take down their massive Motherships.",
+    "strategies": [
+      "Don't just shoot blindly; wait for the aliens to move into your line of fire.",
+      "Destroy the shields wisely; they provide temporary cover but will eventually crumble.",
+      "Prioritize the UFOs that fly across the top for massive bonus points.",
+      "Boss waves require dodging more than shooting—wait for their cooldown to strike."
+    ],
+    "controls": {
+      "pc": "<strong>Arrow Keys / WASD</strong>: Move | <strong>Space</strong>: Shoot",
+      "mobile": "Standard controls not fully optimized. Best played on Desktop."
     },
-    {
-        "slug": "stabfish-io",
-        "title": "Stabfish.io",
-        "category": "Action",
-        "tags": [
-            "Ocean",
-            "Battle",
-            "Arena",
-            "Multiplayer"
-        ],
-        "rating": 4.5,
-        "votes": "9,800",
-        "views": "5.9M",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/stabfish-io-thumb.webp",
-        "iframe": "https://stabfish.io/",
-        "developer": "Zytech",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "Stabfish.io is a brutal underwater combat arena where you wield a sharp tusk to impale other players and decorative sea life.",
-        "mission": "Dominate the ocean by stabbing rivals and collecting food to increase your level and tusk length.",
-        "strategies": [
-            "Aim for the body of other fish while protecting your own from their tusks.",
-            "Consume as much plankton and gems as possible to upgrade your fish quickly.",
-            "Use the 'Rebirth' mechanic to unlock more powerful predators like Sharks and Whales.",
-            "Speed up to land a lethal strike, but watch your stamina bar."
-        ],
-        "controls": {
-            "pc": "<strong>Mouse</strong>: Steer | <strong>Left Click</strong>: Speed Boost",
-            "mobile": "<strong>Virtual Joypad</strong>: Steer | <strong>Action Button</strong>: Speed Boost"
-        },
-        "proTips": [
-            "Wait for two other fish to engage in a fight, then strike the winner while they are vulnerable.",
-            "Collect the 'Treasure Chests' for massive XP boosts and temporary defensive buffs."
-        ],
-        "faq": [
-            {
-                "q": "Can I customize my fish?",
-                "a": "Yes, you can upgrade your tusk and body skins as you level up and earn gems."
-            },
-            {
-                "q": "What is the best type of fish?",
-                "a": "Later unlocks like the Great White Shark have significantly higher speed and health stats."
-            }
-        ],
-        "editorReview": "Stabfish.io is the dark, aggressive cousin of most ocean-themed IO games. The combat is visceral—literally impaling rivals and seeing them pinned to your tusk as a trophy is a uniquely brutal mechanic for a browser game. The progression from a tiny marlin to a terrifying megalodon is incredibly rewarding. Our team particularly enjoyed the 'stamina' management; you can't just boost forever, making every charge a life-or-death tactical decision. It’s high-octane, competitive, and very satisfying."
+    "proTips": [
+      "Upgrade your laser by collecting the glowing blue power-ups during Mothership phases.",
+      "The bottom-most aliens move slower—clear them first to gain breathing room."
+    ],
+    "faq": [
+      {
+        "q": "Are there different kinds of aliens?",
+        "a": "Yes, later waves introduce shielded aliens and fast-moving scouts."
+      },
+      {
+        "q": "What happens after Wave 10?",
+        "a": "The difficulty resets with faster movement, but your score continues to climb!"
+      }
+    ],
+    "editorReview": "Space Invaders 3D is a loving homage to the forefather of the shoot-em-up genre. By moving into the third dimension, the game adds a level of visual spectacle that the original simply couldn't achieve. The boss fights are massive and require genuine tactical dodging. Our team particularly enjoyed the 'shield destruction' system—using your cover as a resource that gradually fades adds a modern survival-horror twist to a legendary arcade formula."
+  },
+  {
+    "slug": "tileman",
+    "title": "Tileman.io",
+    "category": "Arcade",
+    "tags": [
+      "Territory",
+      "Multiplayer",
+      "Neon",
+      "Snake"
+    ],
+    "rating": 4.4,
+    "votes": "4,200",
+    "views": "1.8M",
+    "released": "2024",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/tileman-thumb.png",
+    "iframe": "https://tileman.io",
+    "developer": "Unknown",
+    "featured": false,
+    "mobileFriendly": true,
+    "description": "TileMan.io is a neon-themed territory conquest game where you expand your area by creating loops.",
+    "mission": "Acquire territory by expanding out and circling back to build a mighty empire of glowing neon grids.",
+    "strategies": [
+      "Use loops to capture large areas quickly.",
+      "Cut off opponents' trails to eliminate them.",
+      "Stay within your territory for safety while expanding."
+    ],
+    "controls": {
+      "pc": "<strong>WASD / Arrows</strong>: Move | <strong>E/P</strong>: Pause",
+      "mobile": "<strong>Swipe</strong>: Move"
     },
-    {
-        "slug": "basket-bros",
-        "title": "BasketBros.io",
-        "category": "Action",
-        "tags": [
-            "Sports",
-            "Basketball",
-            "Multiplayer",
-            "2D"
-        ],
-        "rating": 4.5,
-        "votes": "10,200",
-        "views": "6.8M",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/basket-bros-thumb.webp",
-        "iframe": "https://basketbros.io/",
-        "developer": "Blue Wizard Digital",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "BasketBros.io is a fast-paced, high-flying 2D basketball game. Pick your pro, perform insane dunks, and show your skills on the court!",
-        "mission": "Outscore your opponent in a 1-on-1 street basketball battle using gravity-defying moves.",
-        "strategies": [
-            "Wait for the defender to jump before executing your shot or dunk.",
-            "Use the 'Dash' ability to steal the ball or bypass tight defenses.",
-            "Collect power-ups that appear on the court for speed boosts and massive jump height.",
-            "Timing your dunks correctly from distance will award you more style points."
-        ],
-        "controls": {
-            "pc": "<strong>WASD / Arrow Keys</strong>: Move & Jump | <strong>Space / G</strong>: Shoot & Steal",
-            "mobile": "<strong>Virtual Joypad</strong>: Move & Jump | <strong>Action Button</strong>: Shoot & Steal"
-        },
-        "proTips": [
-            "You can block shots by jumping directly in front of the attacker at the top of their arc.",
-            "Perform a 'Perfect Shot' to guarantee the ball goes in every time."
-        ],
-        "faq": [
-            {
-                "q": "Can I play BasketBros on the same computer?",
-                "a": "Yes, it supports local 2-player mode so you can play with a friend on one keyboard."
-            },
-            {
-                "q": "How do I unlock more characters?",
-                "a": "Win tournaments and complete daily challenges to unlock dozens of new ballers."
-            }
-        ],
-        "editorReview": "BasketBros.io captures the high-energy vibe of NBA Jam and distills it into a fast, funny 2D brawler. The physics are intentionally floaty, allowing for massive dunks and ridiculous blocks that keep matches feeling like a highlight reel. We love the local co-op option—it’s rare to find such a robust 2-player-one-keyboard experience in a modern web game. The 'Perfect Shot' mechanic adds a surprisingly high skill ceiling, rewarding players who take the time to learn the exact release point of every character."
+    "proTips": [
+      "Lure enemies into your territory where you have the maneuverability advantage.",
+      "Bait opponents into overextending their trails before cutting them off."
+    ],
+    "faq": [
+      {
+        "q": "How do I grow my area?",
+        "a": "Move out of your base to draw a line, then loop back to your base to capture the enclosed tiles."
+      },
+      {
+        "q": "What happens if someone hits my trail?",
+        "a": "If an opponent crosses your trail while you are outside your territory, you are eliminated."
+      }
+    ],
+    "editorReview": "Tileman.io is a sleek, neon-drenched take on the growing-territory genre. It takes the core mechanics of games like Splix and adds a layer of visual polish and speed that makes every round feel intense. The grid-based precision movement is satisfyingly responsive, and the risk-reward calculation of how far to venture from safety is constantly engaging. It's a perfect 'quick play' game that rewards deep tactical thinking and steady nerves."
+  },
+  {
+    "slug": "cocky",
+    "title": "Cocky.io",
+    "category": "Action",
+    "tags": [
+      "Survival",
+      "Arena",
+      "Multiplayer",
+      "Humorous"
+    ],
+    "rating": 4.3,
+    "votes": "3,100",
+    "views": "1.2M",
+    "released": "2024",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/cocky-thumb.png",
+    "iframe": "https://cocky.io",
+    "developer": "Unknown",
+    "featured": false,
+    "mobileFriendly": true,
+    "description": "Cocky.io is a humorous multiplayer arena game where players battle using sausage-like weapons.",
+    "mission": "Reach the top of the leaderboard by poking enemies with your sausage weapon.",
+    "strategies": [
+      "Keep your weapon pointed towards the enemy.",
+      "Use your dash to surprise opponents or escape tight situations.",
+      "Collect food on the map to grow your weapon and your score."
+    ],
+    "controls": {
+      "pc": "<strong>Mouse</strong>: Move | <strong>Click</strong>: Dash/Poke",
+      "mobile": "<strong>Virtual Joypad</strong>: Move | <strong>Tap</strong>: Dash"
     },
-    {
-        "slug": "moomoo-io",
-        "title": "MooMoo.io",
-        "category": "Strategy",
-        "tags": [
-            "Survival",
-            "Crafting",
-            "IO Game",
-            "Multiplayer"
-        ],
-        "rating": 4.4,
-        "votes": "18,600",
-        "views": "11.2M",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/moomoo-io-thumb.webp",
-        "iframe": "https://moomoo.io/",
-        "developer": "Sidney de Vries",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "MooMoo.io is a massive multiplayer survival game where you gather resources, build a base, and defend your gold mines from raiders.",
-        "mission": "Gather resources to build a secure base and generate the most gold to reach the top of the leaderboard.",
-        "strategies": [
-            "Start by gathering wood and stone to build walls and spikes for protection.",
-            "Place windmills near your base to generate gold passively.",
-            "Join or create a 'Tribe' to collaborate with other players for massive base defense.",
-            "Always keep food items in your inventory to heal quickly during raids."
-        ],
-        "controls": {
-            "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim | <strong>Click</strong>: Gather/Attack | <strong>1-9</strong>: Select Item",
-            "mobile": "<strong>Virtual Joypad</strong>: Move & Aim | <strong>Tap</strong>: Gather/Attack"
-        },
-        "proTips": [
-            "Place spikes around your windmills to prevent stealthy raiders from destroying your income.",
-            "Equip hats like the 'Miner Hat' or 'Bull Helmet' to gain powerful stat boosts during combat."
-        ],
-        "faq": [
-            {
-                "q": "What happens if my base is destroyed?",
-                "a": "You lose your structures but keep your level and gold wealth, allowing you to rebuild quickly."
-            },
-            {
-                "q": "Is there a limit to tribe size?",
-                "a": "Tribe sizes vary by server, but working with even one partner significantly increases survival chances."
-            }
-        ],
-        "editorReview": "MooMoo.io is one of the pioneers of the 'survival-IO' genre, and it remains the best. The base-building is simple enough to pick up instantly but deep enough to allow for incredibly creative layouts. The hat system provides a great way to customize your stats on the fly—switching from a mining hat to a combat helmet before a raid is a classic high-level play. It’s a game of constant multitasking: growing your wealth while always keeping one eye on the horizon for rival clans. It’s social, strategic, and very rewarding."
+    "proTips": [
+      "Attacking from the side or behind is often more effective than a head-on collision.",
+      "Don't stay in high-traffic zones too long; move to the outskirts to grow safely."
+    ],
+    "faq": [
+      {
+        "q": "How do I get a longer weapon?",
+        "a": "Defeat other players and consume energy scattered around the arena."
+      },
+      {
+        "q": "Can I customize my character?",
+        "a": "Yes, you can change your skin and hair style in the main menu."
+      }
+    ],
+    "editorReview": "Cocky.io is a refreshingly weird and funny addition to the arena IO sub-genre. The 'sausage physics' combat is surprisingly deep, requiring careful positioning and timing to land hits without leaving yourself exposed. The character customization adds a fun layer of personality to every match. It's a game that doesn't take itself too seriously but provides genuine competitive thrills and plenty of laugh-out-loud moments."
+  },
+  {
+    "slug": "snakeblock",
+    "title": "Snakeblock.io",
+    "category": "Action",
+    "tags": [
+      "Snake",
+      "Energy",
+      "Multiplayer",
+      "Laser"
+    ],
+    "rating": 4.1,
+    "votes": "2,500",
+    "views": "850K",
+    "released": "2024",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/snakeblock-thumb.jpg",
+    "iframe": "https://snakeblock.io",
+    "developer": "Unknown",
+    "featured": false,
+    "mobileFriendly": true,
+    "description": "Snakeblock.io is a laser-themed snake game where players compete in a grey grid to grow the longest serpent.",
+    "mission": "Grow as large as possible by consuming energy and destroy other snakes.",
+    "strategies": [
+      "Collect energy orbs to increase your snake's length.",
+      "Trap other snakes by circling around them or cutting them off.",
+      "Use the boost sparingly as it consumes your energy."
+    ],
+    "controls": {
+      "pc": "<strong>Mouse</strong>: Move | <strong>Click/Space</strong>: Boost",
+      "mobile": "<strong>Virtual Joypad</strong>: Move | <strong>Tap</strong>: Boost"
     },
-    {
-        "slug": "build-royale",
-        "title": "BuildRoyale.io",
-        "category": "Action",
-        "tags": [
-            "Battle Royale",
-            "Building",
-            "Survival",
-            "Shooter"
-        ],
-        "rating": 4.5,
-        "votes": "9,200",
-        "views": "6.2M",
-        "released": "2024",
-        "technology": "WebGL",
-        "thumbnail": "/hosted-games/build-royale-thumb.webp",
-        "iframe": "https://buildroyale.io/",
-        "developer": "BuildRoyale Team",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "BuildRoyale.io is a 2D battle royale game where you must build defenses while fighting to be the last player standing.",
-        "mission": "Loot weapons, gather materials, and build structures to survive against 50 other players.",
-        "strategies": [
-            "Quick-building is more important than perfect aim; build cover as soon as you are shot at.",
-            "Mine wood, brick, and metal early in the game to ensure you have building materials for the final circles.",
-            "Shield potions should be your top priority in the early game.",
-            "High ground is a massive advantage—build upwards to see enemies before they see you."
-        ],
-        "controls": {
-            "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim & Shoot | <strong>E</strong>: Loot | <strong>Q</strong>: Build Mode | <strong>Space</strong>: Jump",
-            "mobile": "<strong>Virtual Joysticks</strong>: Move & Aim | <strong>Tap</strong>: Shoot & Build"
-        },
-        "proTips": [
-            "Use 'Edit Mode' to create windows in your walls for safe sniping.",
-            "Double-wall your base to protect against heavy explosive attacks."
-        ],
-        "faq": [
-            {
-                "q": "Is BuildRoyale.io like Fortnite?",
-                "a": "It shares the building and battle royale mechanics but in a fast-paced 2D browser environment."
-            },
-            {
-                "q": "Can I play BuildRoyale.io unblocked?",
-                "a": "Yes, ZynfexGame offers the official unblocked version for school networks."
-            }
-        ],
-        "editorReview": "BuildRoyale.io is the definitive 2D answer to the building-shooter phenomenon. The top-down perspective doesn't diminish the intensity of high-speed build battles—if anything, it makes them more strategic as you have 360-degree awareness. The looting phase is satisfyingly fast, and the weapons feel distinct. Our team was particularly impressed by how smoothly the building transitions from movement to combat; it’s a high-skill game that rewards players who can multitask under pressure."
+    "proTips": [
+      "The energy clouds are high-value targets but attract many dangerous rivals.",
+      "When being chased, try to make a sharp 180-degree turn to catch the attacker off guard."
+    ],
+    "faq": [
+      {
+        "q": "How do I boost?",
+        "a": "Hold the left mouse button or Spacebar to increase your speed at the cost of some length."
+      },
+      {
+        "q": "What happens if I hit another snake?",
+        "a": "If your head touches another snake's body, you will explode and turn into energy orbs."
+      }
+    ],
+    "editorReview": "Snakeblock.io takes the classic Snake formula and infuses it with a high-energy laser aesthetic. The grey-scale grid makes the vibrant neon snakes pop, creating a visually striking arena. The boost mechanic is perfectly balanced, making every chase a tense encounter of resource management. It's a solid, competitive experience that fans of Slither.io will appreciate for its speed and style."
+  },
+  {
+    "slug": "astro-race",
+    "title": "Astro Race",
+    "category": "Racing",
+    "tags": [
+      "Space",
+      "Supersonic",
+      "MMO",
+      "Competitive"
+    ],
+    "rating": 4.6,
+    "votes": "5,600",
+    "views": "2.1M",
+    "released": "2024",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/astro-race-thumb.png",
+    "iframe": "https://astrorace.io",
+    "developer": "Unknown",
+    "featured": false,
+    "mobileFriendly": true,
+    "description": "Astro Race is a high-speed space racing game where players pilot supersonic ships in a futuristic MMO setting.",
+    "mission": "Compete against other players to reach the highest league by winning races.",
+    "strategies": [
+      "Drift along the track borders to charge your boost meter.",
+      "Use your boost on straightaways to maximize speed.",
+      "Avoid collisions with other ships to maintain your momentum."
+    ],
+    "controls": {
+      "pc": "<strong>Left/Right Arrows</strong>: Turn | <strong>Up Arrow</strong>: Boost",
+      "mobile": "<strong>Tap Sides</strong>: Turn | <strong>Swipe Up</strong>: Boost"
     },
-    {
-        "slug": "doodle-jump",
-        "title": "Doodle Jump",
-        "category": "Action",
-        "tags": [
-            "Arcade",
-            "Retro",
-            "Jump",
-            "Classic"
-        ],
-        "rating": 4.6,
-        "votes": "5,400",
-        "views": "2.9M",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/doodle-jump/thumbnail.webp",
-        "iframe": "/hosted-games/doodle-jump/index.html",
-        "developer": "RSK World (Self-Hosted)",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "Doodle Jump is the legendary jumping game. Guide the Doodler on a journey up a sheet of graph paper, picking up jet packs and avoiding black holes.",
-        "mission": "Jump ever higher, clearing platforms and avoiding monsters to reach the highest possible score.",
-        "strategies": [
-            "Focus on the platforms slightly above the Doodler to plan your landing.",
-            "Propeller hats and jetpacks provide a massive boost but be careful not to overshoot into a monster.",
-            "Moving off one side of the screen will wrap the Doodler around to the other side.",
-            "The blue platforms move, while the brown ones break—act fast!"
-        ],
-        "controls": {
-            "pc": "<strong>Arrow Keys</strong>: Move Left/Right | <strong>Space</strong>: Shoot",
-            "mobile": "<strong>Tilt Phone</strong>: Move Left/Right | <strong>Tap Screen</strong>: Shoot"
-        },
-        "proTips": [
-            "Use the 'screen wrap' to dodge monsters that are blocking the middle of the screen.",
-            "Listen for the sound cues of upcoming black holes and UFOs."
-        ],
-        "faq": [
-            {
-                "q": "How do I kill the monsters?",
-                "a": "Tap your screen or press Space to shoot bubbles at the monsters and clear them from your path."
-            },
-            {
-                "q": "What is the world record score?",
-                "a": "Doodle Jump records are in the millions—keep practicing to climb the global leaderboard!"
-            }
-        ],
-        "editorReview": "What else can be said about Doodle Jump? It is the quintessential mobile-era classic, and this browser version preserves the 'one more go' magic perfectly. The tilt-based physics (replicated via arrow keys or touch) feel reactive and fair. The art style, which looks like it was sketched on a student's notebook, remains as iconic as ever. It is the gold standard for 'endless verticality' games—simple to grasp, nearly impossible to master, and always fun."
+    "proTips": [
+      "Mastering the 'Wall Drift' is the key to winning at higher leagues.",
+      "Watch out for the shifting track obstacles; they can end your race in an instant."
+    ],
+    "faq": [
+      {
+        "q": "How do I unlock new leagues?",
+        "a": "Earn points by finishing in the top positions of every race."
+      },
+      {
+        "q": "Can I customize my ship?",
+        "a": "Yes, you can unlock and equip various ship skins as you progress through the leagues."
+      }
+    ],
+    "editorReview": "Astro Race is a masterclass in 'easy to learn, hard to master' racing. The drift mechanic is incredibly unique—instead of slowing you down, it's the primary way to gain boost speed. This creates a high-risk, high-reward gameplay loop where you're constantly hugging the walls at supersonic speeds. The MMO integration means there's always someone to race against, making the climb through the leagues feel like a genuine achievement."
+  },
+  {
+    "slug": "paper-racer",
+    "title": "Paper Racer",
+    "category": "Racing",
+    "tags": [
+      "Drawing",
+      "Physics",
+      "Creative",
+      "Sports"
+    ],
+    "rating": 4.5,
+    "votes": "4,900",
+    "views": "3.4M",
+    "released": "2024",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/paper-racer-thumb.png",
+    "iframe": "https://paperracer.com",
+    "developer": "Unknown",
+    "featured": false,
+    "mobileFriendly": true,
+    "description": "Paper Racer is a unique racing game featuring hand-drawn paper graphics and customizable vehicles.",
+    "mission": "Compete on user-generated tracks, customize your vehicle, and challenge others.",
+    "strategies": [
+      "Balance your speed and direction to avoid flipping over on steep hills.",
+      "Use items strategically to slow down your opponents.",
+      "Memorize the layout of complex user-generated tracks."
+    ],
+    "controls": {
+      "pc": "<strong>WASD / Arrow Keys</strong>: Control | <strong>Space</strong>: Jump/Item | <strong>Z</strong>: Turn Around",
+      "mobile": "<strong>Virtual Buttons</strong>: Control & Use Items"
     },
-    {
-        "slug": "space-invaders",
-        "title": "Space Invaders 3D",
-        "category": "Action",
-        "tags": [
-            "Shooter",
-            "Retro",
-            "3D",
-            "Arcade"
-        ],
-        "rating": 4.5,
-        "votes": "2,300",
-        "views": "1.1M",
-        "released": "2024",
-        "technology": "HTML5 / Three.js",
-        "thumbnail": "/hosted-games/space-invaders/assets/images/gameplay-opt.webp",
-        "iframe": "/hosted-games/space-invaders/index.html",
-        "developer": "ZynfexGame Arcade (Self-Hosted)",
-        "featured": false,
-        "mobileFriendly": false,
-        "description": "Space Invaders 3D brings the classic arcade shooter into the third dimension with stunning effects and challenging boss battles.",
-        "mission": "Defend the planet from waves of descending alien invaders and take down their massive Motherships.",
-        "strategies": [
-            "Don't just shoot blindly; wait for the aliens to move into your line of fire.",
-            "Destroy the shields wisely; they provide temporary cover but will eventually crumble.",
-            "Prioritize the UFOs that fly across the top for massive bonus points.",
-            "Boss waves require dodging more than shooting—wait for their cooldown to strike."
-        ],
-        "controls": {
-            "pc": "<strong>Arrow Keys / WASD</strong>: Move | <strong>Space</strong>: Shoot",
-            "mobile": "Standard controls not fully optimized. Best played on Desktop."
-        },
-        "proTips": [
-            "Upgrade your laser by collecting the glowing blue power-ups during Mothership phases.",
-            "The bottom-most aliens move slower—clear them first to gain breathing room."
-        ],
-        "faq": [
-            {
-                "q": "Are there different kinds of aliens?",
-                "a": "Yes, later waves introduce shielded aliens and fast-moving scouts."
-            },
-            {
-                "q": "What happens after Wave 10?",
-                "a": "The difficulty resets with faster movement, but your score continues to climb!"
-            }
-        ],
-        "editorReview": "Space Invaders 3D is a loving homage to the forefather of the shoot-em-up genre. By moving into the third dimension, the game adds a level of visual spectacle that the original simply couldn't achieve. The boss fights are massive and require genuine tactical dodging. Our team particularly enjoyed the 'shield destruction' system—using your cover as a resource that gradually fades adds a modern survival-horror twist to a legendary arcade formula."
+    "proTips": [
+      "Lower your center of gravity when designing custom vehicles for better stability.",
+      "Experiment with the thousands of user-created tracks for a never-ending racing experience."
+    ],
+    "faq": [
+      {
+        "q": "How do I build my own track?",
+        "a": "Use the built-in track editor in the main menu to draw and share your creations."
+      },
+      {
+        "q": "Can I play with friends?",
+        "a": "Yes, you can challenge others in various multiplayer room modes."
+      }
+    ],
+    "editorReview": "Paper Racer is a charming and endlessly creative racing sandbox. The sketch-style art direction gives it a unique personality that sets it apart from more realistic racers. The real draw, however, is the community content—with thousands of tracks and custom vehicles, you'll never see the same race twice. It’s a perfect blend of physics-based challenge and creative expression that keeps you coming back to see what the community has built next."
+  },
+  {
+    "slug": "war-brokers",
+    "title": "War Brokers",
+    "category": "Action",
+    "tags": [
+      "Shooting",
+      "FPS",
+      "Vehicles",
+      "Multiplayer"
+    ],
+    "rating": 4.7,
+    "votes": "8,200",
+    "views": "4.1M",
+    "released": "2024",
+    "technology": "WebGL / HTML5",
+    "thumbnail": "/hosted-games/war-brokers-thumb.png",
+    "iframe": "https://warbrokers.io/",
+    "developer": "Trebuchet Entertainment",
+    "featured": true,
+    "mobileFriendly": false,
+    "description": "War Brokers is a massive multiplayer first-person shooter featuring a wide variety of weapons and vehicles like tanks and helicopters.",
+    "mission": "Work with your team to secure objectives and eliminate rival squads in intense tactical warfare.",
+    "strategies": [
+      "Use vehicles to cover open ground safely.",
+      "Coordinate with your team for captures.",
+      "Experiment with different loadouts for different maps."
+    ],
+    "controls": {
+      "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim & Shoot | <strong>Space</strong>: Jump | <strong>F</strong>: Enter Vehicle",
+      "mobile": "Best played on Desktop."
     },
-    {
-        "slug": "tileman",
-        "title": "Tileman.io",
-        "category": "Arcade",
-        "tags": [
-            "Territory",
-            "Multiplayer",
-            "Neon",
-            "Snake"
-        ],
-        "rating": 4.4,
-        "votes": "4,200",
-        "views": "1.8M",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/tileman-thumb.png",
-        "iframe": "https://tileman.io",
-        "developer": "Unknown",
-        "featured": false,
-        "mobileFriendly": true,
-        "description": "TileMan.io is a neon-themed territory conquest game where you expand your area by creating loops.",
-        "mission": "Acquire territory by expanding out and circling back to build a mighty empire of glowing neon grids.",
-        "strategies": [
-            "Use loops to capture large areas quickly.",
-            "Cut off opponents' trails to eliminate them.",
-            "Stay within your territory for safety while expanding."
-        ],
-        "controls": {
-            "pc": "<strong>WASD / Arrows</strong>: Move | <strong>E/P</strong>: Pause",
-            "mobile": "<strong>Swipe</strong>: Move"
-        },
-        "proTips": [
-            "Lure enemies into your territory where you have the maneuverability advantage.",
-            "Bait opponents into overextending their trails before cutting them off."
-        ],
-        "faq": [
-            {
-                "q": "How do I grow my area?",
-                "a": "Move out of your base to draw a line, then loop back to your base to capture the enclosed tiles."
-            },
-            {
-                "q": "What happens if someone hits my trail?",
-                "a": "If an opponent crosses your trail while you are outside your territory, you are eliminated."
-            }
-        ],
-        "editorReview": "Tileman.io is a sleek, neon-drenched take on the growing-territory genre. It takes the core mechanics of games like Splix and adds a layer of visual polish and speed that makes every round feel intense. The grid-based precision movement is satisfyingly responsive, and the risk-reward calculation of how far to venture from safety is constantly engaging. It's a perfect 'quick play' game that rewards deep tactical thinking and steady nerves."
+    "proTips": [
+      "Helicopters provide a massive air advantage for spotting enemies.",
+      "Stay near cover when on foot to avoid sniper fire."
+    ],
+    "faq": [
+      {
+        "q": "Can I fly planes in War Brokers?",
+        "a": "Yes, you can pilot jets, helicopters, and drive tanks."
+      },
+      {
+        "q": "Is War Brokers free?",
+        "a": "Yes, it is completely free to play in your browser."
+      }
+    ],
+    "editorReview": "War Brokers is an impressive feat of browser engineering. Combining large-scale vehicle combat with tight infantry FPS mechanics results in a game that feels like a full-price title. The variety of maps and constant updates keep the meta fresh. It is one of the most content-rich shooters available on the web today."
+  },
+  {
+    "slug": "kirka",
+    "title": "Kirka",
+    "category": "Action",
+    "tags": [
+      "Shooting",
+      "FPS",
+      "Multiplayer",
+      "Minecraft-style"
+    ],
+    "rating": 4.6,
+    "votes": "6,500",
+    "views": "3.5M",
+    "released": "2024",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/kirka-thumb.png",
+    "iframe": "https://kirka.io/",
+    "developer": "Kirka Team",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "Kirka is a Minecraft-style competitive first-person shooter where speed and accuracy are the keys to victory.",
+    "mission": "Defeat enemies in various game modes and climb the global leaderboards.",
+    "strategies": [
+      "Master the movement to become a harder target.",
+      "Learn the map layouts to find the best vantage points.",
+      "Use your credits to upgrade your weapon skins."
+    ],
+    "controls": {
+      "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim & Shoot | <strong>Space</strong>: Jump | <strong>Shift</strong>: Crouch",
+      "mobile": "<strong>Touch</strong>: Move & Shoot"
     },
-    {
-        "slug": "cocky",
-        "title": "Cocky.io",
-        "category": "Action",
-        "tags": [
-            "Survival",
-            "Arena",
-            "Multiplayer",
-            "Humorous"
-        ],
-        "rating": 4.3,
-        "votes": "3,100",
-        "views": "1.2M",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/cocky-thumb.png",
-        "iframe": "https://cocky.io",
-        "developer": "Unknown",
-        "featured": false,
-        "mobileFriendly": true,
-        "description": "Cocky.io is a humorous multiplayer arena game where players battle using sausage-like weapons.",
-        "mission": "Reach the top of the leaderboard by poking enemies with your sausage weapon.",
-        "strategies": [
-            "Keep your weapon pointed towards the enemy.",
-            "Use your dash to surprise opponents or escape tight situations.",
-            "Collect food on the map to grow your weapon and your score."
-        ],
-        "controls": {
-            "pc": "<strong>Mouse</strong>: Move | <strong>Click</strong>: Dash/Poke",
-            "mobile": "<strong>Virtual Joypad</strong>: Move | <strong>Tap</strong>: Dash"
-        },
-        "proTips": [
-            "Attacking from the side or behind is often more effective than a head-on collision.",
-            "Don't stay in high-traffic zones too long; move to the outskirts to grow safely."
-        ],
-        "faq": [
-            {
-                "q": "How do I get a longer weapon?",
-                "a": "Defeat other players and consume energy scattered around the arena."
-            },
-            {
-                "q": "Can I customize my character?",
-                "a": "Yes, you can change your skin and hair style in the main menu."
-            }
-        ],
-        "editorReview": "Cocky.io is a refreshingly weird and funny addition to the arena IO sub-genre. The 'sausage physics' combat is surprisingly deep, requiring careful positioning and timing to land hits without leaving yourself exposed. The character customization adds a fun layer of personality to every match. It's a game that doesn't take itself too seriously but provides genuine competitive thrills and plenty of laugh-out-loud moments."
+    "proTips": [
+      "Jump and slide to move faster and stay unpredictable.",
+      "Communication with your team is vital in objective modes."
+    ],
+    "faq": [
+      {
+        "q": "Are there different game modes?",
+        "a": "Yes, Kirka features Team Deathmatch, Free-For-All, and more."
+      },
+      {
+        "q": "Is Kirka unblocked?",
+        "a": "Yes, you can play it on ZynfexGame at school or work."
+      }
+    ],
+    "editorReview": "Kirka combines the approachable look of block-based games with the intense depth of a modern shooter. The gameplay is fast and rewarding, and the built-in clan and leaderboard systems foster a great community feel. It's perfectly optimized for a smooth experience on all devices."
+  },
+  {
+    "slug": "sandstrike",
+    "title": "Sandstrike",
+    "category": "Action",
+    "tags": [
+      "Shooting",
+      "Multiplayer",
+      "Vehicles",
+      "Action"
+    ],
+    "rating": 4.5,
+    "votes": "4,100",
+    "views": "1.9M",
+    "released": "2024",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/sandstrike-thumb.png",
+    "iframe": "https://sandstrike.io/",
+    "developer": "Sandstrike Team",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "Sandstrike is an action-packed multiplayer shooter set in a desert environment with vehicles and multiple game modes.",
+    "mission": "Survive the desert and lead your team to victory by eliminating opponents and capturing objectives.",
+    "strategies": [
+      "Utilize the desert terrain for cover.",
+      "Control the powerful vehicles to dominate the map.",
+      "Customize your loadout to suit your strategy."
+    ],
+    "controls": {
+      "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim & Shoot | <strong>Space</strong>: Jump | <strong>F</strong>: Use Vehicle",
+      "mobile": "<strong>Virtual Joysticks</strong>: Move & Shoot"
     },
-    {
-        "slug": "snakeblock",
-        "title": "Snakeblock.io",
-        "category": "Action",
-        "tags": [
-            "Snake",
-            "Energy",
-            "Multiplayer",
-            "Laser"
-        ],
-        "rating": 4.1,
-        "votes": "2,500",
-        "views": "850K",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/snakeblock-thumb.jpg",
-        "iframe": "https://snakeblock.io",
-        "developer": "Unknown",
-        "featured": false,
-        "mobileFriendly": true,
-        "description": "Snakeblock.io is a laser-themed snake game where players compete in a grey grid to grow the longest serpent.",
-        "mission": "Grow as large as possible by consuming energy and destroy other snakes.",
-        "strategies": [
-            "Collect energy orbs to increase your snake's length.",
-            "Trap other snakes by circling around them or cutting them off.",
-            "Use the boost sparingly as it consumes your energy."
-        ],
-        "controls": {
-            "pc": "<strong>Mouse</strong>: Move | <strong>Click/Space</strong>: Boost",
-            "mobile": "<strong>Virtual Joypad</strong>: Move | <strong>Tap</strong>: Boost"
-        },
-        "proTips": [
-            "The energy clouds are high-value targets but attract many dangerous rivals.",
-            "When being chased, try to make a sharp 180-degree turn to catch the attacker off guard."
-        ],
-        "faq": [
-            {
-                "q": "How do I boost?",
-                "a": "Hold the left mouse button or Spacebar to increase your speed at the cost of some length."
-            },
-            {
-                "q": "What happens if I hit another snake?",
-                "a": "If your head touches another snake's body, you will explode and turn into energy orbs."
-            }
-        ],
-        "editorReview": "Snakeblock.io takes the classic Snake formula and infuses it with a high-energy laser aesthetic. The grey-scale grid makes the vibrant neon snakes pop, creating a visually striking arena. The boost mechanic is perfectly balanced, making every chase a tense encounter of resource management. It's a solid, competitive experience that fans of Slither.io will appreciate for its speed and style."
+    "proTips": [
+      "The armored trucks are perfect for moving your squad safely.",
+      "Watch out for snipers on the sand dunes."
+    ],
+    "faq": [
+      {
+        "q": "Can I play Sandstrike on mobile?",
+        "a": "Yes, it is fully optimized for mobile browsers."
+      },
+      {
+        "q": "Are there bots in the game?",
+        "a": "While primarily multiplayer, bots fill empty slots to keep matches active."
+      }
+    ],
+    "editorReview": "Sandstrike delivers high-octane desert warfare right in your browser. The inclusion of vehicles adds a layer of scale that makes the matches feel expansive and exciting. It's a solid choice for fans of action shooters who want a quick but deep experience."
+  },
+  {
+    "slug": "krunker",
+    "title": "Krunker",
+    "category": "Action",
+    "tags": [
+      "Shooting",
+      "FPS",
+      "Competitive",
+      "Stylized"
+    ],
+    "rating": 4.8,
+    "votes": "55,000",
+    "views": "40M",
+    "released": "2024",
+    "technology": "WebGL",
+    "thumbnail": "/hosted-games/krunker-thumb.png",
+    "iframe": "https://krunker.io/",
+    "developer": "Yendis Entertainment",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "Krunker is a fast-paced, highly competitive 3D multiplayer shooter with a vast array of classes and custom maps.",
+    "mission": "Master your chosen class and outplay your opponents in stylized, high-speed arenas.",
+    "strategies": [
+      "Master 'slide-hopping' to move significantly faster than walking.",
+      "Pick the class that best counters your current opponents.",
+      "Learn the map spawns to anticipate enemy movement."
+    ],
+    "controls": {
+      "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim & Shoot | <strong>Space</strong>: Jump | <strong>Shift</strong>: Crouch/Slide",
+      "mobile": "<strong>Virtual Controls</strong>: Move & Aim"
     },
-    {
-        "slug": "astro-race",
-        "title": "Astro Race",
-        "category": "Racing",
-        "tags": [
-            "Space",
-            "Supersonic",
-            "MMO",
-            "Competitive"
-        ],
-        "rating": 4.6,
-        "votes": "5,600",
-        "views": "2.1M",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/astro-race-thumb.png",
-        "iframe": "https://astrorace.io",
-        "developer": "Unknown",
-        "featured": false,
-        "mobileFriendly": true,
-        "description": "Astro Race is a high-speed space racing game where players pilot supersonic ships in a futuristic MMO setting.",
-        "mission": "Compete against other players to reach the highest league by winning races.",
-        "strategies": [
-            "Drift along the track borders to charge your boost meter.",
-            "Use your boost on straightaways to maximize speed.",
-            "Avoid collisions with other ships to maintain your momentum."
-        ],
-        "controls": {
-            "pc": "<strong>Left/Right Arrows</strong>: Turn | <strong>Up Arrow</strong>: Boost",
-            "mobile": "<strong>Tap Sides</strong>: Turn | <strong>Swipe Up</strong>: Boost"
-        },
-        "proTips": [
-            "Mastering the 'Wall Drift' is the key to winning at higher leagues.",
-            "Watch out for the shifting track obstacles; they can end your race in an instant."
-        ],
-        "faq": [
-            {
-                "q": "How do I unlock new leagues?",
-                "a": "Earn points by finishing in the top positions of every race."
-            },
-            {
-                "q": "Can I customize my ship?",
-                "a": "Yes, you can unlock and equip various ship skins as you progress through the leagues."
-            }
-        ],
-        "editorReview": "Astro Race is a masterclass in 'easy to learn, hard to master' racing. The drift mechanic is incredibly unique—instead of slowing you down, it's the primary way to gain boost speed. This creates a high-risk, high-reward gameplay loop where you're constantly hugging the walls at supersonic speeds. The MMO integration means there's always someone to race against, making the climb through the leagues feel like a genuine achievement."
+    "proTips": [
+      "Kru (Krunker's currency) can be used to unlock rare weapon skins.",
+      "The community-made maps offer endless variety beyond the official rotation."
+    ],
+    "faq": [
+      {
+        "q": "Can I play Krunker unblocked?",
+        "a": "Yes, ZynfexGame provides a school-safe unblocked version."
+      },
+      {
+        "q": "What is the best Krunker class?",
+        "a": "Classes like the Hunter and Triggerman are fan favorites, but each has its strengths."
+      }
+    ],
+    "editorReview": "Krunker is nothing short of a legend in the world of browser gaming. Its blend of high-speed movement and precise gunplay is addictive and deep. The sheer volume of community content means there's always a new way to play. It's as much a platform as it is a game."
+  },
+  {
+    "slug": "braains",
+    "title": "Braains",
+    "category": "Arcade",
+    "tags": [
+      "Survival",
+      "Zombie",
+      "Multiplayer",
+      "Social"
+    ],
+    "rating": 4.4,
+    "votes": "9,800",
+    "views": "5.2M",
+    "released": "2024",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/braains-thumb.png",
+    "iframe": "https://braains.io/",
+    "developer": "Braains Team",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "Braains is a zombie survival game where players must barricade themselves in and survive the night.",
+    "mission": "Human: Survive the night by hiding or barricading. Zombie: Infect all humans before time runs out.",
+    "strategies": [
+      "Move objects to block doorways and windows.",
+      "Stay in groups for better protection as humans.",
+      "As a zombie, look for weak points in player-made forts."
+    ],
+    "controls": {
+      "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Look | <strong>Click</strong>: Grab/Interact",
+      "mobile": "<strong>Virtual Joypad</strong>: Move & Interact"
     },
-    {
-        "slug": "paper-racer",
-        "title": "Paper Racer",
-        "category": "Racing",
-        "tags": [
-            "Drawing",
-            "Physics",
-            "Creative",
-            "Sports"
-        ],
-        "rating": 4.5,
-        "votes": "4,900",
-        "views": "3.4M",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/paper-racer-thumb.png",
-        "iframe": "https://paperracer.com",
-        "developer": "Unknown",
-        "featured": false,
-        "mobileFriendly": true,
-        "description": "Paper Racer is a unique racing game featuring hand-drawn paper graphics and customizable vehicles.",
-        "mission": "Compete on user-generated tracks, customize your vehicle, and challenge others.",
-        "strategies": [
-            "Balance your speed and direction to avoid flipping over on steep hills.",
-            "Use items strategically to slow down your opponents.",
-            "Memorize the layout of complex user-generated tracks."
-        ],
-        "controls": {
-            "pc": "<strong>WASD / Arrow Keys</strong>: Control | <strong>Space</strong>: Jump/Item | <strong>Z</strong>: Turn Around",
-            "mobile": "<strong>Virtual Buttons</strong>: Control & Use Items"
-        },
-        "proTips": [
-            "Lower your center of gravity when designing custom vehicles for better stability.",
-            "Experiment with the thousands of user-created tracks for a never-ending racing experience."
-        ],
-        "faq": [
-            {
-                "q": "How do I build my own track?",
-                "a": "Use the built-in track editor in the main menu to draw and share your creations."
-            },
-            {
-                "q": "Can I play with friends?",
-                "a": "Yes, you can challenge others in various multiplayer room modes."
-            }
-        ],
-        "editorReview": "Paper Racer is a charming and endlessly creative racing sandbox. The sketch-style art direction gives it a unique personality that sets it apart from more realistic racers. The real draw, however, is the community content—with thousands of tracks and custom vehicles, you'll never see the same race twice. It’s a perfect blend of physics-based challenge and creative expression that keeps you coming back to see what the community has built next."
+    "proTips": [
+      "Heavy objects make better barricades than small ones.",
+      "Sometimes the best defense is a well-hidden spot in a massive room."
+    ],
+    "faq": [
+      {
+        "q": "How do I become a zombie?",
+        "a": "If a zombie touches you, you'll turn into one and join their team."
+      },
+      {
+        "q": "What is the goal for humans?",
+        "a": "Stay alive until the timer reaches zero to win the match."
+      }
+    ],
+    "editorReview": "Braains is a wonderful social experience that captures the tension of a zombie apocalypse in a fast, accessible way. The physics-based barricading leads to some very creative player-made forts. It's a perfect game for playing with friends and seeing who can survive the longest."
+  },
+  {
+    "slug": "defly",
+    "title": "Defly",
+    "category": "Arcade",
+    "tags": [
+      "Territory",
+      "Shooter",
+      "Action",
+      "Multiplayer"
+    ],
+    "rating": 4.5,
+    "votes": "12,100",
+    "views": "7.4M",
+    "released": "2024",
+    "technology": "HTML5",
+    "thumbnail": "/hosted-games/defly-thumb.png",
+    "iframe": "https://defly.io/",
+    "developer": "Defly Team",
+    "featured": true,
+    "mobileFriendly": true,
+    "description": "Defly is a unique hybrid of territory-conquering and shooter gameplay involving helicopters.",
+    "mission": "Expand your territory by building walls while flying your helicopter and shooting enemies.",
+    "strategies": [
+      "Build walls to protect yourself and claim map area.",
+      "Upgrade your helicopter's speed and firepower as you grow.",
+      "Target the wall anchors of your enemies to collapse their territory."
+    ],
+    "controls": {
+      "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim | <strong>Right Click</strong>: Build Wall | <strong>Left Click</strong>: Shoot",
+      "mobile": "<strong>On-screen joysticks</strong>: Move, Shoot & Build"
     },
-    {
-        "slug": "war-brokers",
-        "title": "War Brokers",
-        "category": "Action",
-        "tags": [
-            "Shooting",
-            "FPS",
-            "Vehicles",
-            "Multiplayer"
-        ],
-        "rating": 4.7,
-        "votes": "8,200",
-        "views": "4.1M",
-        "released": "2024",
-        "technology": "WebGL / HTML5",
-        "thumbnail": "/hosted-games/war-brokers-thumb.png",
-        "iframe": "https://warbrokers.io/",
-        "developer": "Trebuchet Entertainment",
-        "featured": true,
-        "mobileFriendly": false,
-        "description": "War Brokers is a massive multiplayer first-person shooter featuring a wide variety of weapons and vehicles like tanks and helicopters.",
-        "mission": "Work with your team to secure objectives and eliminate rival squads in intense tactical warfare.",
-        "strategies": [
-            "Use vehicles to cover open ground safely.",
-            "Coordinate with your team for captures.",
-            "Experiment with different loadouts for different maps."
-        ],
-        "controls": {
-            "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim & Shoot | <strong>Space</strong>: Jump | <strong>F</strong>: Enter Vehicle",
-            "mobile": "Best played on Desktop."
-        },
-        "proTips": [
-            "Helicopters provide a massive air advantage for spotting enemies.",
-            "Stay near cover when on foot to avoid sniper fire."
-        ],
-        "faq": [
-            {
-                "q": "Can I fly planes in War Brokers?",
-                "a": "Yes, you can pilot jets, helicopters, and drive tanks."
-            },
-            {
-                "q": "Is War Brokers free?",
-                "a": "Yes, it is completely free to play in your browser."
-            }
-        ],
-        "editorReview": "War Brokers is an impressive feat of browser engineering. Combining large-scale vehicle combat with tight infantry FPS mechanics results in a game that feels like a full-price title. The variety of maps and constant updates keep the meta fresh. It is one of the most content-rich shooters available on the web today."
-    },
-    {
-        "slug": "kirka",
-        "title": "Kirka",
-        "category": "Action",
-        "tags": [
-            "Shooting",
-            "FPS",
-            "Multiplayer",
-            "Minecraft-style"
-        ],
-        "rating": 4.6,
-        "votes": "6,500",
-        "views": "3.5M",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/kirka-thumb.png",
-        "iframe": "https://kirka.io/",
-        "developer": "Kirka Team",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "Kirka is a Minecraft-style competitive first-person shooter where speed and accuracy are the keys to victory.",
-        "mission": "Defeat enemies in various game modes and climb the global leaderboards.",
-        "strategies": [
-            "Master the movement to become a harder target.",
-            "Learn the map layouts to find the best vantage points.",
-            "Use your credits to upgrade your weapon skins."
-        ],
-        "controls": {
-            "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim & Shoot | <strong>Space</strong>: Jump | <strong>Shift</strong>: Crouch",
-            "mobile": "<strong>Touch</strong>: Move & Shoot"
-        },
-        "proTips": [
-            "Jump and slide to move faster and stay unpredictable.",
-            "Communication with your team is vital in objective modes."
-        ],
-        "faq": [
-            {
-                "q": "Are there different game modes?",
-                "a": "Yes, Kirka features Team Deathmatch, Free-For-All, and more."
-            },
-            {
-                "q": "Is Kirka unblocked?",
-                "a": "Yes, you can play it on ZynfexGame at school or work."
-            }
-        ],
-        "editorReview": "Kirka combines the approachable look of block-based games with the intense depth of a modern shooter. The gameplay is fast and rewarding, and the built-in clan and leaderboard systems foster a great community feel. It's perfectly optimized for a smooth experience on all devices."
-    },
-    {
-        "slug": "sandstrike",
-        "title": "Sandstrike",
-        "category": "Action",
-        "tags": [
-            "Shooting",
-            "Multiplayer",
-            "Vehicles",
-            "Action"
-        ],
-        "rating": 4.5,
-        "votes": "4,100",
-        "views": "1.9M",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/sandstrike-thumb.png",
-        "iframe": "https://sandstrike.io/",
-        "developer": "Sandstrike Team",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "Sandstrike is an action-packed multiplayer shooter set in a desert environment with vehicles and multiple game modes.",
-        "mission": "Survive the desert and lead your team to victory by eliminating opponents and capturing objectives.",
-        "strategies": [
-            "Utilize the desert terrain for cover.",
-            "Control the powerful vehicles to dominate the map.",
-            "Customize your loadout to suit your strategy."
-        ],
-        "controls": {
-            "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim & Shoot | <strong>Space</strong>: Jump | <strong>F</strong>: Use Vehicle",
-            "mobile": "<strong>Virtual Joysticks</strong>: Move & Shoot"
-        },
-        "proTips": [
-            "The armored trucks are perfect for moving your squad safely.",
-            "Watch out for snipers on the sand dunes."
-        ],
-        "faq": [
-            {
-                "q": "Can I play Sandstrike on mobile?",
-                "a": "Yes, it is fully optimized for mobile browsers."
-            },
-            {
-                "q": "Are there bots in the game?",
-                "a": "While primarily multiplayer, bots fill empty slots to keep matches active."
-            }
-        ],
-        "editorReview": "Sandstrike delivers high-octane desert warfare right in your browser. The inclusion of vehicles adds a layer of scale that makes the matches feel expansive and exciting. It's a solid choice for fans of action shooters who want a quick but deep experience."
-    },
-    {
-        "slug": "krunker",
-        "title": "Krunker",
-        "category": "Action",
-        "tags": [
-            "Shooting",
-            "FPS",
-            "Competitive",
-            "Stylized"
-        ],
-        "rating": 4.8,
-        "votes": "55,000",
-        "views": "40M",
-        "released": "2024",
-        "technology": "WebGL",
-        "thumbnail": "/hosted-games/krunker-thumb.png",
-        "iframe": "https://krunker.io/",
-        "developer": "Yendis Entertainment",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "Krunker is a fast-paced, highly competitive 3D multiplayer shooter with a vast array of classes and custom maps.",
-        "mission": "Master your chosen class and outplay your opponents in stylized, high-speed arenas.",
-        "strategies": [
-            "Master 'slide-hopping' to move significantly faster than walking.",
-            "Pick the class that best counters your current opponents.",
-            "Learn the map spawns to anticipate enemy movement."
-        ],
-        "controls": {
-            "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim & Shoot | <strong>Space</strong>: Jump | <strong>Shift</strong>: Crouch/Slide",
-            "mobile": "<strong>Virtual Controls</strong>: Move & Aim"
-        },
-        "proTips": [
-            "Kru (Krunker's currency) can be used to unlock rare weapon skins.",
-            "The community-made maps offer endless variety beyond the official rotation."
-        ],
-        "faq": [
-            {
-                "q": "Can I play Krunker unblocked?",
-                "a": "Yes, ZynfexGame provides a school-safe unblocked version."
-            },
-            {
-                "q": "What is the best Krunker class?",
-                "a": "Classes like the Hunter and Triggerman are fan favorites, but each has its strengths."
-            }
-        ],
-        "editorReview": "Krunker is nothing short of a legend in the world of browser gaming. Its blend of high-speed movement and precise gunplay is addictive and deep. The sheer volume of community content means there's always a new way to play. It's as much a platform as it is a game."
-    },
-    {
-        "slug": "braains",
-        "title": "Braains",
-        "category": "Arcade",
-        "tags": [
-            "Survival",
-            "Zombie",
-            "Multiplayer",
-            "Social"
-        ],
-        "rating": 4.4,
-        "votes": "9,800",
-        "views": "5.2M",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/braains-thumb.png",
-        "iframe": "https://braains.io/",
-        "developer": "Braains Team",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "Braains is a zombie survival game where players must barricade themselves in and survive the night.",
-        "mission": "Human: Survive the night by hiding or barricading. Zombie: Infect all humans before time runs out.",
-        "strategies": [
-            "Move objects to block doorways and windows.",
-            "Stay in groups for better protection as humans.",
-            "As a zombie, look for weak points in player-made forts."
-        ],
-        "controls": {
-            "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Look | <strong>Click</strong>: Grab/Interact",
-            "mobile": "<strong>Virtual Joypad</strong>: Move & Interact"
-        },
-        "proTips": [
-            "Heavy objects make better barricades than small ones.",
-            "Sometimes the best defense is a well-hidden spot in a massive room."
-        ],
-        "faq": [
-            {
-                "q": "How do I become a zombie?",
-                "a": "If a zombie touches you, you'll turn into one and join their team."
-            },
-            {
-                "q": "What is the goal for humans?",
-                "a": "Stay alive until the timer reaches zero to win the match."
-            }
-        ],
-        "editorReview": "Braains is a wonderful social experience that captures the tension of a zombie apocalypse in a fast, accessible way. The physics-based barricading leads to some very creative player-made forts. It's a perfect game for playing with friends and seeing who can survive the longest."
-    },
-    {
-        "slug": "defly",
-        "title": "Defly",
-        "category": "Arcade",
-        "tags": [
-            "Territory",
-            "Shooter",
-            "Action",
-            "Multiplayer"
-        ],
-        "rating": 4.5,
-        "votes": "12,100",
-        "views": "7.4M",
-        "released": "2024",
-        "technology": "HTML5",
-        "thumbnail": "/hosted-games/defly-thumb.png",
-        "iframe": "https://defly.io/",
-        "developer": "Defly Team",
-        "featured": true,
-        "mobileFriendly": true,
-        "description": "Defly is a unique hybrid of territory-conquering and shooter gameplay involving helicopters.",
-        "mission": "Expand your territory by building walls while flying your helicopter and shooting enemies.",
-        "strategies": [
-            "Build walls to protect yourself and claim map area.",
-            "Upgrade your helicopter's speed and firepower as you grow.",
-            "Target the wall anchors of your enemies to collapse their territory."
-        ],
-        "controls": {
-            "pc": "<strong>WASD</strong>: Move | <strong>Mouse</strong>: Aim | <strong>Right Click</strong>: Build Wall | <strong>Left Click</strong>: Shoot",
-            "mobile": "<strong>On-screen joysticks</strong>: Move, Shoot & Build"
-        },
-        "proTips": [
-            "Protect your own wall nodes; if they're hit, you lose that portion of your area.",
-            "Use the 'Super Power' wisely to turn the tide of a battle."
-        ],
-        "faq": [
-            {
-                "q": "What happens if I crash into a wall?",
-                "a": "Friendly walls are safe, but enemy walls will damage or destroy you."
-            },
-            {
-                "q": "How do I win?",
-                "a": "The player with the most territory when the match ends is crowned the winner."
-            }
-        ],
-        "editorReview": "Defly is an incredibly creative mix of two genres that work perfectly together. The strategy of building a base while juggling high-speed dogfights is consistently engaging. Every level-up allows for distinct stat-builds, making every run feel unique. It's one of the most mechanically balanced IO games available."
-    }
+    "proTips": [
+      "Protect your own wall nodes; if they're hit, you lose that portion of your area.",
+      "Use the 'Super Power' wisely to turn the tide of a battle."
+    ],
+    "faq": [
+      {
+        "q": "What happens if I crash into a wall?",
+        "a": "Friendly walls are safe, but enemy walls will damage or destroy you."
+      },
+      {
+        "q": "How do I win?",
+        "a": "The player with the most territory when the match ends is crowned the winner."
+      }
+    ],
+    "editorReview": "Defly is an incredibly creative mix of two genres that work perfectly together. The strategy of building a base while juggling high-speed dogfights is consistently engaging. Every level-up allows for distinct stat-builds, making every run feel unique. It's one of the most mechanically balanced IO games available."
+  }
 ]
