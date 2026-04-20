@@ -1,9 +1,170 @@
 [
     {
+        "slug": "florr-io",
+        "title": "Florr.io",
+        "category": "Action",
+        "tags": [
+            "ioGames",
+            "Multiplayer"
+        ],
+        "rating": "4.5",
+        "votes": "3825",
+        "views": "1.2M",
+        "released": "2025",
+        "technology": "WebGL / HTML5",
+        "thumbnail": "/hosted-games/florr-io-thumb.webp",
+        "iframe": "https://florr.io/",
+        "developer": "Web Developer",
+        "featured": false,
+        "mobileFriendly": true,
+        "description": "A simple yet engaging io game where you control a flower, gather petals, and fight opponents to become the strongest in the arena.",
+        "mission": "Collect powerful petals and defeat enemies to grow.",
+        "strategies": [
+            "Stay moving",
+            "Upgrade petals strategically"
+        ],
+        "controls": "Mouse to move, Left Click to attack"
+    },
+    {
+        "slug": "stabfish-2",
+        "title": "Stabfish 2",
+        "category": "Action",
+        "tags": [
+            "ioGames",
+            "Multiplayer",
+            "Fish"
+        ],
+        "rating": "4.8",
+        "votes": "2558",
+        "views": "1.6M",
+        "released": "2025",
+        "technology": "WebGL / HTML5",
+        "thumbnail": "/hosted-games/stabfish-2-thumb.webp",
+        "iframe": "https://stabfish2.io/",
+        "developer": "Web Developer",
+        "featured": false,
+        "mobileFriendly": true,
+        "description": "The sequel to the popular Stabfish.io. Swim around, impale your enemies, and dominate the oceanic arena with new mechanics and powers.",
+        "mission": "Impale others with your tusk to grow larger.",
+        "strategies": [
+            "Use boost carefully",
+            "Avoid larger fish"
+        ],
+        "controls": "Mouse to direct, Click to boost"
+    },
+    {
+        "slug": "sugarshock-io",
+        "title": "Sugarshock.io",
+        "category": "Action",
+        "tags": [
+            "ioGames",
+            "Shooter"
+        ],
+        "rating": "4.3",
+        "votes": "4769",
+        "views": "0.9M",
+        "released": "2025",
+        "technology": "WebGL / HTML5",
+        "thumbnail": "/hosted-games/sugarshock-io-thumb.webp",
+        "iframe": "https://sugarshock.io/",
+        "developer": "Web Developer",
+        "featured": false,
+        "mobileFriendly": true,
+        "description": "An intense, fast-paced multiplayer shooter set in a colorful candy-themed world where you battle it out for sweetness and supremacy.",
+        "mission": "Eliminate opponents in the candy arena.",
+        "strategies": [
+            "Keep moving",
+            "Aim for headshots"
+        ],
+        "controls": "WASD to move, Mouse to aim and shoot"
+    },
+    {
+        "slug": "gamepop",
+        "title": "Gamepop",
+        "category": "Arcade",
+        "tags": [
+            "Casual",
+            "Action"
+        ],
+        "rating": "4.7",
+        "votes": "3266",
+        "views": "1.9M",
+        "released": "2025",
+        "technology": "WebGL / HTML5",
+        "thumbnail": "/hosted-games/gamepop-thumb.webp",
+        "iframe": "https://iogames.space/gamepop",
+        "developer": "Web Developer",
+        "featured": false,
+        "mobileFriendly": true,
+        "description": "A fun and addictive arcade experience featuring endless gameplay loops to challenge your reflexes.",
+        "mission": "Survive as long as possible and beat your high score.",
+        "strategies": [
+            "Focus on the incoming obstacles"
+        ],
+        "controls": "Click to interact"
+    },
+    {
+        "slug": "kart-bros",
+        "title": "Kart Bros",
+        "category": "Racing",
+        "tags": [
+            "Racing",
+            "Multiplayer"
+        ],
+        "rating": "4.7",
+        "votes": "2880",
+        "views": "1.6M",
+        "released": "2025",
+        "technology": "WebGL / HTML5",
+        "thumbnail": "/hosted-games/kart-bros-thumb.webp",
+        "iframe": "https://iogames.space/kart-bros",
+        "developer": "Web Developer",
+        "featured": false,
+        "mobileFriendly": true,
+        "description": "Race against friends and foes in this chaotic multiplayer kart racer. Master drifting and item usage to claim the top spot.",
+        "mission": "Cross the finish line first while avoiding obstacles.",
+        "strategies": [
+            "Save items for crucial moments",
+            "Drift to gain boosts"
+        ],
+        "controls": "Arrow keys to drive, Space to use items"
+    },
+    {
+        "slug": "icy-dash",
+        "title": "Icy Dash",
+        "category": "Platformer",
+        "tags": [
+            "Dash",
+            "Reaction"
+        ],
+        "rating": "4.3",
+        "votes": "753",
+        "views": "1.4M",
+        "released": "2025",
+        "technology": "WebGL / HTML5",
+        "thumbnail": "/hosted-games/icy-dash-thumb.webp",
+        "iframe": "https://dashmetry.com/icy-dash",
+        "developer": "Web Developer",
+        "featured": false,
+        "mobileFriendly": true,
+        "description": "A geometry dash style rhythm platformer set in a freezing environment. React fast and jump over spikes to conquer the icy terrain.",
+        "mission": "Reach the end of the level without hitting any obstacles.",
+        "strategies": [
+            "Memorize the rhythm",
+            "Do not panic jump"
+        ],
+        "controls": "Click or Space to jump"
+    },
+    {
         "slug": "deadshot-io",
         "title": "Deadshot.io",
         "category": "Action",
-        "tags": ["FPS", "Multiplayer", "Shooter", "Competitive"],
+        "tags": [
+            "FPS",
+            "Multiplayer",
+            "Shooter",
+            "Competitive"
+        ],
         "rating": 4.6,
         "votes": "5,120",
         "views": "2.4M",
@@ -31,8 +192,14 @@
             "Listen for enemy footsteps to anticipate their movement around corners."
         ],
         "faq": [
-            { "q": "Is Deadshot.io free to play?", "a": "Yes, it is completely free to play directly in your browser." },
-            { "q": "Can I play Deadshot.io on a school Chromebook?", "a": "Yes, it is an unblocked browser game that runs smoothly on most web-enabled devices." }
+            {
+                "q": "Is Deadshot.io free to play?",
+                "a": "Yes, it is completely free to play directly in your browser."
+            },
+            {
+                "q": "Can I play Deadshot.io on a school Chromebook?",
+                "a": "Yes, it is an unblocked browser game that runs smoothly on most web-enabled devices."
+            }
         ],
         "editorReview": "Deadshot.io is a masterclass in browser-based FPS design. What impressed our team most is the fluidity of movement—often a weak point in web shooters. The gunplay feels heavy yet precise, and the credit system adds a layer of progression that keeps every match feeling rewarding. While the graphics are stylized and 'low-poly', the lighting and particle effects create a surprisingly immersive tactical environment. If you're looking for a quick competitive fix without a 50GB install, this is the gold standard for browser shooters in 2026."
     },
@@ -40,7 +207,12 @@
         "slug": "zombs-royale",
         "title": "ZombsRoyale.io",
         "category": "Action",
-        "tags": ["Battle Royale", "Multiplayer", "Shooter", "Survival"],
+        "tags": [
+            "Battle Royale",
+            "Multiplayer",
+            "Shooter",
+            "Survival"
+        ],
         "rating": 4.7,
         "votes": "22,400",
         "views": "15.4M",
@@ -68,8 +240,14 @@
             "Open doors while sprinting to gain a split-second surprise advantage on camping enemies."
         ],
         "faq": [
-            { "q": "Can I play ZombsRoyale with friends?", "a": "Yes, you can join Duo or Squad modes to play with your friends." },
-            { "q": "Is there a strategy for dropping?", "a": "Try to land near buildings or chests to get your first weapon as quickly as possible." }
+            {
+                "q": "Can I play ZombsRoyale with friends?",
+                "a": "Yes, you can join Duo or Squad modes to play with your friends."
+            },
+            {
+                "q": "Is there a strategy for dropping?",
+                "a": "Try to land near buildings or chests to get your first weapon as quickly as possible."
+            }
         ],
         "editorReview": "ZombsRoyale.io successfully translates the high-stakes tension of the Battle Royale genre into a clean, 2D top-down perspective. The variety of loot is staggering, from high-tier snipers to deceptive gadgets. We found the gameplay loop to be exceptionally addictive because matches are fast; you can be in-and-out of a 100-player lobby in under 5 minutes. The movement is snappy, and the skill ceiling is surprisingly high when it comes to predicting enemy movement through 'fog of war' zones like houses and bushes."
     },
@@ -77,7 +255,12 @@
         "slug": "smash-karts",
         "title": "Smash Karts",
         "category": "Action",
-        "tags": ["Racing", "Battle", "Multiplayer", "Kart"],
+        "tags": [
+            "Racing",
+            "Battle",
+            "Multiplayer",
+            "Kart"
+        ],
         "rating": 4.8,
         "votes": "12,450",
         "views": "8.1M",
@@ -105,8 +288,14 @@
             "Use the invincibility shield right before an impact for maximum efficiency."
         ],
         "faq": [
-            { "q": "Does Smash Karts have levels?", "a": "Yes, you earn XP and level up your character to unlock new karts and hats." },
-            { "q": "Is there a team mode in Smash Karts?", "a": "Yes, you can join or create private rooms to play with friends or in team-based matches." }
+            {
+                "q": "Does Smash Karts have levels?",
+                "a": "Yes, you earn XP and level up your character to unlock new karts and hats."
+            },
+            {
+                "q": "Is there a team mode in Smash Karts?",
+                "a": "Yes, you can join or create private rooms to play with friends or in team-based matches."
+            }
         ],
         "editorReview": "Smash Karts is pure, unadulterated chaotic fun. Think Mario Kart battle mode, but amplified for the web. The 3D graphics are vibrant and the frame rate remains remarkably stable even when ten players are firing rockets simultaneously. We love the character customization and the sheer variety of weapons—nothing beats the satisfaction of landing a long-range bowling ball strike on a rival kart. It is the perfect 'pick-up-and-play' title for a quick break."
     },
@@ -114,7 +303,12 @@
         "slug": "shell-shockers",
         "title": "Shell Shockers",
         "category": "Action",
-        "tags": ["FPS", "Multiplayer", "Competitive", "Egg"],
+        "tags": [
+            "FPS",
+            "Multiplayer",
+            "Competitive",
+            "Egg"
+        ],
         "rating": 4.7,
         "votes": "45,000",
         "views": "25M",
@@ -142,8 +336,14 @@
             "The Free Ranger sniper rifle has 100% accuracy while scoped, even in mid-air."
         ],
         "faq": [
-            { "q": "How do I change my egg's skin?", "a": "You can use the 'Inventory' menu to customize your egg with hats, skins, and weapon patterns." },
-            { "q": "Is Shell Shockers unblocked at school?", "a": "Yes, ZynfexGame provides the official unblocked version for school and office networks." }
+            {
+                "q": "How do I change my egg's skin?",
+                "a": "You can use the 'Inventory' menu to customize your egg with hats, skins, and weapon patterns."
+            },
+            {
+                "q": "Is Shell Shockers unblocked at school?",
+                "a": "Yes, ZynfexGame provides the official unblocked version for school and office networks."
+            }
         ],
         "editorReview": "It’s hard not to smile while playing Shell Shockers. The absurdity of eggs with guns is matched by surprisingly deep FPS mechanics. The different classes are well-balanced; whether you prefer the one-shot precision of the Free Ranger or the 'spray and pray' chaos of the EggK-47, there’s a place for you on the leaderboard. The maps are cleverly designed with plenty of verticality, encouraging a very dynamic and fast-paced style of combat that feels fresh every round."
     },
@@ -151,7 +351,12 @@
         "slug": "splix-io",
         "title": "Splix.io",
         "category": "Arcade",
-        "tags": ["IO Game", "Strategy", "Conquest", "Territory"],
+        "tags": [
+            "IO Game",
+            "Strategy",
+            "Conquest",
+            "Territory"
+        ],
         "rating": 4.3,
         "votes": "8,900",
         "views": "4.2M",
@@ -179,8 +384,14 @@
             "Surround existing blocks of territory to capture them instantly without drawing a long line."
         ],
         "faq": [
-            { "q": "Can I play Splix.io with friends?", "a": "Yes, you can share the room URL to play on the same map with your group." },
-            { "q": "Is Splix.io available for mobile?", "a": "Yes, it is fully optimized for touch controls on ZynfexGame." }
+            {
+                "q": "Can I play Splix.io with friends?",
+                "a": "Yes, you can share the room URL to play on the same map with your group."
+            },
+            {
+                "q": "Is Splix.io available for mobile?",
+                "a": "Yes, it is fully optimized for touch controls on ZynfexGame."
+            }
         ],
         "editorReview": "Splix.io is the ultimate 'risk vs. reward' game. The minimalist aesthetic hides a brutal and intense strategy experience. Every time you leave your colored zone, your heart rate spikes as you become a target. We found the defensive gameplay to be just as engaging as the offense—baiting rivals into overextending and then sniping their trail is a high-level tactic that never gets old. It’s a perfect example of how simple mechanics can create deep, competitive gameplay."
     },
@@ -188,7 +399,12 @@
         "slug": "paper-io",
         "title": "Paper.io",
         "category": "Arcade",
-        "tags": ["IO Game", "Territory", "Conquest", "Multiplayer"],
+        "tags": [
+            "IO Game",
+            "Territory",
+            "Conquest",
+            "Multiplayer"
+        ],
         "rating": 4.4,
         "votes": "12,100",
         "views": "7.8M",
@@ -216,8 +432,14 @@
             "You can't hit your own tail, so use tight turns to navigate safely."
         ],
         "faq": [
-            { "q": "What happens if I hit a wall?", "a": "You simply bounce off or stop; the real danger is other players hitting your trail." },
-            { "q": "How do I win?", "a": "The goal is to reach 100% map coverage, though this is extremely rare in a live multiplayer environment." }
+            {
+                "q": "What happens if I hit a wall?",
+                "a": "You simply bounce off or stop; the real danger is other players hitting your trail."
+            },
+            {
+                "q": "How do I win?",
+                "a": "The goal is to reach 100% map coverage, though this is extremely rare in a live multiplayer environment."
+            }
         ],
         "editorReview": "Paper.io is a classic for a reason. Its brilliance lies in the constant tension of expansion. While it looks like a simple coloring game, it’s actually a high-stakes arena of positioning and timing. Our editorial team noticed that the best players aren't the most aggressive, but the most disciplined. The feeling of finally capturing a massive block of a rival's land is incredibly satisfying, making this one of the most replayable IO games in our entire library."
     },
@@ -225,7 +447,12 @@
         "slug": "little-big-snake",
         "title": "Little Big Snake",
         "category": "Arcade",
-        "tags": ["IO Game", "Snake", "Multiplayer", "Evolution"],
+        "tags": [
+            "IO Game",
+            "Snake",
+            "Multiplayer",
+            "Evolution"
+        ],
         "rating": 4.6,
         "votes": "14,300",
         "views": "9.5M",
@@ -253,8 +480,14 @@
             "Use the 'Juja' mechanic to fly and scout for nectar-rich zones safely."
         ],
         "faq": [
-            { "q": "Is Little Big Snake free?", "a": "Yes, it is completely free to play in your browser on ZynfexGame." },
-            { "q": "Can I save my snake's progress?", "a": "By creating an account, you can save your coins, skins, and evolution tree progress." }
+            {
+                "q": "Is Little Big Snake free?",
+                "a": "Yes, it is completely free to play in your browser on ZynfexGame."
+            },
+            {
+                "q": "Can I save my snake's progress?",
+                "a": "By creating an account, you can save your coins, skins, and evolution tree progress."
+            }
         ],
         "editorReview": "Little Big Snake is arguably the most polished 'Snake' experience available today. The evolution system adds a layer of depth that most IO games lack, giving players long-term goals beyond just getting a high score. The graphics are lush and detailed, and the inclusion of 'Jujas' (flying scout bugs) adds a unique tactical element. It’s a game that rewards both patience and quick reflexes, creating a highly satisfying progression from a tiny worm to a world-dominating serpent."
     },
@@ -262,7 +495,12 @@
         "slug": "wormszone-io",
         "title": "WormsZone.io",
         "category": "Arcade",
-        "tags": ["IO Game", "Snake", "Multiplayer", "Skins"],
+        "tags": [
+            "IO Game",
+            "Snake",
+            "Multiplayer",
+            "Skins"
+        ],
         "rating": 4.5,
         "votes": "18,900",
         "views": "11.2M",
@@ -290,8 +528,14 @@
             "Wiggle your head slightly to make your movement less predictable to nearby predators."
         ],
         "faq": [
-            { "q": "Are there different skins for my worm?", "a": "Yes, you can unlock hundreds of skins and hats using the gold you collect during play." },
-            { "q": "Is WormsZone available for schools?", "a": "Yes, our unblocked version works on all network types." }
+            {
+                "q": "Are there different skins for my worm?",
+                "a": "Yes, you can unlock hundreds of skins and hats using the gold you collect during play."
+            },
+            {
+                "q": "Is WormsZone available for schools?",
+                "a": "Yes, our unblocked version works on all network types."
+            }
         ],
         "editorReview": "WormsZone.io takes the classic formula and injects it with pure energy. The arena is constantly filled with colorful treats, and the speed at which you can grow makes every session feel high-impact. We particularly enjoyed the 'booster' mechanics—finding a magnet or a score-multiplier can completely change your standing in seconds. It’s a very beginner-friendly game that still offers enough competitive depth for seasoned IO veterans to climb the ranks."
     },
@@ -299,7 +543,12 @@
         "slug": "lordz-io",
         "title": "Lordz.io",
         "category": "Strategy",
-        "tags": ["Army", "Medieval", "IO Game", "Strategy"],
+        "tags": [
+            "Army",
+            "Medieval",
+            "IO Game",
+            "Strategy"
+        ],
         "rating": 4.5,
         "votes": "6,700",
         "views": "3.8M",
@@ -327,8 +576,14 @@
             "Always keep a stash of gold to quickly rebuild your army after a major battle."
         ],
         "faq": [
-            { "q": "How do I get more gold in Lordz.io?", "a": "Collect gold coins scattered on the map or build gold mines to generate passive income." },
-            { "q": "What is the best type of soldier?", "a": "A balanced mix of Soldiers and Archers is best for early game, while Dragons dominate late game." }
+            {
+                "q": "How do I get more gold in Lordz.io?",
+                "a": "Collect gold coins scattered on the map or build gold mines to generate passive income."
+            },
+            {
+                "q": "What is the best type of soldier?",
+                "a": "A balanced mix of Soldiers and Archers is best for early game, while Dragons dominate late game."
+            }
         ],
         "editorReview": "Lordz.io is an ambitious blend of RTS and IO mechanics. Managing a growing army while physically moving your Lord around the battlefield creates a unique brand of tension. The building system is simple but effective, allowing players to establish strongholds that feel truly defensible. Large-scale battles with hundreds of troops clashing are a spectacle to behold, especially when Dragons join the fray. It’s one of the few browser games that manages to feel truly 'epic' in scale."
     },
@@ -336,7 +591,12 @@
         "slug": "karatebros-io",
         "title": "Karate Bros",
         "category": "Action",
-        "tags": ["Fighting", "Martial Arts", "2D", "Multiplayer"],
+        "tags": [
+            "Fighting",
+            "Martial Arts",
+            "2D",
+            "Multiplayer"
+        ],
         "rating": 4.4,
         "votes": "3,200",
         "views": "1.5M",
@@ -364,8 +624,14 @@
             "Combine light attacks with a heavy finisher for maximum damage output."
         ],
         "faq": [
-            { "q": "Are there different characters in Karate Bros?", "a": "Yes, you can unlock various skins and styles as you win more matches." },
-            { "q": "Is there a single-player mode?", "a": "Karate Bros is primarily a multiplayer game, but you can practice against bots in the training arena." }
+            {
+                "q": "Are there different characters in Karate Bros?",
+                "a": "Yes, you can unlock various skins and styles as you win more matches."
+            },
+            {
+                "q": "Is there a single-player mode?",
+                "a": "Karate Bros is primarily a multiplayer game, but you can practice against bots in the training arena."
+            }
         ],
         "editorReview": "Karate Bros is a refreshing break from the usual shooters and snake games. It’s a pure, skill-based brawler where positioning and timing are everything. The 2D art style is charming and clean, making the combat animations easy to read—a necessity for a high-speed fighter. We found the local multiplayer 'feel' of the online matches to be excellent, with very little input lag. It’s a fantastic choice for players who want to test their reflexes and master complex combo chains."
     },
@@ -373,7 +639,12 @@
         "slug": "world-guessr",
         "title": "WorldGuessr",
         "category": "Puzzle",
-        "tags": ["Geography", "Trivia", "Educational", "Discovery"],
+        "tags": [
+            "Geography",
+            "Trivia",
+            "Educational",
+            "Discovery"
+        ],
         "rating": 4.5,
         "votes": "5,800",
         "views": "3.2M",
@@ -401,8 +672,14 @@
             "Distinguish between left-side and right-side driving to narrow down your search half-way."
         ],
         "faq": [
-            { "q": "Is WorldGuessr free like GeoGuessr used to be?", "a": "Yes, it is a completely free-to-play alternative with no daily limit on ZynfexGame." },
-            { "q": "Can I challenge my friends in WorldGuessr?", "a": "Yes, you can create private rooms and compete for the highest score on the same locations." }
+            {
+                "q": "Is WorldGuessr free like GeoGuessr used to be?",
+                "a": "Yes, it is a completely free-to-play alternative with no daily limit on ZynfexGame."
+            },
+            {
+                "q": "Can I challenge my friends in WorldGuessr?",
+                "a": "Yes, you can create private rooms and compete for the highest score on the same locations."
+            }
         ],
         "editorReview": "WorldGuessr is the thinking person's favorite browser game. It’s essentially a global detective hunt. The educational value is immense, but it never feels like a chore because the 'just one more guess' loop is so strong. We were impressed by the community-driven aspect of the game—learning specific road signs or vegetation patterns from fellow players makes you feel like an elite scout. It’s a quiet, intensely satisfying experience that rewards observation and deduction."
     },
@@ -410,7 +687,12 @@
         "slug": "starblast-io",
         "title": "Starblast.io",
         "category": "Action",
-        "tags": ["Space", "Shooter", "Upgrade", "Sci-Fi"],
+        "tags": [
+            "Space",
+            "Shooter",
+            "Upgrade",
+            "Sci-Fi"
+        ],
         "rating": 4.6,
         "votes": "7,800",
         "views": "5.5M",
@@ -438,8 +720,14 @@
             "Use asteroids as cover during high-speed dogfights."
         ],
         "faq": [
-            { "q": "What are the different game modes in Starblast?", "a": "The game features Survival, Team, Invasion, and Pro Deathmatch modes." },
-            { "q": "Can I save my progress in Starblast.io?", "a": "Progress is saved per session, but you can create an account to track long-term stats and achievements." }
+            {
+                "q": "What are the different game modes in Starblast?",
+                "a": "The game features Survival, Team, Invasion, and Pro Deathmatch modes."
+            },
+            {
+                "q": "Can I save my progress in Starblast.io?",
+                "a": "Progress is saved per session, but you can create an account to track long-term stats and achievements."
+            }
         ],
         "editorReview": "Starblast.io is one of the most mechanically complex games in our library. The ship-upgrade tree is massive, allowing for distinct playstyles—from fast, fragile interceptors to lumbering dreadnoughts. The physics-based combat, where momentum and energy management are key, sets it apart from simpler shooters. It’s a beautiful, dark space arena that demands mastery. Our team especially recommends the Team Mode for a truly tactical and cooperative space-warfare experience."
     },
@@ -447,7 +735,12 @@
         "slug": "sea-dragons",
         "title": "Sea Dragons",
         "category": "Action",
-        "tags": ["Ocean", "Survival", "Evolution", "Multiplayer"],
+        "tags": [
+            "Ocean",
+            "Survival",
+            "Evolution",
+            "Multiplayer"
+        ],
         "rating": 4.3,
         "votes": "4,200",
         "views": "2.1M",
@@ -475,8 +768,14 @@
             "The mana orbs near the center of the map are the most plentiful but the most dangerous to collect."
         ],
         "faq": [
-            { "q": "Can I breathe underwater indefinitely?", "a": "Yes, as a sea dragon you are built for the deep, but watch your energy levels." },
-            { "q": "How do I unlock new dragon species?", "a": "Collect gold during matches to purchase faster and more powerful dragon types in the shop." }
+            {
+                "q": "Can I breathe underwater indefinitely?",
+                "a": "Yes, as a sea dragon you are built for the deep, but watch your energy levels."
+            },
+            {
+                "q": "How do I unlock new dragon species?",
+                "a": "Collect gold during matches to purchase faster and more powerful dragon types in the shop."
+            }
         ],
         "editorReview": "Sea Dragons brings a beautiful, fluid aesthetic to the IO survival genre. The underwater theme is exceptionally well-executed, with serene backgrounds contrasted against the lethal speed of dragon combat. We love the 'mana' system which adds a mystical layer to the growth mechanics. It’s a game of grace and sudden violence—floating peacefully one moment and then boosting into a tactical kill the next. It’s a perfect pick for those who enjoy 'Slither' style games but want a more atmospheric upgrade."
     },
@@ -484,7 +783,12 @@
         "slug": "hexanaut-io",
         "title": "Hexanaut.io",
         "category": "Strategy",
-        "tags": ["Territory", "Conquest", "IO Game", "Multiplayer"],
+        "tags": [
+            "Territory",
+            "Conquest",
+            "IO Game",
+            "Multiplayer"
+        ],
         "rating": 4.4,
         "votes": "7,100",
         "views": "3.5M",
@@ -512,17 +816,27 @@
             "Lure enemies into your territory where you have a defensive speed advantage."
         ],
         "faq": [
-            { "q": "How do I become an Hexanaut?", "a": "You must capture and hold a significant portion of the map to trigger the Hexanaut countdown." },
-            { "q": "What happens if I crash into myself?", "a": "Unlike Snake, in Hexanaut you can cross your own trail without dying—just don't let others hit it!" }
+            {
+                "q": "How do I become an Hexanaut?",
+                "a": "You must capture and hold a significant portion of the map to trigger the Hexanaut countdown."
+            },
+            {
+                "q": "What happens if I crash into myself?",
+                "a": "Unlike Snake, in Hexanaut you can cross your own trail without dying—just don't let others hit it!"
+            }
         ],
         "editorReview": "Hexanaut.io is a brilliant evolution of the territory capture sub-genre. The use of hexagonal tiles makes expansion feel more tactical and grid-based than its peers. The 'Totem' system is a stroke of genius, forcing players to venture into dangerous contested areas for temporary buffs. Our team found the Hexanaut countdown to be incredibly tense—being 'on the clock' while every other player on the map is hunting you down is one of the most exciting meta-mini-games in all of IO gaming."
     },
-
     {
         "slug": "stabfish-io",
         "title": "Stabfish.io",
         "category": "Action",
-        "tags": ["Ocean", "Battle", "Arena", "Multiplayer"],
+        "tags": [
+            "Ocean",
+            "Battle",
+            "Arena",
+            "Multiplayer"
+        ],
         "rating": 4.5,
         "votes": "9,800",
         "views": "5.9M",
@@ -550,8 +864,14 @@
             "Collect the 'Treasure Chests' for massive XP boosts and temporary defensive buffs."
         ],
         "faq": [
-            { "q": "Can I customize my fish?", "a": "Yes, you can upgrade your tusk and body skins as you level up and earn gems." },
-            { "q": "What is the best type of fish?", "a": "Later unlocks like the Great White Shark have significantly higher speed and health stats." }
+            {
+                "q": "Can I customize my fish?",
+                "a": "Yes, you can upgrade your tusk and body skins as you level up and earn gems."
+            },
+            {
+                "q": "What is the best type of fish?",
+                "a": "Later unlocks like the Great White Shark have significantly higher speed and health stats."
+            }
         ],
         "editorReview": "Stabfish.io is the dark, aggressive cousin of most ocean-themed IO games. The combat is visceral—literally impaling rivals and seeing them pinned to your tusk as a trophy is a uniquely brutal mechanic for a browser game. The progression from a tiny marlin to a terrifying megalodon is incredibly rewarding. Our team particularly enjoyed the 'stamina' management; you can't just boost forever, making every charge a life-or-death tactical decision. It’s high-octane, competitive, and very satisfying."
     },
@@ -559,7 +879,12 @@
         "slug": "basket-bros",
         "title": "BasketBros.io",
         "category": "Action",
-        "tags": ["Sports", "Basketball", "Multiplayer", "2D"],
+        "tags": [
+            "Sports",
+            "Basketball",
+            "Multiplayer",
+            "2D"
+        ],
         "rating": 4.5,
         "votes": "10,200",
         "views": "6.8M",
@@ -587,8 +912,14 @@
             "Perform a 'Perfect Shot' to guarantee the ball goes in every time."
         ],
         "faq": [
-            { "q": "Can I play BasketBros on the same computer?", "a": "Yes, it supports local 2-player mode so you can play with a friend on one keyboard." },
-            { "q": "How do I unlock more characters?", "a": "Win tournaments and complete daily challenges to unlock dozens of new ballers." }
+            {
+                "q": "Can I play BasketBros on the same computer?",
+                "a": "Yes, it supports local 2-player mode so you can play with a friend on one keyboard."
+            },
+            {
+                "q": "How do I unlock more characters?",
+                "a": "Win tournaments and complete daily challenges to unlock dozens of new ballers."
+            }
         ],
         "editorReview": "BasketBros.io captures the high-energy vibe of NBA Jam and distills it into a fast, funny 2D brawler. The physics are intentionally floaty, allowing for massive dunks and ridiculous blocks that keep matches feeling like a highlight reel. We love the local co-op option—it’s rare to find such a robust 2-player-one-keyboard experience in a modern web game. The 'Perfect Shot' mechanic adds a surprisingly high skill ceiling, rewarding players who take the time to learn the exact release point of every character."
     },
@@ -596,7 +927,12 @@
         "slug": "moomoo-io",
         "title": "MooMoo.io",
         "category": "Strategy",
-        "tags": ["Survival", "Crafting", "IO Game", "Multiplayer"],
+        "tags": [
+            "Survival",
+            "Crafting",
+            "IO Game",
+            "Multiplayer"
+        ],
         "rating": 4.4,
         "votes": "18,600",
         "views": "11.2M",
@@ -624,17 +960,27 @@
             "Equip hats like the 'Miner Hat' or 'Bull Helmet' to gain powerful stat boosts during combat."
         ],
         "faq": [
-            { "q": "What happens if my base is destroyed?", "a": "You lose your structures but keep your level and gold wealth, allowing you to rebuild quickly." },
-            { "q": "Is there a limit to tribe size?", "a": "Tribe sizes vary by server, but working with even one partner significantly increases survival chances." }
+            {
+                "q": "What happens if my base is destroyed?",
+                "a": "You lose your structures but keep your level and gold wealth, allowing you to rebuild quickly."
+            },
+            {
+                "q": "Is there a limit to tribe size?",
+                "a": "Tribe sizes vary by server, but working with even one partner significantly increases survival chances."
+            }
         ],
         "editorReview": "MooMoo.io is one of the pioneers of the 'survival-IO' genre, and it remains the best. The base-building is simple enough to pick up instantly but deep enough to allow for incredibly creative layouts. The hat system provides a great way to customize your stats on the fly—switching from a mining hat to a combat helmet before a raid is a classic high-level play. It’s a game of constant multitasking: growing your wealth while always keeping one eye on the horizon for rival clans. It’s social, strategic, and very rewarding."
     },
-
     {
         "slug": "build-royale",
         "title": "BuildRoyale.io",
         "category": "Action",
-        "tags": ["Battle Royale", "Building", "Survival", "Shooter"],
+        "tags": [
+            "Battle Royale",
+            "Building",
+            "Survival",
+            "Shooter"
+        ],
         "rating": 4.5,
         "votes": "9,200",
         "views": "6.2M",
@@ -662,17 +1008,27 @@
             "Double-wall your base to protect against heavy explosive attacks."
         ],
         "faq": [
-            { "q": "Is BuildRoyale.io like Fortnite?", "a": "It shares the building and battle royale mechanics but in a fast-paced 2D browser environment." },
-            { "q": "Can I play BuildRoyale.io unblocked?", "a": "Yes, ZynfexGame offers the official unblocked version for school networks." }
+            {
+                "q": "Is BuildRoyale.io like Fortnite?",
+                "a": "It shares the building and battle royale mechanics but in a fast-paced 2D browser environment."
+            },
+            {
+                "q": "Can I play BuildRoyale.io unblocked?",
+                "a": "Yes, ZynfexGame offers the official unblocked version for school networks."
+            }
         ],
         "editorReview": "BuildRoyale.io is the definitive 2D answer to the building-shooter phenomenon. The top-down perspective doesn't diminish the intensity of high-speed build battles—if anything, it makes them more strategic as you have 360-degree awareness. The looting phase is satisfyingly fast, and the weapons feel distinct. Our team was particularly impressed by how smoothly the building transitions from movement to combat; it’s a high-skill game that rewards players who can multitask under pressure."
     },
-
     {
         "slug": "doodle-jump",
         "title": "Doodle Jump",
         "category": "Action",
-        "tags": ["Arcade", "Retro", "Jump", "Classic"],
+        "tags": [
+            "Arcade",
+            "Retro",
+            "Jump",
+            "Classic"
+        ],
         "rating": 4.6,
         "votes": "5,400",
         "views": "2.9M",
@@ -700,8 +1056,14 @@
             "Listen for the sound cues of upcoming black holes and UFOs."
         ],
         "faq": [
-            { "q": "How do I kill the monsters?", "a": "Tap your screen or press Space to shoot bubbles at the monsters and clear them from your path." },
-            { "q": "What is the world record score?", "a": "Doodle Jump records are in the millions—keep practicing to climb the global leaderboard!" }
+            {
+                "q": "How do I kill the monsters?",
+                "a": "Tap your screen or press Space to shoot bubbles at the monsters and clear them from your path."
+            },
+            {
+                "q": "What is the world record score?",
+                "a": "Doodle Jump records are in the millions—keep practicing to climb the global leaderboard!"
+            }
         ],
         "editorReview": "What else can be said about Doodle Jump? It is the quintessential mobile-era classic, and this browser version preserves the 'one more go' magic perfectly. The tilt-based physics (replicated via arrow keys or touch) feel reactive and fair. The art style, which looks like it was sketched on a student's notebook, remains as iconic as ever. It is the gold standard for 'endless verticality' games—simple to grasp, nearly impossible to master, and always fun."
     },
@@ -709,7 +1071,12 @@
         "slug": "space-invaders",
         "title": "Space Invaders 3D",
         "category": "Action",
-        "tags": ["Shooter", "Retro", "3D", "Arcade"],
+        "tags": [
+            "Shooter",
+            "Retro",
+            "3D",
+            "Arcade"
+        ],
         "rating": 4.5,
         "votes": "2,300",
         "views": "1.1M",
@@ -737,8 +1104,14 @@
             "The bottom-most aliens move slower—clear them first to gain breathing room."
         ],
         "faq": [
-            { "q": "Are there different kinds of aliens?", "a": "Yes, later waves introduce shielded aliens and fast-moving scouts." },
-            { "q": "What happens after Wave 10?", "a": "The difficulty resets with faster movement, but your score continues to climb!" }
+            {
+                "q": "Are there different kinds of aliens?",
+                "a": "Yes, later waves introduce shielded aliens and fast-moving scouts."
+            },
+            {
+                "q": "What happens after Wave 10?",
+                "a": "The difficulty resets with faster movement, but your score continues to climb!"
+            }
         ],
         "editorReview": "Space Invaders 3D is a loving homage to the forefather of the shoot-em-up genre. By moving into the third dimension, the game adds a level of visual spectacle that the original simply couldn't achieve. The boss fights are massive and require genuine tactical dodging. Our team particularly enjoyed the 'shield destruction' system—using your cover as a resource that gradually fades adds a modern survival-horror twist to a legendary arcade formula."
     },
@@ -746,7 +1119,12 @@
         "slug": "tileman",
         "title": "Tileman.io",
         "category": "Arcade",
-        "tags": ["Territory", "Multiplayer", "Neon", "Snake"],
+        "tags": [
+            "Territory",
+            "Multiplayer",
+            "Neon",
+            "Snake"
+        ],
         "rating": 4.4,
         "votes": "4,200",
         "views": "1.8M",
@@ -773,8 +1151,14 @@
             "Bait opponents into overextending their trails before cutting them off."
         ],
         "faq": [
-            { "q": "How do I grow my area?", "a": "Move out of your base to draw a line, then loop back to your base to capture the enclosed tiles." },
-            { "q": "What happens if someone hits my trail?", "a": "If an opponent crosses your trail while you are outside your territory, you are eliminated." }
+            {
+                "q": "How do I grow my area?",
+                "a": "Move out of your base to draw a line, then loop back to your base to capture the enclosed tiles."
+            },
+            {
+                "q": "What happens if someone hits my trail?",
+                "a": "If an opponent crosses your trail while you are outside your territory, you are eliminated."
+            }
         ],
         "editorReview": "Tileman.io is a sleek, neon-drenched take on the growing-territory genre. It takes the core mechanics of games like Splix and adds a layer of visual polish and speed that makes every round feel intense. The grid-based precision movement is satisfyingly responsive, and the risk-reward calculation of how far to venture from safety is constantly engaging. It's a perfect 'quick play' game that rewards deep tactical thinking and steady nerves."
     },
@@ -782,7 +1166,12 @@
         "slug": "cocky",
         "title": "Cocky.io",
         "category": "Action",
-        "tags": ["Survival", "Arena", "Multiplayer", "Humorous"],
+        "tags": [
+            "Survival",
+            "Arena",
+            "Multiplayer",
+            "Humorous"
+        ],
         "rating": 4.3,
         "votes": "3,100",
         "views": "1.2M",
@@ -809,8 +1198,14 @@
             "Don't stay in high-traffic zones too long; move to the outskirts to grow safely."
         ],
         "faq": [
-            { "q": "How do I get a longer weapon?", "a": "Defeat other players and consume energy scattered around the arena." },
-            { "q": "Can I customize my character?", "a": "Yes, you can change your skin and hair style in the main menu." }
+            {
+                "q": "How do I get a longer weapon?",
+                "a": "Defeat other players and consume energy scattered around the arena."
+            },
+            {
+                "q": "Can I customize my character?",
+                "a": "Yes, you can change your skin and hair style in the main menu."
+            }
         ],
         "editorReview": "Cocky.io is a refreshingly weird and funny addition to the arena IO sub-genre. The 'sausage physics' combat is surprisingly deep, requiring careful positioning and timing to land hits without leaving yourself exposed. The character customization adds a fun layer of personality to every match. It's a game that doesn't take itself too seriously but provides genuine competitive thrills and plenty of laugh-out-loud moments."
     },
@@ -818,7 +1213,12 @@
         "slug": "snakeblock",
         "title": "Snakeblock.io",
         "category": "Action",
-        "tags": ["Snake", "Energy", "Multiplayer", "Laser"],
+        "tags": [
+            "Snake",
+            "Energy",
+            "Multiplayer",
+            "Laser"
+        ],
         "rating": 4.1,
         "votes": "2,500",
         "views": "850K",
@@ -845,8 +1245,14 @@
             "When being chased, try to make a sharp 180-degree turn to catch the attacker off guard."
         ],
         "faq": [
-            { "q": "How do I boost?", "a": "Hold the left mouse button or Spacebar to increase your speed at the cost of some length." },
-            { "q": "What happens if I hit another snake?", "a": "If your head touches another snake's body, you will explode and turn into energy orbs." }
+            {
+                "q": "How do I boost?",
+                "a": "Hold the left mouse button or Spacebar to increase your speed at the cost of some length."
+            },
+            {
+                "q": "What happens if I hit another snake?",
+                "a": "If your head touches another snake's body, you will explode and turn into energy orbs."
+            }
         ],
         "editorReview": "Snakeblock.io takes the classic Snake formula and infuses it with a high-energy laser aesthetic. The grey-scale grid makes the vibrant neon snakes pop, creating a visually striking arena. The boost mechanic is perfectly balanced, making every chase a tense encounter of resource management. It's a solid, competitive experience that fans of Slither.io will appreciate for its speed and style."
     },
@@ -854,7 +1260,12 @@
         "slug": "astro-race",
         "title": "Astro Race",
         "category": "Racing",
-        "tags": ["Space", "Supersonic", "MMO", "Competitive"],
+        "tags": [
+            "Space",
+            "Supersonic",
+            "MMO",
+            "Competitive"
+        ],
         "rating": 4.6,
         "votes": "5,600",
         "views": "2.1M",
@@ -881,8 +1292,14 @@
             "Watch out for the shifting track obstacles; they can end your race in an instant."
         ],
         "faq": [
-            { "q": "How do I unlock new leagues?", "a": "Earn points by finishing in the top positions of every race." },
-            { "q": "Can I customize my ship?", "a": "Yes, you can unlock and equip various ship skins as you progress through the leagues." }
+            {
+                "q": "How do I unlock new leagues?",
+                "a": "Earn points by finishing in the top positions of every race."
+            },
+            {
+                "q": "Can I customize my ship?",
+                "a": "Yes, you can unlock and equip various ship skins as you progress through the leagues."
+            }
         ],
         "editorReview": "Astro Race is a masterclass in 'easy to learn, hard to master' racing. The drift mechanic is incredibly unique—instead of slowing you down, it's the primary way to gain boost speed. This creates a high-risk, high-reward gameplay loop where you're constantly hugging the walls at supersonic speeds. The MMO integration means there's always someone to race against, making the climb through the leagues feel like a genuine achievement."
     },
@@ -890,7 +1307,12 @@
         "slug": "paper-racer",
         "title": "Paper Racer",
         "category": "Racing",
-        "tags": ["Drawing", "Physics", "Creative", "Sports"],
+        "tags": [
+            "Drawing",
+            "Physics",
+            "Creative",
+            "Sports"
+        ],
         "rating": 4.5,
         "votes": "4,900",
         "views": "3.4M",
@@ -917,8 +1339,14 @@
             "Experiment with the thousands of user-created tracks for a never-ending racing experience."
         ],
         "faq": [
-            { "q": "How do I build my own track?", "a": "Use the built-in track editor in the main menu to draw and share your creations." },
-            { "q": "Can I play with friends?", "a": "Yes, you can challenge others in various multiplayer room modes." }
+            {
+                "q": "How do I build my own track?",
+                "a": "Use the built-in track editor in the main menu to draw and share your creations."
+            },
+            {
+                "q": "Can I play with friends?",
+                "a": "Yes, you can challenge others in various multiplayer room modes."
+            }
         ],
         "editorReview": "Paper Racer is a charming and endlessly creative racing sandbox. The sketch-style art direction gives it a unique personality that sets it apart from more realistic racers. The real draw, however, is the community content—with thousands of tracks and custom vehicles, you'll never see the same race twice. It’s a perfect blend of physics-based challenge and creative expression that keeps you coming back to see what the community has built next."
     },
@@ -926,7 +1354,12 @@
         "slug": "war-brokers",
         "title": "War Brokers",
         "category": "Action",
-        "tags": ["Shooting", "FPS", "Vehicles", "Multiplayer"],
+        "tags": [
+            "Shooting",
+            "FPS",
+            "Vehicles",
+            "Multiplayer"
+        ],
         "rating": 4.7,
         "votes": "8,200",
         "views": "4.1M",
@@ -953,8 +1386,14 @@
             "Stay near cover when on foot to avoid sniper fire."
         ],
         "faq": [
-            { "q": "Can I fly planes in War Brokers?", "a": "Yes, you can pilot jets, helicopters, and drive tanks." },
-            { "q": "Is War Brokers free?", "a": "Yes, it is completely free to play in your browser." }
+            {
+                "q": "Can I fly planes in War Brokers?",
+                "a": "Yes, you can pilot jets, helicopters, and drive tanks."
+            },
+            {
+                "q": "Is War Brokers free?",
+                "a": "Yes, it is completely free to play in your browser."
+            }
         ],
         "editorReview": "War Brokers is an impressive feat of browser engineering. Combining large-scale vehicle combat with tight infantry FPS mechanics results in a game that feels like a full-price title. The variety of maps and constant updates keep the meta fresh. It is one of the most content-rich shooters available on the web today."
     },
@@ -962,7 +1401,12 @@
         "slug": "kirka",
         "title": "Kirka",
         "category": "Action",
-        "tags": ["Shooting", "FPS", "Multiplayer", "Minecraft-style"],
+        "tags": [
+            "Shooting",
+            "FPS",
+            "Multiplayer",
+            "Minecraft-style"
+        ],
         "rating": 4.6,
         "votes": "6,500",
         "views": "3.5M",
@@ -989,8 +1433,14 @@
             "Communication with your team is vital in objective modes."
         ],
         "faq": [
-            { "q": "Are there different game modes?", "a": "Yes, Kirka features Team Deathmatch, Free-For-All, and more." },
-            { "q": "Is Kirka unblocked?", "a": "Yes, you can play it on ZynfexGame at school or work." }
+            {
+                "q": "Are there different game modes?",
+                "a": "Yes, Kirka features Team Deathmatch, Free-For-All, and more."
+            },
+            {
+                "q": "Is Kirka unblocked?",
+                "a": "Yes, you can play it on ZynfexGame at school or work."
+            }
         ],
         "editorReview": "Kirka combines the approachable look of block-based games with the intense depth of a modern shooter. The gameplay is fast and rewarding, and the built-in clan and leaderboard systems foster a great community feel. It's perfectly optimized for a smooth experience on all devices."
     },
@@ -998,7 +1448,12 @@
         "slug": "sandstrike",
         "title": "Sandstrike",
         "category": "Action",
-        "tags": ["Shooting", "Multiplayer", "Vehicles", "Action"],
+        "tags": [
+            "Shooting",
+            "Multiplayer",
+            "Vehicles",
+            "Action"
+        ],
         "rating": 4.5,
         "votes": "4,100",
         "views": "1.9M",
@@ -1025,8 +1480,14 @@
             "Watch out for snipers on the sand dunes."
         ],
         "faq": [
-            { "q": "Can I play Sandstrike on mobile?", "a": "Yes, it is fully optimized for mobile browsers." },
-            { "q": "Are there bots in the game?", "a": "While primarily multiplayer, bots fill empty slots to keep matches active." }
+            {
+                "q": "Can I play Sandstrike on mobile?",
+                "a": "Yes, it is fully optimized for mobile browsers."
+            },
+            {
+                "q": "Are there bots in the game?",
+                "a": "While primarily multiplayer, bots fill empty slots to keep matches active."
+            }
         ],
         "editorReview": "Sandstrike delivers high-octane desert warfare right in your browser. The inclusion of vehicles adds a layer of scale that makes the matches feel expansive and exciting. It's a solid choice for fans of action shooters who want a quick but deep experience."
     },
@@ -1034,7 +1495,12 @@
         "slug": "krunker",
         "title": "Krunker",
         "category": "Action",
-        "tags": ["Shooting", "FPS", "Competitive", "Stylized"],
+        "tags": [
+            "Shooting",
+            "FPS",
+            "Competitive",
+            "Stylized"
+        ],
         "rating": 4.8,
         "votes": "55,000",
         "views": "40M",
@@ -1061,8 +1527,14 @@
             "The community-made maps offer endless variety beyond the official rotation."
         ],
         "faq": [
-            { "q": "Can I play Krunker unblocked?", "a": "Yes, ZynfexGame provides a school-safe unblocked version." },
-            { "q": "What is the best Krunker class?", "a": "Classes like the Hunter and Triggerman are fan favorites, but each has its strengths." }
+            {
+                "q": "Can I play Krunker unblocked?",
+                "a": "Yes, ZynfexGame provides a school-safe unblocked version."
+            },
+            {
+                "q": "What is the best Krunker class?",
+                "a": "Classes like the Hunter and Triggerman are fan favorites, but each has its strengths."
+            }
         ],
         "editorReview": "Krunker is nothing short of a legend in the world of browser gaming. Its blend of high-speed movement and precise gunplay is addictive and deep. The sheer volume of community content means there's always a new way to play. It's as much a platform as it is a game."
     },
@@ -1070,7 +1542,12 @@
         "slug": "braains",
         "title": "Braains",
         "category": "Arcade",
-        "tags": ["Survival", "Zombie", "Multiplayer", "Social"],
+        "tags": [
+            "Survival",
+            "Zombie",
+            "Multiplayer",
+            "Social"
+        ],
         "rating": 4.4,
         "votes": "9,800",
         "views": "5.2M",
@@ -1097,8 +1574,14 @@
             "Sometimes the best defense is a well-hidden spot in a massive room."
         ],
         "faq": [
-            { "q": "How do I become a zombie?", "a": "If a zombie touches you, you'll turn into one and join their team." },
-            { "q": "What is the goal for humans?", "a": "Stay alive until the timer reaches zero to win the match." }
+            {
+                "q": "How do I become a zombie?",
+                "a": "If a zombie touches you, you'll turn into one and join their team."
+            },
+            {
+                "q": "What is the goal for humans?",
+                "a": "Stay alive until the timer reaches zero to win the match."
+            }
         ],
         "editorReview": "Braains is a wonderful social experience that captures the tension of a zombie apocalypse in a fast, accessible way. The physics-based barricading leads to some very creative player-made forts. It's a perfect game for playing with friends and seeing who can survive the longest."
     },
@@ -1106,7 +1589,12 @@
         "slug": "defly",
         "title": "Defly",
         "category": "Arcade",
-        "tags": ["Territory", "Shooter", "Action", "Multiplayer"],
+        "tags": [
+            "Territory",
+            "Shooter",
+            "Action",
+            "Multiplayer"
+        ],
         "rating": 4.5,
         "votes": "12,100",
         "views": "7.4M",
@@ -1133,8 +1621,14 @@
             "Use the 'Super Power' wisely to turn the tide of a battle."
         ],
         "faq": [
-            { "q": "What happens if I crash into a wall?", "a": "Friendly walls are safe, but enemy walls will damage or destroy you." },
-            { "q": "How do I win?", "a": "The player with the most territory when the match ends is crowned the winner." }
+            {
+                "q": "What happens if I crash into a wall?",
+                "a": "Friendly walls are safe, but enemy walls will damage or destroy you."
+            },
+            {
+                "q": "How do I win?",
+                "a": "The player with the most territory when the match ends is crowned the winner."
+            }
         ],
         "editorReview": "Defly is an incredibly creative mix of two genres that work perfectly together. The strategy of building a base while juggling high-speed dogfights is consistently engaging. Every level-up allows for distinct stat-builds, making every run feel unique. It's one of the most mechanically balanced IO games available."
     }
