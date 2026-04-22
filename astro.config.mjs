@@ -14,7 +14,7 @@ export default defineConfig({
     format: 'directory'
   },
   image: {
-    domains: ['games.assets.gamepix.com', 'prod.iogames.space', 'images.unsplash.com', 'images.crazygames.com', 'img.poki.com']
+    domains: ['games.assets.gamepix.com', 'prod.iogames.space', 'images.crazygames.com', 'img.poki.com']
   },
   vite: {
     plugins: [tailwindcss()]
