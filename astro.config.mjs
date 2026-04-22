@@ -13,6 +13,9 @@ export default defineConfig({
     inlineStylesheets: 'always',
     format: 'directory'
   },
+  image: {
+    domains: ['games.assets.gamepix.com', 'images.crazygames.com', 'img.poki.com']
+  },
   vite: {
     plugins: [tailwindcss()]
   },

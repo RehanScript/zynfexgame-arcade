@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import GameCard from '../components/GameCard.astro';
 import games from '../data/games.json';
 import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
 
 // Simple deduplication for categories to build the top carousel
 const categorySet = new Set(games.map(g => g.category));
