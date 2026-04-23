@@ -14,7 +14,7 @@ const sortedPosts = allPosts.sort((a, b) => b.data.publishDate.valueOf() - a.dat
 			
 			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 				{sortedPosts.map(post => (
-					<a href={`/blog/${post.id}`} class="bg-gray-800 rounded-2xl overflow-hidden border border-gray-700 hover:border-indigo-500 transition-colors group flex flex-col h-full shadow-lg">
+					<a href={`/blog/${post.id}/`} class="bg-gray-800 rounded-2xl overflow-hidden border border-gray-700 hover:border-indigo-500 transition-colors group flex flex-col h-full shadow-lg">
 						{post.data.image ? (
 							<img src={post.data.image} alt={post.data.title} class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
 						) : (

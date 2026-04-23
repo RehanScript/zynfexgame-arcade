@@ -18,7 +18,7 @@ if(optThumbnail.includes("unsplash.com")) {
 }
 ---
 
-<a href={`/games/${slug}`} class="group relative block w-full aspect-square bg-[#1b1736] rounded-xl overflow-hidden shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all focus:ring-4 focus:ring-indigo-500 border border-[#2d2856]">
+<a href={`/games/${slug}/`} class="group relative block w-full aspect-square bg-[#1b1736] rounded-xl overflow-hidden shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all focus:ring-4 focus:ring-indigo-500 border border-[#2d2856]">
 	<Image loading={lazy ? "lazy" : "eager"} fetchpriority={lazy ? "auto" : "high"} src={optThumbnail} width={250} height={250} class="absolute inset-0 w-full h-full object-cover" alt={`${title}`} />
 	
 	<!-- Mobile Badge -->

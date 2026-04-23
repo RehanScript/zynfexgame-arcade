@@ -24,7 +24,7 @@ const otherGames = gamesData
 	<nav class="flex text-xs text-gray-400 gap-2 mb-4 items-center overflow-x-auto whitespace-nowrap pb-2 no-scrollbar">
 		<a href="/" class="hover:text-white transition">Home</a>
 		<span>/</span>
-		<a href={`/categories/${game.category.toLowerCase()}`} class="hover:text-white transition">{game.category} Games</a>
+		<a href={`/categories/${game.category.toLowerCase()}/`} class="hover:text-white transition">{game.category} Games</a>
 		<span>/</span>
 		<span class="text-indigo-400 font-medium">{game.title}</span>
 	</nav>
@@ -111,7 +111,7 @@ const otherGames = gamesData
 					Tagged in
 				</h3>
 				{(game.tags || [game.category, "Unblocked", "IO Game"]).map(tag => (
-					<a href={`/categories/${tag.toLowerCase()}`} class="bg-[#1b1736] hover:bg-indigo-600/20 text-indigo-400 px-4 py-2 rounded-xl text-sm font-bold border border-gray-800 transition-all hover:-translate-y-0.5 whitespace-nowrap">
+					<a href={`/categories/${tag.toLowerCase()}/`} class="bg-[#1b1736] hover:bg-indigo-600/20 text-indigo-400 px-4 py-2 rounded-xl text-sm font-bold border border-gray-800 transition-all hover:-translate-y-0.5 whitespace-nowrap">
 						#{tag}
 					</a>
 				))}
@@ -187,7 +187,7 @@ const otherGames = gamesData
 							<div>
 								<h4 class="text-xl font-black text-white mb-2">Want to win every match?</h4>
 								<p class="text-gray-400 text-sm mb-4">Read our exclusive 2026 beginner's guide for {game.title} and dominate the competition.</p>
-								<a href={`/blog/how-to-play-${game.slug}`} class="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold px-6 py-2.5 rounded-xl transition-all shadow-lg active:scale-95">
+								<a href={`/blog/how-to-play-${game.slug}/`} class="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold px-6 py-2.5 rounded-xl transition-all shadow-lg active:scale-95">
 									<span>Take the Guide</span>
 									<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
 								</a>
@@ -249,7 +249,7 @@ const otherGames = gamesData
 				<div class="grid grid-cols-2 min-[400px]:grid-cols-3 lg:grid-cols-2 gap-4">
 					{otherGames.map(g => (
 						<div class="transition-all hover:scale-105">
-							<a href={`/games/${g.slug}`} class="block aspect-square rounded-xl overflow-hidden border border-gray-800 shadow-lg relative group">
+							<a href={`/games/${g.slug}/`} class="block aspect-square rounded-xl overflow-hidden border border-gray-800 shadow-lg relative group">
 								<img src={g.thumbnail} alt={g.title} class="w-full h-full object-cover" loading="lazy" />
 								<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center p-2 text-center text-[10px] font-black text-white uppercase tracking-wider">{g.title}</div>
 							</a>

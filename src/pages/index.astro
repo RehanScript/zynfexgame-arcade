@@ -42,7 +42,7 @@ const blogPosts = (await getCollection('blog')).sort(
 				<h2 class="text-xl md:text-2xl font-black flex items-center gap-2 text-white">
 					<span class="bg-indigo-600 p-1.5 rounded-lg">📱</span> Mobile Friendly Games
 				</h2>
-				<a href="/categories/mobile-friendly" class="text-xs font-bold text-indigo-400 hover:text-indigo-300 transition-colors uppercase tracking-widest">See All</a>
+				<a href="/categories/mobile-friendly/" class="text-xs font-bold text-indigo-400 hover:text-indigo-300 transition-colors uppercase tracking-widest">See All</a>
 			</div>
 			<div class="flex overflow-x-auto pb-4 gap-4 no-scrollbar -mx-1 px-1">
 				{mobileGames.map(game => (
@@ -66,7 +66,7 @@ const blogPosts = (await getCollection('blog')).sort(
 			</h2>
 			<div class="flex overflow-x-auto pb-4 gap-3 md:gap-4 no-scrollbar">
 				{uniqueCategories.map(cat => (
-					<a href={`/categories/${cat.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`} class="flex-shrink-0 w-32 md:w-40 aspect-[2/1] rounded-xl bg-gradient-to-br from-[#2b2553] to-[#1c1938] border border-[#3b346e] flex flex-col items-center justify-center hover:scale-105 transition-transform group cursor-pointer shadow-lg">
+					<a href={`/categories/${cat.toLowerCase().replace(/[^a-z0-9]+/g, '-')}/`} class="flex-shrink-0 w-32 md:w-40 aspect-[2/1] rounded-xl bg-gradient-to-br from-[#2b2553] to-[#1c1938] border border-[#3b346e] flex flex-col items-center justify-center hover:scale-105 transition-transform group cursor-pointer shadow-lg">
 						<span class="text-white font-bold text-sm tracking-wide">{cat}</span>
 					</a>
 				))}
@@ -119,14 +119,14 @@ const blogPosts = (await getCollection('blog')).sort(
 		<section class="mt-10">
 			<div class="flex justify-between items-center mb-8 border-l-4 border-indigo-500 pl-4">
 				<h2 class="text-xl md:text-2xl font-black text-white">Latest Strategy Guides & Tips</h2>
-				<a href="/blog" class="text-xs font-bold text-indigo-400 hover:text-indigo-300 transition-colors uppercase tracking-widest flex items-center gap-1">
+				<a href="/blog/" class="text-xs font-bold text-indigo-400 hover:text-indigo-300 transition-colors uppercase tracking-widest flex items-center gap-1">
 					View All 
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
 				</a>
 			</div>
 			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 				{blogPosts.map(post => (
-					<a href={`/blog/${post.id}`} class="bg-[#0f0c24] rounded-2xl border border-[#231f47] overflow-hidden hover:border-indigo-500/50 transition-all group shadow-lg flex flex-col">
+					<a href={`/blog/${post.id}/`} class="bg-[#0f0c24] rounded-2xl border border-[#231f47] overflow-hidden hover:border-indigo-500/50 transition-all group shadow-lg flex flex-col">
 						{post.data.image && (
 							<div class="aspect-video overflow-hidden">
 								<img src={post.data.image} alt={post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
@@ -186,7 +186,7 @@ const blogPosts = (await getCollection('blog')).sort(
 								<h4 class="text-sm font-black text-gray-500 uppercase tracking-widest mb-3">Strategists & Thinkers</h4>
 								<div class="flex flex-wrap gap-2">
 									{strategistGames.map(game => (
-										<a href={`/games/${game.slug}`} class="bg-[#1b1736] hover:bg-[#25204d] text-gray-300 hover:text-white px-3 py-1.5 rounded-lg text-xs font-bold transition-colors border border-gray-800">{game.title}</a>
+										<a href={`/games/${game.slug}/`} class="bg-[#1b1736] hover:bg-[#25204d] text-gray-300 hover:text-white px-3 py-1.5 rounded-lg text-xs font-bold transition-colors border border-gray-800">{game.title}</a>
 									))}
 								</div>
 							</div>
@@ -194,7 +194,7 @@ const blogPosts = (await getCollection('blog')).sort(
 								<h4 class="text-sm font-black text-gray-500 uppercase tracking-widest mb-3">Action & Thrill Seekers</h4>
 								<div class="flex flex-wrap gap-2">
 									{actionGames.map(game => (
-										<a href={`/games/${game.slug}`} class="bg-[#1b1736] hover:bg-[#25204d] text-gray-300 hover:text-white px-3 py-1.5 rounded-lg text-xs font-bold transition-colors border border-gray-800">{game.title}</a>
+										<a href={`/games/${game.slug}/`} class="bg-[#1b1736] hover:bg-[#25204d] text-gray-300 hover:text-white px-3 py-1.5 rounded-lg text-xs font-bold transition-colors border border-gray-800">{game.title}</a>
 									))}
 								</div>
 							</div>

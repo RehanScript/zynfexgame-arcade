@@ -15,7 +15,7 @@ const uniqueCategories = Array.from(categorySet);
 		
 		<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
 			{uniqueCategories.map(cat => (
-				<a href={`/categories/${cat.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`} class="flex flex-col items-center justify-center aspect-video rounded-2xl bg-[#0d0b1a] border border-[#2d2856] hover:border-indigo-500 hover:bg-[#16132b] transition-all group shadow-md hover:shadow-xl hover:-translate-y-1">
+				<a href={`/categories/${cat.toLowerCase().replace(/[^a-z0-9]+/g, '-')}/`} class="flex flex-col items-center justify-center aspect-video rounded-2xl bg-[#0d0b1a] border border-[#2d2856] hover:border-indigo-500 hover:bg-[#16132b] transition-all group shadow-md hover:shadow-xl hover:-translate-y-1">
 					<span class="text-indigo-400 text-3xl mb-2 group-hover:scale-110 transition-transform">🕹️</span>
 					<span class="text-gray-200 font-bold group-hover:text-white">{cat}</span>
 					<span class="text-xs text-gray-500 mt-1">{games.filter(g => g.category === cat).length} Games</span>
