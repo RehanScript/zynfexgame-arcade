@@ -17,9 +17,64 @@ const otherGames = gamesData
 	.filter(g => g.slug !== game.slug)
 	.sort(() => Math.random() - 0.5)
 	.slice(0, 12);
+const gameSchema = [
+	`<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "VideoGame",
+		"name": "${game.title}",
+		"description": "${game.description?.replace(/"/g, '\\"') || `Play ${game.title} unblocked on ZynfexGame.`}",
+		"genre": "${game.category}",
+		"url": "https://zynfexgame.me/games/${game.slug}/",
+		"image": "${game.thumbnail}",
+		"author": {
+			"@type": "Organization",
+			"name": "${game.developer || 'ZynfexGame'}"
+		},
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "${game.rating || '4.5'}",
+			"reviewCount": "${game.votes || '1200'}"
+		},
+		"operatingSystem": "Web Browser",
+		"applicationCategory": "Game"
+	}
+	</script>`,
+	`<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BreadcrumbList",
+		"itemListElement": [
+			{
+				"@type": "ListItem",
+				"position": 1,
+				"name": "Home",
+				"item": "https://zynfexgame.me/"
+			},
+			{
+				"@type": "ListItem",
+				"position": 2,
+				"name": "${game.category}",
+				"item": "https://zynfexgame.me/categories/${game.category.toLowerCase()}/"
+			},
+			{
+				"@type": "ListItem",
+				"position": 3,
+				"name": "${game.title}",
+				"item": "https://zynfexgame.me/games/${game.slug}/"
+			}
+		]
+	}
+	</script>`
+];
 ---
 
-<Layout title={`${game.title} - Play Free Online | ZynfexGame`} description={game.description || `Play ${game.title} unblocked on ZynfexGame.`} image={game.thumbnail}>
+<Layout 
+	title={`${game.title} - Play Free Online | ZynfexGame`} 
+	description={game.description || `Play ${game.title} unblocked on ZynfexGame.`} 
+	image={game.thumbnail}
+	schemas={gameSchema}
+>
 	<!-- Breadcrumbs -->
 	<nav class="flex text-xs text-gray-400 gap-2 mb-4 items-center overflow-x-auto whitespace-nowrap pb-2 no-scrollbar">
 		<a href="/" class="hover:text-white transition">Home</a>

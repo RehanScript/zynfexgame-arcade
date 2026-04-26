@@ -31,9 +31,39 @@ const INITIAL_SECTION_LIMIT = 3;
 const blogPosts = (await getCollection('blog')).sort(
 	(a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
 );
+const homeSchemas = [
+	`<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "WebSite",
+		"url": "https://zynfexgame.me/",
+		"name": "ZynfexGame",
+		"description": "Play the absolute best HTML5 mobile and browser games for free on ZynfexGame without downloading anything.",
+		"potentialAction": {
+			"@type": "SearchAction",
+			"target": "https://zynfexgame.me/?q={search_term_string}",
+			"query-input": "required name=search_term_string"
+		}
+	}
+	</script>`,
+	`<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": "ZynfexGame",
+		"url": "https://zynfexgame.me/",
+		"logo": "https://zynfexgame.me/favicon.svg",
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"email": "rhn3459@gmail.com",
+			"contactType": "customer support"
+		}
+	}
+	</script>`
+];
 ---
 
-<Layout title="ZynfexGame | Play HTML5 Online Games Free - No Downloads">
+<Layout title="ZynfexGame | Play HTML5 Online Games Free - No Downloads" schemas={homeSchemas}>
 	<div class="flex flex-col gap-10 md:gap-16">
 		
 		<!-- Mobile Friendly Section (High Visibility) -->
