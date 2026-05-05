@@ -42,6 +42,9 @@ const searchDB = games.map(g => ({ title: g.title, slug: g.slug, thumbnail: g.th
 		</script>
 		<link rel="canonical" href={`https://zynfexgame.me${Astro.url.pathname}${Astro.url.pathname.endsWith('/') ? '' : '/'}`} />
 		<meta name="generator" content={Astro.generator} />
+
+		<!-- Google AdSense -->
+		<script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5819074111802633" crossorigin="anonymous"></script>
 		
 		<title>{title}</title>
 		<meta name="title" content={title} />
