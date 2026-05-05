@@ -1,5 +1,52 @@
 [
   {
+    "slug": "turbo-dismounting",
+    "title": "Turbo Dismounting",
+    "category": "Action",
+    "tags": [
+      "Stickman",
+      "Physics",
+      "Crashing",
+      "Funny"
+    ],
+    "rating": 4.7,
+    "votes": "1,500",
+    "views": "450K",
+    "released": "2024",
+    "technology": "HTML5",
+    "thumbnail": "https://img.gamepix.com/games/turbo-dismounting/icon/turbo-dismounting.png?w=250",
+    "iframe": "https://play.gamepix.com/turbo-dismounting/embed?sid=9AF36",
+    "developer": "GamePix",
+    "featured": false,
+    "mobileFriendly": true,
+    "description": "Turbo Dismounting is a thrilling physics-based adventure where players create epic crashes. Propel your stickman through chaotic obstacles, earning rewards to unlock diverse vehicles and challenging levels. Revel in the havoc with unique replays, testing your skills in explosive, adrenaline-fueled gameplay.",
+    "mission": "Create the most spectacular and high-damage crashes possible to earn maximum points and unlock new content.",
+    "strategies": [
+      "Experiment with different vehicles to see which ones cause the most chaos.",
+      "Time your jumps and boosts to hit obstacles at the most damaging angles.",
+      "Use the environment to your advantage by launching into explosive barrels or off steep ramps."
+    ],
+    "controls": {
+      "pc": "<strong>Mouse Click</strong> or <strong>Space</strong>: Propel / Adjust | <strong>Drag</strong>: Aim",
+      "mobile": "<strong>Tap</strong>: Propel / Adjust | <strong>Drag</strong>: Aim"
+    },
+    "proTips": [
+      "Higher speed usually leads to more damage, but angle is just as important.",
+      "Watch your replays to find exactly where you could have caused more destruction."
+    ],
+    "faq": [
+      {
+        "q": "How do I unlock new vehicles?",
+        "a": "Earn points by performing epic crashes; higher scores will unlock new rides in the shop."
+      },
+      {
+        "q": "Can I play this on mobile?",
+        "a": "Yes! Turbo Dismounting is fully optimized for mobile browsers."
+      }
+    ],
+    "editorReview": "Turbo Dismounting is a masterclass in 'just one more try' gameplay. The physics engine is delightfully chaotic, making every crash feel unique and satisfying. It taps into that primal urge to break things in the most creative ways possible. With a wide variety of levels and vehicles, it offers hours of fun for anyone who enjoys physics-based puzzles or just pure destruction."
+  },
+  {
     "slug": "mope-io",
     "title": "Mope.io",
     "category": "IO Games",
