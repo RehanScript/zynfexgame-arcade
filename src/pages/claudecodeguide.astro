@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Claude Code Free Roadmap</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --text-color: #c9d1d9;
+            --header-color: #58a6ff;
+            --code-bg: #161b22;
+            --code-border: #30363d;
+            --hr-color: #30363d;
+            --accent-color: #2f81f7;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            border-bottom: 1px solid var(--hr-color);
+            padding-bottom: 0.3em;
+            font-size: 2em;
+        }
+
+        h3 {
+            margin-top: 24px;
+            margin-bottom: 16px;
+            font-weight: 600;
+            line-height: 1.25;
+            color: var(--header-color);
+        }
+
+        p { margin-bottom: 16px; }
+
+        code {
+            background-color: rgba(110, 118, 129, 0.4);
+            padding: 0.2em 0.4em;
+            border-radius: 6px;
+            font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+            font-size: 85%;
+        }
+
+        .code-block {
+            background-color: var(--code-bg);
+            border: 1px solid var(--code-border);
+            border-radius: 6px;
+            padding: 16px;
+            margin-bottom: 16px;
+            overflow: auto;
+        }
+
+        .code-block code {
+            background-color: transparent;
+            padding: 0;
+            font-size: 90%;
+            color: #d2a8ff; /* Light purple for commands */
+        }
+
+        ul {
+            padding-left: 2em;
+            margin-bottom: 16px;
+        }
+
+        li { margin-bottom: 4px; }
+
+        hr {
+            height: 0.25em;
+            padding: 0;
+            margin: 24px 0;
+            background-color: var(--hr-color);
+            border: 0;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover { text-decoration: underline; }
+
+        strong { font-weight: 600; }
+
+        .important-note {
+            border-left: 4px solid #d29922;
+            padding-left: 16px;
+            color: #d29922;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Claude Code for Free</h1>
+
+    <h3>Step 1: Install UV</h3>
+    <p>Install the <code>uv</code> package manager to handle the project environment.</p>
+    <ul>
+        <li><strong>Mac</strong>: 
+            <div class="code-block"><code>curl -LsSf https://astral.sh/uv/install.sh | sh</code></div>
+        </li>
+        <li><strong>Windows</strong>: 
+            <div class="code-block"><code>powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"</code></div>
+        </li>
+    </ul>
+
+    <hr>
+
+    <h3>Step 2: Install Python through UV</h3>
+    <p>Ensure you are running the latest Python version via <code>uv</code>.</p>
+    <p><strong>Command</strong>:</p>
+    <div class="code-block"><code>uv python install 3.14</code></div>
+
+    <hr>
+
+    <h3>Step 3: Now we clone Nvidia nim</h3>
+    <p>Clone the bridge repository to your local machine.</p>
+    <p><strong>Command</strong>:</p>
+    <div class="code-block"><code>git clone https://github.com/Alishahryar1/free-claude-code.git nvidia-nim</code></div>
+
+    <hr>
+
+    <h3>Step 4: Now open this folder in your code editor</h3>
+    <p>I will be using VS Code to manage the project files.</p>
+
+    <hr>
+
+    <h3>Step 5: Now duplicate the .env example and name it .env</h3>
+    <p>Create your local environment file to store your API keys.</p>
+
+    <hr>
+
+    <h3>Step 6: Now go to nvidia nim website and register there</h3>
+    <p>Create an account on the official NVIDIA NIM platform.</p>
+    <p><strong>Link</strong>: <a href="https://build.nvidia.com/models?filters=nimType%3Anim_type_preview&orderBy=weightPopular%3ADESC" target="_blank">NVIDIA NIM Models</a></p>
+
+    <hr>
+
+    <h3>Step 7: Now choose a free model and grab the model name and paste it in .env file</h3>
+    <p>Select a model from the list and update your configuration.</p>
+
+    <hr>
+
+    <h3>Step 8: Now grab the api key</h3>
+    <p>Generate your unique NVIDIA NIM API Key and paste it into your <code>.env</code> file.</p>
+
+    <hr>
+
+    <h3>Step 9: now run the nvidia nim</h3>
+    <p>Start the bridge server.</p>
+    <p class="important-note">Important: Once it starts running, do not stop it or close it, otherwise you won’t be able to use the AI.</p>
+    <p><strong>Command</strong>:</p>
+    <div class="code-block"><code>uv run uvicorn server:app --host 0.0.0.0 --port 8082</code></div>
+
+    <hr>
+
+    <h3>Step 10: Install Claude Code</h3>
+    <p>From this point forward, you must work in <strong>another terminal window</strong>.</p>
+    <ul>
+        <li><strong>Windows Command</strong>: 
+            <div class="code-block"><code>irm https://claude.ai/install.ps1 | iex</code></div>
+        </li>
+        <li><strong>Official Resource</strong>: <a href="https://claude.com/product/claude-code" target="_blank">Claude Code Product Page</a></li>
+    </ul>
+
+    <hr>
+
+    <h3>Step 11: Run Claude Code</h3>
+    <p>Launch Claude Code using these redirect commands to connect to your local bridge.</p>
+    <ul>
+        <li><strong>Mac</strong>: 
+            <div class="code-block"><code>ANTHROPIC_AUTH_TOKEN="freecc" ANTHROPIC_BASE_URL="http://localhost:8082" claude</code></div>
+        </li>
+        <li><strong>Windows</strong>: 
+            <div class="code-block"><code>$env:ANTHROPIC_AUTH_TOKEN="freecc"; $env:ANTHROPIC_BASE_URL="http://localhost:8082"; claude</code></div>
+        </li>
+    </ul>
+
+</body>
+</html>
